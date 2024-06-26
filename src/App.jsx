@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import TimetableInput from "./components/TimeTableInput";
 // import alldata from "./data/alldata";
 import { RiShareLine } from "react-icons/ri";
+import Navbar from "./components/NavBar";
 
 function App() {
 	const morning_slots = {
@@ -261,6 +262,7 @@ function App() {
 
 	return (
 		<div>
+			<Navbar/>
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
 			<div className="text-center">
 				<h1 className="text-5xl font-bold mt-8 mb-4">
