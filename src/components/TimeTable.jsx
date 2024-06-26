@@ -84,9 +84,9 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 
 				{/* Morning slots */}
 				{morning_col.map((column) => (
-					<td key={column} id={`${row}${column}`} className="bg-yellow-100 border-4 border-gray-500 text-center">
+					<td key={column} id={`${row}${column}`} className="border-4 border-gray-500 text-center">
 					<div className="grid h-full">
-						<div className={`bg-yellow-200 h-16 p-2 flex flex-col justify-center items-center ${data[`${row}${column}`] ? "font-bold" : ""}`}>
+						<div className={`bg-indigo-200 h-16 p-2 flex flex-col justify-center items-center ${data[`${row}${column}`] ? "font-bold" : ""}`}>
 						{morning_slots[`${row}${column}`]}
 						<p className={`overflow-hidden whitespace-nowrap overflow-ellipsis ${data[`${row}${column}`] ? "font-semibold" : ""}`}>
 							{data[`${row}${column}`]}
@@ -106,20 +106,20 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 				{/* Evening slots */}
 				<td className="px-6 border-4 border-gray-500 font-semibold">{lunch[parseInt(row)]}</td>
 				{evening_col.map((column) => (
-					<td key={column} className="bg-yellow-100 border-4 border-gray-500 text-center">
+					<td key={column} className="border-4 border-gray-500 text-center">
 					<div className="grid h-full">
-						<div className={`bg-yellow-200 h-16 p-2 flex flex-col justify-center items-center ${data[`1${row}${column}`] ? "font-bold" : ""}`}>
-						{evening_slots[`1${row}${column}`]}
-						<p className={`overflow-hidden whitespace-nowrap overflow-ellipsis ${data[`1${row}${column}`] ? "font-semibold" : ""}`}>
-							{data[`1${row}${column}`]}
-						</p>
+						<div className={`bg-indigo-200 h-16 p-2 flex flex-col justify-center items-center ${data[`1${row}${column}`] ? "font-bold" : ""}`}>
+							{evening_slots[`1${row}${column}`]}
+							<p className={`overflow-hidden whitespace-nowrap overflow-ellipsis ${data[`1${row}${column}`] ? "font-semibold" : ""}`}>
+								{data[`1${row}${column}`]}
+							</p>
 						</div>
 						<div className="border-t-2 border-black w-full"></div>
 						<div className={`bg-yellow-200 h-16 p-2 flex flex-col justify-center items-center ${data[`L1${row}${column}`] ? "font-bold" : ""}`}>
-						{evening_slots[`L1${row}${column}`]}
-						<p className={`overflow-hidden whitespace-nowrap overflow-ellipsis ${data[`L1${row}${column}`] ? "font-semibold" : ""}`}>
-							{data[`L1${row}${column}`]}
-						</p>
+							{evening_slots[`L1${row}${column}`]}
+							<p className={`overflow-hidden whitespace-nowrap overflow-ellipsis ${data[`L1${row}${column}`] ? "font-semibold" : ""}`}>
+								{data[`L1${row}${column}`]}
+							</p>
 						</div>
 					</div>
 					</td>
