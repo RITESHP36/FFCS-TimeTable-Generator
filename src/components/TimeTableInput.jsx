@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import { MdOutlineRemoveCircleOutline } from "react-icons/md";
+import { AiOutlineEye } from 'react-icons/ai';
 import { generateTimetables } from "./timetableGenerator";
 
 const encodePreset = (preset) => {
@@ -66,6 +68,11 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		newSubjects[subjectIndex].teachers.push({ name: "", slots: "" });
 		setSubjects(newSubjects);
 	};
+	const handleToggleVisibility = (subjectIndex, teacherIndex) => {
+        const updatedSubjects = [...subjects];
+        updatedSubjects[subjectIndex].teachers[teacherIndex].visible = !updatedSubjects[subjectIndex].teachers[teacherIndex].visible;
+        setSubjects(updatedSubjects);
+    };
 
 	const removeTeacher = (subjectIndex, teacherIndex) => {
 		const newSubjects = [...subjects];
@@ -307,11 +314,17 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							value={subject.name}
 							onChange={(e) => handleSubjectNameChange(subjectIndex, e.target.value)}
 							/>
-							<button
+							{/* <button
 							className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 							onClick={() => removeSubject(subjectIndex)}
 							>
 							Remove Subject
+							</button> */}
+							<button
+							className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline"
+							onClick={() => removeSubject(subjectIndex)}
+							>
+							<MdOutlineRemoveCircleOutline className="inline-block align-middle" size={32} />
 							</button>
 						</div>
 						{subject.teachers.map((teacher, teacherIndex) => (
@@ -334,11 +347,24 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 								handleTeacherChange(subjectIndex, teacherIndex, "slots", e.target.value)
 								}
 							/>
+
+							{/* Closing and opening eye icon to be written where if I close, the subjectIndex, teacherIndex is in gray and striked of*/}
 							<button
-								className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-								onClick={() => removeTeacher(subjectIndex, teacherIndex)}
+                                className={`text-gray-500 hover:text-gray-700 focus:outline-none mr-2`}
+                                onClick={() => handleToggleVisibility(subjectIndex, teacherIndex)}
+                            >
+                                <AiOutlineEye
+                                    className={`inline-block align-middle ${teacher.visible ? '' : 'opacity-50 line-through'}`}
+                                    size={36}
+                                />
+                            </button>
+	
+							{/* deleting the teacher */}
+							<button
+							className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline"
+							onClick={() => removeTeacher(subjectIndex, teacherIndex)}
 							>
-								Remove
+							<MdOutlineRemoveCircleOutline className="inline-block align-middle" size={32} />
 							</button>
 							</div>
 						))}
