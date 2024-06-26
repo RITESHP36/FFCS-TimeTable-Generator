@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { MdContentCopy } from "react-icons/md";
 import { IoShareSocialSharp } from "react-icons/io5";
+import { MdOutlineRemoveCircleOutline } from "react-icons/md";
+import { AiOutlineEye } from "react-icons/ai";
+import { MdDeleteOutline } from "react-icons/md";
 
 import { generateTimetables } from "./timetableGenerator";
 
@@ -84,11 +87,6 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		newSubjects[subjectIndex].teachers.push({ name: "", slots: "" });
 		setSubjects(newSubjects);
 	};
-	const handleToggleVisibility = (subjectIndex, teacherIndex) => {
-        const updatedSubjects = [...subjects];
-        updatedSubjects[subjectIndex].teachers[teacherIndex].visible = !updatedSubjects[subjectIndex].teachers[teacherIndex].visible;
-        setSubjects(updatedSubjects);
-    };
 
 	const removeTeacher = (subjectIndex, teacherIndex) => {
 		const newSubjects = [...subjects];
@@ -273,24 +271,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 								value={presetCode}
 								onChange={(e) => setPresetCode(e.target.value)}
 							/>
-							{codeGenerated && presetCode.length > 0 && (
-								<div className="relative flex items-center" title="Copy">
-									<MdContentCopy
-										className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mx-2 "
+							{codeGenerated && (
+								<div className="relative flex items-center">
+									<FontAwesomeIcon
+										icon={faCopy}
+										className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
 										onClick={handleCopyClick}
+										onMouseEnter={handleMouseEnter}
+										onMouseLeave={handleMouseLeave}
 									/>
-								</div>
-							)}
-							{codeGenerated && presetCode.length > 0 && (
-								<div className="relative flex items-center" title="Share">
-									<IoShareSocialSharp
-										className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mx-2"
-										onClick={() => {
-											navigator.clipboard.writeText(
-												window.location.href + presetCode
-											);
-										}}
-									/>
+									{isHovered && (
+										<div className="absolute bottom-full mb-2 text-sm bg-gray-800 text-white rounded py-1 px-2">
+											{tooltipText}
+										</div>
+									)}
 								</div>
 							)}
 							<button
@@ -316,14 +310,30 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 						>
 							Number of Subjects:
 						</label>
-						<input
-							className="w-full appearance-none shadow-md border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-							id="number-of-subjects"
-							type="number"
-							min="1"
-							value={subjectCount}
-							onChange={handleSubjectCountChange}
-						/>
+						<div className="flex items-center">
+							<input
+								className="w-full appearance-none shadow-md border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+								id="number-of-subjects"
+								type="number"
+								min="1"
+								value={subjectCount}
+								onChange={handleSubjectCountChange}
+							/>
+							<button
+								className="ml-2 text-white bg-red-500 hover:bg-red-700 font-bold text-xl rounded-xl px-3 py-1"
+								onClick={() =>
+									setSubjectCount((prevCount) => Math.max(1, prevCount - 1))
+								}
+							>
+								-
+							</button>
+							<button
+								className="ml-2 text-white bg-blue-500 hover:bg-blue-700 font-bold text-xl rounded-xl px-3 py-1"
+								onClick={() => setSubjectCount((prevCount) => prevCount + 1)}
+							>
+								+
+							</button>
+						</div>
 					</div>
 
 					{/* Subjects and teachers inputs */}
@@ -342,11 +352,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 										handleSubjectNameChange(subjectIndex, e.target.value)
 									}
 								/>
+								{/* <button
+							className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							onClick={() => removeSubject(subjectIndex)}
+							>
+							Remove Subject
+							</button> */}
 								<button
-									className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200 "
 									onClick={() => removeSubject(subjectIndex)}
 								>
-									Remove Subject
+									<MdDeleteOutline
+										className="inline-block align-middle"
+										size={32}
+									/>
 								</button>
 							</div>
 							{subject.teachers.map((teacher, teacherIndex) => (
@@ -379,11 +398,16 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 											)
 										}
 									/>
+
+									{/* deleting the teacher */}
 									<button
-										className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline"
 										onClick={() => removeTeacher(subjectIndex, teacherIndex)}
 									>
-										Remove
+										<MdOutlineRemoveCircleOutline
+											className="inline-block align-middle"
+											size={32}
+										/>
 									</button>
 								</div>
 							))}
