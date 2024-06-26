@@ -22,6 +22,8 @@ const Navbar = ({ onInfoClick }) => {
 							to="/"
 							className="text-white font-bold text-2xl hover:text-gray-300"
 						>
+							<img src="/FFCS_HELPER.png" alt="logo" className="h-8 w-8 inline-block mr-2" />
+							
 							FFCS Helper
 						</Link>
 					</div>

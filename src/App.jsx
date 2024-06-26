@@ -280,10 +280,10 @@ function App() {
 			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
 			<div className="text-center">
-				<h1 className="text-5xl font-bold mt-8 mb-4">
+				{/* <h1 className="text-5xl font-bold mt-8 mb-4">
 					FFCS TIME TABLE GENERATOR
-				</h1>
-				<h2 className="px-5 py-3 text-2xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
+				</h1> */}
+				<h2 className="px-5 py-3 text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
 					Total number of possible TimeTables = {alldata.length}
 				</h2>
 			</div>

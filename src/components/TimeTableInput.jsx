@@ -4,6 +4,7 @@ import { IoShareSocialSharp } from "react-icons/io5";
 import { MdOutlineRemoveCircleOutline } from "react-icons/md";
 import { AiOutlineEye } from "react-icons/ai";
 import { MdDeleteOutline } from "react-icons/md";
+import { IoRocket } from "react-icons/io5";
 
 import { generateTimetables } from "./timetableGenerator";
 
@@ -200,9 +201,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	return (
 		<div className="min-h-screen bg-gray-100 py-10">
 			<div className="max-w-4xl mx-auto px-5">
-				<h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
+				{/* <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
 					Timetable Generator
-				</h1>
+				</h1> */}
+				<p
+					className="border-2 border-yellow-500 rounded-full p-2 mb-4 text-lg   flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700"
+				>
+				<IoRocket 
+					className=" text-yellow-600 ml-3"
+					size={60}
+				/>
+					Enter the details of the subjects and teachers below to generate a
+					timetable. You can save and load presets to quickly switch between
+					different configurations.
+				</p>
 				<div className="bg-white shadow-lg rounded-2xl p-8 mb-10">
 					{/* Preset selection and management */}
 					<div className="mb-6 flex justify-between items-center">
