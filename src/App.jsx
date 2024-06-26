@@ -4,7 +4,10 @@ import React, { useState } from "react";
 import TimetableInput from "./components/TimeTableInput";
 // import alldata from "./data/alldata";
 import { RiShareLine } from "react-icons/ri";
+import { ImCross } from "react-icons/im";
+
 import Navbar from "./components/NavBar";
+import Tutorial from "./components/Tutorial";
 
 function App() {
 	const morning_slots = {
@@ -260,9 +263,20 @@ function App() {
 		setAlldata(newData);
 	};
 
+	const [isModalOpen, setIsModalOpen] = useState(false);
+
+	const openModal = () => {
+		setIsModalOpen(true);
+	};
+
+	const closeModal = () => {
+		setIsModalOpen(false);
+	};
+
 	return (
 		<div>
-			<Navbar/>
+			{isModalOpen && <Tutorial closeModal={closeModal} />}
+			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
 			<div className="text-center">
 				<h1 className="text-5xl font-bold mt-8 mb-4">
@@ -285,7 +299,10 @@ function App() {
 								size={25}
 								title="Share this TimeTable"
 								onClick={() => {
-									navigator.clipboard.writeText("https://ffcs-helper.vercel.app/tt/"+btoa(JSON.stringify(data)));
+									navigator.clipboard.writeText(
+										"https://ffcs-helper.vercel.app/tt/" +
+											btoa(JSON.stringify(data))
+									);
 									alert("Copied to clipboard");
 								}}
 							/>
