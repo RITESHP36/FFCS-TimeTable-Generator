@@ -84,6 +84,11 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		newSubjects[subjectIndex].teachers.push({ name: "", slots: "" });
 		setSubjects(newSubjects);
 	};
+	const handleToggleVisibility = (subjectIndex, teacherIndex) => {
+        const updatedSubjects = [...subjects];
+        updatedSubjects[subjectIndex].teachers[teacherIndex].visible = !updatedSubjects[subjectIndex].teachers[teacherIndex].visible;
+        setSubjects(updatedSubjects);
+    };
 
 	const removeTeacher = (subjectIndex, teacherIndex) => {
 		const newSubjects = [...subjects];

@@ -262,12 +262,15 @@ function App() {
 	return (
 		<div>
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
-			<h1 className="text-center text-3xl font-bold">
-				FFCS TIME TABLE GENERATOR
-			</h1>
-			<h2 className="p-2 bg-blue-600 text-white rounded-full mx-auto my-42 font-semibold w-fit ">
-				Total number of possible TimeTables = {alldata.length}
-			</h2>
+			<div className="text-center">
+				<h1 className="text-5xl font-bold mt-8 mb-4">
+					FFCS TIME TABLE GENERATOR
+				</h1>
+				<h2 className="px-5 py-3 text-2xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
+					Total number of possible TimeTables = {alldata.length}
+				</h2>
+			</div>
+
 			{alldata.map((data, index) => (
 				<div key={index} className="">
 					<div className="flex justify-center h-1/2   ">
