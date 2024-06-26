@@ -9,6 +9,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import ViewTimeTable from './components/ViewTimeTable.jsx';
 
 const router= createBrowserRouter([
     {
@@ -17,11 +18,7 @@ const router= createBrowserRouter([
     },
     {
         path: "/tt/:id",
-        element:(
-            <div>
-                <h1>TimeTable</h1>
-            </div>
-        ),
+        element:<ViewTimeTable />
     }
 ])
 

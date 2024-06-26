@@ -321,15 +321,25 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							/>
 							<button
 								className="ml-2 text-white bg-red-500 hover:bg-red-700 font-bold text-xl rounded-xl px-3 py-1"
-								onClick={() =>
-									setSubjectCount((prevCount) => Math.max(1, prevCount - 1))
-								}
+								onClick={() => {
+									const newCount = Math.max(1, subjectCount - 1);
+									setSubjectCount(newCount);
+									handleSubjectCountChange({
+										target: { value: newCount.toString() },
+									});
+								}}
 							>
 								-
 							</button>
 							<button
 								className="ml-2 text-white bg-blue-500 hover:bg-blue-700 font-bold text-xl rounded-xl px-3 py-1"
-								onClick={() => setSubjectCount((prevCount) => prevCount + 1)}
+								onClick={() => {
+									const newCount = subjectCount + 1;
+									setSubjectCount(newCount);
+									handleSubjectCountChange({
+										target: { value: newCount.toString() },
+									});
+								}}
 							>
 								+
 							</button>

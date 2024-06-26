@@ -285,7 +285,7 @@ function App() {
 								size={25}
 								title="Share this TimeTable"
 								onClick={() => {
-									navigator.clipboard.writeText(JSON.stringify(data));
+									navigator.clipboard.writeText("https://ffcs-helper.vercel.app/tt/"+btoa(JSON.stringify(data)));
 									alert("Copied to clipboard");
 								}}
 							/>
