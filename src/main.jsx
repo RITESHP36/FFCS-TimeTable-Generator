@@ -13,7 +13,7 @@ import ViewTimeTable from './components/ViewTimeTable.jsx';
 
 const router= createBrowserRouter([
     {
-        path: "/",
+        path: "/*",
         element: <App />,
     },
     {

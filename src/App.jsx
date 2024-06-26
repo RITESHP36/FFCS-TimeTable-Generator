@@ -8,6 +8,7 @@ import { ImCross } from "react-icons/im";
 
 import Navbar from "./components/NavBar";
 import Tutorial from "./components/Tutorial";
+import { Link } from "react-router-dom";
 
 function App() {
 	const morning_slots = {
@@ -294,19 +295,17 @@ function App() {
 							<p className="rounded-full bg-yellow-500 text-white font-bold text-2xl p-1 w-10 h-10 text-center mx-2">
 								{index}
 							</p>
-							<RiShareLine
-								className="text-yellow-600"
-								size={25}
-								title="Share this TimeTable"
-								onClick={() => {
-									const baseUrl = window.location.href.split("?")[0]; // Ensure we get the base URL without parameters
-									const dataString = btoa(JSON.stringify(data));
-									const url = new URL(baseUrl);
-									url.pathname += `tt/${dataString}`; // Correctly append the path
-									navigator.clipboard.writeText(url.toString());
-									alert("Copied to clipboard");
-								}}
-							/>
+							<Link
+								to={`/tt/${btoa(JSON.stringify(data))}`}
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<RiShareLine
+									className="text-yellow-600 cursor-pointer"
+									size={25}
+									title="Share this TimeTable"
+								/>
+							</Link>
 						</div>
 						<TimeTable
 							morning_slots={morning_slots}

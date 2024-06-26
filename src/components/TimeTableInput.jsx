@@ -273,8 +273,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							/>
 							{codeGenerated && (
 								<div className="relative flex items-center">
-									<FontAwesomeIcon
-										icon={faCopy}
+									<MdContentCopy
 										className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
 										onClick={handleCopyClick}
 										onMouseEnter={handleMouseEnter}
