@@ -44,7 +44,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	useEffect(() => {
 		const segments = window.location.href.split("/");
 		const presetCodeURL = decodeURIComponent(segments[segments.length - 1]);
-		console.log("Preset code from URL:", presetCodeURL);
+		// console.log("Preset code from URL:", presetCodeURL);
 		if (presetCodeURL.length > 0) {
 			setPresetCode(presetCodeURL); // Set the preset code state
 			setCheck(true);
@@ -125,8 +125,8 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 			return;
 		}
 
-		console.log(JSON.stringify(initial, null, 2)); // Log the initial array
-		console.log(initial);
+		// console.log(JSON.stringify(initial, null, 2)); // Log the initial array
+		// console.log(initial);
 		const result = generateTimetables(initial);
 		setTimetables(result);
 		updateAlldata(result);

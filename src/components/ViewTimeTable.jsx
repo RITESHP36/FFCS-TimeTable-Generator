@@ -131,7 +131,7 @@ function ViewTimeTable() {
 		L145: "L60",
 	};
 
-	const data = JSON.parse(atob(id));
+	const Data = JSON.parse(atob(id));
 
 	const timetableRef = useRef(null);
 
@@ -154,7 +154,7 @@ function ViewTimeTable() {
 			<Navbar />
 			<div ref={timetableRef}>
 				<TimeTable
-					data={data}
+					data={Data}
 					morning_slots={morning_slots}
 					evening_slots={evening_slots}
 				/>

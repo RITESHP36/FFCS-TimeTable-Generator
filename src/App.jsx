@@ -299,10 +299,11 @@ function App() {
 								size={25}
 								title="Share this TimeTable"
 								onClick={() => {
-									navigator.clipboard.writeText(
-										"https://ffcs-helper.vercel.app/tt/" +
-											btoa(JSON.stringify(data))
-									);
+									const baseUrl = window.location.href.split("?")[0]; // Ensure we get the base URL without parameters
+									const dataString = btoa(JSON.stringify(data));
+									const url = new URL(baseUrl);
+									url.pathname += `tt/${dataString}`; // Correctly append the path
+									navigator.clipboard.writeText(url.toString());
 									alert("Copied to clipboard");
 								}}
 							/>
