@@ -147,28 +147,35 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 		</div>
 	);
 };
-const TimeSlot = ({ slot, data, bgColor }) => (
-	<div
-		className={`${bgColor} h-8 sm:h-12 p-0.5 sm:p-1 flex flex-col justify-center items-center ${
-			data ? "font-bold" : ""
-		}`}
-	>
-		<div className="text-[6px] sm:text-xs">{slot}</div>
-		<p
-			className={`sm:hidden text-[6px]  sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
-				data ? "font-semibold" : ""
-			}`}
-		>
-			{data ? `${data.slice(0, 4)}${data.length > 4 ? "..." : ""}` : ""}
-		</p>
-		<p
-			className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
-				data ? "font-semibold" : ""
-			}`}
-		>
-			{data ? `${data.slice(0, 8)}${data.length > 8 ? "..." : ""}` : ""}
-		</p>
-	</div>
-);
+const TimeSlot = ({ slot, data, bgColor }) => {
+  // Function to format the data by removing specific prefixes
+  const formatData = (data) => {
+    return data.replace(/^Dr\. |^Prof\. /, '');
+  };
+
+  return (
+    <div
+      className={`${bgColor} h-8 sm:h-12 p-0.5 sm:p-1 flex flex-col justify-center items-center ${
+        data ? "font-bold" : ""
+      }`}
+    >
+      <div className="text-[6px] sm:text-xs">{slot}</div>
+      <p
+        className={`sm:hidden text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+          data ? "font-semibold" : ""
+        }`}
+      >
+        {data ? `${formatData(data).slice(0, 4)}${formatData(data).length > 4 ? "..." : ""}` : ""}
+      </p>
+      <p
+        className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+          data ? "font-semibold" : ""
+        }`}
+      >
+        {data ? `${formatData(data).slice(0, 8)}${formatData(data).length > 8 ? "..." : ""}` : ""}
+      </p>
+    </div>
+  );
+};
 
 export default TimeTable;

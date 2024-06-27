@@ -375,7 +375,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		<div className="min-h-screen flex-col p-2 sm:p-6 bg-gray-100 py-6 sm:py-10">
 			<div className="flex justify-center items-center px-2 sm:px-4">
 				<p className="border-2 border-yellow-500 rounded-full p-2 sm:p-4 px-4 sm:px-8 mb-4 text-sm sm:text-lg text-center flex flex-row items-center gap-2 sm:gap-4 bg-yellow-100 font-medium text-yellow-700 max-w-full sm:max-w-3xl lg:max-w-5xl">
-					<IoSparklesSharp className="text-yellow-700 text-3xl sm:text-5xl flex-shrink-0" />
+					<IoSparklesSharp className="text-yellow-700 text-3xl sm:text-4xl flex-shrink-0" />
 					<span>
 						Enter the details of the subjects and teachers below to generate a
 						timetable. You can save and load presets to quickly switch between
