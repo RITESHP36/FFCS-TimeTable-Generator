@@ -383,8 +383,8 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					</span>
 				</p>
 			</div>
-			<div className="flex flex-col lg:flex-row justify-center px-2 sm:px-4 lg:px-20 gap-4 lg:gap-10 items-start lg:items-center">
-				<div className="w-full lg:w-1/3 mb-4 lg:mb-0">
+			<div className="flex flex-col lg:flex-row justify-center px-2 sm:px-4 lg:px-20 gap-4 lg:gap-10 items-start ">
+				<div className="w-full lg:w-1/3 mb-4 lg:mb-0 md:top-0">
 					<PresetHelper />
 				</div>
 				<div className="bg-white w-full lg:w-2/3 shadow-lg rounded-2xl p-4 sm:p-8 mb-10">
