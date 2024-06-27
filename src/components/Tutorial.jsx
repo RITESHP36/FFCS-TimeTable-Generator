@@ -172,12 +172,20 @@ const Tutorial = ({ closeModal }) => {
                                 <NumberedIcon number={1} />
                                 <div>
                                     <strong>Click the Share Button:</strong>
-                                    <p>Use the
-                                        <span className="text-white font-bold flex items-center bg-gray-800 border-2 border-blue-500 px-2 py-1 rounded-2xl inline-block mx-1">
-                                            <FiSend className="mr-2" />
-                                            Share
+                                    <div className="flex">
+                                        <div>Use the</div>
+                                        <span>
+                                            <button className="flex items-center border-2 rounded-full px-6 py-2 bg-gray-800 border-blue-500 text-sm font-medium text-blue-500">
+                                                <FiSend className="mr-2" />
+                                                Share
+                                            </button>
                                         </span>
-                                        button on the website to share the link with your friends via WhatsApp.</p>
+                                        <div>button on the website to share the link with your friends via WhatsApp.</div>
+                                    </div>
+                                    {/* <p>
+                                        Use the 
+                                        button on the website to share the link with your friends via WhatsApp.
+                                    </p> */}
                                     <img src="share-button.png" alt="Share button" className="mt-2" />
                                 </div>
                             </li>
