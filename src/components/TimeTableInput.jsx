@@ -9,6 +9,7 @@ import { IoSparklesSharp } from "react-icons/io5";
 import { generateTimetables } from "./timetableGenerator";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import SlotSelector from "./SlotSelector";
 
 const encodePreset = (preset) => {
 	return btoa(JSON.stringify(preset));
@@ -28,16 +29,14 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	const [subjects, setSubjects] = useState([
 		{ name: "", teachers: [{ name: "", slots: "" }] },
 	]);
-	const [timetables, setTimetables] = useState([]);
 	const [presets, setPresets] = useState([]);
 	const [selectedPreset, setSelectedPreset] = useState(null);
 	const [presetName, setPresetName] = useState("");
 	const [presetCode, setPresetCode] = useState("");
 	const [codeGenerated, setCodeGenerated] = useState(false);
-	const [tooltipText, setTooltipText] = useState("Copy");
-	const [isHovered, setIsHovered] = useState(false);
 	const [check, setCheck] = useState(false);
 	const navigate = useNavigate();
+	const [showEror, setShowError] = useState(false);
 
 	useEffect(() => {
 		const savedPresets =
@@ -106,9 +105,135 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 	const generateTimetable = () => {
 		if (subjects.some((subject) => subject.teachers.length === 0)) {
-			toast.error(
+			console.log(
 				"Please fill in data for all subjects before generating the timetable."
 			);
+			if (showEror) {
+				toast.error(
+					"Please fill in data for all subjects before generating the timetable."
+				);
+				setShowError(false);
+			}
+			return;
+		}
+
+		// check if the slots are from the list slotList, if anything outside from it then return
+		const validSlots = [
+			"A1",
+			"B1",
+			"C1",
+			"D1",
+			"E1",
+			"F1",
+			"G1",
+			"TA1",
+			"TB1",
+			"TC1",
+			"TD1",
+			"TE1",
+			"TF1",
+			"TG1",
+			"A2",
+			"B2",
+			"C2",
+			"D2",
+			"E2",
+			"F2",
+			"G2",
+			"TA2",
+			"TB2",
+			"TC2",
+			"TD2",
+			"TE2",
+			"TF2",
+			"TG2",
+			"L1",
+			"L2",
+			"L3",
+			"L4",
+			"L5",
+			"L6",
+			"L7",
+			"L8",
+			"L9",
+			"L10",
+			"L11",
+			"L12",
+			"L13",
+			"L14",
+			"L15",
+			"L16",
+			"L17",
+			"L18",
+			"L19",
+			"L20",
+			"L21",
+			"L22",
+			"L23",
+			"L24",
+			"L25",
+			"L26",
+			"L27",
+			"L28",
+			"L29",
+			"L30",
+			"L31",
+			"L32",
+			"L33",
+			"L34",
+			"L35",
+			"L36",
+			"L37",
+			"L38",
+			"L39",
+			"L40",
+			"L41",
+			"L42",
+			"L43",
+			"L44",
+			"L45",
+			"L46",
+			"L47",
+			"L48",
+			"L49",
+			"L50",
+			"L51",
+			"L52",
+			"L53",
+			"L54",
+			"L55",
+			"L56",
+			"L57",
+			"L58",
+			"L59",
+			"L60",
+			"S1",
+			"S2",
+			"S3",
+			"S4",
+			"S11",
+			"S15",
+		];
+		// Check for invalid slots
+		let invalidSlots = [];
+		subjects.forEach(subject => {
+			subject.teachers.forEach(teacher => {
+				const teacherSlots = teacher.slots.split(',').map(slot => slot.trim());
+				const invalidTeacherSlots = teacherSlots.filter(slot => !validSlots.includes(slot));
+				if (invalidTeacherSlots.length > 0) {
+					invalidSlots.push(...invalidTeacherSlots);
+				}
+			});
+		});
+	
+		if (invalidSlots.length > 0) {
+			const uniqueInvalidSlots = [...new Set(invalidSlots)];
+			const errorMessage = `Invalid slots detected: ${uniqueInvalidSlots.join(',')}. Please use only valid slots.`;
+			console.log(errorMessage);
+			if (showEror) {
+				toast.error(errorMessage);
+				setShowError(false);
+			}
 			return;
 		}
 
@@ -125,18 +250,28 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		});
 
 		if (initial.some((subject) => Object.keys(subject[0]).length === 0)) {
-			toast.error(
+			console.log(
 				"Please ensure all subjects have at least one teacher with their slots mentioned."
 			);
+			if (showEror) {
+				toast.error(
+					"Please ensure all subjects have at least one teacher with their slots mentioned."
+				);
+				setShowError(false);
+			}
 			return;
 		}
 
 		// console.log(JSON.stringify(initial, null, 2)); // Log the initial array
 		// console.log(initial);
 		const result = generateTimetables(initial);
-		setTimetables(result);
 		updateAlldata(result);
+		setShowError(false);
 	};
+
+	useEffect(() => {
+		generateTimetable();
+	}, [subjects]);
 
 	const savePreset = () => {
 		if (!presetName) {
@@ -198,7 +333,9 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	};
 
 	const handleShareClick = () => {
-		navigator.clipboard.writeText("https://ffcs-helper.vercel.app/"+ presetCode);
+		navigator.clipboard.writeText(
+			"https://ffcs-helper.vercel.app/" + presetCode
+		);
 		toast.success("Link copied");
 	};
 
@@ -297,7 +434,6 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 											onClick={handleShareClick}
 											title="Share"
 										/>
-										
 									</div>
 								</>
 							)}
@@ -376,12 +512,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 										handleSubjectNameChange(subjectIndex, e.target.value)
 									}
 								/>
-								{/* <button
-							className="bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-							onClick={() => removeSubject(subjectIndex)}
-							>
-							Remove Subject
-							</button> */}
+
 								<button
 									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200 "
 									onClick={() => removeSubject(subjectIndex)}
@@ -422,10 +553,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 											)
 										}
 									/>
-
+									<SlotSelector
+										value={teacher.slots}
+										onChange={(newSlots) =>
+											handleTeacherChange(
+												subjectIndex,
+												teacherIndex,
+												"slots",
+												newSlots
+											)
+										}
+									/>
 									{/* deleting the teacher */}
 									<button
-										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline"
+										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline ml-2"
 										onClick={() => removeTeacher(subjectIndex, teacherIndex)}
 									>
 										<MdOutlineRemoveCircleOutline
@@ -447,7 +588,10 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					{/* Generate timetable button */}
 					<button
 						className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-						onClick={generateTimetable}
+						onClick={() => {
+							setShowError(true);
+							generateTimetable();
+						}}
 					>
 						Generate Timetable
 					</button>
