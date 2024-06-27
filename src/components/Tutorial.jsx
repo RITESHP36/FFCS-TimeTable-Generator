@@ -2,6 +2,7 @@ import React from "react";
 import { ImCross } from "react-icons/im";
 import { FiSend, FiInfo } from "react-icons/fi";
 import { BiCircle } from "react-icons/bi";
+import { FaGithub } from 'react-icons/fa';
 
 const Tutorial = ({ closeModal }) => {
     const handleClose = () => {
@@ -172,10 +173,10 @@ const Tutorial = ({ closeModal }) => {
                                 <NumberedIcon number={1} />
                                 <div>
                                     <strong>Click the Share Button:</strong>
-                                    <div className="flex">
+                                    <div className="flex items-center gap-1">
                                         <div>Use the</div>
                                         <span>
-                                            <button className="flex items-center border-2 rounded-full px-6 py-2 bg-gray-800 border-blue-500 text-sm font-medium text-blue-500">
+                                            <button className="flex items-center border-2 rounded-full px-4 py-1 bg-gray-800 border-blue-500 text-md font-medium text-blue-500">
                                                 <FiSend className="mr-2" />
                                                 Share
                                             </button>
@@ -199,6 +200,28 @@ const Tutorial = ({ closeModal }) => {
                         </ul>
                     </div>
                 </div>
+
+                <div className="flex justify-center mt-10 gap-10">
+                    <a
+                        href="https://github.com/RITESHP36"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2"
+                    >
+                        <FaGithub className="w-8 h-8" />
+                        <span className="text-lg font-bold">Ritesh Pradhan (22BAI1055)</span>
+                    </a>
+                    <a
+                        href="https://github.com/prosws2210"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2"
+                    >
+                        <FaGithub className="w-8 h-8" />
+                        <span className="text-lg font-bold">Shakti Swaroop Sahu (22BAI1012)</span>
+                    </a>
+                </div>
+
             </div>
         </div>
     );
