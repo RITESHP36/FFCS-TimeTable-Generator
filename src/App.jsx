@@ -7,6 +7,7 @@ import { FaCircleInfo } from "react-icons/fa6";
 
 import Navbar from "./components/NavBar";
 import Tutorial from "./components/Tutorial";
+
 import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -295,6 +296,7 @@ function App() {
 			{isModalOpen && <Tutorial closeModal={closeModal} />}
 			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
+			
 			<div className="text-center pt-7">
 				{/* <h1 className="text-5xl font-bold mt-8 mb-4">
 					FFCS TIME TABLE GENERATOR

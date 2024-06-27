@@ -11,7 +11,7 @@ import { generateTimetables } from "./timetableGenerator";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import SlotSelector from "./SlotSelector";
-import PresetHelper from "./PresetHelper"
+import PresetHelper from "./PresetHelper";
 
 const encodePreset = (preset) => {
 	return btoa(JSON.stringify(preset));
@@ -373,16 +373,19 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 	return (
 		<div className="min-h-screen flex-col p-6 bg-gray-100 py-10">
-			<div className="flex justify-center items-center">
-				<p className="border-2 border-yellow-500 rounded-full p-2 mb-4 text-lg text-center flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700 max-w-3xl">
-					<IoSparklesSharp className="text-yellow-700 text-5xl ml-2 flex-shrink-0" />
-					<span>
-					Enter the details of the subjects and teachers below to generate a
-					timetable. You can save and load presets to quickly switch between
-					different configurations.
-					</span>
-				</p>
-				<div className="bg-white shadow-lg rounded-2xl p-8 mb-10">
+			<p className="border-2 border-yellow-500 rounded-full p-2 mb-4 text-lg text-center flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700 max-w-3xl">
+				<IoSparklesSharp className="text-yellow-700 text-5xl ml-2 flex-shrink-0" />
+				<span>
+				Enter the details of the subjects and teachers below to generate a
+				timetable. You can save and load presets to quickly switch between
+				different configurations.
+				</span>
+			</p>
+			<div className="flex justify-center px-20 gap-10 items-center">
+				<div className="w-1/3">
+					<PresetHelper />
+				</div>
+				<div className="bg-white w-2/3 shadow-lg rounded-2xl p-8 mb-10">
 					{/* Preset selection and management */}
 					<div className="mb-4 flex justify-between items-center">
 						<div className="w-1/2 pr-2">
@@ -639,20 +642,19 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 						</div>
 					))}
 
-						{/* Generate timetable button */}
-						<button
-							className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-							onClick={() => {
-								setShowError(true);
-								generateTimetable();
-							}}
-						>
-							Generate Timetable
-						</button>
-					</div>
+					{/* Generate timetable button */}
+					<button
+						className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+						onClick={() => {
+							setShowError(true);
+							generateTimetable();
+						}}
+					>
+						Generate Timetable
+					</button>
 				</div>
 			</div>
-		</div>
+		</div>		
 	);
 };
 
