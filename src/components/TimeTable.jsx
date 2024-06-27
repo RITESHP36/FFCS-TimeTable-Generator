@@ -155,11 +155,18 @@ const TimeSlot = ({ slot, data, bgColor }) => (
 	>
 		<div className="text-[6px] sm:text-xs">{slot}</div>
 		<p
-			className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+			className={`sm:hidden text-[6px]  sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
 				data ? "font-semibold" : ""
 			}`}
 		>
 			{data ? `${data.slice(0, 4)}${data.length > 4 ? "..." : ""}` : ""}
+		</p>
+		<p
+			className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+				data ? "font-semibold" : ""
+			}`}
+		>
+			{data ? `${data.slice(0, 8)}${data.length > 8 ? "..." : ""}` : ""}
 		</p>
 	</div>
 );
