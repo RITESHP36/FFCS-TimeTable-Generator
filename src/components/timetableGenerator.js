@@ -583,8 +583,8 @@ export function generateTimetables(initial) {
 			timetables.push(tt);
 		}
 	}
-    console.log(`Generated ${timetables.length} timetables`);
-    console.log("Generated timetables:", JSON.stringify(timetables, null, 2));
+    // console.log(`Generated ${timetables.length} timetables`);
+    // console.log("Generated timetables:", JSON.stringify(timetables, null, 2));
 
 	return timetables;
 }
