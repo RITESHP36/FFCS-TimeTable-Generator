@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { IoMail } from "react-icons/io5";
+import { MdOutlineContentCopy } from "react-icons/md";
+import { FaShareFromSquare } from "react-icons/fa6";
 
 const PresetHelper = () => {
 	const [year, setYear] = useState("");
@@ -12,7 +14,8 @@ const PresetHelper = () => {
 	// Example dictionary of presets
 	const presets = {
 		// "2021-BRS": "",
-		// "2022-BAI": "",
+		"2022-BAI":
+			"https://ffcs-helper.vercel.app/eyJuYW1lIjoiMjJCQUkiLCJkYXRhIjpbeyJuYW1lIjoiUHJvYmFiaWxpdHkgYW5kIFN0YXRpc3RpY3MiLCJ0ZWFjaGVycyI6W3sibmFtZSI6IlByb2YxIiwic2xvdHMiOiJFMSxURTEsTDM3LEwzOCJ9LHsibmFtZSI6IlByb2YyIiwic2xvdHMiOiJFMSxURTEsTDExLEwxMiJ9LHsibmFtZSI6IlByb2YzIiwic2xvdHMiOiJFMSxURTEsTDQ1LEw0NiJ9LHsibmFtZSI6IlByb2Y0Iiwic2xvdHMiOiJFMixURTIsTDEzLEwxNCJ9LHsibmFtZSI6IlByb2Y1Iiwic2xvdHMiOiJFMixURTIsTDE5LEwyMCJ9LHsibmFtZSI6IlByb2Y2Iiwic2xvdHMiOiJFMixURTIsTDI3LEwyOCJ9XX0seyJuYW1lIjoiQWR2YW5jZWQgQ29tcGV0aXRpdmUgQ29kaW5nLUkiLCJ0ZWFjaGVycyI6W3sibmFtZSI6IkFDQzEiLCJzbG90cyI6IkQxLFREMSJ9LHsibmFtZSI6IkFDQzIiLCJzbG90cyI6IkQyLFREMiJ9XX0seyJuYW1lIjoiQVdTIFNvbHV0aW9ucyBBcmNoaXRlY3QiLCJ0ZWFjaGVycyI6W3sibmFtZSI6IkRyLkFzaG9rYSBSYWphbiBSIiwic2xvdHMiOiJCMSxUQjEifSx7Im5hbWUiOiJEci5QcmFrYXNoIFAiLCJzbG90cyI6IkIxLFRCMSJ9LHsibmFtZSI6IkRyLlByYWthc2ggUCIsInNsb3RzIjoiQjIsVEIyIn0seyJuYW1lIjoiRHIuVGFtaWxhcmFzaSBLIiwic2xvdHMiOiJCMixUQjIifV19LHsibmFtZSI6IkRlc2lnbiBhbmQgQW5hbHlzaXMgb2YgQWxnb3JpdGhtcyIsInRlYWNoZXJzIjpbeyJuYW1lIjoiRHIuU2l2YWthbWkgUiIsInNsb3RzIjoiQTEsVEExLEwyOSwgTDMwIn0seyJuYW1lIjoiRHIuTGVrc2htaSBLIiwic2xvdHMiOiJBMSxUQTEsTDIzLEwyNCJ9LHsibmFtZSI6IkRyLkthdmlwcml5YSBHIiwic2xvdHMiOiJBMSxUQTEsTDM5LEw0MCJ9LHsibmFtZSI6IkRyLlNpdmFrYW1pIFIiLCJzbG90cyI6IkEyLFRBMixMNyxMOCJ9LHsibmFtZSI6IkRyLkxla3NobWkgSyIsInNsb3RzIjoiQTIsVEEyLEw5LEwxMCJ9LHsibmFtZSI6IkRyLkthdmlwcml5YSBHIiwic2xvdHMiOiJBMixUQTIsTDMsTDQifV19LHsibmFtZSI6IlNvZnR3YXJlIEVuZ2luZWVyaW5nIiwidGVhY2hlcnMiOlt7Im5hbWUiOiJEci5TdWdhbmVzaHdhcmkgRyIsInNsb3RzIjoiRzEsVEcxLEw1NSxMNTYifSx7Im5hbWUiOiJEci5SYW1hIFByYWJoYSBLIFAiLCJzbG90cyI6IkcxLFRHMSxMNTcsTDU4In0seyJuYW1lIjoiRHIuQnJpbmRoYSBTIiwic2xvdHMiOiJHMSxURzEsTDQ1LEw0NiJ9LHsibmFtZSI6IkRyLlN1Z2FuZXNod2FyaSBHIiwic2xvdHMiOiJHMixURzIsTDIzLEwyNCJ9LHsibmFtZSI6IkRyLlJhbWEgUHJhYmhhIEsgUCIsInNsb3RzIjoiRzIsVEcyLEwyNyxMMjgifSx7Im5hbWUiOiJEci5CcmluZGhhIFMiLCJzbG90cyI6IkcyLFRHMixMMTEsTDEyIn1dfSx7Im5hbWUiOiJEZWVwIExlYXJuaW5nIiwidGVhY2hlcnMiOlt7Im5hbWUiOiJEci4gU3ViYnVsYWtzaG1pIFQiLCJzbG90cyI6IkYxLFRGMSxMMzksTDQwIn0seyJuYW1lIjoiRHIuIFBhbmRpeWFyYWp1IFYiLCJzbG90cyI6IkYxLFRGMSxMNTUsTDU2In0seyJuYW1lIjoiUHJvZi4gS2hhZGFyIE5hd2FzIEsiLCJzbG90cyI6IkYxLFRGMSxMNDksTDUwIn0seyJuYW1lIjoiRHIuIFN1YmJ1bGFrc2htaSBUIiwic2xvdHMiOiJGMixURjIsTDksTDEwIn0seyJuYW1lIjoiRHIuIFBhbmRpeWFyYWp1IFYiLCJzbG90cyI6IkYyLFRGMixMNSxMNiJ9LHsibmFtZSI6IlByb2YuIEtoYWRhciBOYXdhcyBLIiwic2xvdHMiOiJGMixURjIsTDE5LEwyMCJ9XX1dfQ==",
 		// Add more presets as needed
 	};
 
@@ -99,9 +102,27 @@ const PresetHelper = () => {
 			{!notfound && preset && (
 				<div className="mt-6 p-4 bg-gray-100 rounded-md">
 					<h4 className="text-base sm:text-lg font-semibold mb-2">
-						Preset Code:
+						Preset Code Found: {year}-{branch}
 					</h4>
-					<p className="text-sm sm:text-base break-words">{preset}</p>
+					<p className="text-sm sm:text-base break-words mb-4">
+						{preset.length > 30 ? `${preset.slice(0, 30)}...` : preset}
+					</p>
+					<button
+						className="mr-2 p-2 bg-blue-500 text-white rounded"
+						onClick={() => navigator.clipboard.writeText(preset)}
+					>
+						<MdOutlineContentCopy 
+                        className="inline-block"
+                        /> Copy Link
+					</button>
+					<button
+						className="ml-2 p-2 bg-green-500 text-white rounded "
+						onClick={() => window.open(preset, "_blank")}
+					>
+						<FaShareFromSquare
+                        className="inline-block"
+                        /> Open Link
+					</button>
 				</div>
 			)}
 			{notfound && (
