@@ -295,6 +295,7 @@ const Tutorial = ({ closeModal }) => {
                                         Use the 
                                         button on the website to share the link with your friends via WhatsApp.
                                     </p> */}
+<<<<<<< Updated upstream
 									<img
 										src="share-button.png"
 										alt="Share button"
@@ -321,6 +322,53 @@ const Tutorial = ({ closeModal }) => {
 			</div>
 		</div>
 	);
+=======
+                                    <img src="share-button.png" alt="Share button" className="mt-2" />
+                                </div>
+                            </li>
+                            <li className="flex items-start">
+                                <NumberedIcon number={2} />
+                                <div>
+                                    <strong>Share the Link:</strong>
+                                    <p>This action allows your friends to access the website easily and create their own timetables for a more comfortable FFCS experience.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="flex flex-col items-center mt-10 gap-2">
+                    <div className="mt-6 text-center">
+                        <p className="text-lg">
+                            Made with <span className="text-red-500">❤️</span> by Ritesh Pradhan and Shakti Swaroop Sahu.
+                        </p>
+                    </div>
+                    <div className="flex gap-10">
+                        <a
+                            href="https://github.com/RITESHP36"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                        >
+                            <FaGithub className="w-8 h-8" />
+                            <span className="text-lg font-bold">Ritesh Pradhan (22BAI1055)</span>
+                        </a>
+                        <a
+                            href="https://github.com/prosws2210"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                        >
+                            <FaGithub className="w-8 h-8" />
+                            <span className="text-lg font-bold">Shakti Swaroop Sahu (22BAI1012)</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    );
+>>>>>>> Stashed changes
 };
 
 export default Tutorial;
