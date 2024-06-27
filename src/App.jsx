@@ -282,9 +282,9 @@ function App() {
 				icon: <FaCircleInfo size={30} color="black" />,
 				duration: 5000,
 				style: {
-					background: "yellow",
+					background: "lightyellow",
 					color: "black",
-					fontWeight: "bold",
+					fontWeight: "",
 				},
 			});
 		}, 1000);

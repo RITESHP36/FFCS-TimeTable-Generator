@@ -5,9 +5,9 @@ import { FiSend, FiInfo } from "react-icons/fi";
 const Navbar = ({ onInfoClick }) => {
 	const handleShare = () => {
 		const message = encodeURIComponent(
-			"Hey there! I found this fantastic FFCS timetable generator that helps you easily create and manage your course schedule. Check it out: "
+			"Check out the FFCS Timetable Generator! Easily create and manage your course schedule, add teachers and slots, and share your timetables with friends. Visit now to get started! :"
 		);
-		const url = encodeURIComponent(window.location.href);
+		const url = "https://ffcs-helper.vercel.app";
 		const whatsappUrl = `https://api.whatsapp.com/send?text=${message}${url}`;
 
 		window.open(whatsappUrl, "_blank");
