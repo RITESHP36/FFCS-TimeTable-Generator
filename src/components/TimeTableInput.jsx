@@ -4,9 +4,11 @@ import { IoShareSocialSharp } from "react-icons/io5";
 import { MdOutlineRemoveCircleOutline } from "react-icons/md";
 import { MdDeleteOutline } from "react-icons/md";
 import { IoRocket } from "react-icons/io5";
+import { IoSparklesSharp } from "react-icons/io5";
 
 import { generateTimetables } from "./timetableGenerator";
 import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 const encodePreset = (preset) => {
 	return btoa(JSON.stringify(preset));
@@ -35,6 +37,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	const [tooltipText, setTooltipText] = useState("Copy");
 	const [isHovered, setIsHovered] = useState(false);
 	const [check, setCheck] = useState(false);
+	const navigate = useNavigate();
 
 	useEffect(() => {
 		const savedPresets =
@@ -122,7 +125,9 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		});
 
 		if (initial.some((subject) => Object.keys(subject[0]).length === 0)) {
-			toast.error("Please ensure all subjects have at least one teacher with their slots mentioned.");
+			toast.error(
+				"Please ensure all subjects have at least one teacher with their slots mentioned."
+			);
 			return;
 		}
 
@@ -182,20 +187,19 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 			setPresetCode("");
 		} else {
 			toast.error("Invalid preset code. Please check and try again.");
+			navigate("/"); // Redirect to home page
+			setPresetCode("");
 		}
 	};
 
 	const handleCopyClick = () => {
 		navigator.clipboard.writeText(presetCode);
-		setTooltipText("Copied");
+		toast.success("Copied");
 	};
 
-	const handleMouseEnter = () => {
-		setIsHovered(true);
-	};
-
-	const handleMouseLeave = () => {
-		setIsHovered(false);
+	const handleShareClick = () => {
+		navigator.clipboard.writeText("https://ffcs-helper.vercel.app/"+ presetCode);
+		toast.success("Link copied");
 	};
 
 	return (
@@ -204,20 +208,15 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 				{/* <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
 					Timetable Generator
 				</h1> */}
-				<p
-					className="border-2 border-yellow-500 rounded-full p-2 mb-4 text-lg   flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700"
-				>
-				<IoRocket 
-					className=" text-yellow-600 ml-3"
-					size={60}
-				/>
+				<p className="border-2 border-yellow-500 rounded-full p-2 mb-4 text-lg   flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700">
+					<IoSparklesSharp className="text-yellow-700 text-5xl ml-2" />
 					Enter the details of the subjects and teachers below to generate a
 					timetable. You can save and load presets to quickly switch between
 					different configurations.
 				</p>
 				<div className="bg-white shadow-lg rounded-2xl p-8 mb-10">
 					{/* Preset selection and management */}
-					<div className="mb-6 flex justify-between items-center">
+					<div className="mb-4 flex justify-between items-center">
 						<div className="w-1/2 pr-2">
 							<label
 								className="block text-gray-700 text-md font-semibold mb-2"
@@ -272,7 +271,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 					{/* Unique code generator */}
 					<div className="mb-6">
-						<h2 className="text-2xl font-bold mb-4 text-gray-800">
+						<h2 className="text-xl font-semibold mb-1 text-gray-800">
 							Preset Code
 						</h2>
 						<div className="flex items-center">
@@ -284,19 +283,23 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 								onChange={(e) => setPresetCode(e.target.value)}
 							/>
 							{codeGenerated && (
-								<div className="relative flex items-center">
-									<MdContentCopy
-										className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
-										onClick={handleCopyClick}
-										onMouseEnter={handleMouseEnter}
-										onMouseLeave={handleMouseLeave}
-									/>
-									{isHovered && (
-										<div className="absolute bottom-full mb-2 text-sm bg-gray-800 text-white rounded py-1 px-2">
-											{tooltipText}
-										</div>
-									)}
-								</div>
+								<>
+									<div className="relative flex items-center">
+										<MdContentCopy
+											className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
+											onClick={handleCopyClick}
+											title="Copy to clipboard"
+										/>
+									</div>
+									<div className="relative flex items-center">
+										<IoShareSocialSharp
+											className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
+											onClick={handleShareClick}
+											title="Share"
+										/>
+										
+									</div>
+								</>
 							)}
 							<button
 								className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline mr-2"

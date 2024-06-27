@@ -17,14 +17,16 @@ const Navbar = ({ onInfoClick }) => {
 		<nav className="bg-gray-900 p-4 shadow-md relative z-10">
 			<div className="max-w-7xl mx-auto px-4">
 				<div className="flex justify-between items-center">
-					<div className="flex-shrink-0">
-						<Link
-							to="/"
-							className="text-white font-bold text-2xl hover:text-gray-300"
-						>
-							<img src="/FFCS_HELPER.png" alt="logo" className="h-8 w-8 inline-block mr-2" />
-							
-							FFCS Helper
+					<div className="flex-shrink-0 
+					bg-gradient-to-br from-amber-100 to-yellow-500 bg-clip-text text-transparent
+					">
+						<Link to="/" className=" font-bold text-2xl ">
+							<img
+								src="/FFCS_HELPER.png"
+								alt="logo"
+								className="h-8 w-8 inline-block mr-2"
+							/>
+								FFCS Helper
 						</Link>
 					</div>
 					<div className="flex items-center space-x-4">

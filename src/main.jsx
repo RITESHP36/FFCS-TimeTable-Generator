@@ -10,6 +10,7 @@ import {
   Link,
 } from "react-router-dom";
 import ViewTimeTable from './components/ViewTimeTable.jsx';
+import ErrorBoundaryTT from './components/ErrorBoundaryTT.jsx';
 
 const router= createBrowserRouter([
     {
@@ -18,7 +19,8 @@ const router= createBrowserRouter([
     },
     {
         path: "/tt/:id",
-        element:<ViewTimeTable />
+        element:<ViewTimeTable />,
+        errorElement:<ErrorBoundaryTT/>
     }
 ])
 
