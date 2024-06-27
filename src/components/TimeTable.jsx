@@ -104,7 +104,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 													data[`${row}${column}`] ? "font-semibold" : ""
 												}`}
 											>
-												{data[`${row}${column}`]}
+												{`${data[`${row}${column}`].slice(0, 8)}${data[`${row}${column}`].length > 6 ? '...' : ''}`}
 											</p>
 										</div>
 										<div className="border-t-2 border-black w-full"></div>
@@ -119,7 +119,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 													data[`L${row}${column}`] ? "font-semibold" : ""
 												}`}
 											>
-												{data[`L${row}${column}`]}
+												{`${data[`L${row}${column}`].slice(0, 8)}${data[`L${row}${column}`].length > 6 ? '...' : ''}`}
 											</p>
 										</div>
 									</div>
@@ -147,7 +147,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 													data[`1${row}${column}`] ? "font-semibold" : ""
 												}`}
 											>
-												{data[`1${row}${column}`]}
+												{`${data[`1${row}${column}`].slice(0, 8)}${data[`1${row}${column}`].length > 6 ? '...' : ''}`}
 											</p>
 										</div>
 										<div className="border-t-2 border-black w-full"></div>
@@ -162,7 +162,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 													data[`L1${row}${column}`] ? "font-semibold" : ""
 												}`}
 											>
-												{data[`L1${row}${column}`]}
+												{`${data[`L1${row}${column}`].slice(0, 8)}${data[`L1${row}${column}`].length > 6 ? '...' : ''}`}
 											</p>
 										</div>
 									</div>
