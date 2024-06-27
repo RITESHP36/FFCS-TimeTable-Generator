@@ -291,52 +291,51 @@ function App() {
 	}, []);
 
 	return (
-		<div>
-			<Toaster />
-			{isModalOpen && <Tutorial closeModal={closeModal} />}
-			<Navbar onInfoClick={openModal} />
-			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
-			
-			<div className="text-center pt-7">
-				{/* <h1 className="text-5xl font-bold mt-8 mb-4">
-					FFCS TIME TABLE GENERATOR
-				</h1> */}
-				<h2 className="px-5 py-3 text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
-					Total number of possible TimeTables = {alldata.length}
-				</h2>
-			</div>
-
-			{alldata.map((data, index) => (
-				<div key={index} className="">
-					<div className="flex justify-center h-1/2   ">
-						<div className="flex flex-col items-center gap-6 mt-4">
-							<p className="rounded-full bg-yellow-600 text-white font-bold text-2xl p-1 w-10 h-10 text-center mx-2">
-								{index + 1}
-							</p>
-							<Link
-								to={`/tt/${btoa(JSON.stringify(data))}`}
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<RiShareLine
-									className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-4xl duration-300"
-									title="Share this TimeTable"
-								/>
-							</Link>
-						</div>
-						<TimeTable
-							morning_slots={morning_slots}
-							evening_slots={evening_slots}
-							data={data}
-						/>
-					</div>
-					<div className="border-black w-full border-2 h-2 my-2 bg-neutral-400 border-dashed">
-						-
-					</div>
+		<div className="max-w-7xl md:mx-auto md:px-4 sm:px-6 lg:px-8">
+		  <Toaster />
+		  {isModalOpen && <Tutorial closeModal={closeModal} />}
+		  <Navbar onInfoClick={openModal} />
+		  <TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
+		  
+		  <div className="text-center pt-7">
+			<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
+			  Total number of possible TimeTables = {alldata.length}
+			</h2>
+		  </div>
+	
+		  {alldata.map((data, index) => (
+			<div key={index} className="mb-8">
+			  <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-4">
+				<div className="flex sm:flex-col items-center gap-4">
+				  <p className="rounded-full bg-yellow-600 text-white font-bold text-xl sm:text-2xl p-1 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center">
+					{index + 1}
+				  </p>
+				  <Link
+					to={`/tt/${btoa(JSON.stringify(data))}`}
+					target="_blank"
+					rel="noopener noreferrer"
+				  >
+					<RiShareLine
+					  className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-3xl sm:text-4xl duration-300"
+					  title="Share this TimeTable"
+					/>
+				  </Link>
 				</div>
-			))}
+				<div className="w-full overflow-x-auto">
+				  <TimeTable
+					morning_slots={morning_slots}
+					evening_slots={evening_slots}
+					data={data}
+				  />
+				</div>
+			  </div>
+			  <div className="border-black w-full border-2 h-2 my-4 bg-neutral-400 border-dashed">
+				-
+			  </div>
+			</div>
+		  ))}
 		</div>
-	);
+	  );
 }
 
 export default App;

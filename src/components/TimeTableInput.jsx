@@ -372,25 +372,25 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 	};
 
 	return (
-		<div className="min-h-screen flex-col p-6 bg-gray-100 py-10">
-			<div className="flex justify-center items-center">
-				<p className="border-2 border-yellow-500 rounded-full p-2 px-8 mb-4 text-lg text-center flex items-center gap-4 bg-yellow-100 font-medium text-yellow-700 max-w-9xl">
-					<IoSparklesSharp className="text-yellow-700 text-5xl ml-2 flex-shrink-0" />
+		<div className="min-h-screen flex-col p-2 sm:p-6 bg-gray-100 py-6 sm:py-10">
+			<div className="flex justify-center items-center px-2 sm:px-4">
+				<p className="border-2 border-yellow-500 rounded-full p-2 sm:p-4 px-4 sm:px-8 mb-4 text-sm sm:text-lg text-center flex flex-row items-center gap-2 sm:gap-4 bg-yellow-100 font-medium text-yellow-700 max-w-full sm:max-w-3xl lg:max-w-5xl">
+					<IoSparklesSharp className="text-yellow-700 text-3xl sm:text-5xl flex-shrink-0" />
 					<span>
-					Enter the details of the subjects and teachers below to generate a
-					timetable. You can save and load presets to quickly switch between
-					different configurations.
+						Enter the details of the subjects and teachers below to generate a
+						timetable. You can save and load presets to quickly switch between
+						different configurations.
 					</span>
 				</p>
 			</div>
-			<div className="flex justify-center px-20 gap-10 items-center">
-				<div className="w-1/3">
+			<div className="flex flex-col lg:flex-row justify-center px-2 sm:px-4 lg:px-20 gap-4 lg:gap-10 items-start lg:items-center">
+				<div className="w-full lg:w-1/3 mb-4 lg:mb-0">
 					<PresetHelper />
 				</div>
-				<div className="bg-white w-2/3 shadow-lg rounded-2xl p-8 mb-10">
+				<div className="bg-white w-full lg:w-2/3 shadow-lg rounded-2xl p-4 sm:p-8 mb-10">
 					{/* Preset selection and management */}
-					<div className="mb-4 flex justify-between items-center">
-						<div className="w-1/2 pr-2">
+					<div className="mb-4 flex flex-col sm:flex-row justify-between items-center">
+						<div className="w-full sm:w-1/2 pr-0 sm:pr-2 mb-4 sm:mb-0">
 							<label
 								className="block text-gray-700 text-md font-semibold mb-2"
 								htmlFor="preset-select"
@@ -410,7 +410,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 								))}
 							</select>
 						</div>
-						<div className="w-1/2 pl-2">
+						<div className="w-full sm:w-1/2 pl-0 sm:pl-2">
 							<label
 								className="block text-gray-700 text-md font-semibold mb-2"
 								htmlFor="preset-name"
@@ -427,66 +427,68 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							/>
 						</div>
 					</div>
-					<div className="mb-6 flex justify-between">
+					<div className="mb-6 flex flex-col sm:flex-row justify-between gap-2 sm:gap-4">
 						<button
-							className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 							onClick={updatePreset}
 						>
 							Update Selected Preset
 						</button>
 						<button
-							className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 							onClick={savePreset}
 						>
 							Save as New Preset
 						</button>
 					</div>
 
-						{/* Unique code generator */}
-						<div className="mb-6">
-							<h2 className="text-xl font-semibold mb-1 text-gray-800">
-								Preset Code
-							</h2>
-							<div className="flex items-center">
-								<input
-									className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
-									type="text"
-									placeholder="Enter preset code"
-									value={presetCode}
-									onChange={(e) => setPresetCode(e.target.value)}
-								/>
-								{codeGenerated && (
-									<>
-										<div className="relative flex items-center">
-											<MdContentCopy
-												className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
-												onClick={handleCopyClick}
-												title="Copy to clipboard"
-											/>
-										</div>
-										<div className="relative flex items-center">
-											<IoShareSocialSharp
-												className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer mr-4 ml-2 "
-												onClick={handleShareClick}
-												title="Share"
-											/>
-										</div>
-									</>
-								)}
+					{/* Unique code generator */}
+					<div className="mb-6">
+						<h2 className="text-xl font-semibold mb-1 text-gray-800">
+							Preset Code
+						</h2>
+						<div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-0">
+							<input
+								className="w-full sm:flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 sm:mb-0 sm:mr-2"
+								type="text"
+								placeholder="Enter preset code"
+								value={presetCode}
+								onChange={(e) => setPresetCode(e.target.value)}
+							/>
+							{codeGenerated && (
+								<div className="flex justify-center sm:justify-start gap-2 mb-2 sm:mb-0">
+									<div className="relative flex items-center">
+										<MdContentCopy
+											className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer"
+											onClick={handleCopyClick}
+											title="Copy to clipboard"
+										/>
+									</div>
+									<div className="relative flex items-center">
+										<IoShareSocialSharp
+											className="text-gray-600 h-6 hover:text-gray-700 cursor-pointer"
+											onClick={handleShareClick}
+											title="Share"
+										/>
+									</div>
+								</div>
+							)}
+							<div className="flex gap-2">
 								<button
-									className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline mr-2"
+									className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 									onClick={generatePresetCode}
 								>
 									Generate Code
 								</button>
 								<button
-									className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline mr-2"
+									className="w-full sm:w-auto bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 									onClick={loadPresetFromCode}
 								>
 									Load from Code
 								</button>
 							</div>
 						</div>
+					</div>
 
 					{/* Subject count input */}
 					<div className="mb-6">
@@ -534,29 +536,29 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 					{/* small caution text */}
 					<p className="text-orange-600 text-sm font-semibold mb-4">
-						Use the arrows to change the prefernce order of the teachers. Top to
-						bottom is the order of preference.
+						Use the arrows to change the preference order of the teachers. Top
+						to bottom is the order of preference.
 					</p>
 
-						{/* Subjects and teachers inputs */}
-						{subjects.map((subject, subjectIndex) => (
-							<div
-								key={subjectIndex}
-								className="mb-8 p-6 bg-gray-50 border-4 border-gray-200 rounded-2xl shadow-md"
-							>
-								<div className="flex justify-between items-center mb-4">
-									<input
-										className="text-xl font-semibold bg-gray-200 border border-gray-300 rounded-xl py-2 px-3 flex-grow mr-4"
-										type="text"
-										placeholder={`Subject ${subjectIndex + 1}`}
-										value={subject.name}
-										onChange={(e) =>
-											handleSubjectNameChange(subjectIndex, e.target.value)
-										}
-									/>
+					{/* Subjects and teachers inputs */}
+					{subjects.map((subject, subjectIndex) => (
+						<div
+							key={subjectIndex}
+							className="mb-8 p-4 sm:p-6 bg-gray-50 border-4 border-gray-200 rounded-2xl shadow-md"
+						>
+							<div className="flex flex-row justify-between items-center mb-4">
+								<input
+									className="w-full sm:w-auto text-xl font-semibold bg-gray-200 border border-gray-300 rounded-xl py-2 px-3 mb-2 sm:mb-0 sm:mr-4"
+									type="text"
+									placeholder={`Subject ${subjectIndex + 1}`}
+									value={subject.name}
+									onChange={(e) =>
+										handleSubjectNameChange(subjectIndex, e.target.value)
+									}
+								/>
 
 								<button
-									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200 "
+									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200"
 									onClick={() => removeSubject(subjectIndex)}
 								>
 									<MdDeleteOutline
@@ -566,8 +568,12 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 								</button>
 							</div>
 							{subject.teachers.map((teacher, teacherIndex) => (
-								<div key={teacherIndex} className="mb-4 flex items-center">
-									<div className="flex flex-col mr-2">
+								<div
+									key={teacherIndex}
+									className="mb-4 flex flex-col sm:flex-row items-center"
+								>
+									<div className="flex ">
+									<div className="flex flex-col mr-2 mb-2 sm:mb-0">
 										<button
 											className="text-gray-600 hover:text-blue-600 focus:outline-none"
 											onClick={() => moveTeacherUp(subjectIndex, teacherIndex)}
@@ -585,34 +591,38 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 											<IoMdArrowDown size={20} />
 										</button>
 									</div>
-									<input
-										className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
-										type="text"
-										placeholder="Teacher Name"
-										value={teacher.name}
-										onChange={(e) =>
-											handleTeacherChange(
-												subjectIndex,
-												teacherIndex,
-												"name",
-												e.target.value
-											)
-										}
-									/>
-									<input
-										className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
-										type="text"
-										placeholder="Slots (comma-separated)"
-										value={teacher.slots}
-										onChange={(e) =>
-											handleTeacherChange(
-												subjectIndex,
-												teacherIndex,
-												"slots",
-												e.target.value
-											)
-										}
-									/>
+									<div className="flex">
+										<input
+											className="w-full  flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 sm:mb-0 sm:mr-2"
+											type="text"
+											placeholder="Teacher Name"
+											value={teacher.name}
+											onChange={(e) =>
+												handleTeacherChange(
+													subjectIndex,
+													teacherIndex,
+													"name",
+													e.target.value
+												)
+											}
+										/>
+										<input
+											className="w-full  flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 sm:mb-0 sm:mr-2"
+											type="text"
+											placeholder="Slots (comma-separated)"
+											value={teacher.slots}
+											onChange={(e) =>
+												handleTeacherChange(
+													subjectIndex,
+													teacherIndex,
+													"slots",
+													e.target.value
+												)
+											}
+										/>
+									</div>
+									</div>
+									<div className="flex justify-center items-center gap-4">
 									<SlotSelector
 										value={teacher.slots}
 										onChange={(newSlots) =>
@@ -625,18 +635,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 										}
 									/>
 									<button
-										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline ml-2"
+										className="bg-red-500 hover:bg-red-600 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline sm:mt-0 sm:ml-2"
 										onClick={() => removeTeacher(subjectIndex, teacherIndex)}
 									>
 										<MdOutlineRemoveCircleOutline
-											className="inline-block align-middle"
+											className="align-middle hidden sm:inline-block "
 											size={32}
 										/>
+										<p className="px-3 py-2 sm:hidden">Remove</p>
 									</button>
+									</div>
 								</div>
 							))}
 							<button
-								className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+								className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 								onClick={() => addTeacher(subjectIndex)}
 							>
 								Add Teacher
@@ -656,7 +668,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					</button>
 				</div>
 			</div>
-		</div>		
+		</div>
 	);
 };
 

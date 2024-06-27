@@ -129,30 +129,36 @@ const SlotSelector = ({ value, onChange }) => {
 	return (
 		<div className="relative" ref={ref}>
 			<button
-				className="w-full shadow appearance-none border border-gray-300 rounded-xl py-2 px-2  leading-tight focus:outline-none focus:shadow-outline
-                bg-gradient-to-br from-blue-400 to-purple-500 bg-clip-text text-transparent font-bold ring-1 ring-indigo-500
-                "
+				className="w-full shadow appearance-none border border-gray-300 rounded-xl sm:py-1 sm:px-1 py-2 px-2 leading-tight focus:outline-none focus:shadow-outline
+                    bg-gradient-to-br from-blue-400 to-purple-500 bg-clip-text text-transparent font-bold ring-1 ring-indigo-500
+                    text-xs
+                    "
 				onClick={() => setIsOpen(!isOpen)}
 			>
 				Select Slots
 			</button>
 			{isOpen && (
 				<div
-					className="absolute z-10 left-0 mt-1 bg-white border border-gray-300 rounded-md shadow-lg p-4"
-					style={{ width: "max-content", maxWidth: "90vw", overflowY: 'auto', maxHeight: '250px' }} 
+					className="absolute z-10 -left-20 mt-1 bg-white border border-gray-300 rounded-md shadow-lg p-2 sm:p-4
+                    max-h-[150px] md:max-h-[200px]
+                    "
+					style={{
+						width: "calc(100vw - 2rem)",
+						maxWidth: "300px",
+						overflowY: "auto",
+					}}
 				>
-					<div className="grid grid-cols-7 gap-2 ">
+					<div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 gap-1 sm:gap-2">
 						{availableSlots.map((slot) => (
 							<div
 								key={slot}
-								className={`px-2 py-1 text-sm cursor-pointer hover:bg-gray-100 rounded ${
+								className={`px-1 sm:px-2 py-1 text-xs sm:text-sm cursor-pointer hover:bg-gray-100 rounded ${
 									selectedSlots.includes(slot) ? "bg-blue-200 font-medium" : ""
 								}`}
 								onClick={() => toggleSlot(slot)}
 							>
 								{slot}
 							</div>
-                            
 						))}
 					</div>
 				</div>

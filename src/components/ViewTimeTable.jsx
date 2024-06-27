@@ -152,33 +152,32 @@ function ViewTimeTable() {
 
 	return (
 		<div>
-			<Navbar />
-			<div className="flex my-4">
-				<button
-					onClick={handlePrint}
-					className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-ou ml-6 "
-				>
-					Print TimeTable
-				</button>
-				{/*button to copy the link for this timetable */}
-				<button
-					onClick={() => {
-						navigator.clipboard.writeText(window.location.href);
-					}}
-					className="bg-blue-500  hover:bg-blue-700 text-white font-bold p-3 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out ml-6  flex items-center justify-center gap-3"
-				>
-					Copy Link <MdContentCopy />
-				</button>
-			</div>
-			<div ref={timetableRef}>
-				<TimeTable
-					data={Data}
-					morning_slots={morning_slots}
-					evening_slots={evening_slots}
-				/>
-			</div>
+		  <Navbar />
+		  <div className="flex flex-col sm:flex-row my-4 px-4 sm:px-6 gap-4">
+			<button
+			  onClick={handlePrint}
+			  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto"
+			>
+			  Print TimeTable
+			</button>
+			<button
+			  onClick={() => {
+				navigator.clipboard.writeText(window.location.href);
+			  }}
+			  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto flex items-center justify-center gap-2"
+			>
+			  <span>Copy Link</span> <MdContentCopy />
+			</button>
+		  </div>
+		  <div ref={timetableRef} className="px-2 sm:px-6">
+			<TimeTable
+			  data={Data}
+			  morning_slots={morning_slots}
+			  evening_slots={evening_slots}
+			/>
+		  </div>
 		</div>
-	);
+	  );
 }
 
 export default ViewTimeTable;
