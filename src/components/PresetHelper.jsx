@@ -22,6 +22,7 @@ const PresetHelper = () => {
 	const handleSubmit = (e) => {
 		e.preventDefault();
 
+
 		// return if year of branch is empty
 		if (!year || !branch) {
 			toast.error("Please select a year and branch.", {
@@ -39,6 +40,7 @@ const PresetHelper = () => {
 		// console.log('Selected key:', key); // Debug log
 
 		if (presets[key]) {
+            setNotFound(false);
 			setPreset(presets[key]);
 			// console.log('Preset found:', presets[key]); // Debug log
 		} else {
@@ -95,7 +97,7 @@ const PresetHelper = () => {
 					Find Preset
 				</button>
 			</form>
-			{preset && (
+			{!notfound && preset && (
 				<div className="mt-6 p-4 bg-gray-100 rounded-md">
 					<h4 className="text-lg font-semibold mb-2">Preset Code:</h4>
 					<p>{preset}</p>
@@ -108,7 +110,7 @@ const PresetHelper = () => {
 					<p className="mt-2 font-medium text-amber-600 text-lg">
 						Coming soon, but if you have made one, share with us at{" "}
 						<IoMail
-							className="inline-block text-blue-500 text-2xl"
+							className="inline-block text-blue-500 text-2xl cursor-pointer hover:text-blue-700 transition duration-300 ease-in-out transform hover:scale-105"
 							onClick={() => {
 								window.open("mailto:riteshpradhan7854@gmail.com");
 							}}
