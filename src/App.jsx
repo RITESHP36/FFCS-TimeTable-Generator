@@ -1,14 +1,13 @@
 import TimeTable from "./components/TimeTable";
 import React, { useState } from "react";
-// import alldata from "./data/output";
 import TimetableInput from "./components/TimeTableInput";
-// import alldata from "./data/alldata";
 import { RiShareLine } from "react-icons/ri";
 import { ImCross } from "react-icons/im";
 
 import Navbar from "./components/NavBar";
 import Tutorial from "./components/Tutorial";
 import { Link } from "react-router-dom";
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
 	const morning_slots = {
@@ -276,6 +275,7 @@ function App() {
 
 	return (
 		<div>
+			<Toaster />
 			{isModalOpen && <Tutorial closeModal={closeModal} />}
 			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
@@ -291,9 +291,9 @@ function App() {
 			{alldata.map((data, index) => (
 				<div key={index} className="">
 					<div className="flex justify-center h-1/2   ">
-						<div className="flex flex-col items-center gap-6">
-							<p className="rounded-full bg-yellow-500 text-white font-bold text-2xl p-1 w-10 h-10 text-center mx-2">
-								{index}
+						<div className="flex flex-col items-center gap-6 mt-4">
+							<p className="rounded-full bg-yellow-600 text-white font-bold text-2xl p-1 w-10 h-10 text-center mx-2">
+								{index+1}
 							</p>
 							<Link
 								to={`/tt/${btoa(JSON.stringify(data))}`}
@@ -301,8 +301,8 @@ function App() {
 								rel="noopener noreferrer"
 							>
 								<RiShareLine
-									className="text-yellow-600 cursor-pointer"
-									size={25}
+									className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-4xl duration-300"
+									
 									title="Share this TimeTable"
 								/>
 							</Link>

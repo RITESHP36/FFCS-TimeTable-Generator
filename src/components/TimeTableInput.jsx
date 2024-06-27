@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { MdContentCopy } from "react-icons/md";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { MdOutlineRemoveCircleOutline } from "react-icons/md";
-import { AiOutlineEye } from "react-icons/ai";
 import { MdDeleteOutline } from "react-icons/md";
 import { IoRocket } from "react-icons/io5";
 
 import { generateTimetables } from "./timetableGenerator";
+import toast from "react-hot-toast";
 
 const encodePreset = (preset) => {
 	return btoa(JSON.stringify(preset));
@@ -103,7 +103,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 	const generateTimetable = () => {
 		if (subjects.some((subject) => subject.teachers.length === 0)) {
-			alert(
+			toast.error(
 				"Please fill in data for all subjects before generating the timetable."
 			);
 			return;
@@ -122,7 +122,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		});
 
 		if (initial.some((subject) => Object.keys(subject[0]).length === 0)) {
-			alert("Please ensure all subjects have at least one teacher with slots.");
+			toast.error("Please ensure all subjects have at least one teacher with their slots mentioned.");
 			return;
 		}
 
@@ -135,7 +135,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 	const savePreset = () => {
 		if (!presetName) {
-			alert("Please enter a name for the preset.");
+			toast.error("Please enter a name for the preset.");
 			return;
 		}
 		const newPreset = { name: presetName, data: subjects };
@@ -143,7 +143,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		setPresets(updatedPresets);
 		localStorage.setItem("timetablePresets", JSON.stringify(updatedPresets));
 		setPresetName("");
-		alert("Preset saved successfully!");
+		toast.success("Preset saved successfully!");
 	};
 
 	const loadPreset = (preset) => {
@@ -154,7 +154,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 	const updatePreset = () => {
 		if (!selectedPreset) {
-			alert("Please select a preset to update.");
+			toast.error("Please select a preset to update.");
 			return;
 		}
 		const updatedPresets = presets.map((p) =>
@@ -162,12 +162,12 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		);
 		setPresets(updatedPresets);
 		localStorage.setItem("timetablePresets", JSON.stringify(updatedPresets));
-		alert("Preset updated successfully!");
+		toast.success("Preset updated successfully!");
 	};
 
 	const generatePresetCode = () => {
 		if (!selectedPreset) {
-			alert("Please select a preset first.");
+			toast.error("Please select a preset first.");
 			return;
 		}
 		const code = encodePreset(selectedPreset);
@@ -181,7 +181,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 			loadPreset(preset);
 			setPresetCode("");
 		} else {
-			alert("Invalid preset code. Please check and try again.");
+			toast.error("Invalid preset code. Please check and try again.");
 		}
 	};
 

@@ -54,7 +54,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 	];
 
 	return (
-		<div className="m-6 bg-gray-50">
+		<div className="mx-6 mt-2 mb-6 bg-gray-50">
 			<table className="min-w-full border-collapse border-4 border-gray-500 shadow-lg">
 				{/* Table Heading */}
 				<thead className="border-4 border-gray-500">
