@@ -5,6 +5,7 @@ import { MdOutlineRemoveCircleOutline } from "react-icons/md";
 import { MdDeleteOutline } from "react-icons/md";
 import { IoRocket } from "react-icons/io5";
 import { IoSparklesSharp } from "react-icons/io5";
+import { IoMdArrowUp, IoMdArrowDown } from "react-icons/io";
 
 import { generateTimetables } from "./timetableGenerator";
 import toast from "react-hot-toast";
@@ -95,6 +96,30 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		const newSubjects = [...subjects];
 		newSubjects[subjectIndex].teachers.splice(teacherIndex, 1);
 		setSubjects(newSubjects);
+	};
+
+	const moveTeacherUp = (subjectIndex, teacherIndex) => {
+		if (teacherIndex > 0) {
+			const newSubjects = [...subjects];
+			const subject = newSubjects[subjectIndex];
+			[subject.teachers[teacherIndex - 1], subject.teachers[teacherIndex]] = [
+				subject.teachers[teacherIndex],
+				subject.teachers[teacherIndex - 1],
+			];
+			setSubjects(newSubjects);
+		}
+	};
+
+	const moveTeacherDown = (subjectIndex, teacherIndex) => {
+		const newSubjects = [...subjects];
+		const subject = newSubjects[subjectIndex];
+		if (teacherIndex < subject.teachers.length - 1) {
+			[subject.teachers[teacherIndex], subject.teachers[teacherIndex + 1]] = [
+				subject.teachers[teacherIndex + 1],
+				subject.teachers[teacherIndex],
+			];
+			setSubjects(newSubjects);
+		}
 	};
 
 	const removeSubject = (subjectIndex) => {
@@ -216,19 +241,25 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		];
 		// Check for invalid slots
 		let invalidSlots = [];
-		subjects.forEach(subject => {
-			subject.teachers.forEach(teacher => {
-				const teacherSlots = teacher.slots.split(',').map(slot => slot.trim());
-				const invalidTeacherSlots = teacherSlots.filter(slot => !validSlots.includes(slot));
+		subjects.forEach((subject) => {
+			subject.teachers.forEach((teacher) => {
+				const teacherSlots = teacher.slots
+					.split(",")
+					.map((slot) => slot.trim());
+				const invalidTeacherSlots = teacherSlots.filter(
+					(slot) => !validSlots.includes(slot)
+				);
 				if (invalidTeacherSlots.length > 0) {
 					invalidSlots.push(...invalidTeacherSlots);
 				}
 			});
 		});
-	
+
 		if (invalidSlots.length > 0) {
 			const uniqueInvalidSlots = [...new Set(invalidSlots)];
-			const errorMessage = `Invalid slots detected: ${uniqueInvalidSlots.join(',')}. Please use only valid slots.`;
+			const errorMessage = `Invalid slots detected: ${uniqueInvalidSlots.join(
+				","
+			)}. Please use only valid slots.`;
 			console.log(errorMessage);
 			if (showEror) {
 				toast.error(errorMessage);
@@ -393,16 +424,16 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					</div>
 					<div className="mb-6 flex justify-between">
 						<button
-							className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-							onClick={savePreset}
-						>
-							Save as New Preset
-						</button>
-						<button
 							className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
 							onClick={updatePreset}
 						>
 							Update Selected Preset
+						</button>
+						<button
+							className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							onClick={savePreset}
+						>
+							Save as New Preset
 						</button>
 					</div>
 
@@ -496,6 +527,12 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 						</div>
 					</div>
 
+					{/* small caution text */}
+					<p className="text-orange-600 text-sm font-semibold mb-4">
+						Use the arrows to change the prefernce order of the teachers. Top to
+						bottom is the order of preference.
+					</p>
+
 					{/* Subjects and teachers inputs */}
 					{subjects.map((subject, subjectIndex) => (
 						<div
@@ -525,6 +562,24 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							</div>
 							{subject.teachers.map((teacher, teacherIndex) => (
 								<div key={teacherIndex} className="mb-4 flex items-center">
+									<div className="flex flex-col mr-2">
+										<button
+											className="text-gray-600 hover:text-blue-600 focus:outline-none"
+											onClick={() => moveTeacherUp(subjectIndex, teacherIndex)}
+											disabled={teacherIndex === 0}
+										>
+											<IoMdArrowUp size={20} />
+										</button>
+										<button
+											className="text-gray-600 hover:text-blue-600 focus:outline-none"
+											onClick={() =>
+												moveTeacherDown(subjectIndex, teacherIndex)
+											}
+											disabled={teacherIndex === subject.teachers.length - 1}
+										>
+											<IoMdArrowDown size={20} />
+										</button>
+									</div>
 									<input
 										className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
 										type="text"
@@ -564,7 +619,6 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 											)
 										}
 									/>
-									{/* deleting the teacher */}
 									<button
 										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline ml-2"
 										onClick={() => removeTeacher(subjectIndex, teacherIndex)}

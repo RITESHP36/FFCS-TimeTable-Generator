@@ -1,13 +1,14 @@
 import TimeTable from "./components/TimeTable";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TimetableInput from "./components/TimeTableInput";
 import { RiShareLine } from "react-icons/ri";
 import { ImCross } from "react-icons/im";
+import { FaCircleInfo } from "react-icons/fa6";
 
 import Navbar from "./components/NavBar";
 import Tutorial from "./components/Tutorial";
 import { Link } from "react-router-dom";
-import toast, { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
 	const morning_slots = {
@@ -273,6 +274,21 @@ function App() {
 		setIsModalOpen(false);
 	};
 
+	// after loading for the first time, after 1 second give a toast message to checkout the info panel
+	useEffect(() => {
+		setTimeout(() => {
+			toast("Checkout the Info panel to know more about the app", {
+				icon: <FaCircleInfo size={30} color="black" />,
+				duration: 5000,
+				style: {
+					background: "yellow",
+					color: "black",
+					fontWeight: "bold",
+				},
+			});
+		}, 1000);
+	}, []);
+
 	return (
 		<div>
 			<Toaster />
@@ -293,7 +309,7 @@ function App() {
 					<div className="flex justify-center h-1/2   ">
 						<div className="flex flex-col items-center gap-6 mt-4">
 							<p className="rounded-full bg-yellow-600 text-white font-bold text-2xl p-1 w-10 h-10 text-center mx-2">
-								{index+1}
+								{index + 1}
 							</p>
 							<Link
 								to={`/tt/${btoa(JSON.stringify(data))}`}
@@ -302,7 +318,6 @@ function App() {
 							>
 								<RiShareLine
 									className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-4xl duration-300"
-									
 									title="Share this TimeTable"
 								/>
 							</Link>
