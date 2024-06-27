@@ -201,26 +201,35 @@ const Tutorial = ({ closeModal }) => {
                     </div>
                 </div>
 
-                <div className="flex justify-center mt-10 gap-10">
-                    <a
-                        href="https://github.com/RITESHP36"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2"
-                    >
-                        <FaGithub className="w-8 h-8" />
-                        <span className="text-lg font-bold">Ritesh Pradhan (22BAI1055)</span>
-                    </a>
-                    <a
-                        href="https://github.com/prosws2210"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2"
-                    >
-                        <FaGithub className="w-8 h-8" />
-                        <span className="text-lg font-bold">Shakti Swaroop Sahu (22BAI1012)</span>
-                    </a>
+                {/* Write a thank you and */}
+                <div className="flex flex-col items-center mt-10 gap-2">
+                    <div className="mt-6 text-center">
+                        <p className="text-lg">
+                            Made with <span className="text-red-500">❤️</span> by Ritesh Pradhan and Shakti Swaroop Sahu.
+                        </p>
+                    </div>
+                    <div className="flex gap-10">
+                        <a
+                            href="https://github.com/RITESHP36"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                        >
+                            <FaGithub className="w-8 h-8" />
+                            <span className="text-lg font-bold">Ritesh Pradhan (22BAI1055)</span>
+                        </a>
+                        <a
+                            href="https://github.com/prosws2210"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2"
+                        >
+                            <FaGithub className="w-8 h-8" />
+                            <span className="text-lg font-bold">Shakti Swaroop Sahu (22BAI1012)</span>
+                        </a>
+                    </div>
                 </div>
+
 
             </div>
         </div>
