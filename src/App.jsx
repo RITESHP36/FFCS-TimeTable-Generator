@@ -279,7 +279,7 @@ function App() {
 			{isModalOpen && <Tutorial closeModal={closeModal} />}
 			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
-			<div className="text-center">
+			<div className="text-center pt-7">
 				{/* <h1 className="text-5xl font-bold mt-8 mb-4">
 					FFCS TIME TABLE GENERATOR
 				</h1> */}
