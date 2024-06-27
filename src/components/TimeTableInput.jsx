@@ -5,6 +5,7 @@ import { MdOutlineRemoveCircleOutline } from "react-icons/md";
 import { MdDeleteOutline } from "react-icons/md";
 import { IoRocket } from "react-icons/io5";
 import { IoSparklesSharp } from "react-icons/io5";
+import { IoMdArrowUp, IoMdArrowDown } from "react-icons/io";
 
 import { generateTimetables } from "./timetableGenerator";
 import toast from "react-hot-toast";
@@ -96,6 +97,30 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		const newSubjects = [...subjects];
 		newSubjects[subjectIndex].teachers.splice(teacherIndex, 1);
 		setSubjects(newSubjects);
+	};
+
+	const moveTeacherUp = (subjectIndex, teacherIndex) => {
+		if (teacherIndex > 0) {
+			const newSubjects = [...subjects];
+			const subject = newSubjects[subjectIndex];
+			[subject.teachers[teacherIndex - 1], subject.teachers[teacherIndex]] = [
+				subject.teachers[teacherIndex],
+				subject.teachers[teacherIndex - 1],
+			];
+			setSubjects(newSubjects);
+		}
+	};
+
+	const moveTeacherDown = (subjectIndex, teacherIndex) => {
+		const newSubjects = [...subjects];
+		const subject = newSubjects[subjectIndex];
+		if (teacherIndex < subject.teachers.length - 1) {
+			[subject.teachers[teacherIndex], subject.teachers[teacherIndex + 1]] = [
+				subject.teachers[teacherIndex + 1],
+				subject.teachers[teacherIndex],
+			];
+			setSubjects(newSubjects);
+		}
 	};
 
 	const removeSubject = (subjectIndex) => {
@@ -217,19 +242,25 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 		];
 		// Check for invalid slots
 		let invalidSlots = [];
-		subjects.forEach(subject => {
-			subject.teachers.forEach(teacher => {
-				const teacherSlots = teacher.slots.split(',').map(slot => slot.trim());
-				const invalidTeacherSlots = teacherSlots.filter(slot => !validSlots.includes(slot));
+		subjects.forEach((subject) => {
+			subject.teachers.forEach((teacher) => {
+				const teacherSlots = teacher.slots
+					.split(",")
+					.map((slot) => slot.trim());
+				const invalidTeacherSlots = teacherSlots.filter(
+					(slot) => !validSlots.includes(slot)
+				);
 				if (invalidTeacherSlots.length > 0) {
 					invalidSlots.push(...invalidTeacherSlots);
 				}
 			});
 		});
-	
+
 		if (invalidSlots.length > 0) {
 			const uniqueInvalidSlots = [...new Set(invalidSlots)];
-			const errorMessage = `Invalid slots detected: ${uniqueInvalidSlots.join(',')}. Please use only valid slots.`;
+			const errorMessage = `Invalid slots detected: ${uniqueInvalidSlots.join(
+				","
+			)}. Please use only valid slots.`;
 			console.log(errorMessage);
 			if (showEror) {
 				toast.error(errorMessage);
@@ -351,70 +382,60 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					different configurations.
 					</span>
 				</p>
-			</div>
-
-			<div className="flex">
-				<div className="w-1/3">
-					<PresetHelper />
-				</div>
-				<div className="w-2/3 mx-auto px-5">
-					{/* <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">
-						Timetable Generator
-					</h1> */}
-					<div className="bg-white shadow-lg rounded-2xl p-8 mb-10">
-						{/* Preset selection and management */}
-						<div className="mb-4 flex justify-between items-center">
-							<div className="w-1/2 pr-2">
-								<label
-									className="block text-gray-700 text-md font-semibold mb-2"
-									htmlFor="preset-select"
-								>
-									Select Preset:
-								</label>
-								<select
-									id="preset-select"
-									className="w-full border border-gray-300 shadow-md rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-									onChange={(e) => loadPreset(presets[e.target.value])}
-								>
-									<option value="">Select a preset</option>
-									{presets.map((preset, index) => (
-										<option key={index} value={index}>
-											{preset.name}
-										</option>
-									))}
-								</select>
-							</div>
-							<div className="w-1/2 pl-2">
-								<label
-									className="block text-gray-700 text-md font-semibold mb-2"
-									htmlFor="preset-name"
-								>
-									Preset Name:
-								</label>
-								<input
-									id="preset-name"
-									className="w-full shadow-md rounded-xl appearance-none border border-gray-300 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-									type="text"
-									value={presetName}
-									onChange={(e) => setPresetName(e.target.value)}
-									placeholder="Enter preset name"
-								/>
-							</div>
-						</div>
-						<div className="mb-6 flex justify-between">
-							<button
-								className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-								onClick={savePreset}
+				<div className="bg-white shadow-lg rounded-2xl p-8 mb-10">
+					{/* Preset selection and management */}
+					<div className="mb-4 flex justify-between items-center">
+						<div className="w-1/2 pr-2">
+							<label
+								className="block text-gray-700 text-md font-semibold mb-2"
+								htmlFor="preset-select"
 							>
-								Save as New Preset
-							</button>
-							<button
-								className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-								onClick={updatePreset}
+								Select Preset:
+							</label>
+							<select
+								id="preset-select"
+								className="w-full border border-gray-300 shadow-md rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+								onChange={(e) => loadPreset(presets[e.target.value])}
 							>
-								Update Selected Preset
-							</button>
+								<option value="">Select a preset</option>
+								{presets.map((preset, index) => (
+									<option key={index} value={index}>
+										{preset.name}
+									</option>
+								))}
+							</select>
 						</div>
+						<div className="w-1/2 pl-2">
+							<label
+								className="block text-gray-700 text-md font-semibold mb-2"
+								htmlFor="preset-name"
+							>
+								Preset Name:
+							</label>
+							<input
+								id="preset-name"
+								className="w-full shadow-md rounded-xl appearance-none border border-gray-300 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+								type="text"
+								value={presetName}
+								onChange={(e) => setPresetName(e.target.value)}
+								placeholder="Enter preset name"
+							/>
+						</div>
+					</div>
+					<div className="mb-6 flex justify-between">
+						<button
+							className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							onClick={updatePreset}
+						>
+							Update Selected Preset
+						</button>
+						<button
+							className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+							onClick={savePreset}
+						>
+							Save as New Preset
+						</button>
+					</div>
 
 						{/* Unique code generator */}
 						<div className="mb-6">
@@ -462,49 +483,55 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							</div>
 						</div>
 
-						{/* Subject count input */}
-						<div className="mb-6">
-							<label
-								className="block text-gray-700 text-md font-semibold mb-2"
-								htmlFor="number-of-subjects"
+					{/* Subject count input */}
+					<div className="mb-6">
+						<label
+							className="block text-gray-700 text-md font-semibold mb-2"
+							htmlFor="number-of-subjects"
+						>
+							Number of Subjects:
+						</label>
+						<div className="flex items-center">
+							<input
+								className="w-full appearance-none shadow-md border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+								id="number-of-subjects"
+								type="number"
+								min="1"
+								value={subjectCount}
+								onChange={handleSubjectCountChange}
+							/>
+							<button
+								className="ml-2 text-white bg-red-500 hover:bg-red-700 font-bold text-xl rounded-xl px-3 py-1"
+								onClick={() => {
+									const newCount = Math.max(1, subjectCount - 1);
+									setSubjectCount(newCount);
+									handleSubjectCountChange({
+										target: { value: newCount.toString() },
+									});
+								}}
 							>
-								Number of Subjects:
-							</label>
-							<div className="flex items-center">
-								<input
-									className="w-full appearance-none shadow-md border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-									id="number-of-subjects"
-									type="number"
-									min="1"
-									value={subjectCount}
-									onChange={handleSubjectCountChange}
-								/>
-								<button
-									className="ml-2 text-white bg-red-500 hover:bg-red-700 font-bold text-xl rounded-xl px-3 py-1"
-									onClick={() => {
-										const newCount = Math.max(1, subjectCount - 1);
-										setSubjectCount(newCount);
-										handleSubjectCountChange({
-											target: { value: newCount.toString() },
-										});
-									}}
-								>
-									-
-								</button>
-								<button
-									className="ml-2 text-white bg-blue-500 hover:bg-blue-700 font-bold text-xl rounded-xl px-3 py-1"
-									onClick={() => {
-										const newCount = subjectCount + 1;
-										setSubjectCount(newCount);
-										handleSubjectCountChange({
-											target: { value: newCount.toString() },
-										});
-									}}
-								>
-									+
-								</button>
-							</div>
+								-
+							</button>
+							<button
+								className="ml-2 text-white bg-blue-500 hover:bg-blue-700 font-bold text-xl rounded-xl px-3 py-1"
+								onClick={() => {
+									const newCount = subjectCount + 1;
+									setSubjectCount(newCount);
+									handleSubjectCountChange({
+										target: { value: newCount.toString() },
+									});
+								}}
+							>
+								+
+							</button>
 						</div>
+					</div>
+
+					{/* small caution text */}
+					<p className="text-orange-600 text-sm font-semibold mb-4">
+						Use the arrows to change the prefernce order of the teachers. Top to
+						bottom is the order of preference.
+					</p>
 
 						{/* Subjects and teachers inputs */}
 						{subjects.map((subject, subjectIndex) => (
@@ -523,77 +550,94 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 										}
 									/>
 
+								<button
+									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200 "
+									onClick={() => removeSubject(subjectIndex)}
+								>
+									<MdDeleteOutline
+										className="inline-block align-middle"
+										size={32}
+									/>
+								</button>
+							</div>
+							{subject.teachers.map((teacher, teacherIndex) => (
+								<div key={teacherIndex} className="mb-4 flex items-center">
+									<div className="flex flex-col mr-2">
+										<button
+											className="text-gray-600 hover:text-blue-600 focus:outline-none"
+											onClick={() => moveTeacherUp(subjectIndex, teacherIndex)}
+											disabled={teacherIndex === 0}
+										>
+											<IoMdArrowUp size={20} />
+										</button>
+										<button
+											className="text-gray-600 hover:text-blue-600 focus:outline-none"
+											onClick={() =>
+												moveTeacherDown(subjectIndex, teacherIndex)
+											}
+											disabled={teacherIndex === subject.teachers.length - 1}
+										>
+											<IoMdArrowDown size={20} />
+										</button>
+									</div>
+									<input
+										className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
+										type="text"
+										placeholder="Teacher Name"
+										value={teacher.name}
+										onChange={(e) =>
+											handleTeacherChange(
+												subjectIndex,
+												teacherIndex,
+												"name",
+												e.target.value
+											)
+										}
+									/>
+									<input
+										className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
+										type="text"
+										placeholder="Slots (comma-separated)"
+										value={teacher.slots}
+										onChange={(e) =>
+											handleTeacherChange(
+												subjectIndex,
+												teacherIndex,
+												"slots",
+												e.target.value
+											)
+										}
+									/>
+									<SlotSelector
+										value={teacher.slots}
+										onChange={(newSlots) =>
+											handleTeacherChange(
+												subjectIndex,
+												teacherIndex,
+												"slots",
+												newSlots
+											)
+										}
+									/>
 									<button
-										className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200 "
-										onClick={() => removeSubject(subjectIndex)}
+										className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline ml-2"
+										onClick={() => removeTeacher(subjectIndex, teacherIndex)}
 									>
-										<MdDeleteOutline
+										<MdOutlineRemoveCircleOutline
 											className="inline-block align-middle"
 											size={32}
 										/>
 									</button>
 								</div>
-								{subject.teachers.map((teacher, teacherIndex) => (
-									<div key={teacherIndex} className="mb-4 flex items-center">
-										<input
-											className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
-											type="text"
-											placeholder="Teacher Name"
-											value={teacher.name}
-											onChange={(e) =>
-												handleTeacherChange(
-													subjectIndex,
-													teacherIndex,
-													"name",
-													e.target.value
-												)
-											}
-										/>
-										<input
-											className="flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-2"
-											type="text"
-											placeholder="Slots (comma-separated)"
-											value={teacher.slots}
-											onChange={(e) =>
-												handleTeacherChange(
-													subjectIndex,
-													teacherIndex,
-													"slots",
-													e.target.value
-												)
-											}
-										/>
-										<SlotSelector
-											value={teacher.slots}
-											onChange={(newSlots) =>
-												handleTeacherChange(
-													subjectIndex,
-													teacherIndex,
-													"slots",
-													newSlots
-												)
-											}
-										/>
-										{/* deleting the teacher */}
-										<button
-											className="bg-red-600 hover:bg-red-700 text-white font-semibold rounded-full focus:outline-none focus:shadow-outline ml-2"
-											onClick={() => removeTeacher(subjectIndex, teacherIndex)}
-										>
-											<MdOutlineRemoveCircleOutline
-												className="inline-block align-middle"
-												size={32}
-											/>
-										</button>
-									</div>
-								))}
-								<button
-									className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
-									onClick={() => addTeacher(subjectIndex)}
-								>
-									Add Teacher
-								</button>
-							</div>
-						))}
+							))}
+							<button
+								className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-xl focus:outline-none focus:shadow-outline"
+								onClick={() => addTeacher(subjectIndex)}
+							>
+								Add Teacher
+							</button>
+						</div>
+					))}
 
 						{/* Generate timetable button */}
 						<button
