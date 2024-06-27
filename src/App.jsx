@@ -1,6 +1,7 @@
 import TimeTable from "./components/TimeTable";
 import React, { useState, useEffect } from "react";
 import TimetableInput from "./components/TimeTableInput";
+import Contact from "./components/Contact";
 import { RiShareLine } from "react-icons/ri";
 import { ImCross } from "react-icons/im";
 import { FaCircleInfo } from "react-icons/fa6";
@@ -290,52 +291,52 @@ function App() {
 		}, 1000);
 	}, []);
 
-	return (
-		<div className=" ">
-		  <Toaster />
-		  {isModalOpen && <Tutorial closeModal={closeModal} />}
-		  <Navbar onInfoClick={openModal} />
-		  <TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
-		  
-		  <div className="text-center pt-7">
-			<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
-			  Total number of possible TimeTables = {alldata.length}
-			</h2>
-		  </div>
-	
-		  {alldata.map((data, index) => (
-			<div key={index} className="mb-8">
-			  <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-4">
-				<div className="flex sm:flex-col items-center gap-4">
-				  <p className="rounded-full bg-yellow-600 text-white font-bold text-xl sm:text-2xl p-1 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center">
-					{index + 1}
-				  </p>
-				  <Link
-					to={`/tt/${btoa(JSON.stringify(data))}`}
-					target="_blank"
-					rel="noopener noreferrer"
-				  >
-					<RiShareLine
-					  className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-3xl sm:text-4xl duration-300"
-					  title="Share this TimeTable"
-					/>
-				  </Link>
-				</div>
-				<div className="w-full overflow-x-auto">
-				  <TimeTable
-					morning_slots={morning_slots}
-					evening_slots={evening_slots}
-					data={data}
-				  />
-				</div>
-			  </div>
-			  <div className="border-black w-full border-2 h-2 my-4 bg-neutral-400 border-dashed">
-				-
-			  </div>
+		return (
+			<div className=" ">
+			<Toaster />
+			{isModalOpen && <Tutorial closeModal={closeModal} />}
+			<Navbar onInfoClick={openModal} />
+			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
+			
+			<div className="text-center pt-7">
+				<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
+				Total number of possible TimeTables = {alldata.length}
+				</h2>
 			</div>
-		  ))}
-		</div>
-	  );
+		
+			{alldata.map((data, index) => (
+				<div key={index} className="mb-8">
+				<div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-4">
+					<div className="flex sm:flex-col items-center gap-4">
+					<p className="rounded-full bg-yellow-600 text-white font-bold text-xl sm:text-2xl p-1 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center">
+						{index + 1}
+					</p>
+					<Link
+						to={`/tt/${btoa(JSON.stringify(data))}`}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<RiShareLine
+						className="text-yellow-600 cursor-pointer border-2 border-yellow-600 rounded-full p-1 hover:bg-yellow-600 hover:text-white text-3xl sm:text-4xl duration-300"
+						title="Share this TimeTable"
+						/>
+					</Link>
+					</div>
+					<div className="w-full overflow-x-auto">
+					<TimeTable
+						morning_slots={morning_slots}
+						evening_slots={evening_slots}
+						data={data}
+					/>
+					</div>
+				</div>
+				<div className="border-black w-full border-2 h-2 my-4 bg-neutral-400 border-dashed">
+					-
+				</div>
+				</div>
+			))}
+			</div>
+		);
 }
 
 export default App;

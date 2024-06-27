@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import Contact from "./components/Contact.jsx";
 import "./index.css";
 import { createRoot } from "react-dom/client";
 import {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
 		path: "/tt/:id",
 		element: <ViewTimeTable />,
 		errorElement: <ErrorBoundaryTT />,
+	},
+	{
+		path: "/contact",
+		element: <Contact />
 	},
 ]);
 

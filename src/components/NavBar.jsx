@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiSend, FiInfo } from "react-icons/fi";
+import { FiSend, FiInfo, FiMail } from "react-icons/fi";
 
 const Navbar = ({ onInfoClick }) => {
     const handleShare = () => {
@@ -43,6 +43,15 @@ const Navbar = ({ onInfoClick }) => {
                             <FiSend className="mr-2" />
                             Share
                         </button>
+                        {/* Make another button for contact */}
+                        <Link
+                            to="/contact"
+                            className="flex items-center border-2 rounded-full px-3 py-1 sm:px-6 sm:py-2 border-green-500 text-xs sm:text-sm font-medium text-green-500 hover:bg-green-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
+                        >
+                            <FiMail className="mr-2" />
+                            Contact
+                        </Link>
+                        
                     </div>
                 </div>
             </div>
