@@ -291,7 +291,7 @@ function App() {
 	}, []);
 
 	return (
-		<div className="max-w-7xl md:mx-auto md:px-4 sm:px-6 lg:px-8">
+		<div className=" ">
 		  <Toaster />
 		  {isModalOpen && <Tutorial closeModal={closeModal} />}
 		  <Navbar onInfoClick={openModal} />
