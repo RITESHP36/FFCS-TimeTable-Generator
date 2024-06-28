@@ -35,7 +35,7 @@ const decodePreset = (code) => {
 	}
 };
 
-const TimetableInput = ({ alldata, updateAlldata }) => {
+const TimetableInput = ({ alldata, updateAlldata,updateIter_permutations }) => {
 	const [subjectCount, setSubjectCount] = useState(1);
 	const [subjects, setSubjects] = useState([
 		{ name: "", teachers: [{ name: "", slots: "" }] },
@@ -330,8 +330,9 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 
 		// console.log(JSON.stringify(initial, null, 2)); // Log the initial array
 		// console.log(initial);
-		const result = generateTimetables(initial);
+		const [iter_permutations,result] = generateTimetables(initial);
 		updateAlldata(result);
+		updateIter_permutations(iter_permutations);
 		setShowError(false);
 	};
 

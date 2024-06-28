@@ -586,6 +586,6 @@ export function generateTimetables(initial) {
     // console.log(`Generated ${timetables.length} timetables`);
     // console.log("Generated timetables:", JSON.stringify(timetables, null, 2));
 
-	return timetables;
+	return [iter_permutations.length,timetables];
 }
 

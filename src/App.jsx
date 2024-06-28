@@ -261,8 +261,13 @@ function App() {
 			L145: "",
 		},
 	]);
+	const [iter_permutations, setIter_permutations] = useState(0);
 	const updateAlldata = (newData) => {
 		setAlldata(newData);
+	};
+	const updateIter_permutations = (newData) => {
+		console.log(newData);
+		setIter_permutations(newData);
 	};
 
 	const [isModalOpen, setIsModalOpen] = useState(false);
@@ -295,11 +300,13 @@ function App() {
 			<Toaster />
 			{isModalOpen && <Tutorial closeModal={closeModal} />}
 			<Navbar onInfoClick={openModal} />
-			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
+			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} updateIter_permutations={updateIter_permutations} />
 			
 			<div className="text-center pt-2">
-				<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full md-4 sm:mb-8 font-semibold inline-block">
-				Total number of possible TimeTables = {alldata.length}
+				<h2 className="px-4 py-2 sm:px-5 sm:py-3 text-sm sm:text-xl bg-blue-600 text-white rounded-full  sm:mb-8 font-semibold inline-block">
+				<p>Total number of CLASH-FREE TimeTables = {alldata.length}</p>
+				<p className="text-yellow-300">Eliminated {iter_permutations-alldata.length} TimeTables due to clash in slots
+				</p>
 				</h2>
 			</div>
 
