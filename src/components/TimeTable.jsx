@@ -169,7 +169,7 @@ const TimeSlot = ({ slot, data, bgColor }) => {
 			{data ? `${formatData(data).slice(0, 4)}${formatData(data).length > 4 ? "..." : ""}` : ""}
 		</p>
 		<p
-			className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+			className={`hidden sm:block text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
 			data ? "font-semibold" : ""
 			}`}
 		>
