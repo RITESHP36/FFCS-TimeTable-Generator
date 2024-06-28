@@ -291,17 +291,24 @@ function App() {
 	}, []);
 
 		return (
-			<div className=" ">
+			<div className="bg-gray-100">
 			<Toaster />
 			{isModalOpen && <Tutorial closeModal={closeModal} />}
 			<Navbar onInfoClick={openModal} />
 			<TimetableInput alldata={alldata} updateAlldata={updateAlldata} />
 			
-			<div className="text-center pt-7">
-				<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full mb-8 font-semibold inline-block">
+			<div className="text-center pt-2">
+				<h2 className="px-5 py-3 text-base sm:text-xl bg-blue-600 text-white rounded-full md-4 sm:mb-8 font-semibold inline-block">
 				Total number of possible TimeTables = {alldata.length}
 				</h2>
 			</div>
+
+			{/* if alldata.length=0 then show text */}
+			{alldata.length === 0 && (
+				<div className="text-center text-sm sm:text-lg font-semibold text-red-600 mb-6">
+				No TimeTables found for the given input of slots and teachers due to clash in slots. Please try again by changing the slots or teachers.
+				</div>
+			)}
 		
 			{alldata.map((data, index) => (
 				<div key={index} className="mb-8">
