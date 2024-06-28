@@ -320,7 +320,7 @@ function App() {
 			{alldata.map((data, index) => (
 				<div key={index} className="mb-8">
 				<div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-4">
-					<div className="flex sm:flex-col items-center gap-4">
+					<div className="flex sm:flex-col items-center gap-4 sm:ml-2">
 					<p className="rounded-full bg-yellow-600 text-white font-bold text-xl sm:text-2xl p-1 w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center">
 						{index + 1}
 					</p>
