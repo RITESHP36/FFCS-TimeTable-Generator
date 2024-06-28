@@ -68,7 +68,7 @@ const Tutorial = ({ closeModal }) => {
 				</p>
 
 				<div className="flex flex-col gap-6 sm:gap-10">
-					<div>
+					{/* <div>
 						<h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
 							HOW TO CREATE A TIMETABLE
 						</h3>
@@ -183,27 +183,26 @@ const Tutorial = ({ closeModal }) => {
 								</div>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 
 					<div>
 						<h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
-							SHARING TIMETABLE PRESETS WITH FRIENDS
+							HOW TO CREATE AND SHARE YOUR TIMETABLE
 						</h3>
 						<ul className="list-none text-gray-700 space-y-4">
 							<li className="flex items-start">
 								<NumberedIcon number={1} />
 								<div>
 									<strong className="text-sm sm:text-base">
-										Select the Preset Name:
+										Enter the number of subjects:
 									</strong>
 									<p className="text-xs sm:text-sm">
-										Choose the preset you want to share from your list of saved
-										presets.
+										Start by entering how many subjects you have.
 									</p>
 									<img
-										src="select-preset-name.png"
-										alt="Select preset name"
-										className="mt-2"
+										src="enter-number-of-subs.png"
+										alt="Enter the number of subjects"
+										className="mt-2 w-full"
 									/>
 								</div>
 							</li>
@@ -211,15 +210,124 @@ const Tutorial = ({ closeModal }) => {
 								<NumberedIcon number={2} />
 								<div>
 									<strong className="text-sm sm:text-base">
-										Generate a Preset Code:
+										Enter the course name:
 									</strong>
 									<p className="text-xs sm:text-sm">
-										Click the
-										<span className="text-white font-bold bg-blue-500 border-2 border-blue-300 px-2 py-1 rounded-2xl inline-block mx-1">
-											Generate Code
+										Teachers will be added based on the course name you enter.
+									</p>
+									<img
+										src="enter-course-name.png"
+										alt="Enter the course name"
+										className="mt-2 w-full"
+									/>
+									<span className="text-rose-400 font-semibold"><strong>Note:</strong> You can keep only the necessary teachers and remove others. You can also add new teachers if needed.</span>
+								</div>
+							</li>
+							<li className="flex items-start">
+								<NumberedIcon number={3} />
+								<div>
+									<strong className="text-sm sm:text-base">
+										Generate Timetable:
+									</strong>
+									<p className="text-xs sm:text-sm">
+										Click on the
+										<span className="text-white font-bold bg-green-500 border-2 border-green-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Generate Timetable
 										</span>
-										button to create a unique code for the selected preset. Copy
-										this code.
+										button to get the timetables.
+									</p>
+									<img
+										src="generate-timetable.png"
+										alt="Generate Timetable"
+										className="mt-2 w-full"
+									/>
+								</div>
+							</li>
+							<li className="flex items-start">
+								<NumberedIcon number={4} />
+								<div>
+									<strong className="text-sm sm:text-base">
+										Share the Timetable:
+									</strong>
+									<p className="text-xs sm:text-sm">
+										Click on the
+										<span className="text-white font-bold bg-blue-500 border-2 border-blue-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Share
+										</span>
+										button to share your timetable with friends.
+									</p>
+									<img
+										src="share-timetable.png"
+										alt="Share Timetable"
+										className="mt-2 w-full"
+									/>
+								</div>
+							</li>
+							<li className="flex items-start">
+								<NumberedIcon number={5} />
+								<div>
+									<strong className="text-sm sm:text-base">
+										Copy or Print the Timetable:
+									</strong>
+									<p className="text-xs sm:text-sm">
+										Click on
+										<span className="text-white font-bold bg-green-500 border-2 border-green-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Copy Link
+										</span>
+										or
+										<span className="text-white font-bold bg-blue-500 border-2 border-blue-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Print
+										</span>
+										to share it.
+									</p>
+									<img
+										src="copy-print-tt.png"
+										alt="Copy or Print the Timetable"
+										className="mt-2 w-full"
+									/>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+
+					<div>
+						<h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
+							SAVING TIMETABLE PRESETS
+						</h3>
+						<div className="border-2 mx-auto border-gray-500 rounded-2xl p-2 px-4 mb-4 text-center items-center gap-2 sm:gap-4 bg-blue-200 font-medium text-black-700 w-[70%]">
+							<p className="text-black-400 font-semibold text-lg"><strong>What is a preset ???</strong> </p>
+							<p className="text-blue-800 font-semibold text-sm"><strong>Note:</strong> A preset is a saved configuration for quick and easy reuse of teachers you have selected and saved.</p>
+						</div>
+						<ul className="list-none text-gray-700 space-y-4">
+							<li className="flex items-start">
+								<NumberedIcon number={1} />
+								<div>
+									<strong className="text-sm sm:text-base">
+										Save the Timetable:
+									</strong>
+									<p className="text-xs sm:text-sm">
+										To save the timetable, click on the button and name the combination of teachers (Preset) e.g., "Timetable 1".
+									</p>
+									<img
+										src="select-preset.png"
+										alt="Save the Timetable"
+										className="mt-2 w-full"
+									/>
+								</div>
+							</li>
+							<li className="flex items-start">
+								<NumberedIcon number={2} />
+								<div>
+									<strong className="text-sm sm:text-base">
+										Save as New Preset:
+									</strong>
+									<p className="text-xs sm:text-sm">
+										Click on
+										<span className="text-white font-bold bg-blue-500 border-2 border-blue-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Save as New Preset
+										</span>
+										to save it.
 									</p>
 								</div>
 							</li>
@@ -227,47 +335,36 @@ const Tutorial = ({ closeModal }) => {
 								<NumberedIcon number={3} />
 								<div>
 									<strong className="text-sm sm:text-base">
-										Send the Code:
+										Edit and Update Teachers:
 									</strong>
-									<p className="text-xs sm:text-sm">Share the copied code with your friend.</p>
-									<img src="send-code.png" alt="Send code" className="mt-2" />
+									<p className="text-xs sm:text-sm">
+										You can change the teachers and update the preset by clicking
+										<span className="text-white font-bold bg-green-500 border-2 border-green-300 px-2 py-1 rounded-2xl inline-block mx-1">
+											Update Selected Preset
+										</span>.
+									</p>
 								</div>
 							</li>
 							<li className="flex items-start">
 								<NumberedIcon number={4} />
 								<div>
 									<strong className="text-sm sm:text-base">
-										Loading the Code on a Friend's Account:
+										Generating Codes:
 									</strong>
 									<p className="text-xs sm:text-sm">
-										Your friend needs to enter the received code in their
-										"Preset Code" field and click
-										<span className="text-white font-bold bg-green-500 border-2 border-green-300 px-2 py-1 rounded-2xl inline-block mx-1">
-											Load from Code
-										</span>
-										.
+										You can generate codes for your timetable and share them with your friends so they can have the same combination of teachers (Presets)
 									</p>
-								</div>
-							</li>
-							<li className="flex items-start">
-								<NumberedIcon number={5} />
-								<div>
-									<strong className="text-sm sm:text-base">
-										Save as New Preset:
-									</strong>
-									<p className="text-xs sm:text-sm">
-										Your friend can then click
-										<span className="text-white font-bold bg-blue-500 border-2 border-blue-300 px-2 py-1 rounded-2xl inline-block mx-1">
-											Save as New Preset
-										</span>
-										to add the timetable to their presets.
-									</p>
+									<img
+										src="generating-codes.png"
+										alt="Generating codes"
+										className="mt-2 w-full"
+									/>
 								</div>
 							</li>
 						</ul>
 					</div>
 
-					<div>
+					{/* <div>
 						<h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
 							SHARING THE WEBSITE
 						</h3>
@@ -291,10 +388,6 @@ const Tutorial = ({ closeModal }) => {
 											via WhatsApp.
 										</div>
 									</div>
-									{/* <p className="text-xs sm:text-sm">
-                                        Use the 
-                                        button on the website to share the link with your friends via WhatsApp.
-                                    </p> */}
 									<img
 										src="share-button.png"
 										alt="Share button"
@@ -316,7 +409,7 @@ const Tutorial = ({ closeModal }) => {
 								</div>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
