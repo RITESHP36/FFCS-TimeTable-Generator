@@ -3,7 +3,7 @@ export function generateTimetables(initial) {
         console.log("Invalid initial data. Expected a non-empty array.");
         return []; // Return an empty array if initial is invalid
     }
-    console.log("Received initial data:", JSON.stringify(initial, null, 2));
+    // console.log("Received initial data:", JSON.stringify(initial, null, 2));
 	// MORNING Normal to binary table
 	const M_and_E_normal_to_binary = {
 		A1: ["00", "21"],

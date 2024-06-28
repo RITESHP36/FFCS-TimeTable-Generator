@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useState, useRef, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 import TimeTable from "./TimeTable";
 import Navbar from "./NavBar";
@@ -6,6 +6,7 @@ import { MdContentCopy } from "react-icons/md";
 
 function ViewTimeTable() {
 	const { id } = useParams();
+	const [courseDetails, setCourseDetails] = useState([]);
 
 	const morning_slots = {
 		"00": "A1",
@@ -133,15 +134,16 @@ function ViewTimeTable() {
 		L145: "L60",
 	};
 
-	let Data;
-	try {
-		Data = JSON.parse(atob(id));
-	} catch (error) {
-		console.error("Failed to decode and parse id", error);
-		return <div>Error loading timetable data.</div>;
-	}
+	const Data = useMemo(() => {
+        try {
+            return JSON.parse(atob(id));
+        } catch (error) {
+            console.error("Failed to decode and parse id", error);
+            return null;
+        }
+    }, [id]);
 
-	const timetableRef = useRef(null);
+    const timetableRef = useRef(null);
 
 	const handlePrint = () => {
 		const printContent = timetableRef.current;
@@ -157,37 +159,101 @@ function ViewTimeTable() {
 		printContent.className = originalClassName;
 	};
 
-	function printData() {
-		console.log({ Data });
-	}
+	useEffect(() => {
+        if (!Data) return;
+
+        const extractCourseDetails = () => {
+            const teacherSlots = {};
+
+            // Iterate over all slots in Data
+            for (const [slot, teacher] of Object.entries(Data)) {
+                if (teacher && teacher !== '') {
+                    if (!teacherSlots[teacher]) {
+                        teacherSlots[teacher] = [];
+                    }
+                    let cleanedSlot = slot;
+                    if(slot in morning_slots) {
+                        cleanedSlot = morning_slots[slot];
+                    }
+                    if(slot in evening_slots) {
+                        cleanedSlot = evening_slots[slot];
+                    }
+                    teacherSlots[teacher].push(cleanedSlot);
+                }
+            }
+
+            // Convert teacherSlots to the desired format
+            const details = Object.entries(teacherSlots).map(([teacher, slots]) => ({
+                teacher,
+                slot: slots.join(", ")
+            }));
+
+            setCourseDetails(details);
+        };
+
+        extractCourseDetails();
+    }, []);
+
+    if (!Data) {
+        return <div>Error loading timetable data.</div>;
+    }
+
 
 	return (
 		<div>
 			<Navbar />
 			<div className="flex flex-col sm:flex-row my-4 px-4 sm:px-6 gap-4">
 				<button
-				onClick={handlePrint}
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto"
+					onClick={handlePrint}
+					className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto"
 				>
-				Print TimeTable
+					Print TimeTable
 				</button>
 				<button
-				onClick={() => {
-					navigator.clipboard.writeText(window.location.href);
-				}}
-				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto flex items-center justify-center gap-2"
+					onClick={() => {
+						navigator.clipboard.writeText(window.location.href);
+					}}
+					className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto flex items-center justify-center gap-2"
 				>
-				<span>Copy Link</span> <MdContentCopy />
+					<span>Copy Link</span> <MdContentCopy />
 				</button>
 			</div>
 			<div ref={timetableRef} className="px-2 sm:px-6">
 				<TimeTable
-				data={Data}
-				morning_slots={morning_slots}
-				evening_slots={evening_slots}
+					data={Data}
+					morning_slots={morning_slots}
+					evening_slots={evening_slots}
 				/>
+				<div className="my-6">
+					<h2 className="text-xl sm:text-2xl font-bold mb-4">Course Details</h2>
+					<div className="overflow-x-auto">
+						<table className="min-w-full border-collapse border border-gray-300">
+							<thead>
+								<tr className="bg-gray-100">
+									<th className="border border-gray-300 px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm">
+										Course Faculty
+									</th>
+									<th className="border border-gray-300 px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm">
+										Course Slot
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								{courseDetails.map((course, index) => (
+									<tr key={index}>
+										<td className="border border-gray-300 px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm">
+											{course.teacher}
+										</td>
+										<td className="border border-gray-300 px-2 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm">
+											{course.slot}
+										</td>
+									</tr>
+								))}
+							</tbody>
+						</table>
+					</div>
+				</div>
 			</div>
-			{printData()}
 		</div>
 	);
 }
