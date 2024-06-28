@@ -305,8 +305,8 @@ function App() {
 			<div className="text-center pt-2">
 				<h2 className="px-4 py-2 sm:px-5 sm:py-3 text-sm sm:text-xl bg-blue-600 text-white rounded-full  sm:mb-8 font-semibold inline-block">
 				<p>Total number of CLASH-FREE TimeTables = {alldata.length}</p>
-				<p className="text-yellow-300">Eliminated {iter_permutations-alldata.length} TimeTables due to clash in slots
-				</p>
+				<p className="text-yellow-300">Eliminated {Math.max(0, iter_permutations - alldata.length)} TimeTables due to clash in slots
+                </p>
 				</h2>
 			</div>
 
