@@ -364,6 +364,23 @@ const Tutorial = ({ closeModal }) => {
 						</ul>
 					</div>
 
+					{/* Add a video over here */}
+					<div>
+						<h3 className="text-lg text-center sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
+							WATCH THE VIDEO
+						</h3>
+						<div className="flex justify-center">
+							<iframe
+								className="h-40 w-full sm:h-96 md:w-850 lg:w-[80%]" // Adjusted line
+								src="ffcs-video.mp4"
+								title="FFCS video player"
+								frameBorder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowFullScreen
+							></iframe>
+						</div>
+					</div>
+
 					{/* <div>
 						<h3 className="text-lg sm:text-xl md:text-2xl font-bold mt-4 sm:mt-6 mb-2">
 							SHARING THE WEBSITE
