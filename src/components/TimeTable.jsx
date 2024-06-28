@@ -4,7 +4,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 	const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 	const timing1 = [
 		"08:00-08:50",
-		"08:55-05:45",
+		"08:55-09:45",
 		"09:50-10:40",
 		"10:45-11:35",
 		"11:45-12:30",
@@ -19,7 +19,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 	];
 	const timing2 = [
 		"08:00-08:50",
-		"08:50-05:40",
+		"08:50-09:40",
 		"09:50-10:40",
 		"10:40-11:30",
 		"11:40-12:30",
@@ -147,35 +147,36 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 		</div>
 	);
 };
-const TimeSlot = ({ slot, data, bgColor }) => {
-  // Function to format the data by removing specific prefixes
-  const formatData = (data) => {
-    return data.replace(/^Dr\. |^Prof\. /, '');
-  };
 
-  return (
-    <div
-      className={`${bgColor} h-8 sm:h-12 p-0.5 sm:p-1 flex flex-col justify-center items-center ${
-        data ? "font-bold" : ""
-      }`}
-    >
-      <div className="text-[6px] sm:text-xs">{slot}</div>
-      <p
-        className={`sm:hidden text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
-          data ? "font-semibold" : ""
-        }`}
-      >
-        {data ? `${formatData(data).slice(0, 4)}${formatData(data).length > 4 ? "..." : ""}` : ""}
-      </p>
-      <p
-        className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
-          data ? "font-semibold" : ""
-        }`}
-      >
-        {data ? `${formatData(data).slice(0, 8)}${formatData(data).length > 8 ? "..." : ""}` : ""}
-      </p>
-    </div>
-  );
+const TimeSlot = ({ slot, data, bgColor }) => {
+	// Function to format the data by removing specific prefixes
+	const formatData = (data) => {
+		return data.replace(/^Dr\. |^Prof\. /, '');
+	};
+
+	return (
+		<div
+		className={`${bgColor} h-8 sm:h-12 p-0.5 sm:p-1 flex flex-col justify-center items-center ${
+			data ? "font-bold" : ""
+		}`}
+		>
+		<div className="text-[6px] sm:text-xs">{slot}</div>
+		<p
+			className={`sm:hidden text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+			data ? "font-semibold" : ""
+			}`}
+		>
+			{data ? `${formatData(data).slice(0, 4)}${formatData(data).length > 4 ? "..." : ""}` : ""}
+		</p>
+		<p
+			className={`text-[6px] sm:text-xs overflow-hidden whitespace-nowrap overflow-ellipsis ${
+			data ? "font-semibold" : ""
+			}`}
+		>
+			{data ? `${formatData(data).slice(0, 8)}${formatData(data).length > 8 ? "..." : ""}` : ""}
+		</p>
+		</div>
+	);
 };
 
 export default TimeTable;

@@ -69,6 +69,7 @@ function ViewTimeTable() {
 		L44: "L29",
 		L45: "L30",
 	};
+
 	const evening_slots = {
 		100: "A2",
 		101: "F2",
@@ -132,7 +133,13 @@ function ViewTimeTable() {
 		L145: "L60",
 	};
 
-	const Data = JSON.parse(atob(id));
+	let Data;
+	try {
+		Data = JSON.parse(atob(id));
+	} catch (error) {
+		console.error("Failed to decode and parse id", error);
+		return <div>Error loading timetable data.</div>;
+	}
 
 	const timetableRef = useRef(null);
 
@@ -150,34 +157,39 @@ function ViewTimeTable() {
 		printContent.className = originalClassName;
 	};
 
+	function printData() {
+		console.log({ Data });
+	}
+
 	return (
 		<div>
-		  <Navbar />
-		  <div className="flex flex-col sm:flex-row my-4 px-4 sm:px-6 gap-4">
-			<button
-			  onClick={handlePrint}
-			  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto"
-			>
-			  Print TimeTable
-			</button>
-			<button
-			  onClick={() => {
-				navigator.clipboard.writeText(window.location.href);
-			  }}
-			  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto flex items-center justify-center gap-2"
-			>
-			  <span>Copy Link</span> <MdContentCopy />
-			</button>
-		  </div>
-		  <div ref={timetableRef} className="px-2 sm:px-6">
-			<TimeTable
-			  data={Data}
-			  morning_slots={morning_slots}
-			  evening_slots={evening_slots}
-			/>
-		  </div>
+			<Navbar />
+			<div className="flex flex-col sm:flex-row my-4 px-4 sm:px-6 gap-4">
+				<button
+				onClick={handlePrint}
+				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto"
+				>
+				Print TimeTable
+				</button>
+				<button
+				onClick={() => {
+					navigator.clipboard.writeText(window.location.href);
+				}}
+				className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded shadow-lg hover:shadow-xl transition duration-200 ease-in-out w-full sm:w-auto flex items-center justify-center gap-2"
+				>
+				<span>Copy Link</span> <MdContentCopy />
+				</button>
+			</div>
+			<div ref={timetableRef} className="px-2 sm:px-6">
+				<TimeTable
+				data={Data}
+				morning_slots={morning_slots}
+				evening_slots={evening_slots}
+				/>
+			</div>
+			{printData()}
 		</div>
-	  );
+	);
 }
 
 export default ViewTimeTable;

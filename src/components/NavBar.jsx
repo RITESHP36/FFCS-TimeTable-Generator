@@ -45,14 +45,13 @@ const Navbar = ({ onInfoClick }) => {
 							<FiSend className="sm:mr-2" />
 							<span className="hidden sm:inline-block">Share</span>
 						</button>
-						{/* Make another button for contact */}
-						{/* <Link
+						<Link
                             to="/contact"
                             className="flex items-center border-2 rounded-full px-3 py-1 sm:px-6 sm:py-2 border-green-500 text-xs sm:text-sm font-medium text-green-500 hover:bg-green-500 hover:text-white transition duration-300 ease-in-out transform hover:scale-105"
                         >
-                            <FiMail className="mr-2" />
-                            Contact
-                        </Link> */}
+                            <FiMail className="sm:mr-2" />
+                            <span className="hidden sm:inline-block">Contact</span> 
+                        </Link>
 					</div>
 				</div>
 			</div>

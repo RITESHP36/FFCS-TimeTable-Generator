@@ -1,98 +1,104 @@
-import React, { useState } from 'react';
-import Navbar from './NavBar';
+import React, { useState } from "react";
+import { Toaster, toast } from "react-hot-toast";
+import Navbar from "./NavBar";
 
 const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-    const [errors, setErrors] = useState({});
+    const [success, setSuccess] = useState(false);
+    const [error, setError] = useState(false);
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        const validationErrors = validateForm();
-        if (Object.keys(validationErrors).length === 0) {
-            // Clear the form
-            setName('');
-            setEmail('');
-            setMessage('');
+    async function handleSubmit(event) {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        formData.append("access_key", "6b237d09-d693-4ee1-bb63-022b43df10d3"); // RITESH
+        formData.append("access_key", "a1d6d4b1-5bcc-4f40-a810-840b13609969"); // SHAKTI
+
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body: json,
+        });
+        const result = await response.json();
+        if (result.success) {
+            setSuccess(true);
+            setError(false);
+            toast.success("Message sent successfully!");
         } else {
-            setErrors(validationErrors);
+            setError(true);
+            setSuccess(false);
+            toast.error("Something went wrong.");
         }
-    };
-
-    const validateForm = () => {
-        const errors = {};
-        if (!name.trim()) {
-            errors.name = 'Name is required';
-        }
-        if (!email.trim()) {
-            errors.email = 'Email is required';
-        } else if (!/\S+@\S+\.\S+/.test(email)) {
-            errors.email = 'Email is invalid';
-        }
-        if (!message.trim()) {
-            errors.message = 'Message is required';
-        } else if (message.length > 500) {
-            errors.message = 'Message cannot exceed 500 words';
-        }
-        return errors;
-    };
+    }
 
     return (
         <>
             <Navbar />
-            <div className="flex items-center justify-center min-h-screen bg-gray-100">
-                <div className="max-w-md w-full bg-white shadow-md rounded-lg p-6">
-                    <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Contact Us</h2>
-                    <form onSubmit={handleSubmit}>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="name">
-                                Name
-                            </label>
-                            <input
-                                id="name"
-                                type="text"
-                                className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                value={name}
-                                onChange={(e) => setName(e.target.value)}
-                            />
-                            {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
-                        </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="email">
-                                Email
-                            </label>
-                            <input
-                                id="email"
-                                type="email"
-                                className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                            {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
-                        </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="message">
-                                Query / Feedback Message
-                            </label>
-                            <textarea
-                                id="message"
-                                className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                value={message}
-                                onChange={(e) => setMessage(e.target.value)}
-                                rows="4"
-                            ></textarea>
-                            {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
-                        </div>
-                        <button
-                            type="submit"
-                            className="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        >
-                            Submit
-                        </button>
-                    </form>
+
+            <div className="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+                <div className="w-full lg:max-w-[60%] sm:max-w-[90%] bg-white shadow-lg rounded-xl overflow-hidden">
+                    <div className="p-6 lg:p-10 sm:p-6 space-y-6">
+                        <h2 className="text-3xl font-extrabold text-gray-800 text-center">Get in touch with us 😊</h2>
+                        <form onSubmit={handleSubmit} className="space-y-6">
+                            <div className="space-y-6">
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-gray-700">Email ID</div>
+                                    <input
+                                        name="email"
+                                        type="email"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+                                        placeholder="Your email..."
+                                        required
+                                    />
+                                </div>
+                                
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-gray-700">Phone Number</div>
+                                    <input
+                                        name="phone"
+                                        type="tel"
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200"
+                                        placeholder="Your phone (optional)"
+                                    />
+                                </div>
+
+                                <div className="space-y-1">
+                                    <div className="font-semibold text-gray-700">Query / Feedback Message</div>
+                                    <textarea
+                                        name="message"
+                                        rows={6}
+                                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition duration-200 resize-none"
+                                        placeholder="Your message..."
+                                        required
+                                    ></textarea>
+                                </div>
+                            </div>
+
+                            <button
+                                type="submit"
+                                className="w-full py-3 font-semibold bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 text-lg focus:ring-indigo-500 focus:ring-offset-2 transition duration-300 transform hover:scale-105"
+                            >
+                                Send Message
+                            </button>
+                        </form>
+                        {success && (
+                            <div className="mt-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
+                                Message sent successfully!
+                            </div>
+                        )}
+                        {error && (
+                            <div className="mt-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded-lg">
+                                Something went wrong. Please try again.
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
+            <Toaster />
         </>
     );
 };
