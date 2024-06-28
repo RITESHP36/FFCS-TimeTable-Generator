@@ -404,7 +404,8 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 					<IoSparklesSharp className="text-yellow-700 text-2xl sm:text-3xl flex-shrink-0" />
 					<span>
 						Enter the details of the subjects and teachers below to generate a
-						timetable. Faculty and thier slots are already added for the courses.
+						timetable. Faculty and thier slots are already added for the
+						courses.
 					</span>
 				</p>
 			</div>
@@ -457,14 +458,12 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 						</div>
 					</div>
 					{/* info text */}
-					<div
-					className="flex flex-row justify-between items-center mb-4"
-					>
-						<IoMdInformationCircle
-						className="text-yellow-600 h-12 w-12 transform transition-transform duration-200 rounded-full mr-1"
-						/>
+					<div className="flex flex-row justify-between items-center mb-4">
+						<IoMdInformationCircle className="text-yellow-600 h-12 w-12 transform transition-transform duration-200 rounded-full mr-1" />
 						<p className="text-gray-700 text-xs sm:text-sm font-semibold my-2 px-2">
-						The Course and Faculty details are from the PDF available at VTOP Spotlight . Please recheck the faculty and their slots before generating the timetable especially Embedded Courses.
+							The Course and Faculty details are from the PDF available at VTOP
+							Spotlight . Please recheck the faculty and their slots before
+							generating the timetable especially Embedded Courses.
 						</p>
 					</div>
 
@@ -481,29 +480,29 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							className="mb-8 p-4 sm:p-6 bg-gray-50 border-4 border-gray-200 rounded-2xl shadow-md"
 						>
 							<div className="flex flex-row justify-between items-center mb-4">
-								<SubjectSearchInput
-									value={subject.name}
-									onChange={(value) =>
-										handleSubjectNameChange(subjectIndex, value)
-									}
-								/>
+								<div className="flex-grow mr-2">
+									<SubjectSearchInput
+										value={subject.name}
+										onChange={(value) =>
+											handleSubjectNameChange(subjectIndex, value)
+										}
+										className="w-full"
+									/>
+								</div>
 
 								<button
 									className="text-red-600 hover:bg-red-500 hover:text-white font-semibold rounded-full focus:outline-none focus:shadow-outline p-0.5 duration-200"
 									onClick={() => removeSubject(subjectIndex)}
 								>
-									<MdDeleteOutline
-										className="inline-block align-middle"
-										size={32}
-									/>
+									<MdDeleteOutline className="inline-block" size={32} />
 								</button>
 							</div>
 							{subject.teachers.map((teacher, teacherIndex) => (
 								<div
 									key={teacherIndex}
-									className="mb-4 flex flex-col sm:flex-row items-center"
+									className="mb-4 flex flex-col sm:flex-row items-center w-full"
 								>
-									<div className="flex ">
+									<div className="flex w-full">
 										<div className="flex flex-col mr-2 mb-2 sm:mb-0">
 											<button
 												className="text-gray-600 hover:text-blue-600 focus:outline-none"
@@ -524,7 +523,7 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 												<IoMdArrowDown size={20} />
 											</button>
 										</div>
-										<div className="flex">
+										<div className="flex flex-grow">
 											<input
 												className="w-full  flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 sm:mb-0 sm:mr-2"
 												type="text"
@@ -607,16 +606,20 @@ const TimetableInput = ({ alldata, updateAlldata }) => {
 							onClick={() => setShowPresetSettings(!showPresetSettings)}
 						>
 							<IoMdInformationCircle
-								className={`hidden sm:inline-block text-yellow-600 h-12 w-12 sm:h-20 sm:w-20 transform transition-transform duration-200 rounded-full mx-2 ${showPresetSettings ? "rotate-180" : ""}`}
+								className={`hidden sm:inline-block text-yellow-600 h-12 w-12 sm:h-15 sm:w-15 transform transition-transform duration-200 rounded-full mx-2 ${
+									showPresetSettings ? "rotate-180" : ""
+								}`}
 							/>
-							<p className="text-gray-700 text-xs sm:text-md font-semibold my-2 sm:my-0 px-2">
+							<p className="text-gray-700 text-xs sm:text-base font-semibold my-2 sm:my-0 px-2">
 								Finding it difficult to select subjects and teachers again and
 								again? Explore the preset settings below to save the set of
 								timetables you have created and to share it or save it for
 								future use.
 							</p>
 							<FaChevronDown
-								className={`text-yellow-800 h-6 w-6 sm:h-10 sm:w-10 transform transition-transform duration-200 rounded-full mx-4 ${showPresetSettings ? "rotate-180" : ""}`}
+								className={`text-yellow-800 h-6 w-6 sm:h-8 sm:w-8 transform transition-transform duration-200 rounded-full mx-4 ${
+									showPresetSettings ? "rotate-180" : ""
+								}`}
 							/>
 						</div>
 
