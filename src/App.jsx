@@ -1,7 +1,6 @@
 import TimeTable from "./components/TimeTable";
 import React, { useState, useEffect } from "react";
 import TimetableInput from "./components/TimeTableInput";
-import Contact from "./components/Contact";
 import { RiShareLine } from "react-icons/ri";
 import { ImCross } from "react-icons/im";
 import { FaCircleInfo } from "react-icons/fa6";
