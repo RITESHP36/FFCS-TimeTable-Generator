@@ -7,8 +7,8 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 		"08:55-09:45",
 		"09:50-10:40",
 		"10:45-11:35",
-		"11:45-12:30",
-		"11:45-12:30",
+		"11:40-12:30",
+		"12:35-01:25",
 		"",
 		"02:00-02:50",
 		"02:55-03:45",
@@ -89,7 +89,7 @@ const TimeTable = ({ morning_slots, evening_slots, data }) => {
 					{rows.map((row) => (
 						<tr key={row} className="even:bg-gray-100 odd:bg-white">
 							{/* Day column */}
-							<td className="px-0.5 sm:px-1 border-2 border-gray-500 font-semibold">
+							<td className="px-0.5 text-center sm:px-1 border-2 border-gray-500 font-semibold">
 								{days[parseInt(row)]}
 							</td>
 

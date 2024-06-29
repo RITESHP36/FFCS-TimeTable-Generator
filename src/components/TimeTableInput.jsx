@@ -532,7 +532,7 @@ const TimetableInput = ({ alldata, updateAlldata,updateIter_permutations }) => {
 												<IoMdArrowDown size={20} />
 											</button>
 										</div>
-										<div className="flex flex-grow">
+										<div className="flex flex-grow gap-1">
 											<input
 												className="w-full  flex-grow shadow appearance-none border border-gray-300 rounded-xl py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-2 sm:mb-0 sm:mr-2"
 												type="text"
