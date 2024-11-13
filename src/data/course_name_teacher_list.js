@@ -1,6101 +1,7616 @@
 export const course_name_teacher_list = {
-	"Qualitative Skills Practice II": [
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
+	"Quantitative Skills Practice I": [
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C1,TC1"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C2,TC2"
+	  },
+	  {
+		"FACE (APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"FACE (APT)": "C2,TC2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C2,TC2"
+	  },
+	  {
+		"FACE (APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "F2,TF2"
+	  },
+	  {
+		"ETHNUS (APT)": "F2,TF2"
+	  },
+	  {
+		"FACE (APT)": "F2,TF2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "F2,TF2"
+	  },
+	  {
+		"ETHNUS (APT)": "F2,TF2"
+	  },
+	  {
+		"FACE (APT)": "F2,TF2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "F2,TF2"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E2,TE2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "E2,TE2"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"SIXPHRASE(APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  }
 	],
-	"Advanced Competitive Coding- I": [
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"FACE (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A1,TA1",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "A2,TA2",
-		},
-		{
-			"ETHNUS (APT)": "A2,TA2",
-		},
-		{
-			"FACE (APT)": "D1,TD1",
-		},
-		{
-			"ETHNUS (APT)": "D1,TD1",
-		},
-		{
-			"FACE (APT)": "D1,TD1",
-		},
-		{
-			"ETHNUS (APT)": "D1,TD1",
-		},
-		{
-			"FACE (APT)": "D1,TD1",
-		},
-		{
-			"FACE (APT)": "D1,TD1",
-		},
-		{
-			"ETHNUS (APT)": "D1,TD1",
-		},
-		{
-			"ETHNUS (APT)": "D2,TD2",
-		},
-		{
-			"FACE (APT)": "D2,TD2",
-		},
-		{
-			"ETHNUS (APT)": "D2,TD2",
-		},
-		{
-			"FACE (APT)": "D2,TD2",
-		},
-		{
-			"FACE (APT)": "D2,TD2",
-		},
-		{
-			"ETHNUS (APT)": "D2,TD2",
-		},
-		{
-			"FACE (APT)": "D2,TD2",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "E1,TE1",
-		},
-		{
-			"ETHNUS (APT)": "E1,TE1",
-		},
-		{
-			"FACE (APT)": "E1,TE1",
-		},
-		{
-			"FACE (APT)": "E1,TE1",
-		},
-		{
-			"ETHNUS (APT)": "E1,TE1",
-		},
-		{
-			"FACE (APT)": "E2,TE2",
-		},
-		{
-			"FACE (APT)": "E2,TE2",
-		},
-		{
-			"ETHNUS (APT)": "G1,TG1",
-		},
+	"Quantitative Skills Practice II": [
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"FACE (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"FACE (APT)": "B2,TB2"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  },
+	  {
+		"FACE (APT)": "A2,TA2"
+	  },
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  },
+	  {
+		"FACE (APT)": "A2,TA2"
+	  },
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F2,TF2"
+	  },
+	  {
+		"FACE (APT)": "F2,TF2"
+	  },
+	  {
+		"ETHNUS (APT)": "F2,TF2"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  }
 	],
-	"Advanced Competitive Coding II": [
-		{
-			"SMART (APT)": "A1,TA1",
-		},
+	"Advanced Competitive Coding - II": [
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  },
+	  {
+		"ETHNUS (APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E2,TE2"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E2,TE2"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E2,TE2"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"ETHNUS (APT)": "C1,TC1"
+	  },
+	  {
+		"FACE (APT)": "C1,TC1"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"FACE (APT)": "C2,TC2"
+	  },
+	  {
+		"ETHNUS (APT)": "C2,TC2"
+	  },
+	  {
+		"FACE (APT)": "C2,TC2"
+	  }
 	],
-	"Reasoning Skill Enhancement": [
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C2,TC2",
-		},
-		{
-			"FACE (APT)": "C1,TC1",
-		},
-		{
-			"ETHNUS (APT)": "C1,TC1",
-		},
+	"Advanced Competitive Coding -  II": [
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  }
 	],
-	"Fundamentals of Aptitude": [
-		{
-			"ETHNUS (APT)": "E1,TE1",
-		},
-		{
-			"FACE (APT)": "E2,TE2",
-		},
-		{
-			"FACE (APT)": "E1,TE1",
-		},
+	"Quantitative Skills Practice": [
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  },
+	  {
+		"FACE (APT)": "A2,TA2"
+	  },
+	  {
+		"SIXPHRASE(APT)": "A2,TA2"
+	  },
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D2,TD2"
+	  },
+	  {
+		"ETHNUS (APT)": "D1,TD1"
+	  },
+	  {
+		"FACE (APT)": "D1,TD1"
+	  }
 	],
-	"Soft Skills for Professional Development": [
-		{
-			"FACE (APT)": "E1,TE1",
-		},
+	"Advanced Competitive Coding": [
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E2,TE2"
+	  },
+	  {
+		"ETHNUS (APT)": "E2,TE2"
+	  },
+	  {
+		"FACE (APT)": "E1,TE1"
+	  },
+	  {
+		"ETHNUS (APT)": "B1,TB1"
+	  }
 	],
-	"Preparedness for External Opportunities": [
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B1,TB1",
-		},
-		{
-			"FACE (APT)": "B1,TB1",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
-		{
-			"FACE (APT)": "B2,TB2",
-		},
-		{
-			"ETHNUS (APT)": "B2,TB2",
-		},
+	"Introduction to Business Communication SS": [
+	  {
+		"FACE (APT)": "A1,TA1"
+	  }
 	],
-	"Research Methodology": [
-		{
-			"SUNITA NAYAK": "G1,S15,TG1",
-		},
+	"Aptitude and Reasoning Skills": [
+	  {
+		"FACE (APT)": "B1,TB1"
+	  }
+	],
+	"Arithmetic Problem Solving": [
+	  {
+		"ETHNUS (APT)": "A1,TA1"
+	  },
+	  {
+		"FACE (APT)": "A1,TA1"
+	  },
+	  {
+		"ETHNUS (APT)": "A2,TA2"
+	  }
+	],
+	"Enhancing Problem Solving Skills": [
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F1,TF1"
+	  },
+	  {
+		"FACE (APT)": "F1,TF1"
+	  },
+	  {
+		"ETHNUS (APT)": "F2,TF2"
+	  },
+	  {
+		"FACE (APT)": "F2,TF2"
+	  }
+	],
+	"Preparation for Employment": [
+	  {
+		"ETHNUS (APT)": "G1,TG1"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"FACE (APT)": "G1,TG1"
+	  },
+	  {
+		"ETHNUS (APT)": "G2,TG2"
+	  },
+	  {
+		"FACE (APT)": "G2,TG2"
+	  }
+	],
+	"Quantitative Skills": [
+	  {
+		"FACE (APT)": "A1,TA1"
+	  }
+	],
+	"Advanced Competitive Coding-II": [
+	  {
+		"ETHNUS (APT)": "E1,TE1"
+	  }
+	],
+	"Engineering Chemistry": [
+	  {
+		"AROCKIASAMY": "A1,L43,L44,TA1"
+	  },
+	  {
+		"RAJENDRA KUMAR K": "A2,L27,L28,TA2"
+	  },
+	  {
+		"TANUSHREE CHOUDHRYSAS": "L11,L12"
+	  },
+	  {
+		"TANUSHREE CHOUDHRYSAS": "L41,L42"
+	  },
+	  {
+		"FATEH VEER SINGH": "L59,L60"
+	  },
+	  {
+		"SARAVANAKUMAR R": "L23,L24"
+	  },
+	  {
+		"SARAVANAKUMAR R": "L15,L16"
+	  },
+	  {
+		"JAYANTA PARUI": "L29,L30"
+	  },
+	  {
+		"KRISHNENDU BISWAS": "L21,L22"
+	  },
+	  {
+		"MILIND SHRINIVAS DANGATE": "L55,L56"
+	  },
+	  {
+		"SANTOSH G": "L31,L32"
+	  },
+	  {
+		"SANTOSH G": "L1,L2"
+	  },
+	  {
+		"RAMACHANDRAN": "L5,L6"
+	  },
+	  {
+		"RAMACHANDRAN": "L9,L10"
+	  },
+	  {
+		"SHYAMAPADA NANDI": "L37,L38"
+	  },
+	  {
+		"SHYAMAPADA NANDI": "L25,L26"
+	  },
+	  {
+		"KIRAN KUMAR TADI": "L49,L50"
+	  },
+	  {
+		"KIRAN KUMAR TADI": "L3,L4"
+	  },
+	  {
+		"ILAIYARAJA PERUMAL": "L49,L50"
+	  },
+	  {
+		"ILAIYARAJA PERUMAL": "L45,L46"
+	  },
+	  {
+		"BUTHANAPALLI RAMAKRISHNA": "L51,L52"
+	  },
+	  {
+		"BUTHANAPALLI RAMAKRISHNA": "L15,L16"
+	  },
+	  {
+		"GANESAN": "L33,L34"
+	  },
+	  {
+		"LAKKOJI SATISH": "L39,L40"
+	  },
+	  {
+		"LAKKOJI SATISH": "L7,L8"
+	  },
+	  {
+		"JAYANTA PARUI": "L5,L6"
+	  },
+	  {
+		"SUBHAYAN DEY": "L19,L20"
+	  },
+	  {
+		"SAHELI KARMAKAR": "L37,L38"
+	  },
+	  {
+		"RITU MAMGAIN": "L43,L44"
+	  },
+	  {
+		"FATEH VEER SINGH": "L19,L20"
+	  },
+	  {
+		"RAMU A": "L7,L8"
+	  },
+	  {
+		"T S PRATHIMA": "L55,L56"
+	  },
+	  {
+		"RITU MAMGAIN": "E2,L27,L28,TE2"
+	  },
+	  {
+		"SUBHAYAN DEY": "L33,L34"
+	  },
+	  {
+		"KRISHNENDU BISWAS": "L13,L14"
+	  },
+	  {
+		"SAVITHA LAKSHMI M": "A1,L11,L12,TA1"
+	  },
+	  {
+		"SWATHI V": "A1,L31,L32,TA1"
+	  },
+	  {
+		"SERMARAJAN A": "A2,L25,L26,TA2"
+	  }
 	],
 	"Environmental Sciences": [
-		{
-			"SARAVANAKUMA R R": "NIL",
-		},
-		{
-			"BALAMURALI M M": "NIL",
-		},
-		{
-			AROCKIASAMY: "NIL",
-		},
-		{
-			"RAJENDRA KUMAR K": "NIL",
-		},
-		{
-			"TANUSHREE CHOUDHRY": "NIL",
-		},
-		{
-			"FATEH VEER SINGH": "NIL",
-		},
-		{
-			"KRISHNENDU BISWAS": "NIL",
-		},
-		{
-			"MILIND SHRINIVAS DANGATE": "NIL",
-		},
-		{
-			"JAYANTA PARUI": "NIL",
-		},
-		{
-			"SANTOSH G": "NIL",
-		},
-		{
-			RAMACHANDRAN: "NIL",
-		},
-		{
-			"SHYAMAPADA NANDI": "NIL",
-		},
-		{
-			"KIRAN KUMAR TADI": "NIL",
-		},
-		{
-			"ILAIYARAJA PERUMAL": "NIL",
-		},
-		{
-			"SUJOY SARKAR": "NIL",
-		},
-		{
-			"BUTHANAPALLI RAMAKRISHNA": "NIL",
-		},
-		{
-			GANESAN: "NIL",
-		},
-		{
-			"LAKKOJI SATISH": "NIL",
-		},
-		{
-			"SUBHAYAN DEY": "NIL",
-		},
-		{
-			"SAHELI KARMAKAR": "NIL",
-		},
+	  {
+		"TANUSHREE CHOUDHRYSAS": "NIL"
+	  },
+	  {
+		"KRISHNENDU BISWAS": "NIL"
+	  },
+	  {
+		"SARAVANAKUMAR R": "NIL"
+	  },
+	  {
+		"FATEH VEER SINGH": "NIL"
+	  },
+	  {
+		"JAYANTA PARUI": "NIL"
+	  },
+	  {
+		"SANTOSH G": "NIL"
+	  },
+	  {
+		"BALAMURALI M M": "NIL"
+	  },
+	  {
+		"KIRAN KUMAR TADI": "NIL"
+	  },
+	  {
+		"BUTHANAPALLI RAMAKRISHNA": "NIL"
+	  },
+	  {
+		"ILAIYARAJA PERUMAL": "NIL"
+	  },
+	  {
+		"MILIND SHRINIVAS DANGATE": "NIL"
+	  },
+	  {
+		"RAMACHANDRAN": "NIL"
+	  },
+	  {
+		"AROCKIASAMY": "NIL"
+	  },
+	  {
+		"SHYAMAPADA NANDI": "NIL"
+	  },
+	  {
+		"LAKKOJI SATISH": "NIL"
+	  },
+	  {
+		"SAHELI KARMAKAR": "NIL"
+	  },
+	  {
+		"RAJENDRA KUMAR K": "NIL"
+	  },
+	  {
+		"GANESAN": "NIL"
+	  },
+	  {
+		"SUBHAYAN DEY": "NIL"
+	  },
+	  {
+		"SUJOY SARKAR": "NIL"
+	  }
+	],
+	"Calculus": [
+	  {
+		"PARTHIBAN V": "C1,TC1"
+	  }
+	],
+	"": [
+	  {
+		"PARTHIBAN V": "L43,L44"
+	  },
+	  {
+		"SHRI SARANYAA J": "L55,L56"
+	  },
+	  {
+		"RAJAGURU V": "L49,L50"
+	  },
+	  {
+		"SUSHMI N B": "L37,L38"
+	  },
+	  {
+		"DHANESH R": "L7,L8"
+	  },
+	  {
+		"MARABATHINA MAHEEDHAR": "L19,L20"
+	  },
+	  {
+		"SANKAR P": "L5,L6,L43,L44"
+	  },
+	  {
+		"HEMALATHA K": "L29,L30,L31,L32"
+	  },
+	  {
+		"ELAKIA E": "L29,L30,L31,L32"
+	  },
+	  {
+		"VALARMATHI SUDHAKARSCOPE": "L5,L6,L43,L44"
+	  },
+	  {
+		"JEIPRATHA P N": "L37,L38,L49,L50"
+	  },
+	  {
+		"OMANA J": "L11,L12,L55,L56"
+	  },
+	  {
+		"GAYATHRI R": "L33,L34,L45,L46"
+	  },
+	  {
+		"ARAVINDKUMAR S": "L37,L38,L49,L50"
+	  },
+	  {
+		"K UMA MAHESWARI": "L39,L40,L51,L52"
+	  },
+	  {
+		"SUDHA C": "L11,L12,L55,L56"
+	  },
+	  {
+		"KARTHIKEYAN N": "L1,L2,L15,L16"
+	  },
+	  {
+		"SHREE PRAKASH": "L9,L10,L25,L26"
+	  },
+	  {
+		"ELAKIA E": "L3,L4,L13,L14"
+	  },
+	  {
+		"PRETHIJA G": "L1,L2,L15,L16"
+	  },
+	  {
+		"LINDA JOSEPH": "L9,L10,L25,L26"
+	  },
+	  {
+		"JOHANAN JOYSINGH S": "L35,L36,L59,L60"
+	  },
+	  {
+		"UMA MAHESWARI": "L3,L4,L13,L14"
+	  },
+	  {
+		"REVATHI A R": "L19,L20,L27,L28"
+	  },
+	  {
+		"DEVI K": "L7,L8,L21,L22"
+	  },
+	  {
+		"MARIMUTHU": "L19,L20,L27,L28"
+	  },
+	  {
+		"RADHA R": "L7,L8,L21,L22"
+	  },
+	  {
+		"HEMALATHA K": "L37,L38,L49,L50"
+	  },
+	  {
+		"K UMA MAHESWARI": "L11,L12,L55,L56"
+	  },
+	  {
+		"OMANA J": "L5,L6,L43,L44"
+	  },
+	  {
+		"KARTHIKEYAN N": "L19,L20,L27,L28"
+	  },
+	  {
+		"SHREE PRAKASH": "L41,L42,L47,L48"
+	  },
+	  {
+		"DEVI K": "L1,L2,L15,L16"
+	  },
+	  {
+		"SAMBATH M": "L7,L8,L21,L22"
+	  },
+	  {
+		"MANIKANDAN P": "L37,L38,L49,L50"
+	  },
+	  {
+		"JOHANAN JOYSINGH S": "L7,L8,L21,L22"
+	  },
+	  {
+		"VIVEKANANDAN M": "L39,L40,L51,L52"
+	  },
+	  {
+		"SUDHA C": "L23,L24,L31,L32"
+	  },
+	  {
+		"BENILA S": "L5,L6,L43,L44"
+	  },
+	  {
+		"UMA MAHESWARI": "L19,L20,L27,L28"
+	  },
+	  {
+		"MARIMUTHU": "L1,L2,L15,L16"
+	  },
+	  {
+		"BENILA S": "L9,L10,L25,L26"
+	  },
+	  {
+		"SANTHI V": "L23,L24,L31,L32"
+	  },
+	  {
+		"SANTHI V": "L3,L4,L13,L14"
+	  },
+	  {
+		"PRETHIJA G": "L9,L10,L25,L26"
+	  },
+	  {
+		"VALARMATHI SUDHAKARSCOPE": "L11,L12,L55,L56"
+	  },
+	  {
+		"VALARMATHI K": "L33,L34,L45,L46"
+	  },
+	  {
+		"RADHA R": "L3,L4,L13,L14"
+	  },
+	  {
+		"MANSOOR HUSSAIN D": "L31,L32,L49,L50"
+	  },
+	  {
+		"SIVAKAMI R": "L43,L44,L55,L56"
+	  },
+	  {
+		"TAHIR MUJTABA": "L29,L30,L37,L38"
+	  },
+	  {
+		"SIVARAMAKRISHNAN N SCOPE": "L1,L2,L19,L20"
+	  },
+	  {
+		"SIVAKAMI R": "L13,L14,L25,L26"
+	  },
+	  {
+		"S JAHANGEER SIDIQ": "L7,L8,L21,L22"
+	  },
+	  {
+		"PADMAVATHY T V": "L37,L38"
+	  },
+	  {
+		"SUBITHA D": "L55,L56"
+	  },
+	  {
+		"PADMAVATHY T V": "L7,L8"
+	  },
+	  {
+		"SUBITHA D": "L21,L22"
+	  },
+	  {
+		"NOEL JEYGAR ROBERT V SCOPE": "L13,L14"
+	  },
+	  {
+		"GANALA SANTOSHI": "F1,TF1"
+	  },
+	  {
+		"ANUSHA K": "NIL"
+	  },
+	  {
+		"MANSOOR HUSSAIN D": "L39,L40,L55,L56"
+	  },
+	  {
+		"SIVARAMAKRISHNAN N SCOPE": "L9,L10,L27,L28"
+	  },
+	  {
+		"NATHEZHTHA T": "L31,L32,L37,L38"
+	  },
+	  {
+		"VIVEKANANDAN M": "L11,L12,L43,L44"
+	  },
+	  {
+		"VALARMATHI K": "L5,L6,L9,L10"
+	  },
+	  {
+		"MALATHI G": "D2,TD2"
+	  },
+	  {
+		"PADMAVATHY C": "G1,TG1"
+	  },
+	  {
+		"ANBUMATHI R": "G1,TG1"
+	  },
+	  {
+		"REEVES WESLEY J": "G2,TG2"
+	  },
+	  {
+		"TISHA MERIAM CHERIANVITBS": "C1"
+	  },
+	  {
+		"BALAJI J": "C1"
+	  },
+	  {
+		"BALAJI J": "C2"
+	  },
+	  {
+		"JAYASUDHA M": "L23,L24"
+	  },
+	  {
+		"DINAKARAN M": "E1,TE1"
+	  },
+	  {
+		"PRAKASH B": "D1,TD1"
+	  },
+	  {
+		"PRAKASH B": "L29,L30"
+	  },
+	  {
+		"KISHOR KISAN INGLE": "F1,TF1"
+	  },
+	  {
+		"MAHESWARI N": "L31,L32"
+	  },
+	  {
+		"ABDUL QUADIR MD": "L37,L38"
+	  },
+	  {
+		"RANI S": "L11,L12"
+	  },
+	  {
+		"MANISH KUMAR DWIVEDISELECT": "L29,L30"
+	  },
+	  {
+		"ASHLY MARY TOM": "L31,L32"
+	  },
+	  {
+		"SUBASHINI M": "L55,L56"
+	  },
+	  {
+		"MOHANA PREETHI V": "L7,L8"
+	  },
+	  {
+		"ABHIRAMI AN": "L21,L22"
+	  },
+	  {
+		"ANU SHALINI T": "L25,L26"
+	  },
+	  {
+		"JYOTISMITA MISHRA": "B2,TB2"
+	  },
+	  {
+		"JYOTISMITA MISHRA": "L23,L24"
+	  },
+	  {
+		"NILANJAN TEWARI": "L9,L10"
+	  },
+	  {
+		"RUPA MISHRA": "G2,TG2"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"NOEL JEYGAR ROBERT V SCOPE": "L11,L12"
+	  },
+	  {
+		"MANIMARAN P": "L11,L12"
+	  },
+	  {
+		"PRATHIBA A": "L31,L32"
+	  },
+	  {
+		"PAPANASAM E": "L9,L10"
+	  },
+	  {
+		"SRIDHAR C": "L11,L12"
+	  },
+	  {
+		"RAHUL NARASIMHAN": "C1,TC1"
+	  },
+	  {
+		"RAHUL NARASIMHAN": "C2,TC2"
+	  },
+	  {
+		"JANARDHAN REDDY  K": "L5,L6,L55,L56"
+	  },
+	  {
+		"KRISHANU GANGULY": "L23,L24,L29,L30"
+	  },
+	  {
+		"AYUB AHMED JANVEKARSMEC": "L19,L20,L29,L30"
+	  },
+	  {
+		"NARAYANAN R": "F1,TF1"
+	  },
+	  {
+		"SREEKANTH DONDAPATISMEC": "F1,TF1"
+	  },
+	  {
+		"RAGHUKIRAN NADIMPALLICEAT": "F2,TF2"
+	  },
+	  {
+		"NARAYANAN R": "L31,L32"
+	  },
+	  {
+		"NARAYANAN R": "L37,L38"
+	  },
+	  {
+		"SREEKANTH DONDAPATISMEC": "L43,L44"
+	  },
+	  {
+		"SREEKANTH DONDAPATISMEC": "L49,L50"
+	  },
+	  {
+		"SREEKANTH DONDAPATISMEC": "L3,L4"
+	  },
+	  {
+		"SREEKANTH DONDAPATISMEC": "L9,L10"
+	  },
+	  {
+		"RAGHUKIRAN NADIMPALLICEAT": "L15,L16"
+	  },
+	  {
+		"RAGHUKIRAN NADIMPALLICEAT": "L21,L22"
+	  },
+	  {
+		"GIRIDHARAN A": "C1,TC1"
+	  },
+	  {
+		"MANOJ KUMAR R": "C1,TC1"
+	  },
+	  {
+		"BHUPESH SINGH KATIYARSMEC": "C2,TC2"
+	  },
+	  {
+		"RADHA": "C1,TC1"
+	  },
+	  {
+		"GIRIDHARAN A": "L43,L44"
+	  },
+	  {
+		"GIRIDHARAN A": "L55,L56"
+	  },
+	  {
+		"MANOJ KUMAR R": "L23,L24"
+	  },
+	  {
+		"MANOJ KUMAR R": "L37,L38"
+	  },
+	  {
+		"BHUPESH SINGH KATIYARSMEC": "L3,L4"
+	  },
+	  {
+		"BHUPESH SINGH KATIYARSMEC": "L7,L8"
+	  },
+	  {
+		"RADHA": "L29,L30"
+	  },
+	  {
+		"TAPAN KUMAR MAHANTASMEC": "A1,TA1"
+	  },
+	  {
+		"BHASKARA RAO": "A1,TA1"
+	  },
+	  {
+		"DAVIDSON JEBASEELAN SMEC": "A2,TA2"
+	  },
+	  {
+		"BHASKARA RAO": "A2,TA2"
+	  },
+	  {
+		"TAPAN KUMAR MAHANTASMEC": "L37,L38"
+	  },
+	  {
+		"BHASKARA RAO": "L37,L38"
+	  },
+	  {
+		"DAVIDSON JEBASEELAN SMEC": "L9,L10"
+	  },
+	  {
+		"BHASKARA RAO": "L9,L10"
+	  },
+	  {
+		"ELANGO M": "L31,L32"
+	  },
+	  {
+		"ELANGO M": "L37,L38"
+	  },
+	  {
+		"N.GOBINATH": "L43,L44"
+	  },
+	  {
+		"N.GOBINATH": "L49,L50"
+	  },
+	  {
+		"BALAJI B": "L3,L4"
+	  },
+	  {
+		"BALAJI B": "L7,L8"
+	  },
+	  {
+		"SHENBAGA VELU P": "L51,L52"
+	  },
+	  {
+		"SHENBAGA VELU P": "L55,L56"
+	  },
+	  {
+		"MRUTYUNJAY PANIGRAHISMEC": "D1,TD1"
+	  },
+	  {
+		"MRUTYUNJAY PANIGRAHISMEC": "L51,L52"
+	  },
+	  {
+		"MRUTYUNJAY PANIGRAHISMEC": "L11,L12"
+	  },
+	  {
+		"KARUNAMURTHY K": "L49,L50"
+	  },
+	  {
+		"KARUNAMURTHY K": "L55,L56"
+	  },
+	  {
+		"PRITAM DAS": "L23,L24"
+	  },
+	  {
+		"PRITAM DAS": "L29,L30"
+	  },
+	  {
+		"HARISH R": "L13,L14"
+	  },
+	  {
+		"HARISH R": "L3,L4"
+	  },
+	  {
+		"SAURABH YADAV": "L21,L22"
+	  },
+	  {
+		"SAURABH YADAV": "L7,L8"
+	  },
+	  {
+		"JOSEPH DANIEL": "D2,TD2"
+	  },
+	  {
+		"SENTHIL KUMAR M": "F1,TF1"
+	  },
+	  {
+		"SENTHIL KUMAR M": "F2,TF2"
+	  },
+	  {
+		"AYUB AHMED JANVEKARSMEC": "L31,L32"
+	  },
+	  {
+		"AYUB AHMED JANVEKARSMEC": "L37,L38"
+	  },
+	  {
+		"SENTHIL KUMAR M": "L43,L44"
+	  },
+	  {
+		"SENTHIL KUMAR M": "L49,L50"
+	  },
+	  {
+		"SENTHIL KUMAR M": "L3,L4"
+	  },
+	  {
+		"SENTHIL KUMAR M": "L9,L10"
+	  },
+	  {
+		"PRABHAKAR KUSHWAHASMEC": "L31,L32"
+	  },
+	  {
+		"PRABHAKAR KUSHWAHASMEC": "L43,L44"
+	  },
+	  {
+		"SUGUMARAN": "L3,L4"
+	  },
+	  {
+		"SUGUMARAN": "L7,L8"
+	  },
+	  {
+		"VIGNESWARAN T": "G2"
+	  },
+	  {
+		"VIGNESWARAN T": "G1"
+	  },
+	  {
+		"SAKTHIVEL G": "L23,L24"
+	  },
+	  {
+		"SAKTHIVEL G": "L33,L34"
+	  },
+	  {
+		"ELANGO M": "L11,L12"
+	  },
+	  {
+		"ELANGO M": "L13,L14"
+	  },
+	  {
+		"ABHISHEK": "L45,L46"
+	  },
+	  {
+		"ABHISHEK": "L5,L6"
+	  },
+	  {
+		"AROCKIA SELVAKUMAR SMEC": "L29,L30"
+	  },
+	  {
+		"AROCKIA SELVAKUMAR SMEC": "L15,L16"
+	  },
+	  {
+		"JAFFERSON J M": "E1,TE1"
+	  },
+	  {
+		"SARAVANAKUMAR D": "C1,TC1"
+	  },
+	  {
+		"KRISHNA PRAKASH YADAVSMEC": "C2,TC2"
+	  },
+	  {
+		"BHUPESH SINGH KATIYARSMEC": "A1"
+	  },
+	  {
+		"GAJANAND GUPTA": "A2"
+	  },
+	  {
+		"ABHISHEK": "E2,TE2"
+	  },
+	  {
+		"KRISHNA PRAKASH YADAVSMEC": "G1"
+	  },
+	  {
+		"KRISHNA PRAKASH YADAVSMEC": "L29,L30"
+	  },
+	  {
+		"KRISHNA PRAKASH YADAVSMEC": "L57,L58"
+	  },
+	  {
+		"VINAYAGAMURTHY G": "F2,TF2"
+	  },
+	  {
+		"LAKSHMI PATHI JAKKAMPUTI": "G2,TG2"
+	  },
+	  {
+		"SIVAKUMAR R": "B2,TB2"
+	  },
+	  {
+		"SIVAKUMAR R": "L9,L10"
+	  },
+	  {
+		"MOHAN R": "D2,TD2"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"DR.PADMANABHAN R": "C2,TC2"
+	  },
+	  {
+		"PRABHAKAR KUSHWAHASMEC": "G2,TG2"
+	  },
+	  {
+		"JEGADEESHWARAN R": "C2"
+	  },
+	  {
+		"JEGADEESHWARAN R": "L27,L28"
+	  },
+	  {
+		"MOGANA PRIYA C": "F2,TF2"
+	  },
+	  {
+		"G MURALIMOHAN": "D2,TD2"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"PREETHA R": "NIL"
+	  },
+	  {
+		"DAISY GOHAIN": "NIL"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "NIL"
+	  },
+	  {
+		"HASEENA NAJI": "NIL"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "NIL"
+	  },
+	  {
+		"SAMIK MALLA": "NIL"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "NIL"
+	  },
+	  {
+		"DIVYA": "NIL"
+	  },
+	  {
+		"VINEETH": "NIL"
+	  },
+	  {
+		"CHITHRA G K": "NIL"
+	  },
+	  {
+		"DEVI MEENAKSHI": "NIL"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "NIL"
+	  },
+	  {
+		"MANALI KARMAKAR": "NIL"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "NIL"
+	  },
+	  {
+		"TIWARI MAHALAXMI SHIVSHANKAR": "F1,TF1"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "E2,TE2"
+	  },
+	  {
+		"SWATI": "G1,TG1"
+	  },
+	  {
+		"BINU SAHAYAM D": "A1,TA1"
+	  },
+	  {
+		"ROOPESH O B": "E1,TE1"
+	  },
+	  {
+		"BINU SAHAYAM D": "B1,TB1"
+	  },
+	  {
+		"BINU SAHAYAM D": "E2,TE2"
+	  },
+	  {
+		"SABESAN S": "F1"
+	  },
+	  {
+		"SABESAN S": "L11,L12"
+	  },
+	  {
+		"SUBASREE V": "B2"
+	  },
+	  {
+		"SUBASREE V": "L23,L24"
+	  },
+	  {
+		"SHEETAL NARAYAN MUSALE": "C1"
+	  },
+	  {
+		"SHEETAL NARAYAN MUSALE": "L29,L30"
+	  },
+	  {
+		"ROOPESH O B": "A1,TA1"
+	  },
+	  {
+		"TIWARI MAHALAXMI SHIVSHANKAR": "A2,TA2"
+	  },
+	  {
+		"JUSTIN JOSEPH": "G1,TG1"
+	  },
+	  {
+		"ROOPESH O B": "F1,TF1"
+	  },
+	  {
+		"VIJAYABANU U": "E1"
+	  },
+	  {
+		"VIJAYABANU U": "L23,L24"
+	  },
+	  {
+		"SATHIS KUMAR G": "B1,TB1,TBB1"
+	  },
+	  {
+		"JAYARAJ R": "G1,S15,TG1"
+	  },
+	  {
+		"MUTHUNAGAI": "D1,TD1,TDD1"
+	  },
+	  {
+		"VITBS FACULTY2": "G1,TG1"
+	  },
+	  {
+		"SHALINA SUSAN MATHEWSSL": "C1,TC1"
+	  },
+	  {
+		"ARUNA R": "B2,TB2"
+	  },
+	  {
+		"RAJA RAJESWARI G": "D1,TD1"
+	  },
+	  {
+		"PARAMASIVAM R": "C2,TC2"
+	  },
+	  {
+		"JUSTIN JOSEPH": "E1,TE1"
+	  },
+	  {
+		"ARUN KUMAR G": "D2,TD2"
+	  },
+	  {
+		"SHALINA SUSAN MATHEWSSL": "C2,TC2"
+	  },
+	  {
+		"PARAMASIVAM R": "G1,TG1"
+	  },
+	  {
+		"RAJA RAJESWARI G": "D2,TD2"
+	  },
+	  {
+		"VITBS FACULTY3": "G1,TG1"
+	  },
+	  {
+		"MARIA EVELYN JUCUNDA MVITBS": "F2,TF2"
+	  },
+	  {
+		"RAVICHANDRAN K K": "G2,TG2"
+	  },
+	  {
+		"MANU JOSE": "A1,TA1"
+	  },
+	  {
+		"VITBS FACULTY2": "B1,TB1"
+	  },
+	  {
+		"VITBS FACULTY2": "B2,TB2"
+	  },
+	  {
+		"PRAVEEN KAKADA": "B1,TB1"
+	  },
+	  {
+		"REKHAPRIYADHARSHINI AVITBS": "D2,TD2"
+	  },
+	  {
+		"PRAVEEN KAKADA": "C1,TC1"
+	  },
+	  {
+		"ARSHIYA FATHIMA M S": "F1,TF1"
+	  },
+	  {
+		"SUDHEER MUHAMMED K MVITBS": "B2,TB2"
+	  },
+	  {
+		"VITBS FACULTY1": "E2,TE2"
+	  },
+	  {
+		"MEENAKSHI": "B1,TB1"
+	  },
+	  {
+		"CHITRA DEVI N": "D1,TD1,TDD1"
+	  },
+	  {
+		"SATHIS KUMAR G": "A1,TA1,TAA1"
+	  },
+	  {
+		"PRAVEEN KAKADA": "F1,S15,TF1"
+	  },
+	  {
+		"CHITRA DEVI N": "A1,TA1,TAA1"
+	  },
+	  {
+		"CHITRA DEVI N": "G1,S15,TG1"
+	  },
+	  {
+		"ALLI P": "D1,TD1,TDD1"
+	  },
+	  {
+		"SUMATHI G N": "I1,R4,U3"
+	  },
+	  {
+		"STEPHAN THANGAIAH": "I3,M1,N2"
+	  },
+	  {
+		"CMD VIJESH GARG VSM VITBS": "I4,I5,M2"
+	  },
+	  {
+		"STEPHAN THANGAIAH": "I2,N1,U4"
+	  },
+	  {
+		"SHARMILA M S": "F,TF"
+	  },
+	  {
+		"AMBIKA R NAIR": "F,TF"
+	  },
+	  {
+		"DULUNG SENGUPTA": "F,TF"
+	  },
+	  {
+		"SWARLATA PANDEY": "F,TF"
+	  },
+	  {
+		"SHARMILA M S": "L47,L53"
+	  },
+	  {
+		"AMBIKA R NAIR": "L47,L53"
+	  },
+	  {
+		"DULUNG SENGUPTA": "L47,L53"
+	  },
+	  {
+		"SWARLATA PANDEY": "L47,L53"
+	  },
+	  {
+		"LALITH KUMAR J": "F,TF,TFF"
+	  },
+	  {
+		"SAIJI J S": "F,TF,TFF"
+	  },
+	  {
+		"NIKHIL G": "F,TF,TFF"
+	  },
+	  {
+		"ESAKKI AMMAL K": "F,TF,TFF"
+	  },
+	  {
+		"ARUNA R": "F,TF,TFF"
+	  },
+	  {
+		"PARAMASIVAM R": "F,TF,TFF"
+	  },
+	  {
+		"SHALINA SUSAN MATHEWSSL": "B,TB,TBB"
+	  },
+	  {
+		"ARUNA R": "B,TB,TBB"
+	  },
+	  {
+		"RAJA RAJESWARI G": "B,TB,TBB"
+	  },
+	  {
+		"SWARLATA PANDEY": "B,TB,TBB"
+	  },
+	  {
+		"NAVYA BENNY": "C,TC,TCC"
+	  }
+	],
+	"Differential Equations and Transforms": [
+	  {
+		"SETHUKUMARASAMY": "C1,TC1,TCC1"
+	  },
+	  {
+		"MANIMARAN J": "C1,TC1,TCC1"
+	  },
+	  {
+		"MOHANA N": "C1,TC1,TCC1"
+	  },
+	  {
+		"SAGITHYA": "C1,TC1,TCC1"
+	  },
+	  {
+		"PRABHAKAR V": "C1,TC1,TCC1"
+	  },
+	  {
+		"SOMNATH BERA": "C1,TC1,TCC1"
+	  },
+	  {
+		"DURGA": "C1,TC1,TCC1"
+	  },
+	  {
+		"KALYAN": "C1,TC1,TCC1"
+	  },
+	  {
+		"KRISHNA KUMAR": "C1,TC1,TCC1"
+	  },
+	  {
+		"SANDIP": "C1,TC1,TCC1"
+	  },
+	  {
+		"SANKARSAN TARAI": "C1,TC1,TCC1"
+	  },
+	  {
+		"SUDIP DEBNATH": "C1,TC1,TCC1"
+	  },
+	  {
+		"SOWNDARRAJAN P T": "C1,TC1,TCC1"
+	  },
+	  {
+		"THARASI DILLESWAR": "C1,TC1,TCC1"
+	  },
+	  {
+		"ASHISH KUMAR": "C1,TC1,TCC1"
+	  },
+	  {
+		"REVATHI G K": "C1,TC1,TCC1"
+	  },
+	  {
+		"SANDIP DALUI": "C1,TC1,TCC1"
+	  },
+	  {
+		"SETHUKUMARASAMY": "C2,TC2,TCC2"
+	  },
+	  {
+		"MANIMARAN J": "C2,TC2,TCC2"
+	  },
+	  {
+		"MOHANA N": "C2,TC2,TCC2"
+	  },
+	  {
+		"SAGITHYA": "C2,TC2,TCC2"
+	  },
+	  {
+		"PRABHAKAR V": "C2,TC2,TCC2"
+	  },
+	  {
+		"NATHIYA N": "C2,TC2,TCC2"
+	  },
+	  {
+		"SOMNATH BERA": "C2,TC2,TCC2"
+	  },
+	  {
+		"DURGA": "C2,TC2,TCC2"
+	  },
+	  {
+		"KALYAN": "C2,TC2,TCC2"
+	  },
+	  {
+		"ANKIT KUMAR": "C2,TC2,TCC2"
+	  },
+	  {
+		"SANDIP": "C2,TC2,TCC2"
+	  },
+	  {
+		"SANKARSAN TARAI": "C2,TC2,TCC2"
+	  },
+	  {
+		"SUDIP DEBNATH": "C2,TC2,TCC2"
+	  },
+	  {
+		"SOWNDARRAJAN P T": "C2,TC2,TCC2"
+	  },
+	  {
+		"THARASI DILLESWAR": "C2,TC2,TCC2"
+	  },
+	  {
+		"ASHISH KUMAR": "C2,TC2,TCC2"
+	  },
+	  {
+		"SRUTHA KEERTHI B": "A1,TA1,TAA1"
+	  },
+	  {
+		"BALAMURUGAN B J": "A1,TA1,TAA1"
+	  },
+	  {
+		"VIDHYA V": "A1,TA1,TAA1"
+	  },
+	  {
+		"DHIVYA P": "A1,TA1,TAA1"
+	  },
+	  {
+		"OM NAMHA SHIVAY": "A1,TA1,TAA1"
+	  },
+	  {
+		"SURATH": "A1,TA1,TAA1"
+	  },
+	  {
+		"MINI GHOSH": "A1,TA1,TAA1"
+	  },
+	  {
+		"PANKAJ SHUKLA": "A2,TA2,TAA2"
+	  },
+	  {
+		"BALAMURUGAN B J": "A2,TA2,TAA2"
+	  },
+	  {
+		"VIDHYA V": "A2,TA2,TAA2"
+	  },
+	  {
+		"DHIVYA P": "A2,TA2,TAA2"
+	  },
+	  {
+		"OM NAMHA SHIVAY": "A2,TA2,TAA2"
+	  },
+	  {
+		"SURATH": "A2,TA2,TAA2"
+	  },
+	  {
+		"SAURABH CHANDRA MAURY": "A2,TA2,TAA2"
+	  },
+	  {
+		"KRISHNA KUMAR": "D1,TD1,TDD1"
+	  },
+	  {
+		"REVATHI G K": "D1,TD1,TDD1"
+	  },
+	  {
+		"N RAMESH BABU": "D1,TD1,TDD1"
+	  },
+	  {
+		"SOUMENDU ROY": "D1,TD1,TDD1"
+	  },
+	  {
+		"PADMAJA N": "D1,TD1,TDD1"
+	  },
+	  {
+		"PULAK KONAR": "D1,TD1,TDD1"
+	  },
+	  {
+		"RAJIVGANTHI": "D1,TD1,TDD1"
+	  },
+	  {
+		"ABHISHEK KUMAR SINGHSAS": "D1,TD1,TDD1"
+	  },
+	  {
+		"DHIVYA M": "D1,TD1,TDD1"
+	  },
+	  {
+		"BERIN GREENI A": "D1,TD1,TDD1"
+	  },
+	  {
+		"POULOMI DE": "D1,TD1,TDD1"
+	  },
+	  {
+		"SANDIP DALUI": "D2,TD2,TDD2"
+	  },
+	  {
+		"AVINASH KUMAR MITTALCADS": "D2,TD2,TDD2"
+	  },
+	  {
+		"N RAMESH BABU": "D2,TD2,TDD2"
+	  },
+	  {
+		"SOUMENDU ROY": "D2,TD2,TDD2"
+	  },
+	  {
+		"PROSENJIT": "D2,TD2,TDD2"
+	  },
+	  {
+		"PULAK KONAR": "D2,TD2,TDD2"
+	  },
+	  {
+		"ANKIT KUMAR": "D2,TD2,TDD2"
+	  },
+	  {
+		"ABHISHEK KUMAR SINGHSAS": "D2,TD2,TDD2"
+	  },
+	  {
+		"SAURABH CHANDRA MAURY": "D2,TD2,TDD2"
+	  },
+	  {
+		"BERIN GREENI A": "D2,TD2,TDD2"
+	  },
+	  {
+		"MOHIT KUMAR": "D2,TD2,TDD2"
+	  },
+	  {
+		"MOHIT KUMAR": "D1,TD1,TDD1"
+	  },
+	  {
+		"AVINASH KUMAR MITTALCADS": "D1,TD1,TDD1"
+	  },
+	  {
+		"POULOMI DE": "D2,TD2,TDD2"
+	  }
 	],
 	"Complex Variables and Linear Algebra": [
-		{
-			"SOUMENDU ROY": "A1,TA1,TAA1",
-		},
-		{
-			"SOWNDARRAJAN P T": "A1,TA1,TAA1",
-		},
-		{
-			"MANIVANNAN A": "A1,TA1,TAA1",
-		},
-		{
-			"KRITI ARYA": "A1,TA1,TAA1",
-		},
-		{
-			"DHIVYA M": "A1,TA1,TAA1",
-		},
-		{
-			"JAGANATHAN B": "A2,TA2,TAA2",
-		},
-		{
-			"PARTHIBAN V": "A2,TA2,TAA2",
-		},
-		{
-			"KRITI ARYA": "A2,TA2,TAA2",
-		},
-		{
-			"MANIVANNAN A": "A2,TA2,TAA2",
-		},
-		{
-			"DHIVYA M": "A2,TA2,TAA2",
-		},
-		{
-			KALYAN: "A2,TA2,TAA2",
-		},
-		{
-			KAMALESH: "A2,TA2,TAA2",
-		},
-		{
-			SAGITHYA: "A2,TA2,TAA2",
-		},
-		{
-			"SANDIP KUMAR DAS": "C1,TC1,TCC1",
-		},
-		{
-			"SETHUKUMARASA MY": "C1,TC1,TCC1",
-		},
-		{
-			"JAYAGOPAL R": "C1,TC1,TCC1",
-		},
-		{
-			"MANIMARAN J": "C1,TC1,TCC1",
-		},
-		{
-			"ASHIS BERA": "C1,TC1,TCC1",
-		},
-		{
-			"SETHUKUMARASA MY": "C2,TC2,TCC2",
-		},
-		{
-			"MANIMARAN J": "C2,TC2,TCC2",
-		},
-		{
-			BALAJI: "C1,TC1,TCC1",
-		},
-		{
-			BALAJI: "C2,TC2,TCC2",
-		},
-		{
-			"JAYAGOPAL R": "C2,TC2,TCC2",
-		},
+	  {
+		"JAYAGOPAL R": "A1,TA1,TAA1"
+	  },
+	  {
+		"BALAJI": "A1,TA1,TAA1"
+	  },
+	  {
+		"MANIVANNAN A": "A1,TA1,TAA1"
+	  },
+	  {
+		"AMIT KUMAR RAHUL": "A1,TA1,TAA1"
+	  },
+	  {
+		"DURGAPRASAD P": "A1,TA1,TAA1"
+	  },
+	  {
+		"PAVITHRA R": "A1,TA1,TAA1"
+	  },
+	  {
+		"PULAK KONAR": "A1,TA1,TAA1"
+	  },
+	  {
+		"SOUMENDU ROY": "A1,TA1,TAA1"
+	  },
+	  {
+		"PROSENJIT": "A1,TA1,TAA1"
+	  },
+	  {
+		"JAYAGOPAL R": "A2,TA2,TAA2"
+	  },
+	  {
+		"BALAJI": "A2,TA2,TAA2"
+	  },
+	  {
+		"MANIVANNAN A": "A2,TA2,TAA2"
+	  },
+	  {
+		"AMIT KUMAR RAHUL": "A2,TA2,TAA2"
+	  },
+	  {
+		"VIJAY KUMAR P": "A2,TA2,TAA2"
+	  },
+	  {
+		"DURGAPRASAD P": "A2,TA2,TAA2"
+	  },
+	  {
+		"PAVITHRA R": "A2,TA2,TAA2"
+	  },
+	  {
+		"RAJIVGANTHI": "A2,TA2,TAA2"
+	  },
+	  {
+		"PROSENJIT": "A2,TA2,TAA2"
+	  },
+	  {
+		"ASHIS BERA": "C1,TC1,TCC1"
+	  },
+	  {
+		"KRITI ARYA": "C1,TC1,TCC1"
+	  },
+	  {
+		"JAGANATHAN B": "C1,TC1,TCC1"
+	  },
+	  {
+		"SANDIP KUMAR DAS": "C1,TC1,TCC1"
+	  },
+	  {
+		"RAJESH KUMAR MOHAPATRA": "C1,TC1,TCC1"
+	  },
+	  {
+		"DAVID RAJ": "C1,TC1,TCC1"
+	  },
+	  {
+		"RADHA S": "C1,TC1,TCC1"
+	  },
+	  {
+		"DEVI YAMINI S": "C1,TC1,TCC1"
+	  },
+	  {
+		"ASHIS BERA": "C2,TC2,TCC2"
+	  },
+	  {
+		"KRITI ARYA": "C2,TC2,TCC2"
+	  },
+	  {
+		"JAGANATHAN B": "C2,TC2,TCC2"
+	  },
+	  {
+		"SANDIP KUMAR DAS": "C2,TC2,TCC2"
+	  },
+	  {
+		"RAJESH KUMAR MOHAPATRA": "C2,TC2,TCC2"
+	  }
 	],
 	"Probability and Statistics": [
-		{
-			"MANIMARAN J": "L45,L46",
-		},
-		{
-			"DHIVYA M": "L29,L30",
-		},
-		{
-			"JAGANATHAN B": "E1,L13,L14,TE1",
-		},
-		{
-			"DEVI YAMINI S": "E1,L3,L4,TE1",
-		},
-		{
-			"ASHISH KUMAR": "L7,L8",
-		},
-		{
-			"DURGAPRASAD P": "L19,L20",
-		},
-		{
-			"REVATHI G K": "L43,L44",
-		},
-		{
-			"HANNAH GRACE G": "L11,L12",
-		},
-		{
-			"ASHISH KUMAR": "L25,L26",
-		},
-		{
-			"DAVID MAXIM GURURAJ A": "L7,L8",
-		},
-		{
-			"KRISHNA KUMAR": "L23,L24",
-		},
-		{
-			"DURGAPRASAD P": "L9,L10",
-		},
-		{
-			"AMIT KUMAR RAHUL": "L3,L4",
-		},
-		{
-			"MYTHILI G Y": "L25,L26",
-		},
-		{
-			"KRISHNA KUMAR": "L43,L44",
-		},
-		{
-			"AMIT KUMAR RAHUL": "L37,L38",
-		},
-		{
-			"JAGANATHAN B": "L49,L50",
-		},
-		{
-			"DEVI YAMINI S": "L11,L12",
-		},
-		{
-			"SETHUKUMARASA MY": "L31,L32",
-		},
-		{
-			"PAVITHRA R": "L15,L16",
-		},
-		{
-			"BERIN GREENI A": "L27,L28",
-		},
-		{
-			"LAKSHMANAN S": "L1,L2",
-		},
-		{
-			"MYTHILI G Y": "L55,L56",
-		},
-		{
-			BALAJI: "L37,L38",
-		},
-		{
-			"HANNAH GRACE G": "L13,L14",
-		},
-		{
-			"UMA MAHESWARI S": "L21,L22",
-		},
-		{
-			"UMA MAHESWARI S": "F1,L11,L12,TF1",
-		},
-	],
-	"Solid Geometry and Linear Transformations": [
-		{
-			"DHIVYA P": "C1,TC1,TCC1",
-		},
-	],
-	"Discrete Mathematics and Graph Theory": [
-		{
-			"GNANAPRASANN A K": "C1,TC1,TCC1",
-		},
-		{
-			"AARTHY B": "C1,TC1,TCC1",
-		},
-		{
-			"SUMATHI S": "C1,TC1,TCC1",
-		},
-		{
-			"AARTHY B": "C2,TC2,TCC2",
-		},
-		{
-			"POULOMI DE": "C2,TC2,TCC2",
-		},
-		{
-			"ANKIT KUMAR": "C2,TC2,TCC2",
-		},
-		{
-			KALYAN: "D1,TD1,TDD1",
-		},
-		{
-			"NATHIYA N": "D1,TD1,TDD1",
-		},
-		{
-			"JAYAGOPAL R": "D1,TD1,TDD1",
-		},
-		{
-			"PULAK KONAR": "D1,TD1,TDD1",
-		},
-		{
-			"SAURABH CHANDRA MAURY": "D1,TD1,TDD1",
-		},
-		{
-			"PADMAJA N": "D1,TD1,TDD1",
-		},
-		{
-			"DHIVYA P": "D1,TD1,TDD1",
-		},
-		{
-			"BERIN GREENI A": "D1,TD1,TDD1",
-		},
-		{
-			"POULOMI DE": "D1,TD1,TDD1",
-		},
-		{
-			"GNANAPRASANN A K": "D1,TD1,TDD1",
-		},
-		{
-			KALYAN: "D2,TD2,TDD2",
-		},
-		{
-			"NATHIYA N": "D2,TD2,TDD2",
-		},
-		{
-			"VIDHYA V": "D2,TD2,TDD2",
-		},
-		{
-			"N RAMESH BABU": "D2,TD2,TDD2",
-		},
-		{
-			"SUMATHI S": "D2,TD2,TDD2",
-		},
-		{
-			"OM NAMHA SHIVAY": "D2,TD2,TDD2",
-		},
-		{
-			"PAVITHRA R": "D2,TD2,TDD2",
-		},
-		{
-			"SAKTHIDEVI K": "D2,TD2,TDD2",
-		},
-		{
-			"ASHISH KUMAR": "D2,TD2,TDD2",
-		},
-		{
-			"DHIVYA P": "D2,TD2,TDD2",
-		},
-		{
-			"BERIN GREENI A": "D2,TD2,TDD2",
-		},
-		{
-			"RADHA S": "D2,TD2,TDD2",
-		},
-		{
-			SANDIP: "D2,TD2,TDD2",
-		},
-		{
-			"SAKTHIDEVI K": "C1,TC1,TCC1",
-		},
-		{
-			"PAVITHRA R": "C1,TC1,TCC1",
-		},
-		{
-			"ANITHA G": "C1,TC1,TCC1",
-		},
-		{
-			"AMIT KUMAR RAHUL": "C2,TC2,TCC2",
-		},
-		{
-			"PADMAJA N": "C2,TC2,TCC2",
-		},
-		{
-			"ANITHA G": "C2,TC2,TCC2",
-		},
-		{
-			SURATH: "C2,TC2,TCC2",
-		},
-		{
-			SURATH: "C1,TC1,TCC1",
-		},
-		{
-			"RADHA S": "C1,TC1,TCC1",
-		},
-		{
-			"UMA MAHESWARI S": "C1,TC1,TCC1",
-		},
-	],
-	"Statistical Applications": [
-		{
-			"MYTHILI G Y": "G1",
-		},
-		{
-			"MYTHILI G Y": "L23,L24",
-		},
-	],
-	"Linear Algebra and Transform Techniques": [
-		{
-			"VIJAY KUMAR P": "B1,TB1",
-		},
-		{
-			"ABHISHEK KUMAR SINGH": "B1,TB1",
-		},
-		{
-			"SANKARSAN TARAI": "B2,TB2",
-		},
-	],
-	"Advanced Mathematical Methods": [
-		{
-			"SUDIP DEBNATH": "F2,TF2",
-		},
-	],
-	"Environmental Studies": [
-		{
-			"BALAMURALI M M": "C1,TC1",
-		},
-	],
-	"Ethics and Values": [
-		{
-			"ALAMELU C": "NIL",
-		},
-		{
-			"PREETHA R": "NIL",
-		},
-		{
-			"DAISY GOHAIN": "NIL",
-		},
-		{
-			"SUBBU LAKSHMI M": "NIL",
-		},
-		{
-			"ANUJA RAJ": "NIL",
-		},
-		{
-			"HASEENA NAJI": "NIL",
-		},
-		{
-			"JAISHREE KARTHIGA R K": "NIL",
-		},
-		{
-			"SAMIK MALLA": "NIL",
-		},
-		{
-			"GANESH NAGARAO CHILKE": "NIL",
-		},
-		{
-			"S VIJAYALAKSHMI": "NIL",
-		},
-		{
-			DIVYA: "NIL",
-		},
-		{
-			VINEETH: "NIL",
-		},
-		{
-			"CHITHRA G K": "NIL",
-		},
-		{
-			"DEVI MEENAKSHI": "NIL",
-		},
-		{
-			"AKAITAB MUKHERJEE": "NIL",
-		},
-		{
-			"MANALI KARMAKAR": "NIL",
-		},
-		{
-			"RASHMI REKHA BORAH": "NIL",
-		},
-		{
-			"SIVAKAMI B": "NIL",
-		},
-		{
-			"VIJAYALAKSHMI V": "NIL",
-		},
-		{
-			"AJITH I": "NIL",
-		},
-		{
-			"ALAN G": "NIL",
-		},
-		{
-			"RAJITHA K": "NIL",
-		},
-	],
-	"Fluid Mechanics": [
-		{
-			"SARAVANAN K": "G1,L49,L50,TG1",
-		},
-	],
-	"Mechanics of Solids": [
-		{
-			"YAMINI SREEVALLI I": "C1,L5,L6,TC1",
-		},
-		{
-			"CHRISTO MICHAEL T": "F1,L43,L44,TF1",
-		},
-		{
-			"CHRISTO MICHAEL T": "L49,L50",
-		},
-		{
-			"TAPAN KUMAR MAHANTA": "L55,L56",
-		},
-		{
-			"TAPAN KUMAR MAHANTA": "L39,L40",
-		},
-		{
-			"CHRISTO MICHAEL T": "L13,L14",
-		},
-		{
-			"CHRISTO MICHAEL T": "L19,L20",
-		},
-		{
-			"AWANI BHUSHAN": "L31,L32",
-		},
-		{
-			"AWANI BHUSHAN": "L57,L58",
-		},
-	],
-	Surveying: [
-		{
-			"MOHAN K": "E1,L29,L30,TE1",
-		},
-	],
-	"Environmental Engineering": [
-		{
-			"ANJALI GOPAKUMAR": "B1,L11,L12,TB1",
-		},
-		{
-			SSS: "B1,L11,L12,TB1",
-		},
-	],
-	"Engineering Geology": [
-		{
-			"MOHAN K": "B1",
-		},
-	],
-	"AI in Civil Engineering": [
-		{
-			"KARTHIYAINI S": "G1,TG1",
-		},
-	],
-	"Global Warming": [
-		{
-			"ANJALI GOPAKUMAR": "A1,TA1",
-		},
-		{
-			"HELEN SANTHI M": "B1,TB1",
-		},
-		{
-			"ARUN KUMAR A": "F2,TF2",
-		},
-	],
-	"Waste Management": [
-		{
-			"SABUMON P C": "C1,TC1",
-		},
-		{
-			"VASUGI V": "E1,TE1",
-		},
-		{
-			"ANJALI GOPAKUMAR": "D1,TD1",
-		},
-	],
-	"Water Resource Management": [
-		{
-			"YAMINI SREEVALLI I": "G2,TG2",
-		},
-		{
-			"SENTHILPANDIAN M": "E2,TE2",
-		},
-		{
-			"SHANMUGA SUNDARAM": "B2,TB2",
-		},
-	],
-	"Concrete Technology": [
-		{
-			"SHANMUGA SUNDARAM": "D1,L31,L32,TD1",
-		},
-	],
-	"Hydraulics and Hydraulic Machines": [
-		{
-			"SARAVANAN K": "C1,L29,L30,TC1",
-		},
-		{
-			SSS: "C1,L29,L30,TC1",
-		},
-	],
-	"Foundation Engineering": [
-		{
-			"KARTHIYAINI S": "F1,TF1",
-		},
-		{
-			SSS: "F1,TF1",
-		},
-	],
-	"Design of Reinforced Concrete Structures": [
-		{
-			"KARTHIKEYAN K": "A1,TA1",
-		},
-		{
-			SSS: "A1,TA1",
-		},
-	],
-	"Reinforced Concrete Structures Lab": [
-		{
-			"KARTHIKEYAN K": "L5,L6",
-		},
-		{
-			SSS: "L5,L6",
-		},
-	],
-	"Transportation Engineering": [
-		{
-			"MOHAN K": "D2,TD2",
-		},
-		{
-			SSS: "D2,TD2",
-		},
-	],
-	"Design of Steel Structures": [
-		{
-			"SENTHILPANDIAN M": "G1,TG1",
-		},
-		{
-			"CLAUDIA JEYA PUSHPA D": "G1,TG1",
-		},
-	],
-	"Steel Structures Lab": [
-		{
-			"SENTHILPANDIAN M": "L11,L12",
-		},
-		{
-			"CLAUDIA JEYA PUSHPA D": "L11,L12",
-		},
-	],
-	"Estimating and Costing": [
-		{
-			"VASUGI V": "B1",
-		},
-		{
-			"CLAUDIA JEYA PUSHPA D": "B1",
-		},
-	],
-	"Building Information Modeling": [
-		{
-			"SENTHILPANDIAN M": "D1",
-		},
-	],
-	"Project-I": [
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			PAT: "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			PAT: "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-	],
-	"Construction and Contract Management": [
-		{
-			"ARUN KUMAR A": "F1,TF1",
-		},
-	],
-	"Construction Planning and Scheduling": [
-		{
-			"KARTHIYAINI S": "C1,TC1,TCC1",
-		},
-	],
-	"Construction Project Management": [
-		{
-			"VASUGI V": "D1,TD1",
-		},
-	],
-	"Computer Programming: Java": [
-		{
-			"SRINIVASA PERUMAL R": "TB1",
-		},
-		{
-			"SRINIVASA PERUMAL R": "L11,L12,L23,L24",
-		},
-		{
-			"SRINIVASA PERUMAL R": "TB2",
-		},
-		{
-			"SRINIVASA PERUMAL R": "L7,L8,L25,L26",
-		},
-		{
-			"BENILA S": "TB2",
-		},
-		{
-			"BENILA S": "L15,L16,L27,L28",
-		},
-		{
-			"PRADEEP K V": "TB1",
-		},
-		{
-			"NACHIYAPPAN S": "TB2",
-		},
-		{
-			"PRADEEP K V": "L31,L32,L49,L50",
-		},
-		{
-			"NACHIYAPPAN S": "L9,L10,L21,L22",
-		},
-		{
-			"PARKAVI K": "TB1",
-		},
-		{
-			"PARKAVI K": "TB2",
-		},
-		{
-			"RAJKUMAR S": "TG1",
-		},
-		{
-			"RAJIV VINCENT": "TG1",
-		},
-		{
-			"SANTHI V": "TG1",
-		},
-		{
-			MADHESWARI: "TB1",
-		},
-		{
-			"DINAKARAN M": "TG1",
-		},
-		{
-			"ANUSOOYA G": "TG1",
-		},
-		{
-			"RAJKUMAR S": "TG2",
-		},
-		{
-			"RAJIV VINCENT": "TG2",
-		},
-		{
-			"PARKAVI K": "L1,L2,L19,L20",
-		},
-		{
-			"SANTHI V": "TG2",
-		},
-		{
-			MADHESWARI: "L37,L38,L55,L56",
-		},
-		{
-			"DINAKARAN M": "TG2",
-		},
-		{
-			"BALAJI V": "TG2",
-		},
-		{
-			"PRADEEP K V": "TB2",
-		},
-		{
-			"CHRISTOPHER COLUMBUS C": "TG2",
-		},
-		{
-			"VIVEKANANDAN M": "TG2",
-		},
-		{
-			"S JAHANGEER SIDIQ": "TG2",
-		},
-		{
-			KAVITHA: "TB1",
-		},
-		{
-			KAVITHA: "L11,L12,L23,L24",
-		},
-		{
-			"RAJKUMAR S": "L33,L34,L43,L44",
-		},
-		{
-			"RAJKUMAR S": "L15,L16,L27,L28",
-		},
-		{
-			MARIMUTHU: "TB2",
-		},
-		{
-			"RAJIV VINCENT": "L33,L34,L43,L44",
-		},
-		{
-			"SHERLY A": "TB2",
-		},
-		{
-			"SHERLY A": "L3,L4,L13,L14",
-		},
-		{
-			SCOPE1: "TB2",
-		},
-		{
-			SCOPE1: "L5,L6,L23,L24",
-		},
-		{
-			"SANTHI V": "L9,L10,L21,L22",
-		},
-		{
-			"DINAKARAN M": "L3,L4,L13,L14",
-		},
-		{
-			"BALAJI V": "L7,L8,L25,L26",
-		},
-		{
-			"CHRISTOPHER COLUMBUS C": "L3,L4,L13,L14",
-		},
-		{
-			"VIVEKANANDAN M": "L1,L2,L19,L20",
-		},
-		{
-			"DINAKARAN M": "L33,L34,L43,L44",
-		},
-		{
-			"SANTHI V": "L39,L40,L51,L52",
-		},
-		{
-			"ANUSOOYA G": "L37,L38,L55,L56",
-		},
-		{
-			"RAJIV VINCENT": "L47,L48,L53,L54",
-		},
-		{
-			"S JAHANGEER SIDIQ": "L47,L48,L53,L54",
-		},
-		{
-			"JENILA LIVINGSTON L M": "TB1",
-		},
-		{
-			MARIMUTHU: "TB1",
-		},
-		{
-			"JANANI T": "TB1",
-		},
-		{
-			"JENILA LIVINGSTON L M": "TB2",
-		},
-		{
-			"DEVI K": "TB2",
-		},
-		{
-			"JANANI T": "TB2",
-		},
-		{
-			"JENILA LIVINGSTON L M": "L11,L12,L23,L24",
-		},
-		{
-			MARIMUTHU: "L37,L38,L55,L56",
-		},
-		{
-			SCOPE13: "TG1",
-		},
-		{
-			"JANANI T": "L31,L32,L49,L50",
-		},
-		{
-			"S JAHANGEER SIDIQ": "TG1",
-		},
-		{
-			SCOPE13: "TG2",
-		},
-		{
-			"JENILA LIVINGSTON L M": "L7,L8,L25,L26",
-		},
-		{
-			MADHESWARI: "TG2",
-		},
-		{
-			SCOPE13: "L23,L24,L43,L44",
-		},
-		{
-			SCOPE13: "L13,L14,L25,L26",
-		},
-		{
-			"DEVI K": "L1,L2,L19,L20",
-		},
-		{
-			"JANANI T": "L9,L10,L21,L22",
-		},
-		{
-			"S JAHANGEER SIDIQ": "L11,L12,L49,L50",
-		},
-		{
-			MADHESWARI: "L1,L2,L19,L20",
-		},
-		{
-			MARIMUTHU: "L47,L48,L53,L54",
-		},
-		{
-			"PRADEEP K V": "L15,L16,L27,L28",
-		},
-	],
-	"Data Structures and Algorithms": [
-		{
-			KALAIPRIYAN: "E1,L37,L38,TE1",
-		},
-		{
-			"JAYASUDHA M": "E2,L29,L30,TE2",
-		},
-		{
-			RAJAKUMAR: "E2,L1,L2,TE2",
-		},
-		{
-			"UMA MAHESWARI": "A1,L37,L38,TA1",
-		},
-		{
-			"UMA MAHESWARI": "A2,L7,L8,TA2",
-		},
-		{
-			"DOMINIC SAVIO M": "E1,L45,L46,TE1",
-		},
-		{
-			"DOMINIC SAVIO M": "E2,L1,L2,TE2",
-		},
-		{
-			"SENDHIL R": "E1,L33,L34,TE1",
-		},
-		{
-			"SENDHIL R": "E2,L3,L4,TE2",
-		},
-		{
-			"ILAVENDHAN A": "E1,L43,L44,TE1",
-		},
-		{
-			"VIJAYALAKSHMI A": "E1,L31,L32,TE1",
-		},
-		{
-			"VIJAYALAKSHMI A": "L1,L2",
-		},
-		{
-			"ILAVENDHAN A": "L13,L14",
-		},
-		{
-			"VINOTHINI A": "E2,L25,L26,TE2",
-		},
-		{
-			"HELEN VIJITHA P": "E2,L5,L6,TE2",
-		},
-		{
-			"AMRIT PAL": "E1,L33,L34,TE1",
-		},
-		{
-			"AMRIT PAL": "E2,L3,L4,TE2",
-		},
-		{
-			"ABISHI CHOWDHURY": "E1,L43,L44,TE1",
-		},
-		{
-			"ABISHI CHOWDHURY": "E2,L13,L14,TE2",
-		},
-		{
-			"MANIKANDAN P": "E1,L45,L46,TE1",
-		},
-		{
-			"MANIKANDAN P": "E2,L15,L16,TE2",
-		},
-		{
-			"VALARMATHI SUDHAKAR": "E1,L49,L50,TE1",
-		},
-		{
-			"VALARMATHI SUDHAKAR": "E2,L27,L28,TE2",
-		},
-		{
-			"BALRAJ E": "E2,L21,L22,TE2",
-		},
-		{
-			"RISHIKESHAN C A": "E2,L10,L9,TE2",
-		},
-		{
-			"RISHIKESHAN C A": "L25,L26",
-		},
-		{
-			"ARAVINDKUMAR S": "L31,L32",
-		},
-		{
-			"ANUBHA PEARLINE S": "L37,L38",
-		},
-		{
-			"ARAVINDKUMAR S": "L7,L8",
-		},
-		{
-			"ANUBHA PEARLINE S": "L3,L4",
-		},
-		{
-			"SENTHIL KUMAR A M": "L33,L34",
-		},
-		{
-			BALASARASWATHI: "L43,L44",
-		},
-		{
-			"SUDHEER KUMAR E": "L45,L46",
-		},
-		{
-			"SENTHIL KUMAR A M": "L3,L4",
-		},
-		{
-			BALASARASWATHI: "L11,L12",
-		},
-		{
-			"SUDHEER KUMAR E": "L15,L16",
-		},
-		{
-			"NILANJAN TEWARI": "L31,L32",
-		},
-		{
-			"SAMBATH M": "L11,L12",
-		},
-		{
-			"ELAKIA E": "L37,L38",
-		},
-		{
-			"HELEN VIJITHA P": "L43,L44",
-		},
-		{
-			"ELAKIA E": "L7,L8",
-		},
-	],
-	"Design and Analysis of Algorithms": [
-		{
-			"SIVARAMAKRISHN AN N": "A1,L51,L52,TA1",
-		},
-		{
-			"JEIPRATHA P N": "A1,L37,L38,TA1",
-		},
-		{
-			"KAVIYA ELAKKIYA M": "A2,L15,L16,TA2",
-		},
-		{
-			"SIVAKAMI R": "A1,L29,L30,TA1",
-		},
-		{
-			"SIVAKAMI R": "A2,L7,L8,TA2",
-		},
-		{
-			"LEKSHMI K": "A1,L23,L24,TA1",
-		},
-		{
-			"LEKSHMI K": "A2,L10,L9,TA2",
-		},
-		{
-			"KAVIPRIYA G": "A1,L39,L40,TA1",
-		},
-		{
-			"KAVIPRIYA G": "A2,L3,L4,TA2",
-		},
-		{
-			"JAYARAM B": "D1,L39,L40,TD1",
-		},
-		{
-			"JAYARAM B": "D2,L10,L9,TD2",
-		},
-		{
-			"INDIRA B": "D1,L57,L58,TD1",
-		},
-		{
-			"INDIRA B": "D2,L27,L28,TD2",
-		},
-		{
-			SCOPE1: "D1,L49,L50,TD1",
-		},
-		{
-			"SIVA PRIYA M S": "D2,L15,L16,TD2",
-		},
-		{
-			"VIVEKANANDAN M": "D2,L5,L6,TD2",
-		},
-		{
-			"JEGANNATHAN L": "A1,L31,L32,TA1",
-		},
-		{
-			"JANAKI MEENA M": "A1,L45,L46,TA1",
-		},
-		{
-			"SIVARAMAKRISHN AN N": "A2,L21,L22,TA2",
-		},
-		{
-			"SELVAM D": "A2,L13,L14,TA2",
-		},
-		{
-			"OMANA J": "A2,L1,L2,TA2",
-		},
-		{
-			SCOPE13: "D1,L33,L34,TD1",
-		},
-		{
-			"PANDIYARAJU V": "D2,L21,L22,TD2",
-		},
-		{
-			"TAPABRATA ROY": "D2,L25,L26,TD2",
-		},
-		{
-			"RAJA M": "A1,L39,L40,TA1",
-		},
-		{
-			"RAJA M": "A2,L3,L4,TA2",
-		},
-	],
-	"Computer Architecture and Organization": [
-		{
-			"VAIDEHI VIJAYAKUMAR": "A1,TA1",
-		},
-		{
-			"VAIDEHI VIJAYAKUMAR": "A2,TA2",
-		},
-		{
-			"LINDA JOSEPH": "E1,TE1",
-		},
-		{
-			"LINDA JOSEPH": "E2,TE2",
-		},
-		{
-			"KAJA MOHIDEEN A": "A1,TA1",
-		},
-		{
-			"KAJA MOHIDEEN A": "A2,TA2",
-		},
-		{
-			SCOPE16: "A2,TA2",
-		},
-		{
-			"NIVEDITA M": "C1,TC1",
-		},
-		{
-			"NIVEDITA M": "C2,TC2",
-		},
-		{
-			"ANUSHA K": "C1,TC1",
-		},
-		{
-			"PADMA J": "C2,TC2",
-		},
-		{
-			"VIDHYA LAKSHMI M": "C2,TC2",
-		},
-		{
-			"KAVITHA J C": "F1,TF1",
-		},
-		{
-			SCOPE35: "F1,TF1",
-		},
-		{
-			"VIDHYA LAKSHMI M": "F2,TF2",
-		},
-		{
-			SCOPE35: "F2,TF2",
-		},
-		{
-			"ASHA JERLIN M": "A1,TA1",
-		},
-		{
-			"BHAVADHARINI R M": "A2,TA2",
-		},
-		{
-			"KURUSEELAN S": "E1,TE1",
-		},
-		{
-			ASWIGA: "F1,TF1",
-		},
-	],
-	"Machine Learning": [
-		{
-			"SUGANYA G": "F1,L23,L24,TF1",
-		},
-		{
-			"RAJALAKSHMI R": "B1,L43,L44,TB1",
-		},
-		{
-			"S.A.SAJIDHA": "B1,L45,L46,TB1",
-		},
-		{
-			"RENTA CHINTALA BHARGAVI": "B1,L55,L56,TB1",
-		},
-		{
-			"ABDUL QUADIR MD": "B1,L23,L24,TB1",
-		},
-		{
-			"SYED IBRAHIM S P": "B1,L31,L32,TB1",
-		},
-		{
-			"RAJALAKSHMI R": "B2,L13,L14,TB2",
-		},
-		{
-			"S.A.SAJIDHA": "B2,L15,L16,TB2",
-		},
-		{
-			"RENTA CHINTALA BHARGAVI": "B2,L25,L26,TB2",
-		},
-		{
-			"SRIDEVI S": "B2,L10,L9,TB2",
-		},
-	],
-	"Software Engineering": [
-		{
-			"ILAKIYASELVAN N": "G1,L57,L58,TG1",
-		},
-		{
-			SCOPE7: "G1,L49,L50,TG1",
-		},
-		{
-			"ILAKIYASELVAN N": "G2,L27,L28,TG2",
-		},
-		{
-			SUGANESHWARI: "G1,L55,L56,TG1",
-		},
-		{
-			SUGANESHWARI: "G2,L23,L24,TG2",
-		},
-		{
-			"RAMA PRABHA": "G1,L57,L58,TG1",
-		},
-		{
-			"RAMA PRABHA": "G2,L27,L28,TG2",
-		},
-		{
-			BRINDHA: "G1,L45,L46,TG1",
-		},
-		{
-			BRINDHA: "G2,L11,L12,TG2",
-		},
-		{
-			"SATHIS KUMAR B": "G1,L49,L50,TG1",
-		},
-		{
-			KAVITHA: "L13,L14",
-		},
-		{
-			"ALOK CHAUHAN": "L45,L46",
-		},
-		{
-			"ALOK CHAUHAN": "L23,L24",
-		},
-		{
-			SMRITHY: "L11,L12",
-		},
-		{
-			"SOFTYA SEBASTIAN": "G2,L21,L22,TG2",
-		},
-		{
-			"N M ELANGO": "G1,L55,L56,TG1",
-		},
-		{
-			"GANESH N": "G2,L27,L28,TG2",
-		},
-		{
-			"PRAVEEN JOE I R": "G2,L19,L20,TG2",
-		},
-		{
-			"JAYANTHI R": "G1,L45,L46,TG1",
-		},
-		{
-			"JAYANTHI R": "G2,L15,L16,TG2",
-		},
-		{
-			"BERIN SHALU S": "G2,L10,L9,TG2",
-		},
-		{
-			"SUDHARSON S": "G2,L27,L28,TG2",
-		},
-	],
-	"Database Systems": [
-		{
-			"M. PREMALATHA": "D1,L43,L44,TD1",
-		},
-		{
-			"M. PREMALATHA": "D2,L5,L6,TD2",
-		},
-		{
-			"M. BRAVEEN": "D1,L37,L38,TD1",
-		},
-		{
-			"M. BRAVEEN": "D2,L7,L8,TD2",
-		},
-		{
-			"VIJAYAKUMAR K P": "D1,L55,L56,TD1",
-		},
-		{
-			"VIJAYAKUMAR K P": "D2,L25,L26,TD2",
-		},
-		{
-			"MANSOOR HUSSAIN D": "E1,L29,L30,TE1",
-		},
-		{
-			"R JOTHI": "E1,L31,L32,TE1",
-		},
-		{
-			"MANSOOR HUSSAIN D": "E2,L27,L28,TE2",
-		},
-		{
-			REVATHI: "E2,L13,L14,TE2",
-		},
-		{
-			"SELLAM V": "E2,L15,L16,TE2",
-		},
-		{
-			"JANI ANBARASI L": "G1,L43,L44,TG1",
-		},
-		{
-			"JANI ANBARASI L": "G2,L13,L14,TG2",
-		},
-		{
-			SANDHYA: "A1,L31,L32,TA1",
-		},
-		{
-			BHUVANESWARI: "A1,L33,L34,TA1",
-		},
-		{
-			"APPALARAJU MURALIDHAR": "A2,L27,L28,TA2",
-		},
-	],
-	"Operating Systems": [
-		{
-			"ANANDAN P": "F1,L51,L52,TF1",
-		},
-		{
-			"ANANDAN P": "F2,L21,L22,TF2",
-		},
-		{
-			"LEKI CHOM THUNGON": "F1,L55,L56,TF1",
-		},
-		{
-			"LEKI CHOM THUNGON": "F2,L5,L6,TF2",
-		},
-		{
-			SIVAGAMIM: "F1,L37,L38,TF1",
-		},
-		{
-			SIVAGAMIM: "F2,L7,L8,TF2",
-		},
-		{
-			"MANJU G": "F1,L39,L40,TF1",
-		},
-		{
-			"MANJU G": "F2,L10,L9,TF2",
-		},
-		{
-			"VALLIDEVI K": "F1,L49,L50,TF1",
-		},
-		{
-			"VALLIDEVI K": "F2,L19,L20,TF2",
-		},
-		{
-			"RABINDRA KUMAR SINGH": "F2,L15,L16,TF2",
-		},
-		{
-			MANIMEGALAI: "F1,L55,L56,TF1",
-		},
-		{
-			"YOGESH C": "F2,L19,L20,TF2",
-		},
-		{
-			"SOFTYA SEBASTIAN": "F2,L5,L6,TF2",
-		},
-		{
-			MONICA: "F1,L37,L38,TF1",
-		},
-		{
-			"KUMAR R": "F1,L39,L40,TF1",
-		},
-		{
-			MONICA: "F2,L5,L6,TF2",
-		},
-		{
-			"AFRUZA BEGUM": "E1,L45,L46,TE1",
-		},
-		{
-			"S. BHARATHI RAJA": "L11,L12",
-		},
-	],
-	"Theory of Computation": [
-		{
-			SCOPE17: "A2,TA2",
-		},
-		{
-			"TAHIR MUJTABA": "A1,TA1",
-		},
-		{
-			"NATHEZHTHA T": "A2,TA2",
-		},
-		{
-			"NATHEZHTHA T": "A1,TA1",
-		},
-		{
-			"MARIA ANU": "A2,TA2",
-		},
-		{
-			"SATHYARAJASEKA RAN K": "C1,TC1",
-		},
-		{
-			"SATHYARAJASEKA RAN K": "C2,TC2",
-		},
-		{
-			"SUSEELA S": "C1,TC1",
-		},
-		{
-			"SUSEELA S": "C2,TC2",
-		},
-		{
-			"UMMITY SRINIVASA RAO": "C2,TC2",
-		},
-		{
-			KIRUTHIKA: "A1,TA1",
-		},
-		{
-			KIRUTHIKA: "A2,TA2",
-		},
-		{
-			SCOPE12: "A2,TA2",
-		},
-		{
-			"SHIVANI GUPTA": "E1,TE1",
-		},
-	],
-	"Embedded Systems": [
-		{
-			"SRIDHAR C": "A1,TA1",
-		},
-		{
-			"SRITAMA ROY": "C1,TC1",
-		},
-		{
-			"SINDHUJA M": "C1,TC1",
-		},
-		{
-			"DHANUSH R": "C1,TC1",
-		},
-		{
-			"SRIDHAR C": "C1,TC1",
-		},
-		{
-			"MANMOHAN SHARMA": "C1,TC1",
-		},
-		{
-			"KRITHIKA ALIAS ANBU DEVI M": "C1,TC1",
-		},
-		{
-			"SRINIVASAN R": "C1,TC1",
-		},
-		{
-			"SHARON GIFTSY A L": "C1,TC1",
-		},
-		{
-			"SATHEESH KUMAR T": "C1,TC1",
-		},
-		{
-			"VIJAYAKUMAR P": "C1,TC1",
-		},
-		{
-			"SENSENEWFACUL TY1": "C1,TC1",
-		},
-		{
-			"SINDHUJA M": "C2,TC2",
-		},
-		{
-			"DHANUSH R": "C2,TC2",
-		},
-		{
-			"MANMOHAN SHARMA": "C2,TC2",
-		},
-		{
-			"SRIDHAR C": "C2,TC2",
-		},
-		{
-			"SENSENEWFACUL TY1": "C2,TC2",
-		},
-		{
-			"NITISH KATAL": "C2,TC2",
-		},
-		{
-			"KRITHIKA ALIAS ANBU DEVI M": "C2,TC2",
-		},
-		{
-			"SRINIVASAN R": "C2,TC2",
-		},
-		{
-			"SHARON GIFTSY A L": "C2,TC2",
-		},
-		{
-			"SATHEESH KUMAR T": "C2,TC2",
-		},
-	],
-	"Artificial Intelligence": [
-		{
-			"SANKAR P": "C1,TC1",
-		},
-		{
-			"SANKAR P": "C2,TC2",
-		},
-		{
-			"VERGIN RAJA SAROBIN M": "C1,TC1",
-		},
-		{
-			"VERGIN RAJA SAROBIN M": "C2,TC2",
-		},
-		{
-			"ABIRAMI S": "C1,TC1",
-		},
-		{
-			"RADHIKA SELVAMANI": "E1,TE1",
-		},
-		{
-			"RADHIKA SELVAMANI": "E2,TE2",
-		},
-		{
-			"MODIGARI NARENDRA": "E1,TE1",
-		},
-		{
-			"MODIGARI NARENDRA": "E2,TE2",
-		},
-		{
-			"BHAVADHARINI R M": "E1,TE1",
-		},
-		{
-			"BHAVADHARINI R M": "E2,TE2",
-		},
-		{
-			"SHARMILA DEVI S": "E1,TE1",
-		},
-		{
-			"SHARMILA DEVI S": "E2,TE2",
-		},
-		{
-			"HEMALATHA K": "E1,TE1",
-		},
-		{
-			"HEMALATHA K": "E2,TE2",
-		},
-		{
-			"TAHIR MUJTABA": "E1,TE1",
-		},
-		{
-			"TAHIR MUJTABA": "E2,TE2",
-		},
-		{
-			"KRITHIGA R": "E2,TE2",
-		},
-		{
-			"RABINDRA KUMAR SINGH": "C1,TC1",
-		},
-		{
-			"D JEYA MALA": "C2,TC2",
-		},
-		{
-			"VIJAYAPRABAKAR AN K": "C1,TC1",
-		},
-		{
-			"VIJAYAPRABAKAR AN K": "C2,TC2",
-		},
-		{
-			"KAVITHA J C": "C1,TC1",
-		},
-		{
-			"KAVITHA J C": "C2,TC2",
-		},
-		{
-			POONKODI: "C1,TC1",
-		},
-		{
-			"NOEL JEYGAR ROBERT V": "C2,TC2",
-		},
-		{
-			SCOPE14: "C2,TC2",
-		},
-		{
-			"MAHESWARI N": "A1,TA1",
-		},
-		{
-			"MAHESWARI N": "NIL",
-		},
-		{
-			"BALAMURUGAN P": "D2,TD2",
-		},
-		{
-			"MOHAN R": "C1,TC1",
-		},
-		{
-			"DEVAPRAKASAM D": "C1,TC1",
-		},
-		{
-			ABHISHEK: "C1,TC1",
-		},
-		{
-			"MOHAN R": "C2,TC2",
-		},
-		{
-			"DEVAPRAKASAM D": "C2,TC2",
-		},
-		{
-			"RAGHUKIRAN NADIMPALLI": "C2,TC2",
-		},
-	],
-	"Compiler Design": [
-		{
-			"NAGARAJ S V": "G1,L29,L30,TG1",
-		},
-		{
-			"NAGARAJ S V": "L11,L12",
-		},
-		{
-			"SURESHKUMAR WI": "L31,L32",
-		},
-		{
-			"SURESHKUMAR WI": "L15,L16",
-		},
-		{
-			RATHNA: "L51,L52",
-		},
-		{
-			"SELVAM D": "G2,L19,L20,TG2",
-		},
-		{
-			"SUGANYA R": "G2,L23,L24,TG2",
-		},
-		{
-			"MERCY RAJASELVI BEAULAH P": "D1,L37,L38,TD1",
-		},
-		{
-			"MERCY RAJASELVI BEAULAH P": "D2,L10,L9,TD2",
-		},
-		{
-			"LENINISHA SHANMUGAM": "D1,L39,L40,TD1",
-		},
-		{
-			"LENINISHA SHANMUGAM": "D2,L21,L22,TD2",
-		},
-		{
-			"MODIGARI NARENDRA": "D2,L1,L2,TD2",
-		},
-	],
-	"Computer Networks": [
-		{
-			"JAYA VIGNESH T": "A1,L37,L38,TA1",
-		},
-		{
-			"SARANYA NAIR M": "A1,L49,L50,TA1",
-		},
-		{
-			"JAYA VIGNESH T": "A2,L7,L8,TA2",
-		},
-		{
-			"SARANYA NAIR M": "A2,L23,L24,TA2",
-		},
-		{
-			"HEMANTH C": "A2,L1,L2,TA2",
-		},
-		{
-			SUDHA: "F2,L19,L20,TF2",
-		},
-		{
-			"NEELANARAYANA N V": "F1,L37,L38,TF1",
-		},
-		{
-			"NEELANARAYANA N V": "L7,L8",
-		},
-		{
-			"PUNITHA K": "L39,L40",
-		},
-		{
-			"PUNITHA K": "F2,L10,L9,TF2",
-		},
-		{
-			"KARMEL A": "F2,L19,L20,TF2",
-		},
-		{
-			"A SWAMINATHAN": "F2,L15,L16,TF2",
-		},
-		{
-			"SHYAMALA L": "F1,L55,L56,TF1",
-		},
-		{
-			"SHYAMALA L": "F2,L5,L6,TF2",
-		},
-		{
-			"MENAKA PUSHPA A": "F1,L49,L50,TF1",
-		},
-		{
-			"MENAKA PUSHPA A": "F2,L19,L20,TF2",
-		},
-		{
-			"V BRINDHA": "F2,L11,L12,TF2",
-		},
-		{
-			"RADHA R": "F1,L55,L56,TF1",
-		},
-		{
-			"DHANALAKSHMI R": "F2,L27,L28,TF2",
-		},
-		{
-			"RADHA R": "F2,L7,L8,TF2",
-		},
-		{
-			RENJITH: "E2,L3,L4,TE2",
-		},
-		{
-			"RUKMANI P": "F1,L23,L24,TF1",
-		},
-	],
-	"Cryptography and Network Security": [
-		{
-			"VALARMATHI K": "B1,L57,L58,TB1",
-		},
-		{
-			"SARAVANAN P": "B1,L45,L46,TB1",
-		},
-		{
-			"KARTHIKA V": "B1,L31,L32,TB1",
-		},
-		{
-			"RENUKA DEVI S": "B1,L29,L30,TB1",
-		},
-		{
-			"VALARMATHI K": "B2,L27,L28,TB2",
-		},
-		{
-			"SARAVANAN P": "B2,L23,L24,TB2",
-		},
-		{
-			"KARTHIKA V": "B2,L25,L26,TB2",
-		},
-		{
-			"ROLLA SUBRAHMANYAM": "B2,L21,L22,TB2",
-		},
-		{
-			"VATCHALA S": "B1,L43,L44,TB1",
-		},
-		{
-			"VATCHALA S": "B2,L13,L14,TB2",
-		},
-		{
-			"SOBITHA AHILA S": "B1,L31,L32,TB1",
-		},
-		{
-			"SOBITHA AHILA S": "B2,L27,L28,TB2",
-		},
-		{
-			"RAJESH R": "B1,L45,L46,TB1",
-		},
-		{
-			"RAJESH R": "B2,L15,L16,TB2",
-		},
-		{
-			"JANNATH NISHA O S": "B1,L11,L12,TB1",
-		},
-		{
-			"JANNATH NISHA O S": "B2,L25,L26,TB2",
-		},
-		{
-			"RANJITH KUMAR M": "B1,L57,L58,TB1",
-		},
-		{
-			"RANJITH KUMAR M": "B2,L10,L9,TB2",
-		},
-		{
-			"TAPABRATA ROY": "B1,L29,L30,TB1",
-		},
-		{
-			"ANITA X": "B1,L57,L58,TB1",
-		},
-		{
-			"SUBBULAKSHMI P": "B1,L55,L56,TB1",
-		},
-		{
-			"ANITA X": "L11,L12",
-		},
-		{
-			"SUBBULAKSHMI P": "B2,L13,L14,TB2",
-		},
-		{
-			"N G BHUVANESWARI": "L45,L46",
-		},
-		{
-			"N G BHUVANESWARI": "B2,L23,L24,TB2",
-		},
-		{
-			"MARY SHAMALA L": "B1,L31,L32,TB1",
-		},
-		{
-			"MARY SHAMALA L": "B2,L25,L26,TB2",
-		},
-		{
-			"LOGESWARI G": "B2,L21,L22,TB2",
-		},
-		{
-			"NITHYANANDAM P": "B1,L29,L30,TB1",
-		},
-	],
-	"Fundamentals of Fog and Edge Computing": [
-		{
-			"NIVETHITHA V": "B1,TB1",
-		},
-		{
-			"NIVETHITHA V": "B2,TB2",
-		},
-		{
-			"PRAVIN RENOLD A": "B2,TB2",
-		},
-	],
-	"Wearable Computing": [
-		{
-			"ANITA CHRISTALINE J": "B1,TB1",
-		},
-		{
-			"ANITA CHRISTALINE J": "B2,TB2",
-		},
-		{
-			"NOEL JEYGAR ROBERT V": "B1,TB1",
-		},
-		{
-			"NOEL JEYGAR ROBERT V": "B2,TB2",
-		},
-		{
-			SCOPE6: "B2,TB2",
-		},
-	],
-	"Design of Smart Cities": [
-		{
-			"VIGNESH U": "B1,TB1",
-		},
-		{
-			"VIGNESH U": "B2,TB2",
-		},
-		{
-			"KANCHANA DEVI V": "B1,TB1",
-		},
-		{
-			"KABILAN K": "B2,TB2",
-		},
-		{
-			"SUSEELA S": "B1,TB1",
-		},
-	],
-	"Foundations of Blockchain Technology": [
-		{
-			"PRABHAKARAN R": "B1,TB1",
-		},
-		{
-			"SENTHIL PRAKASH P N": "B1,TB1",
-		},
-		{
-			"PRABHAKARAN R": "B2,TB2",
-		},
-		{
-			"SENTHIL PRAKASH P N": "B2,TB2",
-		},
-		{
-			"SRISAKTHI SARAVANAN": "B2,TB2",
-		},
-		{
-			"SRISAKTHI SARAVANAN": "F1,TF1",
-		},
-		{
-			"ARTHI M": "F1,TF1",
-		},
-		{
-			"MALATHI D": "F2,TF2",
-		},
-		{
-			SCOPE10: "F2,TF2",
-		},
-	],
-	"Deep Learning": [
-		{
-			"SUBBULAKSHMI T": "F1,L39,L40,TF1",
-		},
-		{
-			"SUBBULAKSHMI T": "F2,L10,L9,TF2",
-		},
-		{
-			"PANDIYARAJU V": "F1,L55,L56,TF1",
-		},
-		{
-			"THOMAS ABRAHAM J V": "F2,L5,L6,TF2",
-		},
-		{
-			"KHADAR NAWAS K": "F1,L49,L50,TF1",
-		},
-		{
-			"KHADAR NAWAS K": "F2,L19,L20,TF2",
-		},
-		{
-			"SHRIDEVI S": "D2,L19,L20,TD2",
-		},
-	],
-	"AWS Solutions Architect": [
-		{
-			"PRADEEP K": "B1,TB1",
-		},
-		{
-			"PRADEEP K": "B2,TB2",
-		},
-		{
-			"ASHOKA RAJAN R": "B1,TB1",
-		},
-		{
-			"PRAKASH P": "B2,TB2",
-		},
-		{
-			"PRAKASH P": "B1,TB1",
-		},
-		{
-			"RAJESH KUMAR": "B2,TB2",
-		},
-		{
-			"MAHESWARI S": "F1,TF1",
-		},
-		{
-			"MAHESWARI S": "F2,TF2",
-		},
-		{
-			"RAJESH KUMAR": "F2,TF2",
-		},
-		{
-			"TAMILARASI K": "F1,TF1",
-		},
-		{
-			"PRIYAADHARSHINI M": "F1,TF1",
-		},
-		{
-			"PRIYAADHARSHINI M": "F2,TF2",
-		},
-		{
-			"GAYATHRI R": "F2,TF2",
-		},
-		{
-			"GAYATHRI R": "F1,TF1",
-		},
-		{
-			SANDOSH: "F1,TF1",
-		},
-		{
-			"ASHOKA RAJAN R": "F2,TF2",
-		},
-		{
-			"OM KUMAR C U": "B1,TB1",
-		},
-		{
-			"TAMILARASI K": "B2,TB2",
-		},
-		{
-			"OM KUMAR C U": "B2,TB2",
-		},
-	],
-	"Internet of Things": [
-		{
-			"B. NAGAJAYANTHI": "D1,TD1",
-		},
-		{
-			"BERLIN HENCY V": "D1,TD1",
-		},
-		{
-			"PRASANNA BHARATHI": "D1,TD1",
-		},
-		{
-			"B. NAGAJAYANTHI": "D2,TD2",
-		},
-		{
-			"BERLIN HENCY V": "D2,TD2",
-		},
-		{
-			"UPENDER P": "D2,TD2",
-		},
-		{
-			"RAJU PATEL": "D2,TD2",
-		},
-		{
-			"TANMOY MAJUMDER": "D2,TD2",
-		},
-		{
-			"BERLIN HENCY V": "TG1",
-		},
-		{
-			"BERLIN HENCY V": "L11,L12",
-		},
-		{
-			"KABILAN K": "TG1",
-		},
-		{
-			"KABILAN K": "L39,L40",
-		},
-	],
-	"Digital Image Processing": [
-		{
-			"GEETHA S": "D1,TD1",
-		},
-		{
-			"SRIDHAR R": "D1,TD1",
-		},
-		{
-			JOSHAN: "D1,TD1",
-		},
-		{
-			SCOPE23: "D1,TD1",
-		},
-		{
-			"SK AYESHA": "D2,TD2",
-		},
-		{
-			"SRIDHAR R": "D2,TD2",
-		},
-		{
-			JOSHAN: "D2,TD2",
-		},
-		{
-			KIRUTHIKA: "D2,TD2",
-		},
-		{
-			"S SHOBA": "A1,TA1",
-		},
-		{
-			"S SHOBA": "L5,L6",
-		},
-		{
-			"VIJAYARAJAN R": "A1,TA1",
-		},
-		{
-			"VIJAYARAJAN R": "L51,L52",
-		},
-		{
-			"P NIRMALA": "A2,TA2",
-		},
-		{
-			"P NIRMALA": "L15,L16",
-		},
-		{
-			"SASITHRADEVI. A": "A2,TA2",
-		},
-		{
-			"SASITHRADEVI. A": "L21,L22",
-		},
-		{
-			"LEKSHMI K": "G2,TG2",
-		},
-		{
-			"LEKSHMI K": "NIL",
-		},
-		{
-			"MALATHI G": "A1,TA1",
-		},
-		{
-			"MALATHI G": "NIL",
-		},
-	],
-	"Internet and Web Programming": [
-		{
-			ASWIGA: "E1,TE1",
-		},
-		{
-			"VIGNESH U": "E1,TE1",
-		},
-		{
-			"MANJULA V": "E1,TE1",
-		},
-		{
-			ASWIGA: "E2,TE2",
-		},
-		{
-			"SAHAYA BENI PRATHIBA B": "E2,TE2",
-		},
-		{
-			"MANJULA V": "E2,TE2",
-		},
-		{
-			JOSHAN: "E2,TE2",
-		},
-		{
-			SCOPE30: "G1,TG1",
-		},
-		{
-			"CSE FACULTY2": "G2,TG2",
-		},
-		{
-			"CSE FACULTY2": "G1,TG1",
-		},
-		{
-			SCOPE30: "G2,TG2",
-		},
-		{
-			"CSE FACULTY3": "G2,TG2",
-		},
-	],
-	"Computer vision": [
-		{
-			"ANCY MICHEAL A": "D1,TD1",
-		},
-		{
-			SCOPE24: "D1,TD1",
-		},
-		{
-			"ANCY MICHEAL A": "D2,TD2",
-		},
-		{
-			"KAJA MOHIDEEN A": "D2,TD2",
-		},
-	],
-	"Natural Language Processing": [
-		{
-			"KRITHIGA R": "B1,TB1",
-		},
-		{
-			"MANJULA D": "B1,TB1",
-		},
-		{
-			"LAKSHMI HARIKA PALIVELA": "B1,TB1",
-		},
-		{
-			SCOPE3: "B1,TB1",
-		},
-		{
-			"KRITHIGA R": "B2,TB2",
-		},
-		{
-			"MANJULA D": "B2,TB2",
-		},
-		{
-			"LAKSHMI HARIKA PALIVELA": "B2,TB2",
-		},
-		{
-			"SHARMILA DEVI S": "B2,TB2",
-		},
-		{
-			SCOPE3: "B2,TB2",
-		},
-		{
-			"VIJAYAPRABAKAR AN K": "D2",
-		},
-		{
-			"VIJAYAPRABAKAR AN K": "NIL",
-		},
-	],
-	"Cyber Security": [
-		{
-			"MALATHI D": "E1,TE1",
-		},
-		{
-			"SARANYA G": "E1,TE1",
-		},
-		{
-			"PADMANABAN R": "E1,TE1",
-		},
-		{
-			"SRISAKTHI SARAVANAN": "E1,TE1",
-		},
-		{
-			"MALATHI D": "E2,TE2",
-		},
-		{
-			"SARANYA G": "E2,TE2",
-		},
-		{
-			"PADMANABAN R": "E2,TE2",
-		},
-		{
-			SCOPE3: "E2,TE2",
-		},
-	],
-	"High Performance Computing": [
-		{
-			"PADMA J": "D1,TD1",
-		},
-		{
-			"KUMARAN K": "D1,TD1",
-		},
-		{
-			"PREMANAND V": "D1,TD1",
-		},
-		{
-			"SARANYA G": "D1,TD1",
-		},
-		{
-			SCOPE10: "D1,TD1",
-		},
-		{
-			"PADMA J": "D2,TD2",
-		},
-		{
-			"KUMARAN K": "D2,TD2",
-		},
-		{
-			SCOPE10: "D2,TD2",
-		},
-	],
-	"Human Computer Interaction": [
-		{
-			"ARTHI M": "C1,TC1",
-		},
-		{
-			"NIVETHITHA V": "C2,TC2",
-		},
-		{
-			"KANCHANA DEVI V": "E1,TE1",
-		},
-		{
-			POONKODI: "E2,TE2",
-		},
-		{
-			"V BRINDHA": "E1,TE1",
-		},
-		{
-			"DEEPIKA ROSELIND J": "E1,TE1",
-		},
-		{
-			"ANCY MICHEAL A": "E1,TE1",
-		},
-		{
-			"PREMANAND V": "E1,TE1",
-		},
-		{
-			"ARTHI M": "E1,TE1",
-		},
-		{
-			"V BRINDHA": "E2,TE2",
-		},
-		{
-			"DEEPIKA ROSELIND J": "E2,TE2",
-		},
-		{
-			"LAKSHMI HARIKA PALIVELA": "E2,TE2",
-		},
-		{
-			"PREMANAND V": "E2,TE2",
-		},
-	],
-	"Game Programming": [
-		{
-			"GRACELINE JASMINE S": "A1,L51,L52,TA1",
-		},
-		{
-			"GRACELINE JASMINE S": "A2,L21,L22,TA2",
-		},
-		{
-			SCOPE25: "A1,L49,L50,TA1",
-		},
-		{
-			SCOPE25: "A2,L19,L20,TA2",
-		},
-		{
-			SCOPE26: "A1,L37,L38,TA1",
-		},
-		{
-			SCOPE26: "A2,L7,L8,TA2",
-		},
-		{
-			SCOPE27: "A1,L39,L40,TA1",
-		},
-		{
-			SCOPE27: "A2,L10,L9,TA2",
-		},
-		{
-			SCOPE28: "A1,L29,L30,TA1",
-		},
-		{
-			SCOPE28: "A2,L5,L6,TA2",
-		},
-		{
-			SCOPE29: "A1,L31,L32,TA1",
-		},
-	],
-	"Machine vision": [
-		{
-			"AMUTHA S": "E1,TE1",
-		},
-		{
-			"AMUTHA S": "E2,TE2",
-		},
-		{
-			"SARASWATHI D": "E1,TE1",
-		},
-		{
-			"SARASWATHI D": "E2,TE2",
-		},
-		{
-			"NATARAJAN B": "E1,TE1",
-		},
-		{
-			"NATARAJAN B": "E2,TE2",
-		},
-		{
-			"PALANI THANARAJ K": "E1,TE1",
-		},
-		{
-			SCOPE24: "E1,TE1",
-		},
-	],
-	"Machine Vision": [
-		{
-			"ELANGO M": "E1,TE1",
-		},
-		{
-			"ELANGO M": "E2,TE2",
-		},
-	],
-	"Explainable Artificial Intelligence": [
-		{
-			"NAYEEMULLA KHAN": "F1",
-		},
-		{
-			"RADHIKA SELVAMANI": "F2",
-		},
-		{
-			"D JEYA MALA": "F1",
-		},
-		{
-			"D JEYA MALA": "F2",
-		},
-	],
-	"Speech and Language Processing": [
-		{
-			"BHARADWAJA KUMAR": "G1,TG1",
-		},
-		{
-			"BHARADWAJA KUMAR": "G2,TG2",
-		},
-		{
-			"SUJITHRA @ KANMANI R": "G1,TG1",
-		},
-		{
-			"SUJITHRA @ KANMANI R": "G2,TG2",
-		},
-		{
-			"SREEJA P S": "G1,TG1",
-		},
-		{
-			"SREEJA P S": "G2,TG2",
-		},
-		{
-			"JOE DHANITH": "G1,TG1",
-		},
-		{
-			"JOE DHANITH": "G2,TG2",
-		},
-		{
-			"JOHANAN JOYSINGH S": "G1,TG1",
-		},
-		{
-			"JOHANAN JOYSINGH S": "G2,TG2",
-		},
-		{
-			AHADIT: "G1,TG1",
-		},
-	],
-	"Speech and Language Processing lab": [
-		{
-			"BHARADWAJA KUMAR": "L45,L46",
-		},
-		{
-			"BHARADWAJA KUMAR": "L11,L12",
-		},
-		{
-			"SUJITHRA @ KANMANI R": "L55,L56",
-		},
-		{
-			"SUJITHRA @ KANMANI R": "L25,L26",
-		},
-		{
-			"SREEJA P S": "L43,L44",
-		},
-		{
-			"SREEJA P S": "L13,L14",
-		},
-		{
-			"JOE DHANITH": "L57,L58",
-		},
-		{
-			"JOE DHANITH": "L27,L28",
-		},
-		{
-			"JOHANAN JOYSINGH S": "L31,L32",
-		},
-		{
-			"JOHANAN JOYSINGH S": "L13,L14",
-		},
-		{
-			AHADIT: "L23,L24",
-		},
-	],
-	"Sensors, Actuators and Signal Conditioning": [
-		{
-			"RANJEET KUMAR": "F1,L37,L38",
-		},
-		{
-			"RANJEET KUMAR": "F2,L7,L8",
-		},
-		{
-			"ARIVARASI A": "F2,L1,L2",
-		},
-	],
-	"Robotics: Kinematics, Dynamics and Motion Control": [
-		{
-			ARUNKUMAR: "C1,TC1",
-		},
-		{
-			"GANALA SANTOSHI": "C1,TC1",
-		},
-		{
-			ARUNKUMAR: "C2,TC2",
-		},
-		{
-			"GANALA SANTOSHI": "C2,TC2",
-		},
-		{
-			"ANITA CHRISTALINE J": "C2,TC2",
-		},
-	],
-	"Robot Modeling and Simulation": [
-		{
-			"PRASAD M": "A1,L39,L40",
-		},
-		{
-			"PRASAD M": "A2,L3,L4",
-		},
-		{
-			"PRABHA B": "A1,L49,L50",
-		},
-		{
-			"PRABHA B": "A2,L19,L20",
-		},
-	],
-	"Robot Programming": [
-		{
-			"SUVIDHA RUPESH KUMAR": "G1,L31,L32",
-		},
-		{
-			"SUVIDHA RUPESH KUMAR": "G2,L1,L2",
-		},
-	],
-	"Machine Learning for Robotics": [
-		{
-			"RAJARAJESWARI S": "G1,L55,L56",
-		},
-		{
-			"RAJARAJESWARI S": "G2,L25,L26",
-		},
-	],
-	"Robotic Perception": [
-		{
-			"MUTHUKUMARA N K": "A1,L29,L30,TA1",
-		},
-		{
-			"MUTHUKUMARA N K": "A2,L7,L8,TA2",
-		},
-		{
-			"PREM SANKAR": "A1,L51,L52,TA1",
-		},
-		{
-			"PREM SANKAR": "A2,L21,L22,TA2",
-		},
-	],
-	"Robotic Process Automation": [
-		{
-			"NITHYA DARISINI P S": "D1,L5,L6",
-		},
-		{
-			"SHERLY A": "D2,L11,L12",
-		},
-		{
-			"PAVITHRA S": "D1,L43,L44",
-		},
-		{
-			"PAVITHRA S": "D2,L15,L16",
-		},
-		{
-			"KANIMOZHI S": "D1,L10,L9",
-		},
-		{
-			"KANIMOZHI S": "D2,L37,L38",
-		},
-		{
-			"V. SAKTHIVEL": "D1,L57,L58",
-		},
-		{
-			"V. SAKTHIVEL": "D2,L13,L14",
-		},
-	],
-	"Cognitive Robotics": [
-		{
-			"PAVITHRA L K": "D1,L37,L38",
-		},
-		{
-			"PAVITHRA L K": "D2,L7,L8",
-		},
-		{
-			"HARINI S": "E1,L23,L24",
-		},
-		{
-			"SATHIAN D": "E2,L27,L28",
-		},
-	],
-	"Autonomous Drones": [
-		{
-			"VENKATRAMAN S": "G1,L29,L30",
-		},
-		{
-			"VENKATRAMAN S": "L43,L44",
-		},
-		{
-			"V. MUTHUMANIKAN DAN": "L23,L24",
-		},
-		{
-			"V. MUTHUMANIKAN DAN": "G2,L55,L56",
-		},
-		{
-			"VENKATRAMAN S": "L1,L2",
-		},
-		{
-			"VENKATRAMAN S": "L13,L14",
-		},
-		{
-			"V. MUTHUMANIKAN DAN": "L11,L12",
-		},
-		{
-			"V. MUTHUMANIKAN DAN": "L25,L26",
-		},
-		{
-			"SATHIAN D": "L5,L6",
-		},
-		{
-			"SATHIAN D": "L49,L50",
-		},
-		{
-			"MARIA ANU": "L15,L16",
-		},
-		{
-			"MARIA ANU": "L27,L28",
-		},
-	],
-	"Cyber Physical Systems Design": [
-		{
-			"EDWARD JERO": "E1",
-		},
-		{
-			SCOPE22: "E1",
-		},
-		{
-			"EDWARD JERO": "E2",
-		},
-		{
-			SCOPE22: "E2",
-		},
-		{
-			"PARVATHY A K": "C1",
-		},
-		{
-			SCOPE34: "C1",
-		},
-		{
-			"PARVATHY A K": "C2",
-		},
-		{
-			SCOPE34: "C2",
-		},
-	],
-	"Cyber Physical System Design Lab": [
-		{
-			"EDWARD JERO": "L33,L34",
-		},
-		{
-			SCOPE22: "L5,L6",
-		},
-		{
-			"EDWARD JERO": "L21,L22",
-		},
-		{
-			SCOPE22: "L27,L28",
-		},
-		{
-			"PARVATHY A K": "L29,L30",
-		},
-		{
-			SCOPE34: "L33,L34",
-		},
-		{
-			"PARVATHY A K": "L1,L2",
-		},
-		{
-			SCOPE34: "L23,L24",
-		},
-	],
-	"Distributed Real Time Systems": [
-		{
-			SCOPE8: "G1,L33,L34",
-		},
-		{
-			SCOPE9: "G1,L57,L58",
-		},
-		{
-			SCOPE8: "G2,L3,L4",
-		},
-		{
-			SCOPE9: "G2,L11,L12",
-		},
-	],
-	"Network Security and Cryptography Fundamentals": [
-		{
-			"GANESAN R": "F1",
-		},
-		{
-			"GANESAN R": "NIL",
-		},
-		{
-			"ANUSHA K": "F1",
-		},
-		{
-			"ANUSHA K": "NIL",
-		},
-		{
-			"ASHA JERLIN M": "F2",
-		},
-		{
-			"ASHA JERLIN M": "NIL",
-		},
-	],
-	"Theory of Computation and Compiler Design": [
-		{
-			"SHIVANI GUPTA": "F1,TF1",
-		},
-		{
-			"SHIVANI GUPTA": "F2,TF2",
-		},
-		{
-			"SATHYARAJASEKA RAN K": "F1,TF1",
-		},
-	],
-	"Programming for Data Science": [
-		{
-			"R+AL5JE0SH M": "L31,L32,L43,L44,L4",
-		},
-		{
-			"0RAJESH M": "L1,L2,L9,L10,L19,L",
-		},
-		{
-			"PALANI THANARAJ K+L52": "L11,L12,L29,L30,L5",
-		},
-	],
-	"NoSQL Databases": [
-		{
-			BHUVANESWARI: "D1",
-		},
-		{
-			BHUVANESWARI: "L49,L50",
-		},
-		{
-			BHUVANESWARI: "NIL",
-		},
-	],
-	"Artificial Intelligence & Knowledge-Based Systems": [
-		{
-			"NISHAV.M": "A1,TA1",
-		},
-		{
-			"NISHAV.M": "NIL",
-		},
-		{
-			"NISHAV.M": "A2,TA2",
-		},
-		{
-			"NISHAV.M": "NIL",
-		},
-	],
-	"Information Visualization": [
-		{
-			"MALINI DEEPIKA": "G1",
-		},
-		{
-			"MALINI DEEPIKA": "L43,L44",
-		},
-		{
-			"MALINI DEEPIKA": "NIL",
-		},
-		{
-			SHRUTI: "G1",
-		},
-		{
-			SHRUTI: "L49,L50",
-		},
-		{
-			SHRUTI: "NIL",
-		},
-		{
-			"MALINI DEEPIKA": "G2",
-		},
-		{
-			"MALINI DEEPIKA": "L25,L26",
-		},
-		{
-			"MALINI DEEPIKA": "NIL",
-		},
-	],
-	"Foundations of Data Analytics": [
-		{
-			"ASNATH VICTY PHAMILA Y": "G1",
-		},
-		{
-			"ASNATH VICTY PHAMILA Y": "L55,L56",
-		},
-		{
-			"ASNATH VICTY PHAMILA Y": "NIL",
-		},
-		{
-			"ASNATH VICTY PHAMILA Y": "G2",
-		},
-		{
-			"ASNATH VICTY PHAMILA Y": "L27,L28",
-		},
-		{
-			"ASNATH VICTY PHAMILA Y": "NIL",
-		},
-	],
-	"Forensics analytics": [
-		{
-			"LINDA JOSEPH": "F2,TF2",
-		},
-		{
-			"LINDA JOSEPH": "NIL",
-		},
-	],
-	"Image and Video Analytics": [
-		{
-			"SARANYARAJ D": "D2",
-		},
-		{
-			"SARANYARAJ D": "L1,L2",
-		},
-		{
-			"SARANYARAJ D": "NIL",
-		},
-	],
-	"Recommender Systems": [
-		{
-			"PARVATHI R": "F1,TF1",
-		},
-		{
-			"PARVATHI R": "NIL",
-		},
-	],
-	"Computer Programming : Java": [
-		{
-			"INDRA PRIYADHARSHINI": "TE1",
-		},
-		{
-			"INDRA PRIYADHARSHINI": "L29,L30,L43,L44",
-		},
-		{
-			"BENILA S": "TE1",
-		},
-		{
-			"BENILA S": "L5,L6,L45,L46",
-		},
-		{
-			"INDRA PRIYADHARSHINI": "TE2",
-		},
-		{
-			"INDRA PRIYADHARSHINI": "L1,L2,L15,L16",
-		},
-	],
-	"Digital Logic and Microprocessor": [
-		{
-			"PADMAVATHY T V": "D1,TD1",
-		},
-	],
-	"Requirements Engineering and Management": [
-		{
-			"A SHEIK ABDULLAH": "G1,TG1",
-		},
-		{
-			"A SHEIK ABDULLAH": "G2,TG2",
-		},
-		{
-			"PRAKASH B": "G1,TG1",
-		},
-	],
-	"Introduction to Data Science and Business Analytics": [
-		{
-			"PADMAVATHY C": "B1,TB1",
-		},
-		{
-			"ANBUMATHI R": "B1,TB1",
-		},
-		{
-			"THANGARAJA ARUMUGAM": "B2,TB2",
-		},
-	],
-	"Operations research and Management": [
-		{
-			"ASI VASU DEVA REDDY": "E1,TE1",
-		},
-		{
-			"VADIVEL S M": "E1,TE1",
-		},
-		{
-			"BALAJI J": "E2,TE2",
-		},
-	],
-	"Big data computing for Business Analytics": [
-		{
-			"SUDARSANAM S K": "C1",
-		},
-		{
-			"V RACHEL EVELYN": "C2",
-		},
-		{
-			"SUDARSANAM S K": "L43,L44",
-		},
-		{
-			"V RACHEL EVELYN": "L15,L16",
-		},
-	],
-	"Accounting Analytics": [
-		{
-			"SHAIK SALEEM": "E1,TE1",
-		},
-		{
-			"SHAIK SALEEM": "L31,L32",
-		},
-	],
-	Econometrics: [
-		{
-			"CHITRA DEVI N": "E2,TE2",
-		},
-		{
-			"CHITRA DEVI N": "L7,L8",
-		},
-	],
-	"Risk and Fraud Analytics": [
-		{
-			"MANU JOSE": "A2,TA2",
-		},
-		{
-			"MANU JOSE": "NIL",
-		},
-	],
-	"Supply Chain Analytics": [
-		{
-			"VADIVEL S M": "A1,TA1",
-		},
-		{
-			"VADIVEL S M": "NIL",
-		},
+	  {
+		"KIRUTHIKA R": "F1,L45,L46,TF1"
+	  },
+	  {
+		"AARTHY B": "F1,L33,L34,TF1"
+	  },
+	  {
+		"ANITHA G": "F1,L37,L38,TF1"
+	  },
+	  {
+		"SAKTHIDEVI K": "L49,L50"
+	  },
+	  {
+		"YUVARANI C": "L55,L56"
+	  },
+	  {
+		"HARSHAVARTHINI": "L31,L32"
+	  },
+	  {
+		"UMA MAHESWARI S": "L15,L16"
+	  },
+	  {
+		"AARTHY B": "F2,L3,L4,TF2"
+	  },
+	  {
+		"ANITHA G": "F2,L7,L8,TF2"
+	  },
+	  {
+		"SUMATHI S": "F2,L19,L20,TF2"
+	  },
+	  {
+		"YUVARANI C": "L25,L26"
+	  },
+	  {
+		"VAISHNAVI S": "L1,L2"
+	  },
+	  {
+		"LAKSHMANAN S": "L11,L12"
+	  },
+	  {
+		"SRILEKHA R": "L39,L40"
+	  },
+	  {
+		"VAISHNAVI S": "L29,L30"
+	  },
+	  {
+		"MYTHILI G Y": "L9,L10"
+	  },
+	  {
+		"SRILEKHA R": "L21,L22"
+	  },
+	  {
+		"SUMATHI S": "L43,L44"
+	  },
+	  {
+		"NIVEDHA D": "L31,L32"
+	  },
+	  {
+		"MYTHILI G Y": "D2,L43,L44,TD2"
+	  },
+	  {
+		"NIVEDHA D": "D2,L13,L14,TD2"
+	  },
+	  {
+		"SAKTHIDEVI K": "L13,L14"
+	  },
+	  {
+		"RADHA S": "L43,L44"
+	  },
+	  {
+		"CHITHRAPONNU R": "L13,L14"
+	  },
+	  {
+		"PADMAJA N": "F2,L13,L14,TF2"
+	  },
+	  {
+		"KIRUTHIKA R": "L11,L12"
+	  },
+	  {
+		"SAROJ KUMAR DASH": "L55,L56"
+	  }
+	],
+	"Engineering Physics": [
+	  {
+		"G VINITHA": "F1,L11,L12,TF1"
+	  },
+	  {
+		"SWAATHI P": "F2,L7,L8,TF2"
+	  },
+	  {
+		"MANIKANDAN N": "F1,L5,L6,TF1"
+	  },
+	  {
+		"MANIKANDAN N": "F2,L21,L22,TF2"
+	  },
+	  {
+		"R. D. EITHIRAJ": "F1,L37,L38,TF1"
+	  },
+	  {
+		"R. D. EITHIRAJ": "F2,L10,L9,TF2"
+	  },
+	  {
+		"PUNITHAVELAN N": "F1,L23,L24,TF1"
+	  },
+	  {
+		"PUNITHAVELAN N": "F2,L47,L48,TF2"
+	  },
+	  {
+		"CAROLINE PONRAJ": "F1,L49,L50,TF1"
+	  },
+	  {
+		"CAROLINE PONRAJ": "F2,L19,L20,TF2"
+	  },
+	  {
+		"KARTHIKEYAN S": "F1,L55,L56,TF1"
+	  },
+	  {
+		"KARTHIKEYAN S": "F2,L41,L42,TF2"
+	  },
+	  {
+		"RAMKUMAR": "F1,L53,L54,TF1"
+	  },
+	  {
+		"RAMKUMAR": "F2,L3,L4,TF2"
+	  },
+	  {
+		"PARASURAMAN E": "F2,L27,L28,TF2"
+	  },
+	  {
+		"AJITHA B": "F1,L45,L46,TF1"
+	  },
+	  {
+		"KORLEPARA DIVYA BHARATHI": "F2,L15,L16,TF2"
+	  },
+	  {
+		"SHALINI M G": "F1,L33,L34,TF1"
+	  },
+	  {
+		"A KALAI PRIYA": "F1,L35,L36,TF1"
+	  },
+	  {
+		"PHYSICS1": "F2,L13,L14,TF2"
+	  },
+	  {
+		"RISHAB ANTOSH B": "F1,L31,L32,TF1"
+	  },
+	  {
+		"JITENDRA NARAYAN DASHSAS": "F2,L59,L60,TF2"
+	  },
+	  {
+		"PHYSICS1": "B1,L5,L6,TB1"
+	  },
+	  {
+		"NAVAMATHAVAN R": "B2,L27,L28,TB2"
+	  },
+	  {
+		"JUSTIN RAJ": "B1,L29,L30,TB1"
+	  },
+	  {
+		"JUSTIN RAJ": "B2,L10,L9,TB2"
+	  },
+	  {
+		"GOPINATH MUDHANA": "B1,L43,L44,TB1"
+	  },
+	  {
+		"GOPINATH MUDHANA": "B2,L1,L2,TB2"
+	  },
+	  {
+		"SANJIT DAS": "B1,L31,L32,TB1"
+	  },
+	  {
+		"SANJIT DAS": "B2,L25,L26,TB2"
+	  },
+	  {
+		"RAJASEKARAKUMAR V": "B1,L11,L12,TB1"
+	  },
+	  {
+		"AJITHA B": "B1,L37,L38,TB1"
+	  },
+	  {
+		"SHALINI M G": "B1,L49,L50,TB1"
+	  },
+	  {
+		"A KALAI PRIYA": "B1,L55,L56,TB1"
+	  }
 	],
 	"Optimization Techniques": [
-		{
-			"UMMITY SRINIVASA RAO": "C1,TC1,TCC1",
-		},
-	],
-	"Web Technologies": [
-		{
-			"RAMA PARVATHY L": "B2,TB2",
-		},
-		{
-			"RAMA PARVATHY L": "L27,L28",
-		},
-	],
-	"Soft Computing": [
-		{
-			"B V A N S S PRABHAKAR RAO": "A1,TA1",
-		},
-		{
-			"B V A N S S PRABHAKAR RAO": "NIL",
-		},
-	],
-	"E-Governance": [
-		{
-			"PADMANABAN R": "A1",
-		},
-		{
-			"PADMANABAN R": "NIL",
-		},
-	],
-	"Technical Answers for Real World Problems (TARP)": [
-		{
-			"SUGANYA G": "TDD1",
-		},
-		{
-			"SUGANYA G": "NIL",
-		},
-	],
-	"Android Programming": [
-		{
-			ARUNKUMAR: "G1,TG1",
-		},
-		{
-			ARUNKUMAR: "NIL",
-		},
-	],
-	"Big Data Analytics": [
-		{
-			"PATTABIRAMAN V": "G1,TG1",
-		},
-		{
-			"PATTABIRAMAN V": "NIL",
-		},
-	],
-	"Parallel Programming": [
-		{
-			"CHRISTOPHER COLUMBUS C": "E2,TE2",
-		},
-		{
-			"CHRISTOPHER COLUMBUS C": "L7,L8",
-		},
-	],
-	"Object Oriented Analysis and Design": [
-		{
-			"LOGESWARI G": "A2,TA2",
-		},
-		{
-			"LOGESWARI G": "L1,L2",
-		},
-	],
-	"Design Patterns": [
-		{
-			"NAJUMUDHEEN E S F": "D1",
-		},
-		{
-			"NAJUMUDHEEN E S F": "NIL",
-		},
-	],
-	"Software Metrics": [
-		{
-			"NAJUMUDHEEN E S F": "A2",
-		},
-		{
-			"NAJUMUDHEEN E S F": "NIL",
-		},
-	],
-	"Software Configuration Management": [
-		{
-			SCOPE30: "A2,TA2",
-		},
-	],
-	"Knowledge Management System": [
-		{
-			SCOPE5: "D2",
-		},
-		{
-			SCOPE5: "NIL",
-		},
-	],
-	"Ruby Programming": [
-		{
-			"YOGESH C": "F1,TF1",
-		},
-		{
-			"YOGESH C": "L5,L6",
-		},
-		{
-			SCOPE4: "B1,TB1",
-		},
-		{
-			SCOPE4: "L49,L50",
-		},
-	],
-	"Big Data Technologies": [
-		{
-			"SIVA PRIYA M S": "C2,TC2",
-		},
-		{
-			"SIVA PRIYA M S": "L19,L20",
-		},
-		{
-			"SUGANYA R": "B1,TB1",
-		},
-		{
-			"SUGANYA R": "L55,L56",
-		},
-	],
-	"Advanced Software Testing": [
-		{
-			"UMAMAHESWARI E": "E2,TE2",
-		},
-		{
-			"UMAMAHESWARI E": "L21,L22",
-		},
-	],
-	"System Programming": [
-		{
-			"RAMA PARVATHY L": "F2,TF2",
-		},
-		{
-			"RAMA PARVATHY L": "L11,L12",
-		},
-	],
-	"Programming in Java": [
-		{
-			"SANDHYA P": "B1,L37,L38,TB1",
-		},
-	],
-	nan: [
-		{
-			"VERGIN RAJA SAROBIN M": "D1,TD1,TDD1",
-		},
-		{
-			"5R8AJESH KUMAR K": "L3,L4,L19,L20,L57,",
-		},
-	],
-	"Accounting for Engineers": [
-		{
-			BUVANESH: "C1,TC1",
-		},
-		{
-			BUVANESH: "NIL",
-		},
-		{
-			BUVANESH: "C2,TC2",
-		},
-		{
-			BUVANESH: "NIL",
-		},
-		{
-			"NAIK SANKALP PURUSHOTTAM": "C1,TC1",
-		},
-		{
-			"NAIK SANKALP PURUSHOTTAM": "NIL",
-		},
-	],
-	"Semiconductor Devices and Circuits": [
-		{
-			"ARAVIND C K": "B1,L29,L30,TB1",
-		},
-	],
-	"Electrical Machines": [
-		{
-			"ANANTHA KRISHNAN V": "F1,TF1",
-		},
-	],
-	"Electronic Materials": [
-		{
-			"SRI REVATHI B": "D1,TD1",
-		},
-		{
-			"SRI REVATHI B": "D2,TD2",
-		},
-		{
-			PRITAM: "D2,TD2",
-		},
-		{
-			"CHANDRASEKARA N N": "B1,TB1",
-		},
-	],
-	"Electromagnetic Theory": [
-		{
-			"SENTHIL KUMAR R": "E1,TE1",
-		},
-		{
-			"MITHU SARKAR": "E2,TE2",
-		},
-		{
-			"KRISHNA KUMBA": "E2,TE2",
-		},
-	],
-	"Signals and Systems": [
-		{
-			"ANIK GOSWAMI": "G1,TG1",
-		},
-		{
-			"ANIK GOSWAMI": "G2,TG2",
-		},
-		{
-			"ANAND KUMAR": "G2,TG2",
-		},
-		{
-			"USHA RANI S": "G1,TG1",
-		},
-		{
-			"S SIVAKUMAR": "G1,TG1",
-		},
-		{
-			"SANKAR GANESH": "G2,TG2",
-		},
-		{
-			"S SIVAKUMAR": "G2,TG2",
-		},
-		{
-			"SRIVATSAN K": "G2,TG2",
-		},
-		{
-			SUKRITI: "G2,TG2",
-		},
-		{
-			"USHA RANI S": "D1,TD1",
-		},
-		{
-			SUKRITI: "D2,TD2",
-		},
-		{
-			"SRIVATSAN K": "D2,TD2",
-		},
-		{
-			"DHEEREN KU MAHAPATRA": "D1,TD1",
-		},
-		{
-			"DHEEREN KU MAHAPATRA": "D2,TD2",
-		},
-	],
-	"Electronic Devices and Circuits": [
-		{
-			"SRI RAMALAKSHMI P": "B1,L43,L44",
-		},
-		{
-			"SRI RAMALAKSHMI P": "B2,L27,L28",
-		},
-		{
-			"ARAVIND C K": "B2,L13,L14",
-		},
-	],
-	"Electrical Machine Design": [
-		{
-			"LAVANYA V": "B1,TB1",
-		},
-	],
-	"Engineering Optimization": [
-		{
-			"ARUL R": "D2,TD2",
-		},
-		{
-			"DHANASEKAR S": "A1,TA1,TAA1",
-		},
-		{
-			"AVINASH KUMAR MITTAL": "A1,TA1,TAA1",
-		},
-		{
-			"PARTHIBAN V": "A1,TA1,TAA1",
-		},
-		{
-			"SANDIP DALUI": "A1,TA1,TAA1",
-		},
-		{
-			"DEVI YAMINI S": "A2,TA2,TAA2",
-		},
-		{
-			RAJIVGANTHI: "A2,TA2,TAA2",
-		},
-	],
-	"Embedded Systems Design": [
-		{
-			"JYOTISMITA MISHRA": "G1,TG1",
-		},
-		{
-			"MUTHULAKSHMI S": "A1,TA1",
-		},
-		{
-			"MUTHULAKSHMI S": "L37,L38",
-		},
-		{
-			"PRAKASH V": "A1,TA1",
-		},
-		{
-			"PRAKASH V": "L43,L44",
-		},
-		{
-			"MUTHULAKSHMI S": "A2,TA2",
-		},
-		{
-			"MUTHULAKSHMI S": "L7,L8",
-		},
-		{
-			"SOFANA REKA S": "A2,TA2",
-		},
-		{
-			"SOFANA REKA S": "L27,L28",
-		},
-	],
-	"Electrical Machines and Drives": [
-		{
-			"RUPA MISHRA": "G1,L33,L34,TG1",
-		},
-		{
-			"RUPA MISHRA": "L49,L50",
-		},
-		{
-			"JYOTISMITA MISHRA": "L3,L4",
-		},
-		{
-			"JYOTISMITA MISHRA": "L27,L28",
-		},
-	],
-	"Digital Signal Processing": [
-		{
-			"ANGELINE EZHILARASI G": "F1,L49,L50,TF1",
-		},
-		{
-			"CHENDUR KUMARAN R": "F1,L23,L24,TF1",
-		},
-		{
-			"ANGELINE EZHILARASI G": "F2,L7,L8,TF2",
-		},
-		{
-			"CHENDUR KUMARAN R": "F2,L10,L9,TF2",
-		},
-	],
-	"Control Systems": [
-		{
-			"MOHAMED IMRAN A": "F1,L49,L50,TF1",
-		},
-		{
-			"SUBBULEKSHMI D": "F2,L19,L20,TF2",
-		},
-		{
-			"DEEPA T": "F2,L11,L12,TF2",
-		},
-		{
-			"NITHYA VENKATESAN": "F1,L55,L56,TF1",
-		},
-		{
-			"BINU BEN JOSE D R": "F1,L39,L40,TF1",
-		},
-		{
-			"BINU BEN JOSE D R": "F2,L5,L6,TF2",
-		},
-		{
-			"FEBIN DAYA J L": "F2,L7,L8,TF2",
-		},
-	],
-	"Power Systems Engineering": [
-		{
-			"SENTHIL KUMAR N": "A1,TA1,TAA1",
-		},
-		{
-			"PREMALATHA L": "A1,TA1,TAA1",
-		},
-		{
-			"JAMUNA K": "A2,TA2,TAA2",
-		},
-		{
-			"MEERA P S": "A2,TA2,TAA2",
-		},
-	],
-	"Communication Systems": [
-		{
-			"RALPH SAMUEL THANGARAJ": "C1,TC1",
-		},
-		{
-			"RALPH SAMUEL THANGARAJ": "C2,TC2",
-		},
-		{
-			"KALAIVANAN K": "C1,TC1",
-		},
-		{
-			"SRIVATSAN K": "C2,TC2",
-		},
-	],
-	"Microprocessors and Microcontrollers": [
-		{
-			"INAYATHULLAAH ABDUL KAREEM": "E1,L29,L30,TE1",
-		},
-		{
-			"KANIMOZHI G": "E1,L55,L56,TE1",
-		},
-		{
-			"INAYATHULLAAH ABDUL KAREEM": "E2,L5,L6,TE2",
-		},
-		{
-			PRITAM: "E2,L1,L2,TE2",
-		},
-		{
-			SRIMATHIR: "G1,L37,L38,TG1",
-		},
-		{
-			"GUGA PRIYA G": "L43,L44",
-		},
-		{
-			"CHANTHINI BASKAR": "L55,L56",
-		},
-		{
-			"GUGA PRIYA G": "L21,L22",
-		},
-		{
-			"CHANTHINI BASKAR": "L5,L6",
-		},
-		{
-			"ABRAHAM SUDHARSON PONRAJ": "L1,L2",
-		},
-		{
-			"SUBHASHINI N": "L37,L38",
-		},
-		{
-			"RAHUL NARASIMHAN": "L43,L44",
-		},
-		{
-			"MANOJ KUMAR R": "L55,L56",
-		},
-		{
-			"BALAKRISHNAN R": "L55,L56",
-		},
-		{
-			"KARTHIKEYAN P R": "L29,L30",
-		},
-		{
-			"SUBHASHINI N": "L7,L8",
-		},
-		{
-			"RAHUL NARASIMHAN": "L7,L8",
-		},
-		{
-			"MANOJ KUMAR R": "L25,L26",
-		},
-		{
-			"BALAKRISHNAN R": "L21,L22",
-		},
-		{
-			"SARAVANA KUMAR R": "L27,L28",
-		},
-		{
-			"KARTHIKEYAN P R": "L13,L14",
-		},
-		{
-			"IDAYACHANDRAN G": "L9,L10",
-		},
-		{
-			"VYDEKI D": "L19,L20",
-		},
-		{
-			"ABRAHAM SUDHARSON PONRAJ": "L37,L38",
-		},
-		{
-			"REVATHI S": "G1,L31,L32,TG1",
-		},
-		{
-			"JAGANNATH M": "G1,L31,L32,TG1",
-		},
-		{
-			HARIHARAN: "G1,L43,L44,TG1",
-		},
-		{
-			"RAVI TIWARI": "G1,L57,L58,TG1",
-		},
-		{
-			"SOURABH PAUL": "G1,L45,L46,TG1",
-		},
-		{
-			"V.R BALAJI": "G1,L49,L50,TG1",
-		},
-		{
-			"CHITRA K": "G1,L49,L50,TG1",
-		},
-		{
-			"SIVASUBRAMANIA N A": "G1,L37,L38,TG1",
-		},
-		{
-			"REVATHI S": "G2,L15,L16,TG2",
-		},
-		{
-			"JAGANNATH M": "G2,L15,L16,TG2",
-		},
-		{
-			HARIHARAN: "G2,L13,L14,TG2",
-		},
-		{
-			"BALA MURUGAN M S": "G2,L3,L4,TG2",
-		},
-		{
-			"RAVI TIWARI": "G2,L27,L28,TG2",
-		},
-		{
-			"SOURABH PAUL": "G2,L25,L26,TG2",
-		},
-		{
-			"SARAVANA KUMAR R": "G2,L3,L4,TG2",
-		},
-		{
-			"IDAYACHANDRAN G": "G2,L19,L20,TG2",
-		},
-		{
-			"VIGNESWARAN T": "G2,L10,L9,TG2",
-		},
-		{
-			"E MANIKANDAN": "G2,L7,L8,TG2",
-		},
-		{
-			"S SELVENDRAN": "G2,L21,L22,TG2",
-		},
-		{
-			"RICHARDS JOE STANISLAUS": "D1,L11,L12,TD1",
-		},
-	],
-	"AC Machines": [
-		{
-			"GUNABALAN R": "G1,L43,L44",
-		},
-		{
-			"GUNABALAN R": "L5,L6",
-		},
-		{
-			"IYSWARYA ANNAPOORANI K": "L31,L32",
-		},
-		{
-			"IYSWARYA ANNAPOORANI K": "L37,L38",
-		},
-		{
-			"NILANJAN TEWARI": "L25,L26",
-		},
-		{
-			"NILANJAN TEWARI": "L21,L22",
-		},
-		{
-			"NAWIN RA": "L19,L20",
-		},
-		{
-			"NAWIN RA": "L29,L30",
-		},
-	],
-	"Power Systems Protection and Switchgear": [
-		{
-			"VAITHILINGAM C": "G2",
-		},
-		{
-			"VAITHILINGAM C": "L29,L30",
-		},
-	],
-	"Robotics and Control": [
-		{
-			"NEW FACULTY SELECT": "E2,TE2",
-		},
-	],
-	"Sensors and Actuators": [
-		{
-			"SHEENA CHRISTABEL PRAVIN": "F1,L31,L32",
-		},
-		{
-			KIRUTHIKA: "F1,L49,L50",
-		},
-		{
-			"SENSENEWFACUL TY4": "F1,L51,L52",
-		},
-		{
-			"FLORENCE GNANA POOVATHY J": "F1,L43,L44",
-		},
-		{
-			"A BHARATHI SANKAR": "F2,L15,L16",
-		},
-		{
-			KIRUTHIKA: "F2,L19,L20",
-		},
-		{
-			"SENSENEWFACUL TY4": "F2,L27,L28",
-		},
-	],
-	"Smart Grid": [
-		{
-			"PEER FATHIMA A": "F1,TF1",
-		},
-	],
-	"Electric Vehicles": [
-		{
-			"SREEDEVI V T": "D2,TD2",
-		},
-	],
-	"Bio-Medical Instrumentation": [
-		{
-			"UMAYAL C": "D1,TD1",
-		},
-	],
-	"Digital Systems Design": [
-		{
-			"GIRIJA SHANKAR": "E1,L49,L50,TE1",
-		},
-		{
-			"JEAN JENIFER NESAM J": "E1,L31,L32,TE1",
-		},
-		{
-			"GIRIJA SHANKAR": "E2,L41,L42,TE2",
-		},
-		{
-			"JEAN JENIFER NESAM J": "E2,L15,L16,TE2",
-		},
-		{
-			"LAKSHMI B": "E2,L19,L20,TE2",
-		},
-		{
-			"G LAKSHMI PRIYA": "E2,L3,L4,TE2",
-		},
-		{
-			"GARGI RAINA": "F1,L23,L24,TF1",
-		},
-	],
-	"Analog and Digital Electronics": [
-		{
-			"PAPANASAM E": "F1,L37,L38,TF1",
-		},
-		{
-			"PAPANASAM E": "F2,L21,L22,TF2",
-		},
-	],
-	"Electronic Materials and devices": [
-		{
-			"SUNIL KUMAR PRADHAN": "B1,TB1",
-		},
-		{
-			BISWAJIT: "B1,TB1",
-		},
-		{
-			"SUNIL KUMAR PRADHAN": "B2,TB2",
-		},
-		{
-			BISWAJIT: "B2,TB2",
-		},
-	],
-	"Engineering Electromagnetics": [
-		{
-			"CHANDRASEKARA N N": "C1,TC1",
-		},
-		{
-			"ANITH NELLERI": "C1,TC1",
-		},
-		{
-			"CHANDRASEKARA N N": "C2,TC2",
-		},
-		{
-			"ANITH NELLERI": "C2,TC2",
-		},
-		{
-			"RAVI PRAKASH DWIVEDI": "C2,TC2",
-		},
-		{
-			"NIRAJ KUMAR": "C2,TC2",
-		},
-	],
-	"Analog Circuits": [
-		{
-			"SANGEETHA R G": "D1,L55,L56,TD1",
-		},
-		{
-			"CHANDRAMAULES HWAR ROY": "D1,L23,L24,TD1",
-		},
-		{
-			"SANGEETHA R G": "D2,L27,L28,TD2",
-		},
-		{
-			"CHANDRAMAULES HWAR ROY": "D2,L10,L9,TD2",
-		},
-		{
-			"BINDU B": "D2,L1,L2,TD2",
-		},
-		{
-			"SOUMYA RANJAN MAHAPATRO": "D2,L35,L36,TD2",
-		},
-	],
-	"Random Processes": [
-		{
-			"KALAIVANAN K": "F1,TF1",
-		},
-		{
-			"SANKAR GANESH": "F1,TF1",
-		},
-		{
-			"S SIVAKUMAR": "F1,TF1",
-		},
-		{
-			"KALAIVANAN K": "F2,TF2",
-		},
-		{
-			"SANKAR GANESH": "F2,TF2",
-		},
-		{
-			"USHA RANI S": "F2,TF2",
-		},
-	],
-	"Structured and Object Oriented Programming": [
-		{
-			SUDHAKARAN: "G1",
-		},
-		{
-			"KARTHIK R": "G1",
-		},
-		{
-			SUDHAKARAN: "G2",
-		},
-		{
-			SUDHAKARAN: "L5,L6,L55,L56",
-		},
-		{
-			"KARTHIK R": "L29,L30,L37,L38",
-		},
-		{
-			SUDHAKARAN: "L35,L36,L47,L48",
-		},
-	],
-	"VLSI System Design": [
-		{
-			"B PRASHANTH KUMAR": "D1,L11,L12,TD1",
-		},
-		{
-			"SASIPRIYA P": "D1,L31,L32,TD1",
-		},
-		{
-			"UMADEVI S": "D1,L43,L44,TD1",
-		},
-		{
-			"B PRASHANTH KUMAR": "D2,L41,L42,TD2",
-		},
-		{
-			"MANIKANDAN P": "D2,L7,L8,TD2",
-		},
-		{
-			"VELMATHI G": "D2,L27,L28,TD2",
-		},
-	],
-	"Analog Communication Systems": [
-		{
-			"PRIYANKA DAS": "G1,L11,L12,TG1",
-		},
-	],
-	"Antenna and Microwave Engineering": [
-		{
-			"USHA KIRAN KOMMURI": "A1,L37,L38,TA1",
-		},
-		{
-			"PRIYANKA DAS": "A1,L51,L52,TA1",
-		},
-		{
-			"THIRIPURASUNDA RI D": "A1,L23,L24,TA1",
-		},
-		{
-			"USHA KIRAN KOMMURI": "A2,L7,L8,TA2",
-		},
-		{
-			"THIRIPURASUNDA RI D": "A2,L19,L20,TA2",
-		},
-		{
-			"RICHARDS JOE STANISLAUS": "A2,L1,L2,TA2",
-		},
-	],
-	"Digital Communication Systems": [
-		{
-			"RAMESH R": "E1,L31,L32,TE1",
-		},
-		{
-			"P NIRMALA": "E1,L39,L40,TE1",
-		},
-		{
-			"ILAVARASAN T": "E1,L49,L50,TE1",
-		},
-		{
-			"RAMESH R": "E2,L1,L2,TE2",
-		},
-		{
-			"ILAVARASAN T": "E2,L13,L14,TE2",
-		},
-		{
-			"VETRIVELAN P": "E2,L21,L22,TE2",
-		},
-	],
-	"Artificial Intelligence and Machine Learning": [
-		{
-			"VIJAYAKUMAR P": "D1,TD1",
-		},
-		{
-			ASHOK: "D1,TD1",
-		},
-		{
-			"VIJAYAKUMAR P": "D2,TD2",
-		},
-		{
-			ASHOK: "D2,TD2",
-		},
-		{
-			"NITISH KATAL": "D1,TD1",
-		},
-		{
-			SUKRITI: "D1,TD1",
-		},
-		{
-			"NITISH KATAL": "D2,TD2",
-		},
-		{
-			"ROHITH G": "D2,TD2",
-		},
-	],
-	"Satellite Communications": [
-		{
-			"NIRAJ KUMAR": "F1,TF1",
-		},
-		{
-			"SENSENEWFACUL TY1": "F1,TF1",
-		},
-		{
-			"NIRAJ KUMAR": "F2,TF2",
-		},
-		{
-			"SENSENEWFACUL TY1": "F2,TF2",
-		},
-	],
-	"Radar Systems": [
-		{
-			"RAVI PRAKASH DWIVEDI": "D1,TD1",
-		},
-		{
-			"SENSENEWFACUL TY1": "D1,TD1",
-		},
-		{
-			"RAVI PRAKASH DWIVEDI": "D2,TD2",
-		},
-	],
-	"Robotics and Automation": [
-		{
-			SUGUNA: "F1,TF1",
-		},
-		{
-			"PRIYADARSHINI R": "F1,TF1",
-		},
-		{
-			"ABINAYA S": "F1,TF1",
-		},
-		{
-			"GANALA SANTOSHI": "F1,TF1",
-		},
-		{
-			SCOPE33: "F1,TF1",
-		},
-		{
-			SUGUNA: "F2,TF2",
-		},
-		{
-			"PRIYADARSHINI R": "F2,TF2",
-		},
-		{
-			"ABINAYA S": "F2,TF2",
-		},
-		{
-			SCOPE32: "F2,TF2",
-		},
-		{
-			SCOPE33: "F2,TF2",
-		},
-	],
-	"Information Theory and Coding": [
-		{
-			MARKKANDAN: "D1,TD1",
-		},
-		{
-			MARKKANDAN: "D2,TD2",
-		},
-		{
-			"RALPH SAMUEL THANGARAJ": "D2,TD2",
-		},
-	],
-	"IoT Domain Analyst": [
-		{
-			"B. NAGAJAYANTHI": "TA2",
-		},
-		{
-			"B. NAGAJAYANTHI": "L5,L6",
-		},
-		{
-			"KABILAN K": "TA2",
-		},
-		{
-			"KABILAN K": "L1,L2",
-		},
-	],
-	"AWS for Cloud Computing": [
-		{
-			"ROHITH G": "C1,TC1",
-		},
-		{
-			"UPENDER P": "C1,TC1",
-		},
-		{
-			"TANMOY MAJUMDER": "C1,TC1",
-		},
-		{
-			"ROHITH G": "C2,TC2",
-		},
-		{
-			"UPENDER P": "C2,TC2",
-		},
-		{
-			"TANMOY MAJUMDER": "C2,TC2",
-		},
-		{
-			"PRASANNA BHARATHI": "C1,TC1",
-		},
-		{
-			"RAJU PATEL": "C1,TC1",
-		},
-		{
-			"PRASANNA BHARATHI": "C2,TC2",
-		},
-		{
-			"RAJU PATEL": "C2,TC2",
-		},
-		{
-			"SRITAMA ROY": "C2,TC2",
-		},
-		{
-			"SITHARTHAN R": "C1,TC1",
-		},
-		{
-			"GNANA SWATHIKA O V": "C2,TC2",
-		},
-		{
-			"MOHAMED IMRAN A": "C1,TC1",
-		},
-		{
-			"SITHARTHAN R": "C2,TC2",
-		},
-	],
-	"Communication for Cyber Physical Systems": [
-		{
-			"SUBITHA D": "A1,L49,L50",
-		},
-		{
-			"KISHOR KISAN INGLE": "A1,L51,L52",
-		},
-		{
-			SCOPE19: "A1,L45,L46",
-		},
-		{
-			"GAYATHRI R": "A1,L39,L40",
-		},
-		{
-			"SUBITHA D": "A2,L19,L20",
-		},
-		{
-			"KISHOR KISAN INGLE": "A2,L3,L4",
-		},
-		{
-			"PRADEEP KUMAR T S": "A2,L7,L8",
-		},
-		{
-			"GAYATHRI R": "A2,L11,L12",
-		},
-	],
-	"FPGA Based System Design": [
-		{
-			"SAKTHIVEL S M": "C1",
-		},
-		{
-			"DEEPA M": "C1",
-		},
-		{
-			"SAKTHIVEL S M": "C2",
-		},
-		{
-			"AUGUSTA SOPHY BEULET P": "C2",
-		},
-		{
-			"SAKTHIVEL S M": "L33,L34",
-		},
-		{
-			"DEEPA M": "L29,L30",
-		},
-		{
-			"SAKTHIVEL S M": "L15,L16",
-		},
-		{
-			"AUGUSTA SOPHY BEULET P": "L1,L2",
-		},
-	],
-	"ASIC Design": [
-		{
-			"PRITAM BHATTACHARJEE": "C1",
-		},
-		{
-			"PRITAM BHATTACHARJEE": "C2",
-		},
-		{
-			"PRATHIBA A": "C2",
-		},
-		{
-			"PRITAM BHATTACHARJEE": "L49,L50",
-		},
-		{
-			"PRITAM BHATTACHARJEE": "L21,L22",
-		},
-		{
-			"PRATHIBA A": "L13,L14",
-		},
-	],
-	"Sensors Technology": [
-		{
-			"SENSENEWFACUL TY3": "A1",
-		},
-		{
-			"SENSENEWFACUL TY3": "L5,L6",
-		},
-		{
-			"SENSENEWFACUL TY3": "A2",
-		},
-		{
-			"SENSENEWFACUL TY3": "L25,L26",
-		},
-		{
-			"MANIGANDAN M": "G1",
-		},
-		{
-			"MANIGANDAN M": "G2",
-		},
-		{
-			ASHIS: "G2",
-		},
-		{
-			"MANIGANDAN M": "L55,L56",
-		},
-		{
-			"MANIGANDAN M": "L29,L30",
-		},
-		{
-			ASHIS: "L47,L48",
-		},
-	],
-	"Introduction to Engineering": [
-		{
-			"ACAD FACULTY": "NIL",
-		},
-	],
-	"Signal Processing": [
-		{
-			"ANNIS FATHIMA A": "E1,L31,L32,TE1",
-		},
-		{
-			"SUCHETHA M": "E1,L55,L56,TE1",
-		},
-		{
-			"MOHANAPRASAD K": "E2,L10,L9,TE2",
-		},
-		{
-			"SATHIYA NARAYANAN S": "E2,L27,L28,TE2",
-		},
-	],
-	"Augmented and Virtual Reality": [
-		{
-			"DEEPA NIVETHIKA": "C1,TC1",
-		},
-		{
-			SIVAKUMAR: "C1,TC1",
-		},
-		{
-			"DEEPA NIVETHIKA": "C2,TC2",
-		},
-		{
-			SIVAKUMAR: "C2,TC2",
-		},
-		{
-			"DEEPA NIVETHIKA": "L29,L30",
-		},
-		{
-			SIVAKUMAR: "L37,L38",
-		},
-		{
-			"DEEPA NIVETHIKA": "L3,L4",
-		},
-		{
-			SIVAKUMAR: "L5,L6",
-		},
-	],
-	"Project - I": [
-		{
-			"ACAD FACULTY": "NIL",
-		},
-	],
-	"Physics of Semiconductor Devices": [
-		{
-			BISWAJIT: "C1,TC1",
-		},
-	],
-	"Electromagnetic Field Theory": [
-		{
-			"ANITH NELLERI": "G1,TG1",
-		},
-	],
-	"IoT Fundamentals": [
-		{
-			"SHOLA USHA RANI": "G1",
-		},
-		{
-			"SHOLA USHA RANI": "G2",
-		},
-		{
-			"REKHA D": "G2",
-		},
-		{
-			"SHOLA USHA RANI": "L43,L44",
-		},
-		{
-			"SHOLA USHA RANI": "NIL",
-		},
-		{
-			"SHOLA USHA RANI": "L13,L14",
-		},
-		{
-			"SHOLA USHA RANI": "NIL",
-		},
-		{
-			"REKHA D": "L9,L10",
-		},
-		{
-			"REKHA D": "NIL",
-		},
-	],
-	"Software Construction and Maintenance": [
-		{
-			"B V A N S S PRABHAKAR RAO": "D1",
-		},
-		{
-			"B V A N S S PRABHAKAR RAO": "NIL",
-		},
-		{
-			"B V A N S S PRABHAKAR RAO": "D2",
-		},
-		{
-			"B V A N S S PRABHAKAR RAO": "NIL",
-		},
-		{
-			"A SHEIK ABDULLAH": "D2",
-		},
-		{
-			"A SHEIK ABDULLAH": "NIL",
-		},
-	],
-	"Engineering Thermodynamics": [
-		{
-			"JOSEPH DANIEL": "E1,TE1",
-		},
-		{
-			"VENUGOPAL T": "E2,TE2",
-		},
-		{
-			"SANJEEV JAKHAR": "E1,TE1",
-		},
-		{
-			"KARUNAMURTHY K": "E1,TE1",
-		},
-		{
-			"MANAVALLA SREEKANTH": "E1,TE1",
-		},
-		{
-			"SANJEEV JAKHAR": "E2,TE2",
-		},
-	],
-	"Fluid Mechanics and Machines": [
-		{
-			"FEROSKHAN M": "B1,L31,L32,TB1",
-		},
-		{
-			"FEROSKHAN M": "L37,L38",
-		},
-		{
-			"SAURABH YADAV": "L43,L44",
-		},
-		{
-			"SAURABH YADAV": "B2,L55,L56,TB2",
-		},
-		{
-			"BHISHAM KUMAR DHURANDHER": "L33,L34",
-		},
-		{
-			"BHISHAM KUMAR DHURANDHER": "L39,L40",
-		},
-		{
-			"SAURABH YADAV": "L13,L14",
-		},
-		{
-			"SAURABH YADAV": "L25,L26",
-		},
-	],
-	"Renewable Energy Systems": [
-		{
-			"AVADHESH KUMAR SHARMA": "E1",
-		},
-		{
-			"PRITAM DAS": "E1",
-		},
-		{
-			"AVADHESH KUMAR SHARMA": "L5,L6",
-		},
-		{
-			"AVADHESH KUMAR SHARMA": "L11,L12",
-		},
-		{
-			"PRITAM DAS": "L31,L32",
-		},
-		{
-			"PRITAM DAS": "L43,L44",
-		},
-		{
-			"PRITAM DAS": "E2",
-		},
-		{
-			"PRITAM DAS": "L3,L4",
-		},
-		{
-			"PRITAM DAS": "L15,L16",
-		},
-	],
-	"Machine Drawing Lab": [
-		{
-			"MANOJ KUMAR R": "L43,L44,L49,L50",
-		},
-		{
-			"MANOJ KUMAR R": "L1,L2,L7,L8",
-		},
-		{
-			"AYUB AHMED JANVEKAR": "L1,L2,L7,L8",
-		},
-		{
-			"AYUB AHMED JANVEKAR": "L43,L44,L49,L50",
-		},
-	],
-	"Industrial Engineering": [
-		{
-			"SHYAM KUMAR M B": "G2,TG2",
-		},
-	],
-	"Mechatronics and Measurement Systems": [
-		{
-			"BHISHAM KUMAR DHURANDHER": "C1,L31,L32,TC1",
-		},
-		{
-			"BHISHAM KUMAR DHURANDHER": "L37,L38",
-		},
-		{
-			"GIRIDHARAN A": "L15,L16",
-		},
-		{
-			"GIRIDHARAN A": "L21,L22",
-		},
-	],
-	"Automotive Vehicles": [
-		{
-			"TAMIL SELVAN P": "L37,L38",
-		},
-		{
-			"SENTHIL KUMAR M": "L9,L10",
-		},
-		{
-			"SENTHIL KUMAR M": "L31,L32",
-		},
-		{
-			"SENTHIL KUMAR M": "G1",
-		},
-		{
-			"SENTHIL KUMAR M": "G2",
-		},
-		{
-			"TAMIL SELVAN P": "G1",
-		},
-		{
-			"TAMIL SELVAN P": "L43,L44",
-		},
-		{
-			"SENTHIL KUMAR M": "L49,L50",
-		},
-		{
-			"SENTHIL KUMAR M": "L25,L26",
-		},
-	],
-	"Design of Machine Elements": [
-		{
-			"BHASKARA RAO": "B1,TB1,TBB1",
-		},
-		{
-			"TAPAN KUMAR MAHANTA": "B1,TB1,TBB1",
-		},
-		{
-			"KRISHANU GANGULY": "B1,TB1,TBB1",
-		},
-		{
-			"BHUPESH SINGH KATIYAR": "B2,TB2,TBB2",
-		},
-	],
-	"Metal Forming and Machining": [
-		{
-			"MRUTYUNJAY PANIGRAHI": "C1,L31,L32,TC1",
-		},
-		{
-			"MRUTYUNJAY PANIGRAHI": "L37,L38",
-		},
-		{
-			"MRUTYUNJAY PANIGRAHI": "L1,L2",
-		},
-		{
-			"MRUTYUNJAY PANIGRAHI": "L19,L20",
-		},
-		{
-			"ANSHUMAN DAS": "L23,L24",
-		},
-		{
-			"ANSHUMAN DAS": "C2,L49,L50,TC2",
-		},
-		{
-			"ANSHUMAN DAS": "L15,L16",
-		},
-		{
-			"ANSHUMAN DAS": "L21,L22",
-		},
-		{
-			"NARAYANAN R": "L43,L44",
-		},
-		{
-			"NARAYANAN R": "L55,L56",
-		},
-		{
-			"GIRIDHARAN A": "L5,L6",
-		},
-		{
-			"GIRIDHARAN A": "L11,L12",
-		},
-	],
-	"Supply Chain Management": [
-		{
-			"TISHA MERIAM CHERIAN": "G1,TG1",
-		},
-		{
-			"VADIVEL S M": "G2,TG2",
-		},
-		{
-			"SHYAM KUMAR M B": "G1,TG1",
-		},
-	],
-	"Composite Materials": [
-		{
-			"NARAYANAN R": "F1,TF1",
-		},
-		{
-			"VENKATACHALAM G": "F2,TF2",
-		},
-	],
-	"Internal Combustion Engines": [
-		{
-			"JOSEPH DANIEL": "D1,TD1",
-		},
-		{
-			"TAMIL SELVAN P": "D2,TD2",
-		},
-	],
-	"Power Plant Engineering": [
-		{
-			"SANJEEV JAKHAR": "D1,TD1",
-		},
-	],
-	"Vehicle Dynamics": [
-		{
-			"LENIN BABU M C": "F1",
-		},
-		{
-			"LENIN BABU M C": "F2",
-		},
-		{
-			"LENIN BABU M C": "L37,L38",
-		},
-		{
-			"LENIN BABU M C": "L49,L50",
-		},
-		{
-			"LENIN BABU M C": "L7,L8",
-		},
-		{
-			"LENIN BABU M C": "L19,L20",
-		},
-	],
-	"Cloud Computing using Salesforce": [
-		{
-			"MANIMARAN R": "G1,TG1",
-		},
-		{
-			"RAGHUKIRAN NADIMPALLI": "G1,TG1",
-		},
-		{
-			"N.GOBINATH": "G1,TG1",
-		},
-		{
-			RADHA: "G1,TG1",
-		},
-		{
-			"MANIMARAN R": "G2,TG2",
-		},
-		{
-			"DEVAPRAKASAM D": "G2,TG2",
-		},
-	],
-	"Computer Integrated Manufacturing": [
-		{
-			"GAJANAND GUPTA": "D1,L31,L32,TD1",
-		},
-		{
-			DHARMENDER: "D1,L37,L38,TD1",
-		},
-		{
-			"JAFFERSON J M": "D1,L31,L32,TD1",
-		},
-		{
-			"GAJANAND GUPTA": "L9,L10",
-		},
-		{
-			DHARMENDER: "L9,L10",
-		},
-		{
-			"SIVARAJAN S": "L15,L16",
-		},
-	],
-	"Design of Transmission Systems": [
-		{
-			DHARMENDER: "E2,TE2",
-		},
-	],
-	"Computational Fluid Dynamics": [
-		{
-			"HARISH R": "E1",
-		},
-		{
-			"HARISH R": "E2",
-		},
-		{
-			"HARISH R": "L5,L6",
-		},
-		{
-			"HARISH R": "L11,L12",
-		},
-	],
-	"Industrial Revolution 4.0": [
-		{
-			"JEYANTHI S": "F1,TF1",
-		},
-	],
-	"Society 5.0": [
-		{
-			"DAVIDSON JEBASEELAN": "B1,TB1",
-		},
-		{
-			"DR.PADMANABHA N R": "B1,TB1",
-		},
-		{
-			"DR.PADMANABHA N R": "B2,TB2",
-		},
-	],
-	"Energy Storage and Management for Electric Vehicles": [
-		{
-			"N.GOBINATH": "F1,TF1",
-		},
-	],
-	"Materials for Electric and Hybrid Electric Vehicles": [
-		{
-			RADHA: "B2,TB2",
-		},
-		{
-			"JEYANTHI S": "B1,TB1",
-		},
-	],
-	"Solid and Fluid Mechanics": [
-		{
-			"VINAYAGAMURTH Y G": "B1,L11,L12,TB1",
-		},
-		{
-			"VINAYAGAMURTH Y G": "L45,L46",
-		},
-		{
-			"AVADHESH KUMAR SHARMA": "L23,L24",
-		},
-		{
-			"AVADHESH KUMAR SHARMA": "L29,L30",
-		},
-	],
-	"Sensors and Instrumentation": [
-		{
-			"MOGANA PRIYA C": "D1,L43,L44,TD1",
-		},
-		{
-			"MOGANA PRIYA C": "L55,L56",
-		},
-		{
-			"G MURALIMOHAN": "L13,L14",
-		},
-		{
-			"G MURALIMOHAN": "L25,L26",
-		},
-	],
-	"Fluid Power Systems": [
-		{
-			"PRABHAKAR KUSHWAHA": "F1,L37,L38,TF1",
-		},
-		{
-			"PRABHAKAR KUSHWAHA": "F2,L49,L50,TF2",
-		},
-		{
-			"PRABHAKAR KUSHWAHA": "L7,L8",
-		},
-		{
-			"PRABHAKAR KUSHWAHA": "L19,L20",
-		},
-	],
-	"Mechatronic Systems Design": [
-		{
-			"KRISHNA PRAKASH YADAV": "D2,TD2",
-		},
-		{
-			"KRISHNA PRAKASH YADAV": "D1,TD1",
-		},
-		{
-			"SARAVANAKUMA R D": "D1,TD1",
-		},
-	],
-	"Driver Assistance Systems and Autonomous Vehicles": [
-		{
-			"G MURALIMOHAN": "B1",
-		},
-		{
-			"G MURALIMOHAN": "L43,L44",
-		},
-		{
-			"G MURALIMOHAN": "L55,L56",
-		},
-	],
-	"Autonomous Mobile Robots": [
-		{
-			ABHISHEK: "A2,TA2",
-		},
-		{
-			ABHISHEK: "L3,L4",
-		},
-	],
-	"Industrial Internet of Things and Smart Manufacturing": [
-		{
-			"SIVARAJAN S": "B1,TB1",
-		},
-	],
-	"Agriculture Automation": [
-		{
-			"SAKTHIVEL G": "F1,TF1",
-		},
-	],
-	"Precision Agriculture": [
-		{
-			"MOGANA PRIYA C": "C1,TC1",
-		},
-		{
-			"JEGADEESHWARA N R": "C2,TC2",
-		},
-	],
-	"Internship I/ Dissertation I": [
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			PAT: "NIL",
-		},
-		{
-			"ACAD FACULTY": "NIL",
-		},
-		{
-			PAT: "NIL",
-		},
-	],
-	"Spanish I": [
-		{
-			"SAVARIAH XAVIER Y C": "G1",
-		},
-		{
-			"SAVARIAH XAVIER Y C": "G2",
-		},
-		{
-			SHIWANGI: "G2",
-		},
-		{
-			"SAVARIAH XAVIER Y C": "B1",
-		},
-		{
-			SHIWANGI: "B1",
-		},
-		{
-			"SAVARIAH XAVIER Y C": "B2",
-		},
-		{
-			SHIWANGI: "B2",
-		},
-		{
-			"KISHORE SANTHANAM": "B2",
-		},
-		{
-			"SAVARIAH XAVIER Y C": "F1",
-		},
-		{
-			SHIWANGI: "F1",
-		},
-		{
-			"KISHORE SANTHANAM": "F1",
-		},
-		{
-			"KISHORE SANTHANAM": "F2",
-		},
-		{
-			"KISHORE SANTHANAM": "A1",
-		},
-		{
-			"KISHORE SANTHANAM": "A2",
-		},
-	],
-	"French I": [
-		{
-			"GOVINDARAJAN P": "G1",
-		},
-		{
-			"CLARISSE ROUABAH": "G1",
-		},
-		{
-			"GOVINDARAJAN P": "G2",
-		},
-		{
-			"CLARISSE ROUABAH": "G2",
-		},
-		{
-			"GOVINDARAJAN P": "B1",
-		},
-		{
-			"CLARISSE ROUABAH": "B1",
-		},
-		{
-			"GOVINDARAJAN P": "B2",
-		},
-		{
-			"CLARISSE ROUABAH": "B2",
-		},
-		{
-			"THANI THAMIZHARASI": "B2",
-		},
-		{
-			"GOVINDARAJAN P": "F1",
-		},
-		{
-			"THANI THAMIZHARASI": "F1",
-		},
-		{
-			"THANI THAMIZHARASI": "F2",
-		},
-		{
-			"THANI THAMIZHARASI": "A1",
-		},
-		{
-			"THANI THAMIZHARASI": "A2",
-		},
-	],
-	"German I": [
-		{
-			"JAMUNARANI M": "G1",
-		},
-		{
-			"SUGUMAR G": "G1",
-		},
-		{
-			"JAMUNARANI M": "G2",
-		},
-		{
-			"SUGUMAR G": "G2",
-		},
-		{
-			"JAMUNARANI M": "B1",
-		},
-		{
-			"SUGUMAR G": "B1",
-		},
-		{
-			"JAMUNARANI M": "B2",
-		},
-		{
-			"SUGUMAR G": "B2",
-		},
-		{
-			"RANGANATHAN MANICKAM": "B2",
-		},
-		{
-			"JAMUNARANI M": "F1",
-		},
-		{
-			"RANGANATHAN MANICKAM": "F1",
-		},
-		{
-			"RANGANATHAN MANICKAM": "F2",
-		},
-		{
-			"RANGANATHAN MANICKAM": "A1",
-		},
-		{
-			"RANGANATHAN MANICKAM": "A2",
-		},
-	],
-	"Micro Economics": [
-		{
-			"JAYARAJ R": "G1,TG1",
-		},
-		{
-			"PARAMASIVAM R": "G2,TG2",
-		},
-		{
-			"MANU JOSE": "C1,TC1",
-		},
-		{
-			JYOTIRMAYEE: "C2,TC2",
-		},
-	],
-	"PUBLIC POLICY AND ADMINISTRATION": [
-		{
-			"ARUN KUMAR G": "C1,TC1",
-		},
-		{
-			"ARUN KUMAR G": "C2,TC2",
-		},
-		{
-			"ARUN KUMAR G": "G1,TG1",
-		},
-	],
-	"PRINCIPLES OF SOCIOLOGY": [
-		{
-			SWATI: "D1,TD1",
-		},
-		{
-			"VIJAYALAKSHMI V": "D2,TD2",
-		},
-		{
-			"ROOPESH O B": "F1,TF1",
-		},
-		{
-			"TIWARI MAHALAXMI SHIVSHANKAR": "F2,TF2",
-		},
-	],
-	"SUSTAINABILITY AND SOCIETY": [
-		{
-			"FRANCIS KULANDAI RAJ F": "B1,TB1",
-		},
-		{
-			"VIJAYALAKSHMI V": "B2,TB2",
-		},
-		{
-			SWATI: "G1,TG1",
-		},
-		{
-			"FRANCIS KULANDAI RAJ F": "G2,TG2",
-		},
-	],
-	"URBAN COMMUNITY DEVELOPMENT": [
-		{
-			SWATI: "E1,TE1",
-		},
-		{
-			"ROOPESH O B": "E2,TE2",
-		},
-		{
-			"ROOPESH O B": "G1,TG1",
-		},
-	],
-	"SOCIAL WORK AND SUSTAINABILITY": [
-		{
-			SWATI: "A1,TA1",
-		},
-		{
-			"ROOPESH O B": "A2,TA2",
-		},
-	],
-	"Cognitive Psychology": [
-		{
-			"MAYA RATHNASABAPAT HY": "F1",
-		},
-		{
-			"MAYA RATHNASABAPAT HY": "L11,L12",
-		},
-		{
-			NEWFACULTY: "G2",
-		},
-		{
-			NEWFACULTY: "L23,L24",
-		},
-		{
-			NEWFACULTY: "G1",
-		},
-		{
-			NEWFACULTY: "L55,L56",
-		},
-		{
-			"SHEETAL NARAYAN MUSALE": "G2",
-		},
-		{
-			"SHEETAL NARAYAN MUSALE": "L5,L6",
-		},
-	],
-	"Introduction to Psychology": [
-		{
-			"VIJAYABANU U": "A1,TA1",
-		},
-		{
-			NEWFACULTY: "A2,TA2",
-		},
-	],
-	"Development Economics": [
-		{
-			"SHALINA SUSAN MATHEW": "B1,TB1",
-		},
-		{
-			"SHALINA SUSAN MATHEW": "B2,TB2",
-		},
-	],
-	"Game Theory": [
-		{
-			"PARAMASIVAM R": "C1,TC1",
-		},
-		{
-			"PARAMASIVAM R": "C2,TC2",
-		},
-	],
-	"Political Science": [
-		{
-			"ARUN KUMAR G": "E1,TE1",
-		},
-		{
-			"ARUN KUMAR G": "E2,TE2",
-		},
-	],
-	"Security Analysis and Portfolio Management": [
-		{
-			"SIVAKUMAR K": "F1,TF1",
-		},
-		{
-			"SHARON SOPHIA": "B2,TB2",
-		},
-	],
-	"Personal Finance": [
-		{
-			RANGAMANI: "B1,TB1",
-		},
-		{
-			"SIVAKUMAR K": "B2,TB2",
-		},
-	],
-	"Health Humanities in Biotechnological Era": [
-		{
-			"MANALI KARMAKAR": "G1,TG1",
-		},
-		{
-			"MANALI KARMAKAR": "G2,TG2",
-		},
-	],
-	"Japanese I": [
-		{
-			"YUKINO KRISHNA": "G2",
-		},
-		{
-			"YUKINO KRISHNA": "B1",
-		},
-		{
-			"M JAYASHREE DASS": "B1",
-		},
-		{
-			"YUKINO KRISHNA": "B2",
-		},
-		{
-			"YUKINO KRISHNA": "F1",
-		},
-		{
-			"M JAYASHREE DASS": "F2",
-		},
-		{
-			"M JAYASHREE DASS": "A1",
-		},
-		{
-			"M JAYASHREE DASS": "A2",
-		},
-	],
-	"Basic Korean - Level 1": [
-		{
-			"PARK JONGCHAN": "G2",
-		},
-		{
-			"PARK JONGCHAN": "B2",
-		},
-	],
-	"Principles of Management": [
-		{
-			MEKHALA: "A1,TA1",
-		},
-		{
-			"RAJKUMAR MURUGESAN": "A2,TA2",
-		},
-	],
-	"Human Resource Management": [
-		{
-			"REKHAPRIYADHAR SHINI A": "E1,TE1",
-		},
-		{
-			"REKHAPRIYADHAR SHINI A": "E2,TE2",
-		},
-		{
-			"PRAVEEN KAKADA": "E1,TE1",
-		},
-		{
-			"NISHA R": "A2,TA2,TAA2",
-		},
-	],
-	"Organizational Behavior": [
-		{
-			"PRAVEEN KAKADA": "B1,TB1",
-		},
-		{
-			"NISHA R": "B2,TB2",
-		},
-	],
-	"Digital Marketing": [
-		{
-			"PADMAVATHY C": "D1,TD1",
-		},
-		{
-			"VENKATESH R": "D2,TD2",
-		},
-		{
-			"SUDHEER MUHAMMED K M": "C2,TC2",
-		},
-	],
-	Entrepreneurship: [
-		{
-			"SASIKUMAR M": "F1,TF1",
-		},
-	],
-	"Essence of Traditional Knowledge": [
-		{
-			"TIWARI MAHALAXMI SHIVSHANKAR": "NIL",
-		},
-		{
-			SWATI: "NIL",
-		},
-		{
-			"ROOPESH O B": "NIL",
-		},
-		{
-			"ARUN KUMAR G": "NIL",
-		},
-		{
-			"JUSTIN JOSEPH": "NIL",
-		},
-		{
-			"VIJAYABANU U": "NIL",
-		},
-		{
-			"SHALINA SUSAN MATHEW": "NIL",
-		},
-		{
-			"PARAMASIVAM R": "NIL",
-		},
-		{
-			"SHEETAL NARAYAN MUSALE": "NIL",
-		},
+	  {
+		"SAKTHIVEL R": "B1,TB1"
+	  },
+	  {
+		"SARITA KUMARI": "B1,TB1"
+	  },
+	  {
+		"RANJITH KUMAR M": "B2,TB2"
+	  }
+	],
+	"Environmental Science": [
+	  {
+		"SARAVANAKUMAR R": "G1"
+	  },
+	  {
+		"BALAMURALI M M": "E1"
+	  }
+	],
+	"Environmental Studies": [
+	  {
+		"BALAMURALI M M": "F1,TF1"
+	  }
+	],
+	"Cyber Security": [
+	  {
+		"GANESAN R": "F1,TF1"
+	  }
 	],
 	"Indian Constitution": [
-		{
-			"VIJAYENDRA KUMAR M": "NIL",
-		},
-		{
-			"ARJUN PHILIP GEORGE": "NIL",
-		},
-		{
-			SANTHOSHV: "NIL",
-		},
-		{
-			ARJUN: "NIL",
-		},
-		{
-			"SAIJI J S": "NIL",
-		},
-		{
-			ABHISHEK: "NIL",
-		},
-		{
-			ADITYA: "NIL",
-		},
-		{
-			"NIKHIL G": "NIL",
-		},
-		{
-			HARIKRISHNAN: "NIL",
-		},
-		{
-			"GOPIKA S GOPAN": "NIL",
-		},
+	  {
+		"ROMA PRADHAN": "G1"
+	  },
+	  {
+		"NEWFACULTY": "NIL"
+	  }
 	],
-	"Psychology in Everyday Life": [
-		{
-			NEWFACULTY: "C1",
-		},
-		{
-			NEWFACULTY: "NIL",
-		},
-		{
-			"NEW FACULTY-2": "C1",
-		},
-		{
-			"NEW FACULTY-2": "NIL",
-		},
+	"Environmental Engineering": [
+	  {
+		"ANJALI GOPAKUMAR": "B1,L29,L30,TB1"
+	  }
 	],
-	"Mass Media and Society": [
-		{
-			"VIJAYALAKSHMI V": "D1",
-		},
-		{
-			"VIJAYALAKSHMI V": "NIL",
-		},
+	"Building Planning and Drawing": [
+	  {
+		"VASUGI K": "TA2"
+	  },
+	  {
+		"VASUGI K": "L43,L44"
+	  }
 	],
-	"Foundation for Design": [
-		{
-			"N.GAYATHRI": "D2",
-		},
-		{
-			"N.GAYATHRI": "L43,L44",
-		},
+	"Soil Mechanics Lab": [
+	  {
+		"KARTHIYAINI S": "L5,L6"
+	  }
 	],
-	"Textile Fibres": [
-		{
-			SELVAKUMAR: "B1,L55,L56,TB1",
-		},
+	"Structural Analysis": [
+	  {
+		"YAMINI SREEVALLI I": "D1,TD1"
+	  }
 	],
-	"Couture Techniques": [
-		{
-			BHUVANESHWARI: "A1,L11,L12,TA1",
-		},
+	"Engineering Geology": [
+	  {
+		"MOHAN K": "G1"
+	  }
 	],
-	"Pattern Making and Garment Construction": [
-		{
-			"RATHINAMOORTH Y R": "E1,L11,L12,L21,L22",
-		},
+	"Global Warming": [
+	  {
+		"K PALANIVELU": "F2,TF2"
+	  },
+	  {
+		"ARUN KUMAR A": "A2,TA2"
+	  },
+	  {
+		"VASUGI K": "F1,TF1"
+	  }
 	],
-	"Apparel Merchandising and Costing": [
-		{
-			"N.GAYATHRI": "C1,TC1,TCC1",
-		},
+	"Waste Management": [
+	  {
+		"KARTHIKEYAN K": "C1,TC1"
+	  },
+	  {
+		"VASUGI V": "G1,TG1"
+	  },
+	  {
+		"ANJALI GOPAKUMAR": "B2,TB2"
+	  }
 	],
-	"Fashion Merchandising and Marketing": [
-		{
-			"BANUMATHY S": "F1,TF1",
-		},
+	"Water Resource Management": [
+	  {
+		"YAMINI SREEVALLI I": "E1,TE1"
+	  },
+	  {
+		"MOHAN K": "D2,TD2"
+	  },
+	  {
+		"SENTHILPANDIAN M": "D1,TD1"
+	  }
 	],
-	"Fashion Communication": [
-		{
-			"SAROJ K M": "D1,TD1",
-		},
+	"Concrete Technology": [
+	  {
+		"ARUN KUMAR A": "A1,L37,L38,TA1"
+	  }
 	],
-	"Fabric Manufacturing": [
-		{
-			"PALANI RAJAN T": "F1,L29,L30,TF1",
-		},
+	"Hydraulics and Hydraulic Machines": [
+	  {
+		"SARAVANAN K": "F1,L11,L12,TF1"
+	  }
 	],
-	"Digital Fashion and Apparel Design Lab": [
-		{
-			"APARNA GOVIND": "L5,L6,L7,L8,L55,L5",
-		},
+	"Foundation Engineering": [
+	  {
+		"KARTHIYAINI S": "D1,TD1"
+	  }
 	],
-	"Fashion Design Portfolio": [
-		{
-			"RL2A6JESH KUMAR K": "L9,L10,L23,L24,L25",
-		},
+	"Design of Reinforced Concrete StructuresTH": [
+	  {
+		"KARTHIKEYAN K": "A1,TA1"
+	  }
 	],
-	"Fashion Arts and Design": [
-		{
-			"SAROJ K M": "G1,TG1",
-		},
-		{
-			"SAROJ K M": "NIL",
-		},
+	"Reinforced Concrete Structures Lab": [
+	  {
+		"KARTHIKEYAN K": "L37,L38"
+	  }
 	],
-	"Product Design, Development and Display": [
-		{
-			"ACAD FACULTY": "NIL",
-		},
+	"Water Resources Engineering": [
+	  {
+		"SARAVANAN K": "E1,L31,L32,TE1"
+	  }
 	],
-	"Garment Components Construction": [
-		{
-			"J+ELS4IC4A ROSHIMA": "L33,L34,L37,L38,L4",
-		},
-		{
-			"J+ELS4IC6A ROSHIMA": "L29,L30,L31,L32,L4",
-		},
+	"Design of Steel Structures": [
+	  {
+		"VASUGI K": "B1,TB1"
+	  },
+	  {
+		"CLAUDIA JEYA PUSHPA DSCE": "B1,TB1"
+	  }
 	],
-	"Fabric Structure and Analysis": [
-		{
-			SELVAKUMAR: "A1,TA1",
-		},
-		{
-			SELVAKUMAR: "L11,L12",
-		},
+	"Steel Structures Lab": [
+	  {
+		"VASUGI K": "L23,L24"
+	  },
+	  {
+		"CLAUDIA JEYA PUSHPA DSCE": "L23,L24"
+	  }
 	],
-	"Home Furnishing": [
-		{
-			BHUVANESHWARI: "D1,TD1",
-		},
-		{
-			BHUVANESHWARI: "NIL",
-		},
+	"Estimating and Costing": [
+	  {
+		"HELEN SANTHI M": "A1"
+	  },
+	  {
+		"CLAUDIA JEYA PUSHPA DSCE": "A1"
+	  }
 	],
-	"Draping techniques": [
-		{
-			"BANUMATHY S": "G1",
-		},
-		{
-			"BANUMATHY S": "L5,L6,L55,L56",
-		},
-		{
-			"BANUMATHY S": "L29,L30,L51,L52",
-		},
+	"Industrial Waste Management": [
+	  {
+		"ANJALI GOPAKUMAR": "G1,TG1"
+	  },
+	  {
+		"DAVID A STONE": "G1,TG1"
+	  }
 	],
-	"Psychology of fashion": [
-		{
-			"MAANVIZHI M": "F1,TF1",
-		},
+	"Air and Noise Pollution Control": [
+	  {
+		"SABUMON P C": "C1,TC1"
+	  },
+	  {
+		"CLAUDIA JEYA PUSHPA DSCE": "C1,TC1"
+	  }
 	],
-	"Fashion forecasting and trend analysis": [
-		{
-			"JESICA ROSHIMA": "E1,TE1",
-		},
+	"Solid Waste Management": [
+	  {
+		"K PALANIVELU": "F1,TF1"
+	  },
+	  {
+		"CLAUDIA JEYA PUSHPA DSCE": "F1,TF1"
+	  }
 	],
-	"Fashion Photography and modelling": [
-		{
-			"RATHINAMOORTH Y R": "A2,TA2",
-		},
-		{
-			"RATHINAMOORTH Y R": "NIL",
-		},
+	"Groundwater Engineering": [
+	  {
+		"SHANMUGA SUNDARAMSCE": "D2,TD2"
+	  }
 	],
-	"Recycling and waste management": [
-		{
-			"PALANI RAJAN T": "B1,TB1",
-		},
+	"Building Information Modeling": [
+	  {
+		"SENTHILPANDIAN M": "TA1"
+	  },
+	  {
+		"SENTHILPANDIAN M": "L11,L12"
+	  }
 	],
-	"Digital Fashion Illustration": [
-		{
-			"M+LA4A6NVIZHI M": "L29,L30,L31,L32,L4",
-		},
-		{
-			"S+AL4R4OJ K M": "L33,L34,L37,L38,L4",
-		},
+	"Summer Industrial Internship": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
 	],
-	"Mens wear and intimate fashion": [
-		{
-			"5B0H+ULV5A5+NLE5S6HWARI": "L5,L6,L39,L40,L49,",
-		},
-		{
-			"2N8.G+AL5Y1A+TLH5R2I": "L1,L2,L15,L16,L27,",
-		},
+	"Project-II / Internship": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
 	],
-	"Computer Aided Designing": [
-		{
-			"APARNA GOVIND": "D1",
-		},
-		{
-			"APARNA GOVIND": "L39,L40,L49,L50",
-		},
-		{
-			"APARNA GOVIND": "L11,L12,L23,L24",
-		},
+	"Construction Economics and Finance": [
+	  {
+		"MOHAN K": "D1,TD1,TDD1"
+	  }
+	],
+	"Construction Personnel Management": [
+	  {
+		"KARTHIYAINI S": "F1,TF1"
+	  }
+	],
+	"Lean Construction": [
+	  {
+		"ARUN KUMAR A": "G1,TG1"
+	  }
+	],
+	"Repair and Rehabilitation of Structures": [
+	  {
+		"VASUGI V": "A1,TA1"
+	  }
+	],
+	"Smart Infrastructure": [
+	  {
+		"HELEN SANTHI M": "E1,TE1"
+	  }
+	],
+	"Basic Electrical and Electronics EngineeringTH": [
+	  {
+		"SHRI SARANYAA J": "E1,TE1"
+	  },
+	  {
+		"RAJAGURU V": "E1,TE1"
+	  },
+	  {
+		"SUSHMI N B": "E1,TE1"
+	  },
+	  {
+		"DHANESH R": "E2,TE2"
+	  },
+	  {
+		"MARABATHINA MAHEEDHAR": "E2,TE2"
+	  },
+	  {
+		"RANI S": "A1,TA1"
+	  },
+	  {
+		"MANISH KUMAR DWIVEDISELECT": "A1,TA1"
+	  },
+	  {
+		"ASHLY MARY TOM": "A1,TA1"
+	  },
+	  {
+		"SUBASHINI M": "A1,TA1"
+	  },
+	  {
+		"MOHANA PREETHI V": "A2,TA2"
+	  },
+	  {
+		"ABHIRAMI AN": "A2,TA2"
+	  },
+	  {
+		"ANU SHALINI T": "A2,TA2"
+	  }
+	],
+	"Finite Element Analysis": [
+	  {
+		"YAMINI SREEVALLI I": "D2,L29,L30,TD2"
+	  }
+	],
+	"Prestressed Concrete Structures": [
+	  {
+		"KARTHIKEYAN K": "F1,TF1"
+	  }
+	],
+	"Design of Bridges": [
+	  {
+		"SENTHILPANDIAN M": "G2,TG2"
+	  }
+	],
+	"Advanced Concrete Materials and Technology": [
+	  {
+		"VASUGI V": "F2,TF2"
+	  }
+	],
+	"Earthquake Resistant Design": [
+	  {
+		"HELEN SANTHI M": "C2,TC2"
+	  }
+	],
+	"Analysis and Design of Tall Structures": [
+	  {
+		"ELAVENIL S": "B2,TB2"
+	  }
+	],
+	"Internship II/ Dissertation II": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  }
+	],
+	"Computer Programming: Python": [
+	  {
+		"KAJA MOHIDEEN A": "TA1"
+	  },
+	  {
+		"KAJA MOHIDEEN A": "L53,L54,L59,L60"
+	  }
+	],
+	"Structured and Object-Oriented Programming": [
+	  {
+		"SANKAR P": "E1"
+	  },
+	  {
+		"ELAKIA E": "E1"
+	  },
+	  {
+		"VALARMATHI SUDHAKARSCOPE": "E1"
+	  },
+	  {
+		"JEIPRATHA P N": "E1"
+	  },
+	  {
+		"OMANA J": "E1"
+	  },
+	  {
+		"GAYATHRI R": "E1"
+	  },
+	  {
+		"ARAVINDKUMAR S": "E1"
+	  },
+	  {
+		"K UMA MAHESWARI": "E1"
+	  },
+	  {
+		"SUDHA C": "E1"
+	  },
+	  {
+		"KARTHIKEYAN N": "E2"
+	  },
+	  {
+		"SHREE PRAKASH": "E2"
+	  },
+	  {
+		"ELAKIA E": "E2"
+	  },
+	  {
+		"PRETHIJA G": "E2"
+	  },
+	  {
+		"LINDA JOSEPH": "E2"
+	  },
+	  {
+		"JOHANAN JOYSINGH S": "E2"
+	  },
+	  {
+		"UMA MAHESWARI": "E2"
+	  },
+	  {
+		"REVATHI A R": "E2"
+	  },
+	  {
+		"DEVI K": "E2"
+	  },
+	  {
+		"MARIMUTHU": "E2"
+	  },
+	  {
+		"RADHA R": "E2"
+	  },
+	  {
+		"HEMALATHA K": "B1"
+	  },
+	  {
+		"SANKAR P": "B1"
+	  },
+	  {
+		"K UMA MAHESWARI": "B1"
+	  },
+	  {
+		"OMANA J": "B1"
+	  },
+	  {
+		"SHREE PRAKASH": "B2"
+	  },
+	  {
+		"DEVI K": "B2"
+	  },
+	  {
+		"SAMBATH M": "B2"
+	  },
+	  {
+		"KARTHIKEYAN N": "B2"
+	  },
+	  {
+		"MANIKANDAN P": "B1"
+	  },
+	  {
+		"JOHANAN JOYSINGH S": "B2"
+	  },
+	  {
+		"VIVEKANANDAN M": "B1"
+	  },
+	  {
+		"SUDHA C": "B1"
+	  },
+	  {
+		"BENILA S": "B1"
+	  },
+	  {
+		"UMA MAHESWARI": "B2"
+	  },
+	  {
+		"MARIMUTHU": "B2"
+	  },
+	  {
+		"SANTHI V": "B1"
+	  },
+	  {
+		"SANTHI V": "B2"
+	  },
+	  {
+		"PRETHIJA G": "B2"
+	  },
+	  {
+		"VALARMATHI SUDHAKARSCOPE": "B1"
+	  },
+	  {
+		"VALARMATHI K": "B1"
+	  },
+	  {
+		"RADHA R": "B2"
+	  },
+	  {
+		"MANSOOR HUSSAIN D": "G1"
+	  },
+	  {
+		"SIVAKAMI R": "G1"
+	  },
+	  {
+		"TAHIR MUJTABA": "G1"
+	  },
+	  {
+		"SIVARAMAKRISHNAN N SCOPE": "G2"
+	  },
+	  {
+		"SIVAKAMI R": "G2"
+	  },
+	  {
+		"S JAHANGEER SIDIQ": "G2"
+	  }
+	],
+	"Computer Programming: Java": [
+	  {
+		"CHENDUR KUMARAN R SELECT": "TD1"
+	  },
+	  {
+		"CHENDUR KUMARAN R SELECT": "L29,L30,L37,L38"
+	  },
+	  {
+		"ANIK GOSWAMI": "TD1"
+	  },
+	  {
+		"ANIK GOSWAMI": "L39,L40,L51,L52"
+	  },
+	  {
+		"CHENDUR KUMARAN R SELECT": "TD2"
+	  },
+	  {
+		"CHENDUR KUMARAN R SELECT": "L7,L8,L21,L22"
+	  },
+	  {
+		"PREMANAND S": "TB2"
+	  },
+	  {
+		"PREMANAND S": "L3,L4,L13,L14"
+	  },
+	  {
+		"CHRISHIA CHRISTUDHASSENSE": "L39,L40,L51,L52"
+	  },
+	  {
+		"LOGESH R": "TB1"
+	  },
+	  {
+		"LOGESH R": "L31,L32,L49,L50"
+	  },
+	  {
+		"ARIVARASI A": "TB1"
+	  },
+	  {
+		"ARIVARASI A": "L43,L44,L55,L56"
+	  },
+	  {
+		"ARIVARASI A": "TB2"
+	  },
+	  {
+		"ARIVARASI A": "L1,L2,L15,L16"
+	  },
+	  {
+		"SHEENA CHRISTABEL PRAVIN": "TB1"
+	  },
+	  {
+		"SHEENA CHRISTABEL PRAVIN": "L23,L24,L37,L38"
+	  },
+	  {
+		"SHEENA CHRISTABEL PRAVIN": "TB2"
+	  },
+	  {
+		"SHEENA CHRISTABEL PRAVIN": "L7,L8,L21,L22"
+	  },
+	  {
+		"SUDHAKARAN": "TB1"
+	  },
+	  {
+		"SUDHAKARAN": "L5,L6,L23,L24"
+	  },
+	  {
+		"SUDHAKARAN": "TB2"
+	  },
+	  {
+		"SUDHAKARAN": "L19,L20,L27,L28"
+	  },
+	  {
+		"JANANI T": "TD1"
+	  },
+	  {
+		"JANANI T": "L5,L6,L55,L56"
+	  },
+	  {
+		"JANANI T": "TE2"
+	  },
+	  {
+		"JANANI T": "L23,L24,L43,L44"
+	  },
+	  {
+		"KIRUTHIKA": "TD1"
+	  },
+	  {
+		"ABRAHAM SUDHARSON PONRAJ": "TD1"
+	  },
+	  {
+		"SONI ISHWARYA V": "TD1"
+	  },
+	  {
+		"BALA MURUGAN M S": "TD2"
+	  },
+	  {
+		"KIRUTHIKA": "TD2"
+	  },
+	  {
+		"GOWRI PRASOOD U": "TD2"
+	  },
+	  {
+		"ANGELINE EZHILARASI GSELECT": "TD1"
+	  },
+	  {
+		"ANGELINE EZHILARASI GSELECT": "L31,L32,L43,L44"
+	  },
+	  {
+		"MOHAMED IMRAN A": "TD2"
+	  },
+	  {
+		"MOHAMED IMRAN A": "L1,L2,L15,L16"
+	  },
+	  {
+		"BALA MURUGAN M S": "TD1"
+	  },
+	  {
+		"BALA MURUGAN M S": "L39,L40,L51,L52"
+	  },
+	  {
+		"KIRUTHIKA": "L11,L12,L49,L50"
+	  },
+	  {
+		"SONI ISHWARYA V": "L29,L30,L37,L38"
+	  },
+	  {
+		"GOWRI PRASOOD U": "L41,L42,L47,L48"
+	  },
+	  {
+		"BALA MURUGAN M S": "L19,L20,L27,L28"
+	  },
+	  {
+		"KIRUTHIKA": "L7,L8,L21,L22"
+	  }
+	],
+	"Data Structures and Algorithms": [
+	  {
+		"ROLLA SUBRAHMANYAMSCOPE": "C2,L47,L48,TC2"
+	  },
+	  {
+		"RISHIKESHAN C A": "B1,L45,L46,TB1"
+	  },
+	  {
+		"RISHIKESHAN C A": "L15,L16"
+	  },
+	  {
+		"HELEN VIJITHA P": "L55,L56"
+	  },
+	  {
+		"S. BHARATHI RAJA": "D1,L49,L50,TD1"
+	  }
+	],
+	"Web Programming": [
+	  {
+		"MAHESWARI S": "TE1"
+	  },
+	  {
+		"MAHESWARI S": "L37,L38,L43,L44"
+	  },
+	  {
+		"JENILA LIVINGSTON L M SCOPE": "TE1"
+	  },
+	  {
+		"RAJESH M": "TE1"
+	  },
+	  {
+		"RAJESH M": "L33,L34,L39,L40"
+	  },
+	  {
+		"RAJIV VINCENT": "TE1"
+	  },
+	  {
+		"RAJIV VINCENT": "L45,L46,L57,L58"
+	  },
+	  {
+		"ANUBHA PEARLINE S": "TG1"
+	  },
+	  {
+		"ANUBHA PEARLINE S": "L31,L32,L43,L44"
+	  },
+	  {
+		"SANDHYA P": "TE1"
+	  },
+	  {
+		"DHAVAKUMAR P": "TG1"
+	  },
+	  {
+		"SANDHYA P": "L49,L50,L55,L56"
+	  },
+	  {
+		"DHAVAKUMAR P": "L51,L52,L55,L56"
+	  },
+	  {
+		"RAJA M": "TG1"
+	  },
+	  {
+		"RAJKUMAR S": "TE1"
+	  },
+	  {
+		"RAJA M": "L39,L40,L49,L50"
+	  },
+	  {
+		"BALRAJ E": "TG1"
+	  },
+	  {
+		"RAMA PARVATHY L": "TE1"
+	  },
+	  {
+		"RAMA PARVATHY L": "L29,L30,L31,L32"
+	  },
+	  {
+		"MAHESWARI S": "TE2"
+	  },
+	  {
+		"MAHESWARI S": "L9,L10,L13,L14"
+	  },
+	  {
+		"JENILA LIVINGSTON L M SCOPE": "TE2"
+	  },
+	  {
+		"RAJESH M": "TE2"
+	  },
+	  {
+		"RAJIV VINCENT": "TE2"
+	  },
+	  {
+		"SANDHYA P": "TE2"
+	  },
+	  {
+		"SANDHYA P": "L3,L4,L27,L28"
+	  },
+	  {
+		"RAJKUMAR S": "TE2"
+	  },
+	  {
+		"RAJKUMAR S": "L9,L10,L27,L28"
+	  },
+	  {
+		"RAMA PARVATHY L": "TE2"
+	  },
+	  {
+		"ASHOKA RAJAN R": "TG1"
+	  },
+	  {
+		"SANDEEP KUMAR SATAPATHY": "TG1"
+	  },
+	  {
+		"SANDEEP KUMAR SATAPATHY": "L29,L30,L37,L38"
+	  },
+	  {
+		"ASHOKA RAJAN R": "TG2"
+	  },
+	  {
+		"ASHOKA RAJAN R": "L11,L12,L19,L20"
+	  },
+	  {
+		"KANNIGA DEVI R": "TG1"
+	  },
+	  {
+		"KANNIGA DEVI R": "L23,L24,L31,L32"
+	  },
+	  {
+		"KANNIGA DEVI R": "TG2"
+	  },
+	  {
+		"BALRAJ E": "L29,L30,L37,L38"
+	  },
+	  {
+		"ANUBHA PEARLINE S": "TG2"
+	  },
+	  {
+		"ANUBHA PEARLINE S": "L9,L10,L13,L14"
+	  },
+	  {
+		"DHAVAKUMAR P": "TG2"
+	  },
+	  {
+		"DHAVAKUMAR P": "L21,L22,L25,L26"
+	  },
+	  {
+		"RAJA M": "TG2"
+	  },
+	  {
+		"BALRAJ E": "TG2"
+	  },
+	  {
+		"BALRAJ E": "L7,L8,L23,L24"
+	  },
+	  {
+		"SIVAKUMAR": "TG1"
+	  },
+	  {
+		"SIVAKUMAR": "L43,L44,L51,L52"
+	  },
+	  {
+		"SENDHIL R": "TG1"
+	  },
+	  {
+		"SENDHIL R": "L23,L24,L55,L56"
+	  },
+	  {
+		"VALLIDEVI K": "TG1"
+	  },
+	  {
+		"VALLIDEVI K": "L31,L32,L49,L50"
+	  },
+	  {
+		"SIVAKUMAR": "TG2"
+	  },
+	  {
+		"SENDHIL R": "TG2"
+	  },
+	  {
+		"SENDHIL R": "L7,L8,L25,L26"
+	  },
+	  {
+		"VALLIDEVI K": "TG2"
+	  },
+	  {
+		"VALLIDEVI K": "L11,L12,L29,L30"
+	  },
+	  {
+		"SIVAKUMAR": "L13,L14,L21,L22"
+	  },
+	  {
+		"RAJA M": "L11,L12,L15,L16"
+	  },
+	  {
+		"RAMA PARVATHY L": "L1,L2,L11,L12"
+	  },
+	  {
+		"JENILA LIVINGSTON L M SCOPE": "L11,L12,L31,L32"
+	  },
+	  {
+		"JENILA LIVINGSTON L M SCOPE": "L15,L16,L19,L20"
+	  },
+	  {
+		"RAJESH M": "L5,L6,L25,L26"
+	  },
+	  {
+		"RAJIV VINCENT": "L7,L8,L29,L30"
+	  },
+	  {
+		"KANNIGA DEVI R": "L11,L12,L15,L16"
+	  }
+	],
+	"Design and Analysis of Algorithms": [
+	  {
+		"UMMITY SRINIVASA RAOSCOPE": "A1,L51,L52,TA1"
+	  },
+	  {
+		"UMMITY SRINIVASA RAOSCOPE": "L21,L22"
+	  },
+	  {
+		"JANAKI MEENA M": "L23,L24"
+	  },
+	  {
+		"OM KUMAR C U": "L25,L26"
+	  },
+	  {
+		"JAYARAM B": "L51,L52"
+	  },
+	  {
+		"JAYARAM B": "L21,L22"
+	  },
+	  {
+		"JEGANNATHAN L": "L23,L24"
+	  },
+	  {
+		"KAVIPRIYA G": "L13,L14"
+	  },
+	  {
+		"SUGUNA": "L33,L34"
+	  },
+	  {
+		"SUGUNA": "L7,L8"
+	  },
+	  {
+		"T RAJA SREE": "L49,L50"
+	  },
+	  {
+		"T RAJA SREE": "L19,L20"
+	  },
+	  {
+		"LEKSHMI K": "A2,L37,L38,TA2"
+	  },
+	  {
+		"LEKSHMI K": "L3,L4"
+	  },
+	  {
+		"SENTHIL KUMAR A M": "L5,L6"
+	  },
+	  {
+		"DOMINIC SAVIO M": "L43,L44"
+	  },
+	  {
+		"PANDIYARAJU V": "L7,L8"
+	  },
+	  {
+		"SENTHIL KUMAR A M": "L27,L28"
+	  },
+	  {
+		"KAVIPRIYA G": "L39,L40"
+	  },
+	  {
+		"KALAIPRIYAN": "L13,L14"
+	  },
+	  {
+		"RAJAKUMAR": "L25,L26"
+	  }
+	],
+	"Computer Architecture and Organization TH": [
+	  {
+		"ASWIGA": "D1,TD1"
+	  },
+	  {
+		"PADMA J": "D1,TD1"
+	  },
+	  {
+		"ANCY MICHEAL A": "D2,TD2"
+	  },
+	  {
+		"PADMA J": "D2,TD2"
+	  },
+	  {
+		"MADURA MEENAKSHI R SCOPE": "E1,TE1"
+	  },
+	  {
+		"VAIDEHI VIJAYAKUMAR SCOPE": "E2,TE2"
+	  },
+	  {
+		"SMRITHY": "E1,TE1"
+	  },
+	  {
+		"NIVEDITA M": "E1,TE1"
+	  },
+	  {
+		"THANIKACHALAM V": "E2,TE2"
+	  },
+	  {
+		"MANJULA V": "E1,TE1"
+	  },
+	  {
+		"DEEPA NIVETHIKA": "E1,TE1"
+	  },
+	  {
+		"PADMA J": "E1,TE1"
+	  },
+	  {
+		"SMRITHY": "E2,TE2"
+	  }
+	],
+	"Foundations of Data Science": [
+	  {
+		"NACHIYAPPAN S": "F1,TF1"
+	  },
+	  {
+		"SURYA PRAKASH TIWARISCOPE": "F2,TF2"
+	  },
+	  {
+		"SURYA PRAKASH TIWARISCOPE": "C1,TC1"
+	  },
+	  {
+		"ARTHI M": "C1,TC1"
+	  },
+	  {
+		"A SHEIK ABDULLAH": "C2,TC2"
+	  },
+	  {
+		"SUJITHRA @ KANMANI RSCOPE": "C2,TC2"
+	  },
+	  {
+		"SARANYARAJ D": "C1,TC1"
+	  }
+	],
+	"Machine Learning": [
+	  {
+		"R JOTHI": "D1,L37,L38,TD1"
+	  },
+	  {
+		"PRIYADARSHINI J": "D1,L43,L44,TD1"
+	  },
+	  {
+		"S.A.SAJIDHA": "D1,L39,L40,TD1"
+	  },
+	  {
+		"SRIDEVI S": "L1,L2"
+	  },
+	  {
+		"PRIYADARSHINI J": "L23,L24"
+	  },
+	  {
+		"S.A.SAJIDHA": "L5,L6"
+	  },
+	  {
+		"SYED IBRAHIM S P": "L15,L16"
+	  },
+	  {
+		"TRILOK NATH PANDEY": "L5,L6"
+	  }
+	],
+	"Software Engineering": [
+	  {
+		"A. K ILAVARASI": "A2,L3,L4,TA2"
+	  }
+	],
+	"Database Systems": [
+	  {
+		"APPALARAJU MURALIDHARSCOPE": "L29,L30"
+	  },
+	  {
+		"JANI ANBARASI L": "L37,L38"
+	  },
+	  {
+		"SANDHYA": "L31,L32"
+	  },
+	  {
+		"PARKAVI K": "C1,L33,L34,TC1"
+	  },
+	  {
+		"JANI ANBARASI L": "C2,L15,L16,TC2"
+	  },
+	  {
+		"BALASUNDARAM A": "C2,L19,L20,TC2"
+	  },
+	  {
+		"PARKAVI K": "C2,L3,L4,TC2"
+	  },
+	  {
+		"AMRIT PAL": "L49,L50"
+	  },
+	  {
+		"JAYANTHI R": "L57,L58"
+	  },
+	  {
+		"BRINDHA": "L33,L34"
+	  },
+	  {
+		"AMRIT PAL": "L19,L20"
+	  },
+	  {
+		"ABISHI CHOWDHURY": "L15,L16"
+	  },
+	  {
+		"BRINDHA": "L3,L4"
+	  },
+	  {
+		"SOFTYA SEBASTIAN": "L55,L56"
+	  },
+	  {
+		"SUDHA": "L1,L2"
+	  },
+	  {
+		"VIJAYAKUMAR K P": "L49,L50"
+	  },
+	  {
+		"SHERLY A": "C1,L43,L44,TC1"
+	  },
+	  {
+		"VIJAYAKUMAR K P": "L1,L2"
+	  },
+	  {
+		"SELLAM V": "L51,L52"
+	  },
+	  {
+		"SELLAM V": "A1,L21,L22,TA1"
+	  }
+	],
+	"Operating Systems": [
+	  {
+		"RABINDRA KUMAR SINGHSCOPE": "C2,L10,L9,TC2"
+	  },
+	  {
+		"ANGELINE EZHILARASI GSELECT": "E1,L11,L12,TE1"
+	  },
+	  {
+		"SREEJA P S": "C1,L39,L40,TC1"
+	  },
+	  {
+		"PRADEEP K": "C1,L49,L50,TC1"
+	  },
+	  {
+		"PRADEEP K": "L19,L20"
+	  },
+	  {
+		"PRAVIN RENOLD A": "L27,L28"
+	  },
+	  {
+		"YOGESH C": "L23,L24"
+	  },
+	  {
+		"KUMAR R": "L29,L30"
+	  },
+	  {
+		"YOGESH C": "L9,L10"
+	  },
+	  {
+		"MANIMEGALAI": "L43,L44"
+	  },
+	  {
+		"INDRA PRIYADHARSHINI SCOPE": "L55,L56"
+	  },
+	  {
+		"MANIMEGALAI": "L5,L6"
+	  },
+	  {
+		"INDRA PRIYADHARSHINI SCOPE": "L27,L28"
+	  },
+	  {
+		"MANAS RANJAN PRUSTYCPS": "L23,L24"
+	  },
+	  {
+		"REVATHI": "L31,L32"
+	  },
+	  {
+		"AFRUZA BEGUM": "L23,L24"
+	  },
+	  {
+		"ANANDAN P": "L39,L40"
+	  },
+	  {
+		"REVATHI": "L9,L10"
+	  },
+	  {
+		"AFRUZA BEGUM": "L13,L14"
+	  }
+	],
+	"Theory of Computation": [
+	  {
+		"NATARAJAN B": "E1,TE1"
+	  },
+	  {
+		"NATARAJAN B": "E2,TE2"
+	  },
+	  {
+		"SATHYARAJASEKARAN K SCOPE": "D1,TD1"
+	  },
+	  {
+		"KARMEL A": "D1,TD1"
+	  },
+	  {
+		"KSHMA TRIVEDI": "D1,TD1"
+	  },
+	  {
+		"BENIL T": "D2,TD2"
+	  },
+	  {
+		"B V A N S S PRABHAKAR RAOSCOPE": "D2,TD2"
+	  },
+	  {
+		"SELVAM D": "E1,TE1"
+	  },
+	  {
+		"ASWIGA": "E2,TE2"
+	  },
+	  {
+		"MODIGARI NARENDRA": "E1,TE1"
+	  },
+	  {
+		"RENUKA DEVI": "E1,TE1"
+	  },
+	  {
+		"SARAVANAN P": "E2,TE2"
+	  },
+	  {
+		"KAVITHA J C": "E1,TE1"
+	  },
+	  {
+		"KAVITHA J C": "E2,TE2"
+	  },
+	  {
+		"SMRITHY": "F1,TF1"
+	  },
+	  {
+		"KARTHIKA S K": "F1,TF1"
+	  },
+	  {
+		"PRAKASH P": "F1,TF1"
+	  },
+	  {
+		"RENUKA DEVI": "F2,TF2"
+	  },
+	  {
+		"KARTHIKA S K": "F2,TF2"
+	  },
+	  {
+		"B V A N S S PRABHAKAR RAOSCOPE": "C1,TC1,TCC1"
+	  },
+	  {
+		"PRAKASH P": "C2,TC2,TCC2"
+	  }
+	],
+	"Embedded Systems": [
+	  {
+		"SHARON GIFTSY A L": "E1,TE1"
+	  },
+	  {
+		"NITISH KATAL": "E1,TE1"
+	  },
+	  {
+		"SINDHUJA M": "E1,TE1"
+	  },
+	  {
+		"LATHA P": "E1,TE1"
+	  },
+	  {
+		"KIRAN KUMAR M": "E1,TE1"
+	  },
+	  {
+		"SUHASINI S": "E1,TE1"
+	  },
+	  {
+		"KARTHIKEYAN P R": "E2,TE2"
+	  },
+	  {
+		"VIJAYAKUMAR P": "E2,TE2"
+	  },
+	  {
+		"NITISH KATAL": "E2,TE2"
+	  },
+	  {
+		"LATHA P": "E2,TE2"
+	  },
+	  {
+		"SINDHUJA M": "E2,TE2"
+	  },
+	  {
+		"KIRAN KUMAR M": "E2,TE2"
+	  },
+	  {
+		"SUHASINI S": "E2,TE2"
+	  },
+	  {
+		"PUGAZHENTHI R": "G1,TG1"
+	  },
+	  {
+		"DHANUSH R": "G1,TG1"
+	  },
+	  {
+		"SRITAMA ROY": "G1,TG1"
+	  },
+	  {
+		"MANIGANDAN M": "G1,TG1"
+	  },
+	  {
+		"SATHEESH KUMAR T": "G2,TG2"
+	  },
+	  {
+		"MANIMARAN P": "G1,TG1"
+	  },
+	  {
+		"SRIDHAR C": "G2,TG2"
+	  },
+	  {
+		"SRITAMA ROY": "G2,TG2"
+	  },
+	  {
+		"MANIGANDAN M": "G2,TG2"
+	  },
+	  {
+		"PREMANAND V": "G1,TG1"
+	  },
+	  {
+		"AHADIT": "G2,TG2"
+	  },
+	  {
+		"UMESH K": "G1,TG1"
+	  },
+	  {
+		"VIDHYA LAKSHMI M": "D1,TD1"
+	  },
+	  {
+		"PREMANAND V": "F1"
+	  },
+	  {
+		"PREMANAND V": "NIL"
+	  }
+	],
+	"Artificial Intelligence": [
+	  {
+		"SUDHEER KUMAR E": "L29,L30"
+	  },
+	  {
+		"SANDHYA": "L55,L56"
+	  },
+	  {
+		"SUDHEER KUMAR E": "L15,L16"
+	  }
+	],
+	"Compiler Design": [
+	  {
+		"NAGARAJ S V": "B1,L43,L44,TB1"
+	  },
+	  {
+		"SHIVANI GUPTA": "B1,L33,L34,TB1"
+	  },
+	  {
+		"MANJU G": "B1,L23,L24,TB1"
+	  },
+	  {
+		"NAGARAJ S V": "B2,L13,L14,TB2"
+	  },
+	  {
+		"SENTHIL PRAKASH P N": "B2,L10,L9,TB2"
+	  },
+	  {
+		"SENTHIL PRAKASH P N": "L31,L32"
+	  },
+	  {
+		"KIRUTHIKA": "L37,L38"
+	  },
+	  {
+		"SUGANYA R": "L49,L50"
+	  },
+	  {
+		"MANJU G": "L33,L34"
+	  },
+	  {
+		"KIRUTHIKA": "L15,L16"
+	  },
+	  {
+		"SUGANYA R": "L1,L2"
+	  },
+	  {
+		"MERCY RAJASELVI BEAULAH P": "L31,L32"
+	  },
+	  {
+		"MERCY RAJASELVI BEAULAH P": "L23,L24"
+	  },
+	  {
+		"ANAND M": "L43,L44"
+	  },
+	  {
+		"ANAND M": "B1,L37,L38,TB1"
+	  },
+	  {
+		"LENINISHA SHANMUGAMSCOPE": "B2,L13,L14,TB2"
+	  },
+	  {
+		"SURESHKUMAR WI": "L43,L44"
+	  },
+	  {
+		"SURESHKUMAR WI": "L27,L28"
+	  }
+	],
+	"Computer Networks": [
+	  {
+		"PRADEEP K V": "D1,L37,L38,TD1"
+	  },
+	  {
+		"SAHAYA BENI PRATHIBA BCPS": "D2,L21,L22,TD2"
+	  },
+	  {
+		"SIVAGAMI   M": "C1,L29,L30,TC1"
+	  },
+	  {
+		"SIVAGAMI   M": "L1,L2"
+	  },
+	  {
+		"PUNITHA K": "L51,L52"
+	  },
+	  {
+		"PUNITHA K": "L21,L22"
+	  },
+	  {
+		"NEELANARAYANAN V": "L23,L24"
+	  },
+	  {
+		"NEELANARAYANAN V": "L15,L16"
+	  },
+	  {
+		"BHAVADHARINI R M": "L37,L38"
+	  },
+	  {
+		"BHAVADHARINI R M": "C2,L5,L6,TC2"
+	  },
+	  {
+		"MENAKA PUSHPA A": "D1,L43,L44,TD1"
+	  },
+	  {
+		"MENAKA PUSHPA A": "D2,L11,L12,TD2"
+	  },
+	  {
+		"SANGEETHA N": "D2,L1,L2,TD2"
+	  },
+	  {
+		"DINAKARAN M": "L33,L34"
+	  },
+	  {
+		"INDIRA B": "D2,L27,L28,TD2"
+	  },
+	  {
+		"RENJITH": "D2,L19,L20,TD2"
+	  },
+	  {
+		"SHYAMALA L": "D1,L23,L24,TD1"
+	  },
+	  {
+		"SHYAMALA L": "L7,L8"
+	  },
+	  {
+		"PRAVIN RENOLD A": "L15,L16"
+	  },
+	  {
+		"DHANALAKSHMI R": "L13,L14"
+	  }
+	],
+	"Cryptography and Network Security": [
+	  {
+		"BALASARASWATHI": "L55,L56"
+	  },
+	  {
+		"N G BHUVANESWARI": "L7,L8"
+	  },
+	  {
+		"LOGESWARI G": "L49,L50"
+	  },
+	  {
+		"BALASARASWATHI": "L27,L28"
+	  },
+	  {
+		"KANTHIMATHI S": "L55,L56"
+	  },
+	  {
+		"LEKI CHOM THUNGON": "B2,L19,L20,TB2"
+	  },
+	  {
+		"LOGESWARI G": "L5,L6"
+	  },
+	  {
+		"JANNATH NISHA O S": "L49,L50"
+	  },
+	  {
+		"ANITA X": "L55,L56"
+	  },
+	  {
+		"TAPABRATA ROY": "L33,L34"
+	  },
+	  {
+		"ANITA X": "L7,L8"
+	  },
+	  {
+		"RENUKA DEVI S": "L11,L12"
+	  },
+	  {
+		"RAJESH R": "L39,L40"
+	  },
+	  {
+		"JANNATH NISHA O S": "L5,L6"
+	  },
+	  {
+		"LINDA JOSEPH": "L1,L2"
+	  },
+	  {
+		"RAJESH R": "L9,L10"
+	  },
+	  {
+		"JAI VINITA L": "L37,L38"
+	  },
+	  {
+		"JAI VINITA L": "L7,L8"
+	  },
+	  {
+		"ROLLA SUBRAHMANYAMSCOPE": "L35,L36"
+	  },
+	  {
+		"SUBBULAKSHMI P": "L55,L56"
+	  },
+	  {
+		"SUBBULAKSHMI T": "L45,L46"
+	  },
+	  {
+		"VATCHALA S": "L43,L44"
+	  },
+	  {
+		"VATCHALA S": "L33,L34"
+	  },
+	  {
+		"KARTHIKA V": "L11,L12"
+	  },
+	  {
+		"KARTHIKA V": "L31,L32"
+	  },
+	  {
+		"LEKI CHOM THUNGON": "L15,L16"
+	  },
+	  {
+		"MARY SHAMALA L": "L13,L14"
+	  },
+	  {
+		"MARY SHAMALA L": "L3,L4"
+	  },
+	  {
+		"SOBITHA AHILA S": "L25,L26"
+	  },
+	  {
+		"SOBITHA AHILA S": "L9,L10"
+	  }
+	],
+	"Fundamentals of Fog and Edge ComputingTH": [
+	  {
+		"V. SAKTHIVEL": "D1,TD1"
+	  },
+	  {
+		"V. SAKTHIVEL": "D2,TD2"
+	  }
+	],
+	"Design of Smart Cities": [
+	  {
+		"SANDOSH": "G2,TG2"
+	  },
+	  {
+		"A SWAMINATHAN": "G1,TG1"
+	  }
+	],
+	"Foundations of Blockchain Technology": [
+	  {
+		"MALATHI D": "G1,TG1"
+	  },
+	  {
+		"PRABHAKARAN R": "G2,TG2"
+	  }
+	],
+	"Deep Learning": [
+	  {
+		"SUCHETHA M": "L29,L30"
+	  },
+	  {
+		"VIJAYARAJAN R": "E2,L27,L28,TE2"
+	  },
+	  {
+		"ROHITH G": "L45,L46"
+	  },
+	  {
+		"SHRIDEVI S": "L5,L6"
+	  },
+	  {
+		"RAJALAKSHMI R": "L3,L4"
+	  }
+	],
+	"Information Security Analysis and Audit": [
+	  {
+		"KANCHANA DEVI V": "TB1"
+	  },
+	  {
+		"KANCHANA DEVI V": "L29,L30"
+	  }
+	],
+	"Information Security Management": [
+	  {
+		"AVUTHU AVINASH REDDYSCOPE": "TB2"
+	  },
+	  {
+		"AVUTHU AVINASH REDDYSCOPE": "L53,L54"
+	  }
+	],
+	"Internet of Things": [
+	  {
+		"ILAVENDHAN A": "A1,TA1"
+	  },
+	  {
+		"AVUTHU AVINASH REDDYSCOPE": "A1,TA1"
+	  },
+	  {
+		"SUSEELA S": "A1,TA1"
+	  },
+	  {
+		"DEEPIKA ROSELIND J": "A2,TA2"
+	  },
+	  {
+		"AVUTHU AVINASH REDDYSCOPE": "A2,TA2"
+	  },
+	  {
+		"SARAVANAN P": "A2,TA2"
+	  },
+	  {
+		"PADMANABAN R": "C1"
+	  },
+	  {
+		"KABILAN K": "C1"
+	  },
+	  {
+		"PADMANABAN R": "L45,L46"
+	  },
+	  {
+		"PADMANABAN R": "NIL"
+	  },
+	  {
+		"KABILAN K": "L49,L50"
+	  },
+	  {
+		"KABILAN K": "NIL"
+	  },
+	  {
+		"KABILAN K": "C2"
+	  },
+	  {
+		"KABILAN K": "L5,L6"
+	  },
+	  {
+		"KABILAN K": "NIL"
+	  },
+	  {
+		"NIVETHITHA V": "TD1"
+	  },
+	  {
+		"NIVETHITHA V": "L33,L34"
+	  }
+	],
+	"Digital Image Processing": [
+	  {
+		"SRIDHAR R": "A1,TA1"
+	  },
+	  {
+		"JOSHAN": "A2,TA2"
+	  },
+	  {
+		"GEETHA S": "A2,TA2"
+	  }
+	],
+	"Cloud Computing": [
+	  {
+		"TAMILARASI K": "G1,TG1"
+	  },
+	  {
+		"ANUSOOYA G": "G1,TG1"
+	  },
+	  {
+		"SRISAKTHI SARAVANAN SCOPE": "G1,TG1"
+	  },
+	  {
+		"PALANI THANARAJ K": "G2,TG2"
+	  },
+	  {
+		"SHARMILADEVI S": "G2,TG2"
+	  },
+	  {
+		"SRISAKTHI SARAVANAN SCOPE": "G2,TG2"
+	  },
+	  {
+		"PRIYAADHARSHINI M": "E2,TE2"
+	  },
+	  {
+		"PRABHAKARAN R": "D1"
+	  },
+	  {
+		"PRABHAKARAN R": "NIL"
+	  }
+	],
+	"Natural Language Processing": [
+	  {
+		"AHADIT": "D1,TD1"
+	  },
+	  {
+		"KRITHIGA R": "D1,TD1"
+	  },
+	  {
+		"VIJAYAPRABAKARAN K": "D2,TD2"
+	  },
+	  {
+		"KRITHIGA R": "D2,TD2"
+	  },
+	  {
+		"ILAKIYASELVAN N": "E2"
+	  },
+	  {
+		"ILAKIYASELVAN N": "NIL"
+	  },
+	  {
+		"NISHA  V.M": "F1"
+	  },
+	  {
+		"NISHA  V.M": "NIL"
+	  },
+	  {
+		"ILAKIYASELVAN N": "F2"
+	  },
+	  {
+		"ILAKIYASELVAN N": "NIL"
+	  }
+	],
+	"Parallel Computing": [
+	  {
+		"CHRISTOPHER COLUMBUS C": "C1,TC1"
+	  },
+	  {
+		"LAKSHMI HARIKA PALIVELASCOPE": "C1,TC1"
+	  },
+	  {
+		"CHRISTOPHER COLUMBUS C": "C2,TC2"
+	  },
+	  {
+		"LAKSHMI HARIKA PALIVELASCOPE": "C2,TC2"
+	  }
+	],
+	"High Performance Computing": [
+	  {
+		"MANJULA V": "A2,TA2"
+	  },
+	  {
+		"CHRISTOPHER COLUMBUS C": "F1,TF1"
+	  }
+	],
+	"Human Computer Interaction": [
+	  {
+		"PRAVEEN JOE I R": "C1,TC1"
+	  },
+	  {
+		"PRASSANNA J": "C2,TC2"
+	  },
+	  {
+		"VIDHYA LAKSHMI M": "C1,TC1"
+	  },
+	  {
+		"VIDHYA LAKSHMI M": "C2,TC2"
+	  },
+	  {
+		"DEEPIKA ROSELIND J": "B2,TB2"
+	  },
+	  {
+		"SIVABALAKRISHNAN M SCOPE": "F1"
+	  },
+	  {
+		"SIVABALAKRISHNAN M SCOPE": "NIL"
+	  }
+	],
+	"Game Programming": [
+	  {
+		"GRACELINE JASMINE S": "D1,L29,L30,TD1"
+	  },
+	  {
+		"SUVIDHA RUPESH KUMARSCOPE": "D1,L11,L12,TD1"
+	  },
+	  {
+		"RATHNA": "D2,L7,L8,TD2"
+	  },
+	  {
+		"SUVIDHA RUPESH KUMARSCOPE": "D2,L27,L28,TD2"
+	  }
+	],
+	"Machine vision": [
+	  {
+		"BHARADWAJA KUMAR": "A1,TA1"
+	  },
+	  {
+		"AMUTHA S": "A1,TA1"
+	  },
+	  {
+		"V BRINDHA": "A1,TA1"
+	  },
+	  {
+		"BHARADWAJA KUMAR": "A2,TA2"
+	  },
+	  {
+		"AMUTHA S": "A2,TA2"
+	  },
+	  {
+		"TRILOK NATH PANDEY": "A2,TA2"
+	  }
+	],
+	"Machine Vision Lab": [
+	  {
+		"BHARADWAJA KUMAR": "L23,L24"
+	  },
+	  {
+		"AMUTHA S": "L49,L50"
+	  },
+	  {
+		"V BRINDHA": "L39,L40"
+	  },
+	  {
+		"BHARADWAJA KUMAR": "L3,L4"
+	  },
+	  {
+		"AMUTHA S": "L19,L20"
+	  },
+	  {
+		"TRILOK NATH PANDEY": "L27,L28"
+	  }
+	],
+	"Explainable Artificial Intelligence": [
+	  {
+		"NAYEEMULLA KHAN": "C1"
+	  },
+	  {
+		"D JEYA MALA": "C1"
+	  },
+	  {
+		"RAJESH KUMAR": "C2"
+	  },
+	  {
+		"RADHIKA SELVAMANI": "C2"
+	  }
+	],
+	"Speech and Language Processing": [
+	  {
+		"DEEPA NIVETHIKA": "B1,TB1"
+	  }
+	],
+	"Speech and Language Processing lab": [
+	  {
+		"DEEPA NIVETHIKA": "L11,L12"
+	  }
+	],
+	"Sensors, Actuators and Signal ConditioningTH": [
+	  {
+		"PADMAVATHY T V": "F1"
+	  },
+	  {
+		"NOEL JEYGAR ROBERT V SCOPE": "F2"
+	  },
+	  {
+		"SUBITHA D": "F2"
+	  },
+	  {
+		"SUBITHA D": "F1"
+	  }
+	],
+	"Robot Modeling and Simulation": [
+	  {
+		"PRABHA B": "C1,L11,L12"
+	  },
+	  {
+		"PRABHA B": "C2,L7,L8"
+	  }
+	],
+	"Robot Programming": [
+	  {
+		"GANALA SANTOSHI": "G1,L39,L40"
+	  }
+	],
+	"Machine Learning for Robotics": [
+	  {
+		"VERGIN RAJA SAROBIN MSCOPE": "C1,L37,L38"
+	  },
+	  {
+		"NITHYA DARISINI  P S": "C1,L29,L30"
+	  },
+	  {
+		"VERGIN RAJA SAROBIN MSCOPE": "C2,L15,L16"
+	  },
+	  {
+		"RAJARAJESWARI S": "C1,L51,L52"
+	  }
+	],
+	"Robotic Perception": [
+	  {
+		"MUTHUKUMARAN K": "A1,L29,L30,TA1"
+	  },
+	  {
+		"ANITA CHRISTALINE J": "L43,L44"
+	  },
+	  {
+		"MUTHUKUMARAN K": "L19,L20"
+	  },
+	  {
+		"PREM SANKAR": "A2,L21,L22,TA2"
+	  },
+	  {
+		"PAVITHRA L K": "A1,L33,L34,TA1"
+	  }
+	],
+	"Robotic Process Automation": [
+	  {
+		"KANIMOZHI S": "G2"
+	  }
+	],
+	"Cognitive Robotics": [
+	  {
+		"ARUNKUMAR": "D1,L31,L32"
+	  },
+	  {
+		"PAVITHRA S": "D2,L3,L4"
+	  },
+	  {
+		"HARINI S": "D1,L5,L6"
+	  },
+	  {
+		"PAVITHRA S": "E1,L23,L24"
+	  }
+	],
+	"Autonomous Drones": [
+	  {
+		"PRASAD M": "A1,L23,L24"
+	  },
+	  {
+		"PRASAD M": "L31,L32"
+	  },
+	  {
+		"SATHIAN D": "L11,L12"
+	  },
+	  {
+		"SATHIAN D": "A2,L55,L56"
+	  },
+	  {
+		"MARIA ANU": "L1,L2"
+	  },
+	  {
+		"MARIA ANU": "L25,L26"
+	  },
+	  {
+		"SATHIAN D": "L3,L4"
+	  },
+	  {
+		"SATHIAN D": "L27,L28"
+	  },
+	  {
+		"V. MUTHUMANIKANDANSCOPE": "L37,L38"
+	  },
+	  {
+		"V. MUTHUMANIKANDANSCOPE": "L49,L50"
+	  },
+	  {
+		"VENKATRAMAN S": "L5,L6"
+	  },
+	  {
+		"V. MUTHUMANIKANDANSCOPE": "L7,L8"
+	  }
+	],
+	"Cyber Physical Systems Design": [
+	  {
+		"PRIYADARSHINI R": "A1"
+	  }
+	],
+	"Cyber Physical System Design Lab": [
+	  {
+		"PRIYADARSHINI R": "L29,L30"
+	  }
+	],
+	"Distributed Real Time Systems": [
+	  {
+		"VENKATRAMAN S": "D2,L19,L20"
+	  }
+	],
+	"Basic Bioinformatics": [
+	  {
+		"MALATHI D": "D1,TD1"
+	  }
+	],
+	"Capstone Project": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  },
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
+	],
+	"Computer Networks Essentials": [
+	  {
+		"ASHA JERLIN M": "G1"
+	  },
+	  {
+		"PADMANABAN R": "G2"
+	  },
+	  {
+		"ASHA JERLIN M": "L15,L16"
+	  },
+	  {
+		"SANGEETHA N": "G2"
+	  },
+	  {
+		"SANGEETHA N": "L11,L12"
+	  },
+	  {
+		"PADMANABAN R": "L11,L12"
+	  }
+	],
+	"Exploratory Data Analysis": [
+	  {
+		"ASNATH VICTY PHAMILA YSCOPE": "E1,TE1"
+	  },
+	  {
+		"ASNATH VICTY PHAMILA YSCOPE": "NIL"
+	  },
+	  {
+		"PATTABIRAMAN V": "E1,TE1"
+	  },
+	  {
+		"PATTABIRAMAN V": "NIL"
+	  },
+	  {
+		"ASNATH VICTY PHAMILA YSCOPE": "E2,TE2"
+	  },
+	  {
+		"ASNATH VICTY PHAMILA YSCOPE": "NIL"
+	  }
+	],
+	"Text & Web Mining": [
+	  {
+		"GAYATHRI DEVI S": "A2"
+	  },
+	  {
+		"GAYATHRI DEVI S": "L9,L10"
+	  },
+	  {
+		"GAYATHRI DEVI S": "NIL"
+	  }
+	],
+	"Sequential and Spatial data mining": [
+	  {
+		"VINOTHINI A": "B1,TB1,TBB1"
+	  }
+	],
+	"Real-Time Analytics": [
+	  {
+		"ANCY MICHEAL A": "A1,TA1"
+	  },
+	  {
+		"ANCY MICHEAL A": "NIL"
+	  }
+	],
+	"Big Data Ecosystem": [
+	  {
+		"SIVARANJANI N": "B2"
+	  },
+	  {
+		"SIVARANJANI N": "L21,L22"
+	  },
+	  {
+		"SIVARANJANI N": "NIL"
+	  }
+	],
+	"Predictive Analytics with Case Studies": [
+	  {
+		"A SHEIK ABDULLAH": "D1,TD1"
+	  },
+	  {
+		"A SHEIK ABDULLAH": "D2,TD2"
+	  },
+	  {
+		"A SHEIK ABDULLAH": "NIL"
+	  }
+	],
+	"Computer Vision": [
+	  {
+		"THANIKACHALAM V": "D1,TD1"
+	  },
+	  {
+		"THANIKACHALAM V": "NIL"
+	  }
+	],
+	"Cloud Ecosystem": [
+	  {
+		"GAYATHRI DEVI S": "D2,TD2"
+	  },
+	  {
+		"GAYATHRI DEVI S": "L19,L20"
+	  }
+	],
+	"Big Data Frameworks": [
+	  {
+		"SUDHARSON S": "G1"
+	  },
+	  {
+		"SUDHARSON S": "L33,L34"
+	  },
+	  {
+		"SUDHARSON S": "NIL"
+	  },
+	  {
+		"SIVA PRIYA M S": "G1"
+	  },
+	  {
+		"SIVA PRIYA M S": "L29,L30"
+	  },
+	  {
+		"SIVA PRIYA M S": "NIL"
+	  },
+	  {
+		"SUDHARSON S": "G2"
+	  },
+	  {
+		"SUDHARSON S": "L3,L4"
+	  },
+	  {
+		"SUDHARSON S": "NIL"
+	  }
+	],
+	"Essentials of Data Analytics": [
+	  {
+		"N M ELANGO": "C1"
+	  },
+	  {
+		"N M ELANGO": "L39,L40"
+	  },
+	  {
+		"N M ELANGO": "NIL"
+	  },
+	  {
+		"SHRUTI": "C1"
+	  },
+	  {
+		"SHRUTI": "L45,L46"
+	  },
+	  {
+		"SHRUTI": "NIL"
+	  },
+	  {
+		"N M ELANGO": "C2"
+	  },
+	  {
+		"N M ELANGO": "L11,L12"
+	  },
+	  {
+		"N M ELANGO": "NIL"
+	  }
+	],
+	"Healthcare Analytics": [
+	  {
+		"VIJAYAPRABAKARAN K": "A1,TA1"
+	  },
+	  {
+		"VIJAYAPRABAKARAN K": "A2,TA2"
+	  },
+	  {
+		"VIJAYAPRABAKARAN K": "NIL"
+	  }
+	],
+	"Social Media Analytics": [
+	  {
+		"SUJITHRA @ KANMANI RSCOPE": "B1,TB1"
+	  },
+	  {
+		"SUJITHRA @ KANMANI RSCOPE": "NIL"
+	  },
+	  {
+		"SUJITHRA @ KANMANI RSCOPE": "B2,TB2"
+	  },
+	  {
+		"SUJITHRA @ KANMANI RSCOPE": "NIL"
+	  }
+	],
+	"DevOps": [
+	  {
+		"SIVARANJANI N": "C2"
+	  },
+	  {
+		"SIVARANJANI N": "L23,L24"
+	  },
+	  {
+		"SIVARANJANI N": "NIL"
+	  }
+	],
+	"Digital Logic and Computer Organization TH": [
+	  {
+		"S A AMUTHA JEEVAKUMARI": "D1,TD1,TDD1"
+	  },
+	  {
+		"KHADAR NAWAS K": "D2,TD2,TDD2"
+	  }
+	],
+	"Structured and Object Oriented Programming": [
+	  {
+		"MANSOOR HUSSAIN D": "C1"
+	  },
+	  {
+		"SIVARAMAKRISHNAN N SCOPE": "C2"
+	  },
+	  {
+		"NATHEZHTHA T": "C1"
+	  },
+	  {
+		"VIVEKANANDAN M": "C1"
+	  },
+	  {
+		"VALARMATHI K": "C2"
+	  }
+	],
+	"Object Oriented and Analysis Design": [
+	  {
+		"NIVETHITHA V": "B1,TB1"
+	  },
+	  {
+		"SARANYA G": "B1,TB1"
+	  },
+	  {
+		"ABINAYA S": "B2,TB2"
+	  }
+	],
+	"Object Oriented and Analysis Design Lab LO": [
+	  {
+		"NIVETHITHA V": "L57,L58"
+	  },
+	  {
+		"SARANYA G": "L49,L50"
+	  },
+	  {
+		"ABINAYA S": "L9,L10"
+	  }
+	],
+	"Software Architecture": [
+	  {
+		"KAVITHA": "D1,TD1"
+	  },
+	  {
+		"RENUKA DEVI": "D1,TD1"
+	  },
+	  {
+		"KAVITHA": "D2,TD2"
+	  }
+	],
+	"Big Data Frameworks and Technologies": [
+	  {
+		"SIVA PRIYA M S": "D2"
+	  }
+	],
+	"Big Data Frameworks and Technologies LabLO": [
+	  {
+		"SIVA PRIYA M S": "L25,L26"
+	  }
+	],
+	"Data Analytics": [
+	  {
+		"VIGNESH U": "B2"
+	  }
+	],
+	"Social Network Analytics": [
+	  {
+		"BHUVANESWARI": "G2,L19,L20"
+	  }
+	],
+	"Analytics for Internet of Things": [
+	  {
+		"SUSEELA S": "G2"
+	  }
+	],
+	"Analytics  for Internet  of Things Lab": [
+	  {
+		"SUSEELA S": "L7,L8"
+	  }
+	],
+	"Human Resource Management": [
+	  {
+		"MEKHALA": "C1,TC1"
+	  },
+	  {
+		"SUMATHI G N": "C1,TC1"
+	  },
+	  {
+		"V RACHEL EVELYN": "C2,TC2"
+	  },
+	  {
+		"UDAY KIRAN KOMMURI VITBS": "D,TD,TDD"
+	  },
+	  {
+		"REKHAPRIYADHARSHINI AVITBS": "D,TD,TDD"
+	  }
 	],
 	"Marketing Management": [
-		{
-			"SAJU B": "B1",
-		},
-		{
-			"SAJU B": "NIL",
-		},
-		{
-			"ARSHIYA FATHIMA M S": "C,TC,TCC",
-		},
-		{
-			"ARSHIYA FATHIMA M S": "F,TF,TFF",
-		},
+	  {
+		"MALAY BHATTACHARJEEVITBS": "D1,TD1"
+	  },
+	  {
+		"RAJKUMAR MURUGESANVITBS": "D1,TD1"
+	  },
+	  {
+		"VIJAYAN L": "D2,TD2"
+	  }
 	],
-	"Production and Operations Management": [
-		{
-			"TISHA MERIAM CHERIAN": "A1,TA1",
-		},
+	"Financial management": [
+	  {
+		"SHAIK SALEEM": "F1,TF1"
+	  },
+	  {
+		"NAIK SANKALP PURUSHOTTAM": "F1,TF1"
+	  },
+	  {
+		"NAIK SANKALP PURUSHOTTAM": "F2,TF2"
+	  },
+	  {
+		"SIVAKUMAR K": "A1,TA1"
+	  },
+	  {
+		"BUVANESH": "A2,TA2"
+	  }
 	],
-	"Project Management": [
-		{
-			"ASI VASU DEVA REDDY": "A1,TA1",
-		},
-		{
-			"STEPHAN THANGAIAH": "F2,TF2",
-		},
+	"Customer Relationship Management": [
+	  {
+		"VITBS FACULTY1": "D1,TD1"
+	  },
+	  {
+		"VITBS FACULTY1": "NIL"
+	  },
+	  {
+		"UDAY KIRAN KOMMURI VITBS": "D2,TD2"
+	  },
+	  {
+		"UDAY KIRAN KOMMURI VITBS": "NIL"
+	  }
 	],
-	"Management and Organizational Behaviour": [
-		{
-			"S DIVYA": "F1,TF1",
-		},
+	"Digital and Social Media Marketing": [
+	  {
+		"ARSHIYA FATHIMA M S": "E1,TE1"
+	  },
+	  {
+		"ARSHIYA FATHIMA M S": "NIL"
+	  },
+	  {
+		"ARSHIYA FATHIMA M S": "E2,TE2"
+	  },
+	  {
+		"ARSHIYA FATHIMA M S": "NIL"
+	  },
+	  {
+		"SUDHEER MUHAMMED K MVITBS": "F1,TF1"
+	  }
 	],
-	"Strategic management": [
-		{
-			"SUJATHA MANOHAR": "D1,TD1",
-		},
+	"Marketing Analytics": [
+	  {
+		"ANBUMATHI R": "E1,TE1"
+	  },
+	  {
+		"ANBUMATHI R": "NIL"
+	  }
 	],
-	"Sales Management": [
-		{
-			"VENKATESH R": "E1",
-		},
-		{
-			"VENKATESH R": "NIL",
-		},
+	"HR Analytics": [
+	  {
+		"V RACHEL EVELYN": "E1"
+	  },
+	  {
+		"V RACHEL EVELYN": "NIL"
+	  },
+	  {
+		"MEKHALA": "E2"
+	  },
+	  {
+		"MEKHALA": "L1,L2"
+	  },
+	  {
+		"MEKHALA": "NIL"
+	  }
 	],
-	"Advertising Management": [
-		{
-			"SAJU B": "C2,TC2",
-		},
+	"Behavioural Analytics": [
+	  {
+		"MEKHALA": "E1"
+	  },
+	  {
+		"MEKHALA": "L37,L38"
+	  },
+	  {
+		"MEKHALA": "NIL"
+	  }
 	],
-	"Training and Development": [
-		{
-			"L R K KRISHNAN": "A2",
-		},
-		{
-			"L R K KRISHNAN": "NIL",
-		},
+	"Lean Six Sigma Principles": [
+	  {
+		"VADIVEL S M": "D1,TD1"
+	  },
+	  {
+		"VADIVEL S M": "NIL"
+	  }
 	],
-	"Introduction to Statistics II": [
-		{
-			"REEVES WESLEY J": "C1",
-		},
-		{
-			"REEVES WESLEY J": "L11,L12",
-		},
+	"Java Programming": [
+	  {
+		"JAYASUDHA M": "A1,TA1"
+	  }
 	],
-	"Financial Management": [
-		{
-			"SHAIK SALEEM": "G1",
-		},
-		{
-			"SHAIK SALEEM": "NIL",
-		},
-		{
-			"NAIK SANKALP PURUSHOTTAM": "B1,TB1,TBB1",
-		},
+	"PMCA603L Mobile Application Design and Development": [
+	  {
+		"CHRISTY JACKSON J": "C1"
+	  }
 	],
-	"Investment Analysis and Portfolio Management": [
-		{
-			"MUHAMMED SHAFI M K": "F1",
-		},
-		{
-			"MUHAMMED SHAFI M K": "NIL",
-		},
-		{
-			"MUHAMMED SHAFI M K": "B1,TB1,TBB1",
-		},
+	"PMCA603P Mobile Application Design and Development Lab": [
+	  {
+		"CHRISTY JACKSON J": "L49,L50"
+	  }
 	],
-	"Strategic Business Reporting": [
-		{
-			"BALAJI J": "B2",
-		},
-		{
-			"BALAJI J": "NIL",
-		},
+	"Study Oriented Project": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  }
 	],
-	"Entrepreneurship Development": [
-		{
-			"VIJAYAN L": "G1,TG1",
-		},
-		{
-			"VIJAYAN L": "NIL",
-		},
-		{
-			"VIJAYAN L": "G2,TG2",
-		},
-		{
-			"VIJAYAN L": "NIL",
-		},
+	"Soft Computing": [
+	  {
+		"PALANI THANARAJ K": "C1,TC1"
+	  },
+	  {
+		"PALANI THANARAJ K": "NIL"
+	  },
+	  {
+		"PALANI THANARAJ K": "C2,TC2"
+	  },
+	  {
+		"PALANI THANARAJ K": "NIL"
+	  }
 	],
-	"Research Methods in Management": [
-		{
-			"ANURADHA A": "F2,TF2",
-		},
-		{
-			"ANURADHA A": "NIL",
-		},
-		{
-			"SHAIK SALEEM": "F1,TF1",
-		},
-		{
-			"SHAIK SALEEM": "NIL",
-		},
+	"Biometric Systems": [
+	  {
+		"SRINIVASA PERUMAL R": "D1"
+	  }
 	],
-	"Global Brand Marketing Strategies": [
-		{
-			"SUDHEER MUHAMMED K M": "G1,TG1",
-		},
-		{
-			"SUDHEER MUHAMMED K M": "NIL",
-		},
-		{
-			"SUDHEER MUHAMMED K M": "G2,TG2",
-		},
-		{
-			"SUDHEER MUHAMMED K M": "NIL",
-		},
+	"Industrial Internship": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  }
 	],
-	"Social Marketing": [
-		{
-			"THANGARAJA ARUMUGAM": "F1,TF1",
-		},
-		{
-			"THANGARAJA ARUMUGAM": "NIL",
-		},
+	"Software Project Management": [
+	  {
+		"SRINIVASA PERUMAL R": "A1"
+	  },
+	  {
+		"SRINIVASA PERUMAL R": "NIL"
+	  },
+	  {
+		"KAVITHA": "A1"
+	  },
+	  {
+		"KAVITHA": "NIL"
+	  },
+	  {
+		"SRINIVASA PERUMAL R": "A2"
+	  },
+	  {
+		"SRINIVASA PERUMAL R": "NIL"
+	  }
 	],
-	"Strategic Management": [
-		{
-			"MALAY BHATTACHARJEE": "D1,TD1",
-		},
-		{
-			"MALAY BHATTACHARJEE": "C2,TC2,TCC2",
-		},
-		{
-			"RAJKUMAR MURUGESAN": "B,TB,TBB",
-		},
-		{
-			"MALAY BHATTACHARJEE": "B,TB,TBB",
-		},
+	"Android Programming": [
+	  {
+		"KAVIYA ELAKKIYA M": "E1,TE1"
+	  },
+	  {
+		"KAVIYA ELAKKIYA M": "NIL"
+	  },
+	  {
+		"KAVIYA ELAKKIYA M": "E2,TE2"
+	  },
+	  {
+		"KAVIYA ELAKKIYA M": "NIL"
+	  },
+	  {
+		"MALINI A": "E1,TE1"
+	  },
+	  {
+		"MALINI A": "NIL"
+	  }
 	],
-	"Innovation and Design Thinking": [
-		{
-			"SUJATHA MANOHAR": "B1,TB1",
-		},
+	"Data Mining Techniques": [
+	  {
+		"VIGNESH U": "C1,TC1"
+	  },
+	  {
+		"VIGNESH U": "NIL"
+	  }
 	],
-	"Services Marketing": [
-		{
-			"VENKATESH R": "A2,TA2",
-		},
+	"Object Oriented Analysis and Design": [
+	  {
+		"SARANYA G": "E1,TE1"
+	  },
+	  {
+		"SARANYA G": "L31,L32"
+	  },
+	  {
+		"KUMARAN K": "E2,TE2"
+	  },
+	  {
+		"KUMARAN K": "L1,L2"
+	  }
 	],
-	"Brand Management": [
-		{
-			"SAJU B": "G2,TG2",
-		},
+	"Software Metrics": [
+	  {
+		"UMAMAHESWARI E": "B1"
+	  },
+	  {
+		"UMAMAHESWARI E": "NIL"
+	  }
 	],
-	"International Marketing": [
-		{
-			"ANURADHA A": "C1,TC1",
-		},
+	"Software Reuse": [
+	  {
+		"PRAVEEN JOE I R": "D1,TD1"
+	  }
 	],
-	"Digital Banking Systems": [
-		{
-			"MARIA EVELYN JUCUNDA M": "A1,TA1",
-		},
+	"Knowledge Management System": [
+	  {
+		"SRIDHAR R": "D2"
+	  },
+	  {
+		"SRIDHAR R": "NIL"
+	  }
 	],
-	"FinTech-I": [
-		{
-			"NAIK SANKALP PURUSHOTTAM": "E1,TE1",
-		},
+	"Agile Development Process": [
+	  {
+		"NAJUMUDHEEN E S F": "E1,TE1"
+	  },
+	  {
+		"GANESH N": "E2,TE2"
+	  }
 	],
-	"Global Financial Markets": [
-		{
-			"MANU JOSE": "D2,TD2",
-		},
+	"Knowledge Engineering": [
+	  {
+		"MALINI A": "B1,TB1"
+	  },
+	  {
+		"MALINI A": "B2,TB2"
+	  }
 	],
-	"Performance Management and Competency Mapping": [
-		{
-			"NISHA R": "F1,TF1",
-		},
+	"Big Data Technologies": [
+	  {
+		"SUGANESHWARI": "E1,TE1"
+	  },
+	  {
+		"SUGANESHWARI": "L29,L30"
+	  }
 	],
-	"Organisational Change and Development": [
-		{
-			"SUMATHI G N": "D2,TD2",
-		},
+	"Information and System Security": [
+	  {
+		"ANUSHA K": "G1,TG1"
+	  },
+	  {
+		"ANUSHA K": "NIL"
+	  },
+	  {
+		"SANDOSH": "G1,TG1"
+	  },
+	  {
+		"SANDOSH": "NIL"
+	  },
+	  {
+		"RAJESH KUMAR": "G2,TG2"
+	  },
+	  {
+		"RAJESH KUMAR": "NIL"
+	  }
 	],
-	"Compensation Management": [
-		{
-			"L R K KRISHNAN": "B2,TB2",
-		},
+	"Sensor Networks": [
+	  {
+		"ILAVENDHAN A": "B1,TB1"
+	  },
+	  {
+		"KARTHIKA S K": "B2,TB2"
+	  },
+	  {
+		"UMESH K": "C1,TC1"
+	  }
 	],
-	"Logistics Management": [
-		{
-			"STEPHAN THANGAIAH": "A2,TA2",
-		},
+	"Geographic Information Systems": [
+	  {
+		"PARVATHI R": "B1"
+	  },
+	  {
+		"PARVATHI R": "NIL"
+	  },
+	  {
+		"SURYA PRAKASH TIWARISCOPE": "B2"
+	  },
+	  {
+		"SURYA PRAKASH TIWARISCOPE": "NIL"
+	  }
 	],
-	"Enterprise Resource Planning": [
-		{
-			"JOSEPH JEYA ANANDS": "C2,TC2",
-		},
+	"Real Time Systems": [
+	  {
+		"": "B1"
+	  },
+	  {
+		"": "NIL"
+	  }
 	],
-	"Data Visualisation and Story telling": [
-		{
-			"ASI VASU DEVA REDDY": "G1",
-		},
+	"Object Oriented Programming": [
+	  {
+		"RUKMANI P": "F1,L31,L32,TF1"
+	  }
 	],
-	"Business Intelligence": [
-		{
-			"SUDARSANAM S K": "E2",
-		},
+	"Database Management Systems": [
+	  {
+		"SHARMILADEVI S": "E1,L43,L44,TE1"
+	  }
 	],
-	"Stock Market Operations": [
-		{
-			"MARIA EVELYN JUCUNDA M": "E1",
-		},
+	"Web Development": [
+	  {
+		"MAHESWARI N": "C1,TC1"
+	  }
 	],
-	"Cost Accounting": [
-		{
-			"SIVAKUMAR K": "A1,TA1,TAA1",
-		},
+	"Animation and VFX": [
+	  {
+		"PRIYAADHARSHINI M": "B1,TB1"
+	  }
 	],
-	"Computer Applications in Business": [
-		{
-			MEENAKSHI: "D1,TD1",
-		},
-		{
-			MEENAKSHI: "L49,L50",
-		},
+	"Image Processing": [
+	  {
+		"GRACELINE JASMINE S": "A1,L49,L50,TA1"
+	  }
 	],
-	"Financial Markets and Institutions": [
-		{
-			RANGAMANI: "G1,S15,TG1",
-		},
+	"Embedded C Programming": [
+	  {
+		"BALAKRISHNAN R": "G1"
+	  },
+	  {
+		"JOHN SAHAYA RANI ALEXSENSE": "G1"
+	  },
+	  {
+		"DEEPA M": "G1"
+	  },
+	  {
+		"REVATHI S": "G1"
+	  },
+	  {
+		"SRINIVASAN R": "G1"
+	  },
+	  {
+		"JEETASHREE APARAJEETASENSE": "G2"
+	  },
+	  {
+		"SRIMATHI  R": "G1"
+	  },
+	  {
+		"SRIMATHI  R": "L31,L32"
+	  },
+	  {
+		"KRITHIKA ALIAS ANBU DEVI M": "G2"
+	  },
+	  {
+		"INAYATHULLAAH ABDUL KAREEM": "G1"
+	  },
+	  {
+		"BALAKRISHNAN R": "G2"
+	  },
+	  {
+		"SRIMATHI  R": "G2"
+	  },
+	  {
+		"SRIMATHI  R": "L1,L2"
+	  },
+	  {
+		"INAYATHULLAAH ABDUL KAREEM": "G2"
+	  },
+	  {
+		"INAYATHULLAAH ABDUL KAREEM": "L15,L16"
+	  },
+	  {
+		"REVATHI S": "G2"
+	  },
+	  {
+		"DHANUSH R": "G2"
+	  },
+	  {
+		"BALAKRISHNAN R": "L25,L26"
+	  },
+	  {
+		"REVATHI S": "L13,L14"
+	  },
+	  {
+		"DHANUSH R": "L3,L4"
+	  },
+	  {
+		"BALAKRISHNAN R": "L55,L56"
+	  },
+	  {
+		"JOHN SAHAYA RANI ALEXSENSE": "L23,L24"
+	  },
+	  {
+		"DEEPA M": "L5,L6"
+	  },
+	  {
+		"REVATHI S": "L43,L44"
+	  },
+	  {
+		"SRINIVASAN R": "L51,L52"
+	  },
+	  {
+		"JEETASHREE APARAJEETASENSE": "L27,L28"
+	  },
+	  {
+		"KRITHIKA ALIAS ANBU DEVI M": "L1,L2"
+	  },
+	  {
+		"SUNKARA PAVANI": "G1"
+	  },
+	  {
+		"SUNKARA PAVANI": "L33,L34"
+	  }
 	],
-	"E-Commerce": [
-		{
-			MEENAKSHI: "A2,TA2,TAA2",
-		},
+	"Digital Instrumentation": [
+	  {
+		"ARAVIND C K": "G1"
+	  }
 	],
-	"Organisational Behaviour": [
-		{
-			MEKHALA: "B2,TB2,TBB2",
-		},
+	"Circuit Theory": [
+	  {
+		"HEMAMALINI": "A1,TA1,TAA1"
+	  },
+	  {
+		"MEENAKSHI J": "A1,TA1,TAA1"
+	  },
+	  {
+		"JAYAPRAGASH R": "A2,TA2,TAA2"
+	  },
+	  {
+		"JYOTISMITA MISHRA": "A2,TA2,TAA2"
+	  },
+	  {
+		"SIVASUBRAMANIAN A": "D1,TD1,TDD1"
+	  },
+	  {
+		"ANITH NELLERI": "D1,TD1,TDD1"
+	  },
+	  {
+		"NIRAJ KUMAR": "D1,TD1,TDD1"
+	  },
+	  {
+		"GUGA PRIYA G": "D1,TD1,TDD1"
+	  },
+	  {
+		"RAVI V": "D1,TD1,TDD1"
+	  },
+	  {
+		"SARANYA NAIR M": "D1,TD1,TDD1"
+	  },
+	  {
+		"SAURAV GUPTA": "D1,TD1,TDD1"
+	  },
+	  {
+		"ASHIS": "D1,TD1,TDD1"
+	  },
+	  {
+		"SIVASUBRAMANIAN A": "D2,TD2,TDD2"
+	  },
+	  {
+		"ANITH NELLERI": "D2,TD2,TDD2"
+	  },
+	  {
+		"NIRAJ KUMAR": "D2,TD2,TDD2"
+	  },
+	  {
+		"GUGA PRIYA G": "D2,TD2,TDD2"
+	  },
+	  {
+		"SARANYA NAIR M": "D2,TD2,TDD2"
+	  },
+	  {
+		"SAURAV GUPTA": "D2,TD2,TDD2"
+	  },
+	  {
+		"ASHIS": "D2,TD2,TDD2"
+	  }
 	],
-	"Artificial Intelligence for Business": [
-		{
-			MEENAKSHI: "C1,TC1,TCC1",
-		},
+	"Digital Electronics": [
+	  {
+		"GNANA SWATHIKA O V CSGT": "F1,L5,L6,TF1"
+	  },
+	  {
+		"DEEPA T": "F1,L29,L30,TF1"
+	  },
+	  {
+		"KANIMOZHI G": "F1,L49,L50,TF1"
+	  },
+	  {
+		"NITHYA VENKATESAN": "F2,L3,L4,TF2"
+	  },
+	  {
+		"SRI REVATHI B": "F2,L25,L26,TF2"
+	  }
 	],
-	"Business Research Methods": [
-		{
-			"SUMATHI G N": "D1,TD1,TDD1",
-		},
+	"Analog Electronics": [
+	  {
+		"BALAMURUGAN P": "C1,L37,L38,TC1"
+	  },
+	  {
+		"ANAND KUMAR": "C2,L15,L16,TC2"
+	  }
 	],
-	"Auditing and Corporate Governance": [
-		{
-			"VITBS FACULTY1": "A1,TA1,TAA1",
-		},
+	"Electrical Machine Design": [
+	  {
+		"ANGALAESWARI S": "F2,TF2"
+	  }
 	],
-	"International Business": [
-		{
-			"REEVES WESLEY J": "A2,TA2,TAA2",
-		},
+	"VLSI Design": [
+	  {
+		"ANANIAH DURAI S": "F1"
+	  },
+	  {
+		"ANANIAH DURAI S": "L31,L32"
+	  }
+	],
+	"Engineering Optimization": [
+	  {
+		"KURUSEELAN S": "B1,TB1"
+	  },
+	  {
+		"PARTHIBAN V": "D1,TD1"
+	  }
+	],
+	"Embedded Systems Design": [
+	  {
+		"SUMATHI V": "B1,TB1"
+	  },
+	  {
+		"MUTHULAKSHMI S": "E1,TE1"
+	  },
+	  {
+		"MUTHULAKSHMI S": "E2,TE2"
+	  },
+	  {
+		"SOFANA REKA S": "E2,TE2"
+	  },
+	  {
+		"KARTHIKEYAN P R": "E1,TE1"
+	  },
+	  {
+		"MUTHULAKSHMI S": "L49,L50"
+	  },
+	  {
+		"DHANUSH R": "L49,L50"
+	  },
+	  {
+		"SOFANA REKA S": "L3,L4"
+	  },
+	  {
+		"SASIPRIYA P": "L3,L4"
+	  },
+	  {
+		"MUTHULAKSHMI S": "L27,L28"
+	  },
+	  {
+		"KARTHIKEYAN P R": "L27,L28"
+	  },
+	  {
+		"KARTHIKEYAN P R": "L29,L30"
+	  }
+	],
+	"DC Machines and Transformers": [
+	  {
+		"VAITHILINGAM C": "G1,L31,L32"
+	  },
+	  {
+		"VAITHILINGAM C": "L23,L24"
+	  },
+	  {
+		"IYSWARYA ANNAPOORANI K": "L3,L4"
+	  },
+	  {
+		"IYSWARYA ANNAPOORANI K": "L21,L22"
+	  }
+	],
+	"Power Electronics": [
+	  {
+		"SREEDEVI V T": "A1,TA1"
+	  },
+	  {
+		"M. PRABHAKAR": "A2,TA2"
+	  }
+	],
+	"Control Systems": [
+	  {
+		"FEBIN DAYA J L": "A1,L23,L24,TA1"
+	  },
+	  {
+		"SUBBULEKSHMI D": "C1,L29,L30,TC1"
+	  }
+	],
+	"Measurements and Instrumentation": [
+	  {
+		"ANANTHA KRISHNAN V SELECT": "E2"
+	  }
+	],
+	"Measurements and Instrumentation Lab LO": [
+	  {
+		"PEER FATHIMA A": "L43,L44"
+	  },
+	  {
+		"ANANTHA KRISHNAN V SELECT": "L27,L28"
+	  }
+	],
+	"Power Systems Analysis": [
+	  {
+		"JAMUNA K": "A1,L11,L12,TA1"
+	  },
+	  {
+		"JAMUNA K": "L49,L50"
+	  },
+	  {
+		"ARUL R": "L23,L24"
+	  },
+	  {
+		"ARUL R": "L55,L56"
+	  },
+	  {
+		"MEERA P S": "L3,L4"
+	  },
+	  {
+		"MEERA P S": "L13,L14"
+	  },
+	  {
+		"LAVANYA V": "L21,L22"
+	  },
+	  {
+		"LAVANYA V": "L25,L26"
+	  }
+	],
+	"Electric Drives": [
+	  {
+		"GUNABALAN R": "D1,TD1"
+	  },
+	  {
+		"NILANJAN TEWARI": "D1,TD1"
+	  },
+	  {
+		"BINU BEN JOSE D R": "D2,TD2"
+	  },
+	  {
+		"RUPA MISHRA": "D2,TD2"
+	  }
+	],
+	"Power Electronics and Drives Lab": [
+	  {
+		"GUNABALAN R": "L37,L38"
+	  },
+	  {
+		"NILANJAN TEWARI": "L29,L30"
+	  },
+	  {
+		"BINU BEN JOSE D R": "L7,L8"
+	  },
+	  {
+		"RUPA MISHRA": "L11,L12"
+	  }
+	],
+	"Communication Systems": [
+	  {
+		"PRITAM": "E1,TE1"
+	  },
+	  {
+		"NAWIN RA": "E1,TE1"
+	  },
+	  {
+		"MITHU SARKAR": "E2,TE2"
+	  },
+	  {
+		"NITIN KUMAR KULKARNISELECT": "E2,TE2"
+	  }
+	],
+	"Renewable Energy Systems": [
+	  {
+		"SENTHIL KUMAR N": "F1,TF1"
+	  }
+	],
+	"Robotics and Control": [
+	  {
+		"SWETHA R KUMAR": "F1,TF1"
+	  }
+	],
+	"Sensors and Actuators": [
+	  {
+		"SARANYARAJ D": "L1,L2"
+	  },
+	  {
+		"PARVATHY A K": "L5,L6"
+	  }
+	],
+	"Bio-Medical Instrumentation": [
+	  {
+		"SITHARTHAN R": "B2,TB2"
+	  }
+	],
+	"MELM503L Design of Automotive Power Converters TH": [
+	  {
+		"MEENAKSHI J": "F1,TF1"
+	  }
+	],
+	"MELM506L Automotive Electrical and Electronics Systems": [
+	  {
+		"LENIN N C": "F2,TF2"
+	  }
+	],
+	"MELM603L Automotive Noise, Vibrations and Condition Monitoring": [
+	  {
+		"JEYANTHI S": "D2,TD2"
+	  }
+	],
+	"MELM605L Artificial Intelligence and Machine Learning for Electric Mobility": [
+	  {
+		"BALAKUMAR P": "C2,TC2"
+	  }
+	],
+	"Digital Systems Design": [
+	  {
+		"SRI RAMALAKSHMI P": "A1,L23,L24,TA1"
+	  },
+	  {
+		"VIMALA GAYATHRI S": "A1,L33,L34,TA1"
+	  },
+	  {
+		"PRASATH T": "A2,L27,L28,TA2"
+	  },
+	  {
+		"MOHAMED ABDULLAH JSELECT": "A2,L13,L14,TA2"
+	  },
+	  {
+		"GARGI RAINA": "A1,L37,L38,TA1"
+	  },
+	  {
+		"SUBHASHINI N": "A1,L23,L24,TA1"
+	  },
+	  {
+		"P NIRMALA": "L11,L12"
+	  },
+	  {
+		"SOURABH PAUL": "L5,L6"
+	  },
+	  {
+		"SRIVATSAN K": "L11,L12"
+	  },
+	  {
+		"GIRIJA SHANKAR": "L23,L24"
+	  },
+	  {
+		"SUKRITI": "L51,L52"
+	  },
+	  {
+		"SUBHASHINI N": "L3,L4"
+	  },
+	  {
+		"SATHYA SREE J": "L19,L20"
+	  },
+	  {
+		"SATHYA SREE J": "A2,L49,L50,TA2"
+	  },
+	  {
+		"P NIRMALA": "L21,L22"
+	  },
+	  {
+		"SOURABH PAUL": "L19,L20"
+	  },
+	  {
+		"SOUMYA RANJAN MAHAPATRO": "L7,L8"
+	  },
+	  {
+		"SRIVATSAN K": "L19,L20"
+	  },
+	  {
+		"GIRIJA SHANKAR": "L41,L42"
+	  },
+	  {
+		"SUKRITI": "L3,L4"
+	  },
+	  {
+		"S SHOBA": "L1,L2"
+	  },
+	  {
+		"B. NAGAJAYANTHI": "L29,L30"
+	  },
+	  {
+		"B PRASHANTH KUMAR": "L39,L40"
+	  },
+	  {
+		"RAVI TIWARI": "L39,L40"
+	  },
+	  {
+		"CHANDRAMAULESHWAR ROY": "L57,L58"
+	  },
+	  {
+		"HARIHARAN": "L45,L46"
+	  },
+	  {
+		"DHEEREN KU MAHAPATRASENSE": "L57,L58"
+	  },
+	  {
+		"UPENDER P": "B1,L29,L30,TB1"
+	  },
+	  {
+		"KULDEEP YADAV": "B1,L31,L32,TB1"
+	  },
+	  {
+		"MANMOHAN SHARMA": "B1,L55,L56,TB1"
+	  },
+	  {
+		"PAPANASAM E": "B1,L31,L32,TB1"
+	  },
+	  {
+		"B. NAGAJAYANTHI": "B2,L25,L26,TB2"
+	  },
+	  {
+		"B PRASHANTH KUMAR": "B2,L13,L14,TB2"
+	  },
+	  {
+		"RAVI TIWARI": "B2,L13,L14,TB2"
+	  },
+	  {
+		"CHANDRAMAULESHWAR ROY": "B2,L47,L48,TB2"
+	  },
+	  {
+		"HARIHARAN": "B2,L15,L16,TB2"
+	  },
+	  {
+		"DHEEREN KU MAHAPATRASENSE": "B2,L27,L28,TB2"
+	  },
+	  {
+		"UPENDER P": "B2,L25,L26,TB2"
+	  },
+	  {
+		"KULDEEP YADAV": "B2,L10,L9,TB2"
+	  },
+	  {
+		"MANMOHAN SHARMA": "B2,L15,L16,TB2"
+	  },
+	  {
+		"SURYA PRASATH C": "L1,L2"
+	  },
+	  {
+		"ANNIS FATHIMA A": "L55,L56"
+	  },
+	  {
+		"PRAKASH V": "L43,L44"
+	  },
+	  {
+		"IDAYACHANDRAN G": "L5,L6"
+	  },
+	  {
+		"SARAVANA KUMAR R": "L37,L38"
+	  },
+	  {
+		"E MANIKANDAN": "L27,L28"
+	  },
+	  {
+		"IDAYACHANDRAN G": "L7,L8"
+	  },
+	  {
+		"SARAVANA KUMAR R": "L21,L22"
+	  }
+	],
+	"Electronic Materials and devices": [
+	  {
+		"BINDU B": "C1,TC1"
+	  },
+	  {
+		"CHANDRASEKARAN N": "C1,TC1"
+	  },
+	  {
+		"SUNIL KUMAR PRADHANSENSE": "C1,TC1"
+	  },
+	  {
+		"TANMOY MAJUMDER": "C1,TC1"
+	  },
+	  {
+		"CHANDRASEKARAN N": "C2,TC2"
+	  },
+	  {
+		"TANMOY MAJUMDER": "C2,TC2"
+	  },
+	  {
+		"A BHARATHI SANKAR": "C2,TC2"
+	  },
+	  {
+		"SUNIL KUMAR PRADHANSENSE": "C2,TC2"
+	  }
+	],
+	"Signals and Systems": [
+	  {
+		"EDWARD JERO": "F1,TF1"
+	  },
+	  {
+		"EDWARD JERO": "F2,TF2"
+	  }
+	],
+	"Microprocessors and Microcontrollers": [
+	  {
+		"MANOJ KUMAR R": "B1,TB1"
+	  },
+	  {
+		"JAGANNATH M": "B2,TB2"
+	  },
+	  {
+		"BERLIN HENCY V": "B1,TB1"
+	  },
+	  {
+		"BERLIN HENCY V": "B2,TB2"
+	  },
+	  {
+		"ABRAHAM SUDHARSON PONRAJ": "B1,TB1"
+	  },
+	  {
+		"CHANTHINI BASKAR": "B1,TB1"
+	  },
+	  {
+		"CHANTHINI BASKAR": "B2,TB2"
+	  },
+	  {
+		"FLORENCE GNANA POOVATHY J": "B2,TB2"
+	  },
+	  {
+		"RICHARDS JOE STANISLAUSSENSE": "B2,TB2"
+	  },
+	  {
+		"V.R BALAJI": "B1,TB1"
+	  },
+	  {
+		"KISHOR KISAN INGLE": "B2,TB2"
+	  }
+	],
+	"Microprocessors and Microcontrollers LabLO": [
+	  {
+		"MANOJ KUMAR R": "L33,L34"
+	  },
+	  {
+		"VIJAYAKUMAR P": "L33,L34"
+	  },
+	  {
+		"JAGANNATH M": "L31,L32"
+	  },
+	  {
+		"SINDHUJA M": "L31,L32"
+	  },
+	  {
+		"JAGANNATH M": "L13,L14"
+	  },
+	  {
+		"SINDHUJA M": "L13,L14"
+	  },
+	  {
+		"BERLIN HENCY V": "L55,L56"
+	  },
+	  {
+		"RICHARDS JOE STANISLAUSSENSE": "L55,L56"
+	  },
+	  {
+		"BERLIN HENCY V": "L25,L26"
+	  },
+	  {
+		"ABRAHAM SUDHARSON PONRAJ": "L11,L12"
+	  },
+	  {
+		"CHANTHINI BASKAR": "L45,L46"
+	  },
+	  {
+		"SRITAMA ROY": "L45,L46"
+	  },
+	  {
+		"CHANTHINI BASKAR": "L15,L16"
+	  },
+	  {
+		"MOHANAPRASAD K": "L15,L16"
+	  },
+	  {
+		"FLORENCE GNANA POOVATHY J": "L21,L22"
+	  },
+	  {
+		"A BHARATHI SANKAR": "L21,L22"
+	  },
+	  {
+		"RICHARDS JOE STANISLAUSSENSE": "L9,L10"
+	  },
+	  {
+		"SRITAMA ROY": "L9,L10"
+	  },
+	  {
+		"V.R BALAJI": "L49,L50"
+	  },
+	  {
+		"MANIMARAN P": "L49,L50"
+	  },
+	  {
+		"KISHOR KISAN INGLE": "L47,L48"
+	  }
+	],
+	"Analog Circuits": [
+	  {
+		"SATHIYA NARAYANAN S SENSE": "E1,L29,L30,TE1"
+	  },
+	  {
+		"TANMOY MAJUMDER": "L29,L30"
+	  },
+	  {
+		"RAJU PATEL": "E2,L11,L12,TE2"
+	  },
+	  {
+		"CHANDRASEKARAN N": "L11,L12"
+	  },
+	  {
+		"RAJU PATEL": "L13,L14"
+	  },
+	  {
+		"ANISHA NATARAJAN": "L31,L32"
+	  },
+	  {
+		"BINDU B": "L31,L32"
+	  },
+	  {
+		"ANISHA NATARAJAN": "L1,L2"
+	  },
+	  {
+		"TANMOY MAJUMDER": "L1,L2"
+	  }
+	],
+	"Random Processes": [
+	  {
+		"THIRIPURASUNDARI D": "D1,TD1"
+	  },
+	  {
+		"MOHANAPRASAD K": "D2,TD2"
+	  },
+	  {
+		"KALAIVANAN K": "D1,TD1"
+	  },
+	  {
+		"KALAIVANAN K": "D2,TD2"
+	  },
+	  {
+		"SANKAR GANESH": "D1,TD1"
+	  },
+	  {
+		"SANKAR GANESH": "D2,TD2"
+	  }
+	],
+	"Digital Signal Processing": [
+	  {
+		"SANKAR GANESH": "F1,L29,L30,TF1"
+	  }
+	],
+	"VLSI System Design": [
+	  {
+		"RAVI SANKAR A": "E1,L37,L38,TE1"
+	  },
+	  {
+		"MANIKANDAN P": "L25,L26"
+	  },
+	  {
+		"G LAKSHMI PRIYA": "L3,L4"
+	  },
+	  {
+		"PRITAM BHATTACHARJEESENSE": "L43,L44"
+	  },
+	  {
+		"PRITAM BHATTACHARJEESENSE": "E1,L27,L28,TE1"
+	  }
+	],
+	"Analog Communication Systems": [
+	  {
+		"USHA KIRAN KOMMURI SENSE": "F1,L49,L50,TF1"
+	  },
+	  {
+		"SUNIL KUMAR PRADHANSENSE": "L49,L50"
+	  },
+	  {
+		"USHA KIRAN KOMMURI SENSE": "L19,L20"
+	  },
+	  {
+		"VIJAYAKUMAR P": "L19,L20"
+	  },
+	  {
+		"RAVI PRAKASH DWIVEDISENSE": "L5,L6"
+	  },
+	  {
+		"NITISH KATAL": "L5,L6"
+	  },
+	  {
+		"RAVI PRAKASH DWIVEDISENSE": "L21,L22"
+	  },
+	  {
+		"SUNIL KUMAR PRADHANSENSE": "L21,L22"
+	  },
+	  {
+		"RALPH SAMUEL THANGARAJ": "L55,L56"
+	  },
+	  {
+		"THIRIPURASUNDARI D": "L55,L56"
+	  },
+	  {
+		"RALPH SAMUEL THANGARAJ": "L7,L8"
+	  },
+	  {
+		"NITISH KATAL": "L7,L8"
+	  }
+	],
+	"Wireless and Mobile Communications": [
+	  {
+		"PRIYANKA DAS": "E1"
+	  },
+	  {
+		"HEMANTH C": "B1,TB1"
+	  },
+	  {
+		"RAMESH R": "B1,TB1"
+	  },
+	  {
+		"RAMESH R": "B2,TB2"
+	  },
+	  {
+		"USHA RANI S": "B1,TB1"
+	  },
+	  {
+		"USHA RANI S": "B2,TB2"
+	  },
+	  {
+		"PRIYANKA DAS": "B2,TB2"
+	  }
+	],
+	"Wireless and Mobile Communications LabLO": [
+	  {
+		"PRIYANKA DAS": "L55,L56"
+	  },
+	  {
+		"HEMANTH C": "L11,L12"
+	  },
+	  {
+		"RAMESH R": "L45,L46"
+	  },
+	  {
+		"USHA RANI S": "L25,L26"
+	  },
+	  {
+		"RAMESH R": "L9,L10"
+	  },
+	  {
+		"PRIYANKA DAS": "L13,L14"
+	  }
+	],
+	"Optical Fiber Communications": [
+	  {
+		"ILAVARASAN T": "D1,L37,L38"
+	  },
+	  {
+		"BRINTHA THERESE  A": "A1,L55,L56,TA1"
+	  },
+	  {
+		"KALAIVANAN K": "L55,L56"
+	  },
+	  {
+		"CHITRA K": "A1,L5,L6,TA1"
+	  },
+	  {
+		"SUHASINI S": "L5,L6"
+	  },
+	  {
+		"SANGEETHA R G": "A1,L49,L50,TA1"
+	  },
+	  {
+		"SUHASINI S": "L49,L50"
+	  },
+	  {
+		"SANGEETHA R G": "L19,L20"
+	  },
+	  {
+		"VYDEKI D": "L19,L20"
+	  },
+	  {
+		"ILAVARASAN T": "L7,L8"
+	  },
+	  {
+		"KALAIVANAN K": "L7,L8"
+	  },
+	  {
+		"S SELVENDRAN": "L3,L4"
+	  },
+	  {
+		"VYDEKI D": "L3,L4"
+	  }
+	],
+	"IoT Domain Analyst": [
+	  {
+		"DEEPIKA ROSELIND J": "TAA1"
+	  },
+	  {
+		"DEEPIKA ROSELIND J": "L23,L24"
+	  },
+	  {
+		"SHOLA USHA RANI": "A1"
+	  },
+	  {
+		"REKHA D": "A1"
+	  },
+	  {
+		"SHOLA USHA RANI": "L27,L28"
+	  },
+	  {
+		"SHOLA USHA RANI": "NIL"
+	  },
+	  {
+		"SHOLA USHA RANI": "L55,L56"
+	  },
+	  {
+		"SHOLA USHA RANI": "NIL"
+	  },
+	  {
+		"REKHA D": "L43,L44"
+	  },
+	  {
+		"REKHA D": "NIL"
+	  },
+	  {
+		"SHOLA USHA RANI": "A2"
+	  }
+	],
+	"Computer Communications and NetworksTH": [
+	  {
+		"S SIVAKUMAR": "C1,TC1"
+	  },
+	  {
+		"MARKKANDAN": "C1,TC1"
+	  },
+	  {
+		"PRASANNA BHARATHI": "C1,TC1"
+	  },
+	  {
+		"S SIVAKUMAR": "C2,TC2"
+	  },
+	  {
+		"MARKKANDAN": "C2,TC2"
+	  },
+	  {
+		"PRASANNA BHARATHI": "C2,TC2"
+	  }
+	],
+	"Computer Communications and Networks Lab": [
+	  {
+		"S SIVAKUMAR": "L37,L38"
+	  },
+	  {
+		"S SIVAKUMAR": "L1,L2"
+	  },
+	  {
+		"MARKKANDAN": "L51,L52"
+	  },
+	  {
+		"PRASANNA BHARATHI": "L29,L30"
+	  },
+	  {
+		"PRASANNA BHARATHI": "L15,L16"
+	  }
+	],
+	"Communication for Cyber Physical SystemsTH": [
+	  {
+		"NOEL JEYGAR ROBERT V SCOPE": "G2"
+	  }
+	],
+	"FPGA Based System Design": [
+	  {
+		"REENA MONICA P": "F1"
+	  },
+	  {
+		"HEMAVATHY S": "F1"
+	  },
+	  {
+		"JEAN JENIFER NESAM J": "F1"
+	  },
+	  {
+		"VELMATHI G": "F2"
+	  },
+	  {
+		"JEAN JENIFER NESAM J": "F2"
+	  },
+	  {
+		"REENA MONICA P": "L23,L24"
+	  },
+	  {
+		"LATHA P": "L23,L24"
+	  },
+	  {
+		"HEMAVATHY S": "L11,L12"
+	  },
+	  {
+		"SAKTHIVEL S M": "L11,L12"
+	  },
+	  {
+		"JEAN JENIFER NESAM J": "L57,L58"
+	  },
+	  {
+		"SRIDHAR C": "L57,L58"
+	  },
+	  {
+		"VELMATHI G": "L3,L4"
+	  },
+	  {
+		"LATHA P": "L3,L4"
+	  },
+	  {
+		"JEAN JENIFER NESAM J": "L9,L10"
+	  },
+	  {
+		"ANITA ANGELINE": "L9,L10"
+	  }
+	],
+	"Microwave Integrated Circuits": [
+	  {
+		"RICHARDS JOE STANISLAUSSENSE": "B1,TB1"
+	  }
+	],
+	"Signal Processing": [
+	  {
+		"UMAYAL C": "C1,L55,L56,TC1"
+	  }
+	],
+	"Principles of Communication Systems": [
+	  {
+		"ASHOK": "A1,TA1"
+	  },
+	  {
+		"ASHOK": "A2,TA2"
+	  }
+	],
+	"Project - II / Internship": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  },
+	  {
+		"PAT": "NIL"
+	  }
+	],
+	"Electronic Circuits": [
+	  {
+		"MANIKANDAN P": "B1,L49,L50,TB1"
+	  }
+	],
+	"Scripting Languages and Veri\ufb01cation": [
+	  {
+		"SAKTHIVEL S M": "E1,TE1"
+	  }
+	],
+	"Scripting Languages and Veri\ufb01cation Lab LO": [
+	  {
+		"SAKTHIVEL S M": "L5,L6"
+	  }
+	],
+	"Semiconductor Device Modelling": [
+	  {
+		"LAKSHMI B": "F1,L55,L56"
+	  }
+	],
+	"In Vehicle Networking": [
+	  {
+		"JAYA VIGNESH T": "D2,TD2"
+	  }
+	],
+	"Real Time Operating System": [
+	  {
+		"SUGANTHI K": "B2,L10,L9,TB2"
+	  }
+	],
+	"MEDS606L Modern Automotive Electronics Systems TH": [
+	  {
+		"MANIGANDAN M": "C2,TC2"
+	  }
+	],
+	"Intelligent IoT System Design and Architecture": [
+	  {
+		"MANIMARAN P": "G2"
+	  }
+	],
+	"Fault Tolerance and Dependable SystemsTH": [
+	  {
+		"RAVI V": "F2,TF2"
+	  }
+	],
+	"ASIC Design": [
+	  {
+		"PRATHIBA A": "F1,TF1"
+	  },
+	  {
+		"AUGUSTA SOPHY BEULET PCNVD": "F2,TF2"
+	  }
+	],
+	"VLSI Testing and Testability": [
+	  {
+		"SRIDHAR C": "B1,TB1"
+	  },
+	  {
+		"PAPANASAM E": "B2,TB2"
+	  }
+	],
+	"Low Power IC Design": [
+	  {
+		"ANITA ANGELINE": "D1,TD1"
+	  },
+	  {
+		"SASIPRIYA P": "D2,TD2"
+	  }
+	],
+	"VLSI Veri\ufb01cation Methodologies": [
+	  {
+		"BISWAJIT": "G1,TG1"
+	  },
+	  {
+		"SAKTHIVEL S M": "G2,TG2"
+	  }
+	],
+	"Engineering Mechanics": [
+	  {
+		"SHANMUGA SUNDARAMSCE": "F1,TF1"
+	  }
+	],
+	"Engineering Thermodynamics": [
+	  {
+		"JOSEPH DANIEL": "G1,TG1"
+	  },
+	  {
+		"MANIMARAN R": "G1,TG1"
+	  },
+	  {
+		"AVADHESH KUMAR SHARMA": "G2,TG2"
+	  }
+	],
+	"Kinematics and Dynamics of Machines": [
+	  {
+		"AWANI BHUSHAN": "A1,TA1"
+	  },
+	  {
+		"JANARDHAN REDDY  K": "A1,TA1"
+	  },
+	  {
+		"CHRISTO MICHAEL T": "A1,TA1"
+	  },
+	  {
+		"TAPAN KUMAR MAHANTASMEC": "A2,TA2"
+	  }
+	],
+	"Kinematics and Dynamics of Machines LabLO": [
+	  {
+		"AWANI BHUSHAN": "L31,L32"
+	  },
+	  {
+		"AWANI BHUSHAN": "L37,L38"
+	  },
+	  {
+		"JANARDHAN REDDY  K": "L43,L44"
+	  },
+	  {
+		"JANARDHAN REDDY  K": "L49,L50"
+	  },
+	  {
+		"TAPAN KUMAR MAHANTASMEC": "L7,L8"
+	  },
+	  {
+		"TAPAN KUMAR MAHANTASMEC": "L21,L22"
+	  },
+	  {
+		"CHRISTO MICHAEL T": "L51,L52"
+	  },
+	  {
+		"CHRISTO MICHAEL T": "L55,L56"
+	  }
+	],
+	"BMEE210L Mechatronics and Measurement SystemsTH": [
+	  {
+		"MOGANA PRIYA C": "E1,TE1"
+	  },
+	  {
+		"GIRIDHARAN A": "E1,TE1"
+	  },
+	  {
+		"BHISHAM KUMAR DHURANDHER": "E2,TE2"
+	  }
+	],
+	"BMEE210P Mechatronics and Measurement Systems Lab": [
+	  {
+		"MOGANA PRIYA C": "L49,L50"
+	  },
+	  {
+		"MOGANA PRIYA C": "L55,L56"
+	  },
+	  {
+		"GIRIDHARAN A": "L23,L24"
+	  },
+	  {
+		"GIRIDHARAN A": "L29,L30"
+	  },
+	  {
+		"BHISHAM KUMAR DHURANDHER": "L25,L26"
+	  },
+	  {
+		"BHISHAM KUMAR DHURANDHER": "L27,L28"
+	  }
+	],
+	"Quality Control and Improvement": [
+	  {
+		"SIVARAJAN S": "D1,TD1"
+	  },
+	  {
+		"GAJANAND GUPTA": "D2,TD2"
+	  }
+	],
+	"Design of Machine Elements": [
+	  {
+		"ANSHUMAN DAS": "A1,TA1,TAA1"
+	  },
+	  {
+		"VENKATACHALAM G": "A2,TA2,TAA2"
+	  }
+	],
+	"Thermal Engineering Systems": [
+	  {
+		"TAMIL SELVAN P": "G1,L23,L24,TG1"
+	  },
+	  {
+		"TAMIL SELVAN P": "L37,L38"
+	  },
+	  {
+		"MECHNEWFACULTY1": "L43,L44"
+	  },
+	  {
+		"MECHNEWFACULTY1": "L55,L56"
+	  },
+	  {
+		"FEROSKHAN M": "L49,L50"
+	  },
+	  {
+		"FEROSKHAN M": "L31,L32"
+	  },
+	  {
+		"SANJEEV JAKHAR": "L7,L8"
+	  },
+	  {
+		"SANJEEV JAKHAR": "L21,L22"
+	  }
+	],
+	"Supply Chain Management": [
+	  {
+		"DEIVANATHAN R": "G1,TG1"
+	  },
+	  {
+		"AVADHESH KUMAR SHARMA": "G1,TG1"
+	  },
+	  {
+		"DEIVANATHAN R": "G2,TG2"
+	  },
+	  {
+		"VADIVEL S M": "B1,TB1"
+	  },
+	  {
+		"TISHA MERIAM CHERIANVITBS": "D1,TD1,TDD1"
+	  }
+	],
+	"Turbomachines": [
+	  {
+		"MANAVALLA SREEKANTHDEVITR": "D1"
+	  },
+	  {
+		"MANAVALLA SREEKANTHDEVITR": "L37,L38"
+	  },
+	  {
+		"MANAVALLA SREEKANTHDEVITR": "L43,L44"
+	  }
+	],
+	"Vehicle Dynamics": [
+	  {
+		"LENIN BABU M C": "E1"
+	  },
+	  {
+		"LENIN BABU M C": "L11,L12"
+	  },
+	  {
+		"LENIN BABU M C": "L5,L6"
+	  }
+	],
+	"Hybrid and Electric Vehicles Technology": [
+	  {
+		"VENUGOPAL T": "G1"
+	  },
+	  {
+		"VENUGOPAL T": "L11,L12"
+	  },
+	  {
+		"VENUGOPAL T": "L5,L6"
+	  }
+	],
+	"Heat and Mass Transfer": [
+	  {
+		"KARUNAMURTHY K": "B1,TB1"
+	  },
+	  {
+		"PRITAM DAS": "B1,TB1"
+	  },
+	  {
+		"HARISH R": "B2,TB2"
+	  },
+	  {
+		"SAURABH YADAV": "B2,TB2"
+	  }
+	],
+	"Design of Transmission Systems": [
+	  {
+		"ANSHUMAN DAS": "F1,TF1"
+	  },
+	  {
+		"KRISHANU GANGULY": "F2,TF2"
+	  }
+	],
+	"Vehicle Body and Aerodynamics EngineeringTH": [
+	  {
+		"SHYAM KUMAR M B": "E2,TE2"
+	  }
+	],
+	"BMEE418L Materials for Electric and Hybrid Electric Vehicles": [
+	  {
+		"JEYANTHI S": "D1,TD1"
+	  }
+	],
+	"Sensors and Instrumentation": [
+	  {
+		"PRABHAKAR KUSHWAHASMEC": "E1,TE1"
+	  },
+	  {
+		"SUGUMARAN": "E2,TE2"
+	  }
+	],
+	"BMHA204P Microprocessors and Microcontrollers LabLO": [
+	  {
+		"VIGNESWARAN T": "L49,L50"
+	  },
+	  {
+		"RAHUL NARASIMHAN": "L49,L50"
+	  },
+	  {
+		"VIGNESWARAN T": "L27,L28"
+	  },
+	  {
+		"RAHUL NARASIMHAN": "L27,L28"
+	  }
+	],
+	"Industrial Automation": [
+	  {
+		"SAKTHIVEL G": "D1,TD1"
+	  },
+	  {
+		"ELANGO M": "D2,TD2"
+	  }
+	],
+	"Industrial Robotics": [
+	  {
+		"ABHISHEK": "B1,TB1"
+	  },
+	  {
+		"AROCKIA SELVAKUMAR SMEC": "B2,TB2"
+	  }
+	],
+	"BMHA313E Driver Assistance Systems and  Autonomous Vehicles": [
+	  {
+		"G MURALIMOHAN": "L5,L6"
+	  },
+	  {
+		"G MURALIMOHAN": "L19,L20"
+	  }
+	],
+	"BMHA401P Computer Integrated Manufacturing Lab LO": [
+	  {
+		"BHUPESH SINGH KATIYARSMEC": "L37,L38"
+	  },
+	  {
+		"GAJANAND GUPTA": "L15,L16"
+	  }
+	],
+	"MMAE503P Additive Manufacturing Technology Lab": [
+	  {
+		"DR.PADMANABHAN R": "L13,L14"
+	  }
+	],
+	"MMHA612L Internet of Things and Smart ManufacturingTH": [
+	  {
+		"SIVARAJAN S": "B2,TB2"
+	  }
+	],
+	"Technical English Communication": [
+	  {
+		"SREEKALA U": "G1,L11,L12"
+	  },
+	  {
+		"BHUVANESHWARI P": "L29,L30"
+	  },
+	  {
+		"GEROME KARTHIC KUMAR L": "L41,L42"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "L23,L24"
+	  },
+	  {
+		"MARZIYA BEGUM S": "L23,L24"
+	  }
+	],
+	"Technical Report Writing": [
+	  {
+		"AJITH I": "L29,L30"
+	  },
+	  {
+		"DIVYA": "L49,L50"
+	  },
+	  {
+		"DIVYA": "L25,L26"
+	  },
+	  {
+		"S VIJAYALAKSHMI": "L13,L14"
+	  },
+	  {
+		"DEVI MEENAKSHI": "L45,L46"
+	  },
+	  {
+		"ALAMELU C": "L5,L6"
+	  },
+	  {
+		"RAJITHA K": "L5,L6"
+	  },
+	  {
+		"RAJITHA K": "L11,L12"
+	  },
+	  {
+		"ALAN G": "L29,L30"
+	  },
+	  {
+		"ALAMELU C": "L37,L38"
+	  },
+	  {
+		"PATCHAINAYAGI S": "L43,L44"
+	  },
+	  {
+		"HASEENA NAJI": "L33,L34"
+	  },
+	  {
+		"SIVAKAMI B": "L39,L40"
+	  },
+	  {
+		"SIVAKAMI B": "L49,L50"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "L51,L52"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "L55,L56"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "L53,L54"
+	  },
+	  {
+		"AJITH I": "L11,L12"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "L23,L24"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "L31,L32"
+	  },
+	  {
+		"MANALI KARMAKAR": "L33,L34"
+	  },
+	  {
+		"PREETHA R": "L37,L38"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "L39,L40"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "L43,L44"
+	  },
+	  {
+		"CHITHRA G K": "L55,L56"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L1,L2"
+	  },
+	  {
+		"CHITHRA G K": "L3,L4"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "L7,L8"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "L9,L10"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "L13,L14"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L15,L16"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "L19,L20"
+	  },
+	  {
+		"PREETHA R": "L25,L26"
+	  },
+	  {
+		"RAJITHA K": "L27,L28"
+	  },
+	  {
+		"SAMIK MALLA": "L35,L36"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "L47,L48"
+	  },
+	  {
+		"PATCHAINAYAGI S": "L1,L2"
+	  },
+	  {
+		"ANUJA RAJ": "L3,L4"
+	  },
+	  {
+		"ANUJA RAJ": "L7,L8"
+	  },
+	  {
+		"SAMIK MALLA": "L9,L10"
+	  },
+	  {
+		"PREETHA R": "L13,L14"
+	  },
+	  {
+		"MARZIYA BEGUM S": "L15,L16"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "L19,L20"
+	  },
+	  {
+		"SAMIK MALLA": "L21,L22"
+	  },
+	  {
+		"JOHN VINCENT A": "L25,L26"
+	  },
+	  {
+		"DAISY GOHAIN": "L27,L28"
+	  },
+	  {
+		"AJITH I": "L5,L6"
+	  },
+	  {
+		"ALAMELU C": "L23,L24"
+	  },
+	  {
+		"RAJASEKARAN V": "L39,L40"
+	  },
+	  {
+		"DEVI MEENAKSHI": "L31,L32"
+	  },
+	  {
+		"HASEENA NAJI": "L37,L38"
+	  },
+	  {
+		"MANALI KARMAKAR": "L43,L44"
+	  },
+	  {
+		"SAMIK MALLA": "L49,L50"
+	  },
+	  {
+		"DAISY GOHAIN": "L55,L56"
+	  },
+	  {
+		"SIVAKAMI B": "L11,L12"
+	  },
+	  {
+		"DIVYA": "L37,L38"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L49,L50"
+	  },
+	  {
+		"SIVAKAMI B": "L55,L56"
+	  },
+	  {
+		"AKAITAB MUKHERJEE": "L33,L34"
+	  },
+	  {
+		"PREETHA R": "L31,L32"
+	  },
+	  {
+		"PREETHA R": "L1,L2"
+	  },
+	  {
+		"DAVID PAUL S": "L9,L10"
+	  },
+	  {
+		"SREEKALA U": "L13,L14"
+	  },
+	  {
+		"SATHVIKA R": "L21,L22"
+	  },
+	  {
+		"DEVI MEENAKSHI": "L25,L26"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "L35,L36"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "L3,L4"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L7,L8"
+	  },
+	  {
+		"RAJASEKARAN V": "L19,L20"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "L15,L16"
+	  },
+	  {
+		"S VIJAYALAKSHMI": "L25,L26"
+	  },
+	  {
+		"PATCHAINAYAGI S": "L27,L28"
+	  },
+	  {
+		"AJITH I": "L41,L42"
+	  },
+	  {
+		"DAVID PAUL S": "L47,L48"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "L11,L12"
+	  },
+	  {
+		"PREETHA R": "L23,L24"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "L31,L32"
+	  },
+	  {
+		"CHITHRA G K": "L43,L44"
+	  },
+	  {
+		"HASEENA NAJI": "L55,L56"
+	  },
+	  {
+		"ALAN G": "L39,L40"
+	  },
+	  {
+		"ALAN G": "L51,L52"
+	  },
+	  {
+		"ALAN G": "L1,L2"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L9,L10"
+	  },
+	  {
+		"HASEENA NAJI": "L15,L16"
+	  },
+	  {
+		"JAISHREE KARTHIGA R K SSL": "L19,L20"
+	  },
+	  {
+		"DAVID PAUL S": "L41,L42"
+	  },
+	  {
+		"SATHVIKA R": "L29,L30"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "L37,L38"
+	  },
+	  {
+		"HASEENA NAJI": "L49,L50"
+	  },
+	  {
+		"ALAN G": "L33,L34"
+	  },
+	  {
+		"DAISY GOHAIN": "L39,L40"
+	  },
+	  {
+		"GANESH NAGARAO CHILKESSL": "L45,L46"
+	  },
+	  {
+		"SATHVIKA R": "L51,L52"
+	  },
+	  {
+		"SUBBU LAKSHMI M": "L3,L4"
+	  },
+	  {
+		"DEVI MEENAKSHI": "L7,L8"
+	  },
+	  {
+		"RASHMI REKHA BORAH SSL": "L15,L16"
+	  },
+	  {
+		"BHUVANESWARI G": "L21,L22"
+	  },
+	  {
+		"SIVAKAMI B": "L27,L28"
+	  },
+	  {
+		"SAMIK MALLA": "L47,L48"
+	  },
+	  {
+		"RAJITHA K": "L43,L44"
+	  },
+	  {
+		"BHUVANESHWARI P": "L23,L24"
+	  },
+	  {
+		"DIVYA": "L13,L14"
+	  },
+	  {
+		"RAJITHA K": "L49,L50"
+	  },
+	  {
+		"RAJASEKARAN V": "L3,L4"
+	  }
+	],
+	"Spanish I": [
+	  {
+		"SAVARIAH XAVIER Y C": "G1"
+	  },
+	  {
+		"SAVARIAH XAVIER Y C": "G2"
+	  },
+	  {
+		"SAVARIAH XAVIER Y C": "B1"
+	  },
+	  {
+		"SAVARIAH XAVIER Y C": "B2"
+	  },
+	  {
+		"SAVARIAH XAVIER Y C": "TAAA,TCCC"
+	  }
+	],
+	"French I": [
+	  {
+		"GOVINDARAJAN P": "G1"
+	  },
+	  {
+		"CLARISSE ROUABAH": "G1"
+	  },
+	  {
+		"THANI THAMIZHARASI": "G1"
+	  },
+	  {
+		"GOVINDARAJAN P": "G2"
+	  },
+	  {
+		"THANI THAMIZHARASI": "G2"
+	  },
+	  {
+		"THANI THAMIZHARASI": "B1"
+	  },
+	  {
+		"CLARISSE ROUABAH": "B1"
+	  },
+	  {
+		"GOVINDARAJAN P": "B2"
+	  },
+	  {
+		"GOVINDARAJAN P": "TAAA,TCCC"
+	  },
+	  {
+		"CLARISSE ROUABAH": "TAAA,TCCC"
+	  }
+	],
+	"German I": [
+	  {
+		"JAMUNARANI M": "G1"
+	  },
+	  {
+		"SUGUMAR G": "G1"
+	  },
+	  {
+		"SUGUMAR G": "G2"
+	  },
+	  {
+		"SUGUMAR G": "B1"
+	  },
+	  {
+		"RANGANATHAN MANICKAMSSL": "B1"
+	  },
+	  {
+		"JAMUNARANI M": "B2"
+	  },
+	  {
+		"JAMUNARANI M": "TAAA,TCCC"
+	  }
+	],
+	"Introduction to Psychology": [
+	  {
+		"MAYA RATHNASABAPATHYSSL": "B1,TB1"
+	  },
+	  {
+		"VIJAYABANU U": "B2,TB2"
+	  },
+	  {
+		"SHEETAL NARAYAN MUSALE": "G1,TG1"
+	  }
+	],
+	"Industrial Psychology": [
+	  {
+		"MAYA RATHNASABAPATHYSSL": "C1,TC1"
+	  }
+	],
+	"Indian Culture and Heritage": [
+	  {
+		"FRANCIS KULANDAI RAJ FSSL": "E2,TE2"
+	  }
+	],
+	"BHUM230L Health Humanities in Biotechnological EraTH": [
+	  {
+		"MANALI KARMAKAR": "G1,TG1"
+	  }
+	],
+	"Introduction to Sustainable Aging": [
+	  {
+		"MANALI KARMAKAR": "D1,TD1"
+	  }
+	],
+	"Indian Psychology": [
+	  {
+		"VIJAYABANU U": "D2,TD2"
+	  }
+	],
+	"Japanese I": [
+	  {
+		"YUKINO KRISHNA": "G1"
+	  },
+	  {
+		"YUKINO KRISHNA": "G2"
+	  },
+	  {
+		"YUKINO KRISHNA": "B1"
+	  }
+	],
+	"Entrepreneurship": [
+	  {
+		"SASIKUMAR M": "G1,TG1"
+	  },
+	  {
+		"S DIVYA": "A1"
+	  },
+	  {
+		"S DIVYA": "NIL"
+	  }
+	],
+	"Essence of Traditional Knowledge": [
+	  {
+		"TIWARI MAHALAXMI SHIVSHANKAR": "NIL"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "NIL"
+	  },
+	  {
+		"BINU SAHAYAM D": "NIL"
+	  },
+	  {
+		"SWATI": "NIL"
+	  },
+	  {
+		"ROOPESH O B": "NIL"
+	  },
+	  {
+		"ARUN KUMAR G": "NIL"
+	  },
+	  {
+		"SHALINA SUSAN MATHEWSSL": "NIL"
+	  },
+	  {
+		"VIJAYALAKSHMI V": "NIL"
+	  },
+	  {
+		"ALLI P": "NIL"
+	  },
+	  {
+		"PARAMASIVAM R": "NIL"
+	  },
+	  {
+		"VIJAYABANU U": "NIL"
+	  },
+	  {
+		"SHEETAL NARAYAN MUSALE": "NIL"
+	  }
+	],
+	"Communicative English": [
+	  {
+		"BHUVANESWARI G": "L37,L38,L49,L50"
+	  }
+	],
+	"Work Place Psychology": [
+	  {
+		"SABESAN S": "D1,TD1"
+	  }
 	],
 	"Emotional Intelligence": [
-		{
-			MEKHALA: "G1,S15,TG1",
-		},
+	  {
+		"SUBASREE V": "TF1"
+	  },
+	  {
+		"SUBASREE V": "L55,L56"
+	  },
+	  {
+		"NISHA R": "B2,TB2,TBB2"
+	  }
 	],
-	"Advanced Organic Chemistry": [
-		{
-			"FATEH VEER SINGH": "I3,N4,U4",
-		},
-		{
-			"FATEH VEER SINGH": "NIL",
-		},
+	"Research Methodology": [
+	  {
+		"ALLI P": "A1,TA1,TAA1"
+	  }
 	],
-	"Analytical Quality Assurance for Process Industry": [
-		{
-			"BALAMURALI M M": "I4,M2,N3",
-		},
+	"French": [
+	  {
+		"CLARISSE ROUABAH": "D1,TD1"
+	  },
+	  {
+		"GOVINDARAJAN P": "B1,TB1"
+	  }
 	],
-	"General Organic and Inorganic Chemistry Practical I": [
-		{
-			"JAYANTA PARUI": "M3,M4,M5,M6",
-		},
+	"German": [
+	  {
+		"JAMUNARANI M": "B1,TB1"
+	  },
+	  {
+		"SUGUMAR G": "D1,TD1"
+	  }
 	],
-	"Advanced Inorganic Chemistry": [
-		{
-			AROCKIASAMY: "I2,M1,U2",
-		},
-		{
-			AROCKIASAMY: "NIL",
-		},
+	"TAMIL": [
+	  {
+		"T PASUPATHY": "B1,TB1"
+	  },
+	  {
+		"T PASUPATHY": "D1,TD1"
+	  }
 	],
-	"Advanced Physical Chemistry": [
-		{
-			RAMACHANDRAN: "I1,M7,R3,U3",
-		},
+	"Foundation for Design": [
+	  {
+		"RAJESH KUMAR K": "G1"
+	  },
+	  {
+		"RAJESH KUMAR K": "L37,L38"
+	  }
 	],
-	"Analytical and Physical Chemistry Practical II": [
-		{
-			"KIRAN KUMAR TADI": "R5,R6,R7,R8",
-		},
+	"Apparel Machineries": [
+	  {
+		"RATHINAMOORTHY R": "A1,TA1"
+	  }
 	],
-	"Alternative dispute resolution": [
-		{
-			"SAJI SIVAN S": "D,TD,TDD",
-		},
-		{
-			"SHINSA P MATHEW": "D,TD,TDD",
-		},
-		{
-			"VIJAYA BHARATHI": "D,TD,TDD",
-		},
-		{
-			"NIKHIL G": "D,TD,TDD",
-		},
+	"Fashion Studies": [
+	  {
+		"SAROJ K M": "E1,TE1"
+	  }
 	],
-	"Service Law": [
-		{
-			"NIKHIL G": "A,TA,TAA",
-		},
+	"Couture Techniques": [
+	  {
+		"APARNA GOVIND": "C1,L23,L24,TC1"
+	  }
 	],
-	"Right to Education": [
-		{
-			"SAJI SIVAN S": "B,TB,TBB",
-		},
+	"Fashion Illustration": [
+	  {
+		"SAROJ K M": "L11,L12,L33,L34,L55,L56"
+	  }
 	],
-	"International Trade Law": [
-		{
-			"S. ANANDHA KRISHNA RAJ": "C,TC,TCC",
-		},
+	"Yarn Manufacturing": [
+	  {
+		"SELVAKUMAR": "E1,L5,L6,TE1"
+	  }
 	],
-	"Farmers and Breeders Right": [
-		{
-			"JISHNU J R": "A,TA,TAA",
-		},
+	"Kid\u2019s and Men\u2019s Wear": [
+	  {
+		"BHUVANESHWARI": ""
+	  }
 	],
-	"Biodiversity Protection": [
-		{
-			"JAYANTA BORUAH": "A,TA,TAA",
-		},
+	"Fashion Merchandising and Marketing": [
+	  {
+		"RATHINAMOORTHY R": "B1,TB1"
+	  }
 	],
-	"International Investment Law": [
-		{
-			"ARUN D RAJ": "C,TC,TCC",
-		},
+	"Industrial Engineering in Apparel IndustryTH": [
+	  {
+		"N.GAYATHRI": "A1,TA1,TAA1"
+	  }
 	],
-	"DATA PROTECTION LAW": [
-		{
-			ABHISHEK: "B,TB,TBB",
-		},
+	"Textile Processing and Finishing": [
+	  {
+		"SELVAKUMAR": "D1,L37,L38,TD1"
+	  }
 	],
-	"Gender, Caste and Law": [
-		{
-			"ANBARASI G": "B,TB,TBB",
-		},
+	"Fabric Structure and Design Analysis": [
+	  {
+		"PALANI RAJAN T": "F1,TF1"
+	  }
 	],
-	"Discretionary Justiceand Rule of Law": [
-		{
-			"NAVYA BENNY": "D,TD,TDD",
-		},
+	"Fabric Structure and Design Analysis Lab LO": [
+	  {
+		"PALANI RAJAN T": "L31,L32"
+	  }
 	],
-	"Rights of the Accused under National and International Legal System": [
-		{
-			"BIJOY SHARMA": "D,TD,TDD",
-		},
+	"Computer Aided Garment Design Lab": [
+	  {
+		"APARNA GOVIND": "L5,L6,L29,L30,L49,L5052852"
+	  }
 	],
-	"Global Administrative Law": [
-		{
-			"K KAMBAN SOCRETES": "E,TE,TEE",
-		},
+	"Fashion Design Portfolio": [
+	  {
+		"APARNA GOVIND": "L15,L16,L19,L20,L27,L28"
+	  }
 	],
-	"Government Regulation of Industry": [
-		{
-			ADITYA: "E,TE,TEE",
-		},
+	"Pattern making Fundamentals": [
+	  {
+		"JESICA ROSHIMA": "F1"
+	  },
+	  {
+		"JESICA ROSHIMA": "L5,L6,L23,L24"
+	  }
 	],
-	"Energy Law": [
-		{
-			"JAYANTA BORUAH": "B,TB,TBB",
-		},
+	"Apparel Manufacturing": [
+	  {
+		"VASANTH KUMAR": "E1"
+	  },
+	  {
+		"VASANTH KUMAR": "L11,L12,L29,L30"
+	  }
 	],
-	"Administrative Law": [
-		{
-			"AMBIKA R NAIR": "F,TF,TFF",
-		},
-		{
-			"NAVYA BENNY": "F,TF,TFF",
-		},
-		{
-			"SWARLATA PANDEY": "F,TF,TFF",
-		},
-		{
-			"K KAMBAN SOCRETES": "F,TF,TFF",
-		},
+	"Advanced Fashion Illustration": [
+	  {
+		"MAANVIZHI M": "L21,L22,L31,L32,L43,L44"
+	  }
 	],
-	"Legal and Constitutionl History": [
-		{
-			ARJUN: "B,TB,TBB",
-		},
+	"Children's wear and Women's wear": [
+	  {
+		"RAJESH KUMAR K": ""
+	  }
 	],
-	"Interpretation of Statutes": [
-		{
-			"SEZOLU NYEKHA": "A,TA,TAA",
-		},
-		{
-			"RESHMA SURESH": "A,TA,TAA",
-		},
-		{
-			"MONISHA B": "A,TA,TAA",
-		},
-		{
-			"AKSHARA NAIR": "A,TA,TAA",
-		},
+	"Surface Ornamentation": [
+	  {
+		"BANUMATHY S": "B1,TB1"
+	  },
+	  {
+		"BANUMATHY S": "L55,L56"
+	  }
 	],
-	"Company Law": [
-		{
-			"ZAKKARIYA T H": "C,TC,TCC",
-		},
-		{
-			"KESAVAMOORTHY R": "C,TC,TCC",
-		},
-		{
-			"P C ABIRAMI": "C,TC,TCC",
-		},
-		{
-			"LALITH KUMAR J": "C,TC,TCC",
-		},
+	"Accessories Designing and Making": [
+	  {
+		"SAROJ K M": "D1"
+	  },
+	  {
+		"SAROJ K M": "NIL"
+	  }
 	],
-	"Law of Crimes- I": [
-		{
-			"RAJAVENKATESAN P R L": "E,TE",
-		},
-		{
-			"GANESAN K": "E,TE",
-		},
-		{
-			"ABUL HASSAN T": "E,TE",
-		},
-		{
-			ASWATHY: "E,TE",
-		},
+	"Fashion Concepts": [
+	  {
+		"BHUVANESHWARI": "C1,TC1"
+	  }
 	],
-	"Indian Legal System": [
-		{
-			"SWARLATA PANDEY": "A,TA,TAA",
-		},
-		{
-			"NEW FACULTY LAW1": "A,TA,TAA",
-		},
-		{
-			"NEW FACULTY LAW2": "A,TA,TAA",
-		},
-		{
-			SWATHI: "A,TA,TAA",
-		},
+	"Costume Designing": [
+	  {
+		"MAANVIZHI M": "D1,TD1"
+	  },
+	  {
+		"MAANVIZHI M": "NIL"
+	  }
 	],
-	"Interpretation of Statues": [
-		{
-			"JAYANTA BORUAH": "E,TE,TEE",
-		},
-		{
-			"NEW FACULTY LAW1": "E,TE,TEE",
-		},
-		{
-			SUJATHA: "E,TE,TEE",
-		},
-		{
-			"FIRDOUS ABDULLAH": "E,TE,TEE",
-		},
+	"Fashion styling and make up": [
+	  {
+		"JESICA ROSHIMA": "C1,TC1"
+	  }
 	],
-	"Law of Taxation": [
-		{
-			"ARUN D RAJ": "E,TE,TEE",
-		},
-		{
-			SHANTHI: "E,TE,TEE",
-		},
-		{
-			"ESAKKI AMMAL K": "E,TE,TEE",
-		},
-		{
-			SANTHOSHV: "E,TE,TEE",
-		},
+	"Fashion Marketing and Management": [
+	  {
+		"BANUMATHY S": "A1,TA1"
+	  }
 	],
-	"Drafting,pleading and conveyance": [
-		{
-			"SAIJI J S": "F,TF,TFF",
-		},
-		{
-			"LALITH KUMAR J": "F,TF,TFF",
-		},
-		{
-			"MRUDHUL M SHENOY": "F,TF,TFF",
-		},
-		{
-			"MOHAMED SHAREEF P P": "F,TF,TFF",
-		},
+	"Computer Aided Designing": [
+	  {
+		"S.VINUSOWNDARYA": "E1"
+	  },
+	  {
+		"S.VINUSOWNDARYA": "L23,L24,L45,L46"
+	  },
+	  {
+		"S.VINUSOWNDARYA": "L39,L40,L43,L44"
+	  }
 	],
-	"Local Self Government": [
-		{
-			"NEW FACULTY LAW1": "C,TC,TCC",
-		},
+	"Textile and Apparel Testing": [
+	  {
+		"N.GAYATHRI": "L37,L38,L49,L50"
+	  }
 	],
-	"Maritime Law": [
-		{
-			"VIJAYENDRA KUMAR M": "A,TA,TAA",
-		},
-	],
-	"Corporate Finance": [
-		{
-			"JAYENDRA KASTURE": "B,TB,TBB",
-		},
-	],
-	Criminology: [
-		{
-			"RESHMA SURESH": "C,TC,TCC",
-		},
-	],
-	"White Collar Crimes": [
-		{
-			"GANESAN K": "B,TB,TBB",
-		},
-	],
-	"Air and Space Law": [
-		{
-			"PREMA E": "B,TB,TBB",
-		},
-	],
-	"Trade in Intellectual Property": [
-		{
-			"MONISHA B": "E,TE,TEE",
-		},
-	],
-	"Intellectual Property and Competition Law": [
-		{
-			"TANIA SEBASTIAN": "D,TD,TDD",
-		},
-	],
-	"India and International Law": [
-		{
-			"SEZOLU NYEKHA": "D,TD,TDD",
-		},
-	],
-	"Law of Mergers and Acquisitions": [
-		{
-			"DULUNG SENGUPTA": "E,TE,TEE",
-		},
-	],
-	"Special Contracts": [
-		{
-			"AMBIKA R NAIR": "B,TB,TBB",
-		},
-		{
-			"SHARMILA M S": "B,TB,TBB",
-		},
-		{
-			"LALITH KUMAR J": "B,TB,TBB",
-		},
-		{
-			"ESAKKI AMMAL K": "B,TB,TBB",
-		},
-	],
-	"Political Thought: Indian and Western": [
-		{
-			"IGNATIUS PRABHAKAR P": "C,TC,TCC",
-		},
-		{
-			"JUSTIN JOSEPH": "C,TC,TCC",
-		},
-	],
-	"Pubic Finance Theory and Practice": [
-		{
-			"ARUNA R": "F,TF,TFF",
-		},
-		{
-			"ARUNA R": "D,TD,TDD",
-		},
-	],
-	"Law and Social Transformation": [
-		{
-			"ANTO DIDISHA": "D,TD,TDD",
-		},
-		{
-			"SAFOORA AHAD": "F,TF,TFF",
-		},
-	],
-	"Operational Research": [
-		{
-			"TISHA MERIAM CHERIAN": "F,TF,TFF",
-		},
-		{
-			"BALAJI J": "C,TC,TCC",
-		},
-	],
-	"Constitutional Law II": [
-		{
-			"ARJUN PHILIP GEORGE": "C,TC",
-		},
-		{
-			"NAVYA BENNY": "C,TC",
-		},
-		{
-			ARJUN: "C,TC",
-		},
-		{
-			"SWARLATA PANDEY": "C,TC",
-		},
-		{
-			"ARJUN PHILIP GEORGE": "L56,L57",
-		},
-		{
-			"NAVYA BENNY": "L56,L57",
-		},
-		{
-			ARJUN: "L56,L57",
-		},
-		{
-			"SWARLATA PANDEY": "L56,L57",
-		},
-	],
-	"Law of Evidence": [
-		{
-			"SANKAR D": "F,TF,TFF",
-		},
-		{
-			"ABUL HASSAN T": "F,TF,TFF",
-		},
-		{
-			"BIJOY SHARMA": "F,TF,TFF",
-		},
-		{
-			ABHISHEK: "F,TF,TFF",
-		},
-	],
-	"Family Law-II": [
-		{
-			SANTHOSHV: "D,TD,TDD",
-		},
-		{
-			"MONISHA B": "D,TD,TDD",
-		},
-		{
-			"SAIJI J S": "D,TD,TDD",
-		},
-		{
-			"RESHMA SURESH": "D,TD,TDD",
-		},
-	],
-	"Code of Civil Procedure and Limitation": [
-		{
-			"ESAKKI AMMAL K": "A,TA,TAA",
-		},
-		{
-			ASWATHY: "A,TA,TAA",
-		},
-		{
-			"MRUDHUL M SHENOY": "A,TA,TAA",
-		},
-		{
-			"SAJI SIVAN S": "A,TA,TAA",
-		},
+	"International Economics": [
+	  {
+		"JAYARAJ R": "D1,TD1"
+	  }
 	],
 	"International Relations": [
-		{
-			"IGNATIUS PRABHAKAR P": "B,TB,TBB",
-		},
-		{
-			"JUSTIN JOSEPH": "B,TB,TBB",
-		},
+	  {
+		"IGNATIUS PRABHAKAR PSSL": "E1,TE1"
+	  }
 	],
-	"Business Ethics and Human Rights": [
-		{
-			"K P SWARNA BARATHI": "D,TD,TDD",
-		},
-		{
-			"SINDHUJA AK": "D,TD,TDD",
-		},
+	"BHUM222L Security Analysis and Portfolio ManagementTH": [
+	  {
+		"MUHAMMED SHAFI M KVITBS": "A2,TA2"
+	  }
 	],
-};
+	"Food, Nutrition and Health": [
+	  {
+		"KALI KISHORE REDDY TETALA": "D2,TD2"
+	  }
+	],
+	"Cell Biology and Biochemistry": [
+	  {
+		"VELLOREFACULTY1": "S3,S4,TBB2,TG2"
+	  }
+	],
+	"Business Analytics": [
+	  {
+		"ANBUMATHI R": "D1,TD1"
+	  },
+	  {
+		"REEVES WESLEY J": "G1,TG1"
+	  },
+	  {
+		"PADMAVATHY C": "A2,TA2"
+	  },
+	  {
+		"BALAJI J": "F2,TF2"
+	  }
+	],
+	"Research Methods for Management": [
+	  {
+		"THANGARAJA ARUMUGAMVITBS": "G1"
+	  },
+	  {
+		"THANGARAJA ARUMUGAMVITBS": "NIL"
+	  }
+	],
+	"Managing Personal Finance": [
+	  {
+		"MANU JOSE": "NIL"
+	  }
+	],
+	"Project Management": [
+	  {
+		"VADIVEL S M": "C2,TC2"
+	  }
+	],
+	"Introduction to Business Analytics": [
+	  {
+		"PADMAVATHY C": "L11,L12"
+	  },
+	  {
+		"PADMAVATHY C": "B1"
+	  }
+	],
+	"Organizational Change and Development TH": [
+	  {
+		"SUMATHI G N": "F1,TF1"
+	  }
+	],
+	"Information Systems Control and Audit": [
+	  {
+		"SUDARSANAM S K": "F1,TF1"
+	  }
+	],
+	"Services Marketing": [
+	  {
+		"ANURADHA A": "A2,TA2"
+	  },
+	  {
+		"THANGARAJA ARUMUGAMVITBS": "B1,TB1,TBB1"
+	  }
+	],
+	"Advertising Management": [
+	  {
+		"SAJU B": "B2,TB2"
+	  }
+	],
+	"Financial Reporting": [
+	  {
+		"SHAIK SALEEM": "G1"
+	  },
+	  {
+		"SHAIK SALEEM": "NIL"
+	  }
+	],
+	"Real World Business Solutions": [
+	  {
+		"RAJKUMAR MURUGESANVITBS": "C1,TC1"
+	  }
+	],
+	"Negotiations and Decision Making": [
+	  {
+		"VITBS FACULTY4": "E1,TE1"
+	  }
+	],
+	"Computer Based Analysis": [
+	  {
+		"SUDARSANAM S K": "L5,L6,L29,L30"
+	  }
+	],
+	"Managing the Family Business": [
+	  {
+		"VIJAYAN L": "B2"
+	  },
+	  {
+		"VIJAYAN L": "NIL"
+	  }
+	],
+	"Strategic Business Leader": [
+	  {
+		"NISHA R": "A2,TA2"
+	  }
+	],
+	"Mathematics for Designers": [
+	  {
+		"N RAMESH BABU": "E1,TE1"
+	  }
+	],
+	"Consumer Behaviour": [
+	  {
+		"MALAY BHATTACHARJEEVITBS": "B2,TB2"
+	  }
+	],
+	"Lean Start-up Management": [
+	  {
+		"SUJATHA MANOHAR": "TA1"
+	  },
+	  {
+		"SUJATHA MANOHAR": "NIL"
+	  },
+	  {
+		"S DIVYA": "TA1"
+	  },
+	  {
+		"S DIVYA": "NIL"
+	  },
+	  {
+		"ASI VASU DEVA REDDY": "TA2"
+	  },
+	  {
+		"ASI VASU DEVA REDDY": "NIL"
+	  }
+	],
+	"International Business": [
+	  {
+		"VITBS FACULTY4": "B1,TB1"
+	  },
+	  {
+		"VITBS FACULTY4": "NIL"
+	  }
+	],
+	"Global Brand Marketing Strategies": [
+	  {
+		"VITBS FACULTY4": "B2,TB2"
+	  },
+	  {
+		"VITBS FACULTY4": "NIL"
+	  }
+	],
+	"Bottom of the Pyramid Operations": [
+	  {
+		"SUJATHA MANOHAR": "B1,TB1"
+	  }
+	],
+	"Principles of Marketing": [
+	  {
+		"MALAY BHATTACHARJEEVITBS": "E1,TB1,TE1"
+	  }
+	],
+	"Accounting Software for Business": [
+	  {
+		"BHAVANI J": "L21,L22,L25,L26"
+	  }
+	],
+	"Personal Finance and Planning": [
+	  {
+		"RANGAMANI": "A1,TA1,TAA1"
+	  }
+	],
+	"Financial Technology": [
+	  {
+		"MEENAKSHI": "C1,TC1,TCC1"
+	  }
+	],
+	"E-Commerce": [
+	  {
+		"SAJU B": "A2,TA2,TAA2"
+	  }
+	],
+	"Artificial Intelligence for Business": [
+	  {
+		"MEENAKSHI": "D1,TD1,TDD1"
+	  }
+	],
+	"Income Tax Law and Practice": [
+	  {
+		"SIVAKUMAR K": "C1,TC1,TCC1"
+	  }
+	],
+	"Digital Marketing": [
+	  {
+		"SUDHEER MUHAMMED K MVITBS": "C2,TC2,TCC2"
+	  }
+	],
+	"Labour laws and Industrial Relations": [
+	  {
+		"BHAVANI J": "F1,S15,TF1"
+	  }
+	],
+	"Operations Research Techniques": [
+	  {
+		"TISHA MERIAM CHERIANVITBS": "G1,S15,TG1"
+	  }
+	],
+	"Project": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
+	],
+	"Corporate Accounting": [
+	  {
+		"BUVANESH": "F1,S15,TF1"
+	  }
+	],
+	"Banking Theory and Practices": [
+	  {
+		"MUHAMMED SHAFI M KVITBS": "A1,TA1,TAA1"
+	  }
+	],
+	"Cost Accounting": [
+	  {
+		"SIVAKUMAR K": "A2,TA2,TAA2"
+	  }
+	],
+	"Group Theory and Molecular SpectroscopyTH": [
+	  {
+		"MAHALAKSHMI S": "I5,M4,N5,U5"
+	  }
+	],
+	"Organic Synthesis & Methodologies": [
+	  {
+		"SANTOSH G": ""
+	  }
+	],
+	"Organometallics and Industrial ApplicationsTH": [
+	  {
+		"AROCKIASAMY": "I6,M5,U4"
+	  }
+	],
+	"Analytical Chemistry": [
+	  {
+		"KIRAN KUMAR TADI": "I4,M7,N6"
+	  }
+	],
+	"NMR,  EPR and Mass Spectrometry": [
+	  {
+		"SUJOY SARKAR": ""
+	  }
+	],
+	"Solid State Physics": [
+	  {
+		"ATANU DUTTA": "I2,N2,U2"
+	  }
+	],
+	"Statistical Physics": [
+	  {
+		"KORLEPARA DIVYA BHARATHI": "I5,M5,U5"
+	  }
+	],
+	"General Physics Lab-II": [
+	  {
+		"KORLEPARA DIVYA BHARATHI": "R2,R3,R4,R5"
+	  }
+	],
+	"Advanced Quantum Mechanics": [
+	  {
+		"G MARKANDEYULU": "I4,M6,U4"
+	  }
+	],
+	"Advanced Mathematical Physics": [
+	  {
+		"PARASURAMAN E": ""
+	  }
+	],
+	"Lasers and Nonlinear Optics": [
+	  {
+		"JITENDRA NARAYAN DASHSAS": "I6,N1,U3"
+	  }
+	],
+	"PMBA510L Macro Economics and Business Environment": [
+	  {
+		"ANURADHA A": "I2,N1,U4"
+	  }
+	],
+	"Business Research Methods": [
+	  {
+		"REEVES WESLEY J": "I4,M2,N3"
+	  }
+	],
+	"Financial Management": [
+	  {
+		"SHARON SOPHIA": ""
+	  }
+	],
+	"Entrepreneurship Development": [
+	  {
+		"S DIVYA": ""
+	  }
+	],
+	"Sales and Distribution Management": [
+	  {
+		"THANGARAJA ARUMUGAMVITBS": "I2,N1,U4"
+	  }
+	],
+	"English for Lawyers": [
+	  {
+		"VINEETH": "A,TA,TAA"
+	  },
+	  {
+		"LUKE GERARD CHRISTIE SSL": "A,TA,TAA"
+	  },
+	  {
+		"DAISY GOHAIN": "A,TA,TAA"
+	  },
+	  {
+		"LUKE GERARD CHRISTIE SSL": "D,TD,TDD"
+	  },
+	  {
+		"VINEETH": "D,TD,TDD"
+	  }
+	],
+	"Law of the Sea": [
+	  {
+		"SELVI": "B,TB,TBB"
+	  }
+	],
+	"IPR in Pharma Industry": [
+	  {
+		"JISHNU J R": "A,TA,TAA"
+	  }
+	],
+	"Insolvency & Bankruptcy": [
+	  {
+		"JAYENDRA KASTURE": "B,TB,TBB"
+	  }
+	],
+	"Women and Criminal Law": [
+	  {
+		"NEW FACULTY LAW1": "A,TA"
+	  }
+	],
+	"Financial and Systemic Fraud": [
+	  {
+		"NEW FACULTY LAW2": "B,TB,TBB"
+	  }
+	],
+	"INTERNATIONAL TAXATION LAW": [
+	  {
+		"SANTHOSH  V": "A,TA,TAA"
+	  }
+	],
+	"Capital Markets and Securities Law": [
+	  {
+		"DULUNG SENGUPTA": "E,TE"
+	  }
+	],
+	"Patent Drafting and Specification Writing TH": [
+	  {
+		"MONISHA B": "E,TE,TEE"
+	  }
+	],
+	"Law of Crimes- I": [
+	  {
+		"GANESAN K": "E,TE"
+	  },
+	  {
+		"ABUL HASSAN T": "E,TE"
+	  },
+	  {
+		"ANBARASI G": "E,TE"
+	  },
+	  {
+		"ASWATHY": "E,TE"
+	  }
+	],
+	"Constitutional Law- I": [
+	  {
+		"SHANTHI": "A,TA"
+	  },
+	  {
+		"ARJUN PHILIP GEORGE": "A,TA"
+	  },
+	  {
+		"NAVYA BENNY": "E,TE"
+	  },
+	  {
+		"MRUDHUL M SHENOY": "E,TE"
+	  },
+	  {
+		"ARJUN PHILIP GEORGE": "L43,L44"
+	  },
+	  {
+		"NAVYA BENNY": "L43,L44"
+	  },
+	  {
+		"MRUDHUL M SHENOY": "L43,L44"
+	  }
+	],
+	"Public International Law": [
+	  {
+		"SEZOLU NYEKHA": "F,TF"
+	  },
+	  {
+		"PREMA E": "F,TF"
+	  },
+	  {
+		"K KAMBAN SOCRETES": "F,TF"
+	  },
+	  {
+		"S. ANANDHA KRISHNA RAJVITSOL": "F,TF"
+	  },
+	  {
+		"SEZOLU NYEKHA": "L34,L35"
+	  },
+	  {
+		"PREMA E": "L34,L35"
+	  },
+	  {
+		"K KAMBAN SOCRETES": "L34,L35"
+	  },
+	  {
+		"S. ANANDHA KRISHNA RAJVITSOL": "L34,L35"
+	  }
+	],
+	"Property Law": [
+	  {
+		"VIJAYENDRA KUMAR M VITSOL": "E,TE"
+	  },
+	  {
+		"AMBIKA R NAIR": "E,TE"
+	  },
+	  {
+		"SAJI SIVAN S": "E,TE"
+	  },
+	  {
+		"ESAKKI AMMAL K": "E,TE"
+	  },
+	  {
+		"VIJAYENDRA KUMAR M VITSOL": "L55,L56"
+	  },
+	  {
+		"AMBIKA R NAIR": "L55,L56"
+	  },
+	  {
+		"SAJI SIVAN S": "L55,L56"
+	  },
+	  {
+		"ESAKKI AMMAL K": "L55,L56"
+	  }
+	],
+	"Intellectual Property Law": [
+	  {
+		"RAJAVENKATESAN P R L VITSOL": "A,TA"
+	  },
+	  {
+		"MONISHA B": "A,TA"
+	  },
+	  {
+		"SAIJI J S": "A,TA"
+	  },
+	  {
+		"VIJAYA BHARATHI": "A,TA"
+	  },
+	  {
+		"RAJAVENKATESAN P R L VITSOL": "L32,L33"
+	  },
+	  {
+		"MONISHA B": "L32,L33"
+	  },
+	  {
+		"SAIJI J S": "L32,L33"
+	  }
+	],
+	"Criminal Justice and Human Rights": [
+	  {
+		"RESHMA SURESH": "B,TB"
+	  },
+	  {
+		"RESHMA SURESH": "L57,L58"
+	  }
+	],
+	"Environmental Law": [
+	  {
+		"ARUN D RAJ": "C,TC,TCC"
+	  },
+	  {
+		"SWARLATA PANDEY": "C,TC,TCC"
+	  },
+	  {
+		"SHINSA P MATHEW": "C,TC,TCC"
+	  },
+	  {
+		"RESHMA SURESH": "C,TC,TCC"
+	  }
+	],
+	"Dissertation": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
+	],
+	"Moot Court and Internship": [
+	  {
+		"ACAD FACULTY": "NIL"
+	  }
+	],
+	"Comparative Constitutional Law": [
+	  {
+		"K KAMBAN SOCRETES": "B,TB,TBB"
+	  }
+	],
+	"Right to information": [
+	  {
+		"SAJI SIVAN S": "D,TD,TDD"
+	  }
+	],
+	"Media Law": [
+	  {
+		"ARJUN SHAJI": "A,TA,TAA"
+	  }
+	],
+	"Citizenship & Emigration Law": [
+	  {
+		"ADITYA": "A,TA,TAA"
+	  }
+	],
+	"International Humanitarian Law": [
+	  {
+		"MOHAMED SHAREEF P PVITSOL": "B,TB,TBB"
+	  }
+	],
+	"International Refugee Law": [
+	  {
+		"SEZOLU NYEKHA": "D,TD,TDD"
+	  }
+	],
+	"Patenting Life Forms": [
+	  {
+		"VIJAYA BHARATHI": "B,TB,TBB"
+	  }
+	],
+	"Banking Law": [
+	  {
+		"NEW FACULTY LAW1": "B,TB,TBB"
+	  }
+	],
+	"Insurance Law": [
+	  {
+		"NAVYA BENNY": "A,TA,TAA"
+	  }
+	],
+	"Corporate Governance": [
+	  {
+		"KESAVAMOORTHY R": "A,TA,TAA"
+	  }
+	],
+	"Competition Law": [
+	  {
+		"TANIA SEBASTIAN": "D,TD,TDD"
+	  }
+	],
+	"Equity and Trust": [
+	  {
+		"LALITH KUMAR J": "A,TA,TAA"
+	  }
+	],
+	"Penology and Victimology": [
+	  {
+		"BIJOY SHARMA": "B,TB,TBB"
+	  }
+	],
+	"Technology and Law": [
+	  {
+		"ADITYA": "D,TD,TDD"
+	  }
+	],
+	"Law of Treaties": [
+	  {
+		"KAVI SHANKAR": "E,TE,TEE"
+	  }
+	],
+	"International Commercial Arbitration": [
+	  {
+		"P C ABIRAMI": "E,TE,TEE"
+	  }
+	],
+	"Principles of Modern Government": [
+	  {
+		"ARUN KUMAR G": "B,TB,TBB"
+	  },
+	  {
+		"IGNATIUS PRABHAKAR PSSL": "B,TB,TBB"
+	  }
+	],
+	"Financial Accounting": [
+	  {
+		"RAVICHANDRAN K K": "D,TD,TDD"
+	  },
+	  {
+		"MARIA EVELYN JUCUNDA MVITBS": "D,TD,TDD"
+	  }
+	],
+	"Special Contracts": [
+	  {
+		"MOHAMED SHAREEF P PVITSOL": "C,TC,TCC"
+	  },
+	  {
+		"ESAKKI AMMAL K": "C,TC,TCC"
+	  },
+	  {
+		"LALITH KUMAR J": "C,TC,TCC"
+	  },
+	  {
+		"P C ABIRAMI": "C,TC,TCC"
+	  }
+	],
+	"Law of Crimes \u2013 II (Cr.P.C.)": [
+	  {
+		"GANESAN K": "B,TB,TBB"
+	  },
+	  {
+		"ABUL HASSAN T": "B,TB,TBB"
+	  },
+	  {
+		"ASWATHY": "C,TC,TCC"
+	  },
+	  {
+		"ANBARASI G": "C,TC,TCC"
+	  }
+	],
+	"Labour and Industrial Law I": [
+	  {
+		"NEWFACULTY": "B,TB,TBB"
+	  },
+	  {
+		"VIJAYENDRA KUMAR M VITSOL": "B,TB,TBB"
+	  },
+	  {
+		"SANTHOSH  V": "C,TC,TCC"
+	  },
+	  {
+		"ARJUN SHAJI": "C,TC,TCC"
+	  }
+	],
+	"Jurisprudence": [
+	  {
+		"SAJI SIVAN S": "A,TA,TAA"
+	  },
+	  {
+		"BIJOY SHARMA": "E,TE,TEE"
+	  },
+	  {
+		"RESHMA SURESH": "E,TE,TEE"
+	  },
+	  {
+		"KAVI SHANKAR": "A,TA,TAA"
+	  },
+	  {
+		"SHANTHI": "F,TF,TFF"
+	  },
+	  {
+		"MRUDHUL M SHENOY": "A,TA,TAA"
+	  },
+	  {
+		"ZAKKARIYA T H": "A,TA,TAA"
+	  },
+	  {
+		"ARJUN PHILIP GEORGE": "F,TF,TFF"
+	  },
+	  {
+		"ARUN D RAJ": "F,TF,TFF"
+	  }
+	],
+	"Public Administration": [
+	  {
+		"ARUN KUMAR G": "D,TD,TDD"
+	  },
+	  {
+		"IGNATIUS PRABHAKAR PSSL": "D,TD,TDD"
+	  }
+	],
+	"Labour and Industrial Law II": [
+	  {
+		"NEW FACULTY LAW1": "D,TD,TDD"
+	  },
+	  {
+		"ABHISHEK": "D,TD,TDD"
+	  },
+	  {
+		"KAVI SHANKAR": "D,TD,TDD"
+	  },
+	  {
+		"SHINSA P MATHEW": "D,TD,TDD"
+	  }
+	],
+	"Sports Law": [
+	  {
+		"NIKHIL G": "B,TB,TBB"
+	  }
+	],
+	"Scientific Evidence in Criminal Trial": [
+	  {
+		"SANKAR D": "C,TC,TCC"
+	  }
+	],
+	"Environment and Human Rights": [
+	  {
+		"ABHISHEK": "C,TC,TCC"
+	  }
+	],
+	"Cyber Law": [
+	  {
+		"BIJOY SHARMA": "C,TC,TCC"
+	  }
+	]
+  };

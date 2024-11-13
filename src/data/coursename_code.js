@@ -1,399 +1,1477 @@
 export const coursename_code = {
-	"Qualitative Skills Practice II": ["BSTS202P", "ISTS201P"],
-	"Advanced Competitive Coding- I": ["BSTS301P", "USTS301P"],
-	"Advanced Competitive Coding II": ["BSTS302P"],
-	"Reasoning Skill Enhancement": ["STS2011", "STS3021"],
-	"Fundamentals of Aptitude": ["STS2021"],
-	"Soft Skills for Professional Development": ["STS3003"],
-	"Preparedness for External Opportunities": ["STS3011", "STS4021"],
-	"Research Methodology": ["PRES701L"],
-	"Environmental Sciences": ["BCHY102N"],
-	"Complex Variables and Linear Algebra": ["BMAT201L"],
-	"Probability and Statistics": ["BMAT202L", "BMAT202", "PMAT501L"],
-	"Solid Geometry and Linear Transformations": ["BMAT204L"],
-	"Discrete Mathematics and Graph Theory": ["BMAT205L", "IMAT205L"],
-	"Statistical Applications": ["MAT1012"],
-	"Linear Algebra and Transform Techniques": ["MAT3008"],
-	"Advanced Mathematical Methods": ["MMAT502"],
-	"Environmental Studies": ["UCHY190L"],
-	"Ethics and Values": ["UHUM151", "BHUM101", "IHUM101"],
-	"Fluid Mechanics": ["BCLE202L", "BCLE202P"],
-	"Mechanics of Solids": ["BCLE203L", "BCLE203P", "BMEE202L", "BMEE202P"],
-	Surveying: ["BCLE204L", "BCLE204P"],
-	"Environmental Engineering": ["BCLE205L", "BCLE205P", "ICLE205L", "ICLE205P"],
-	"Engineering Geology": ["BCLE209L"],
-	"AI in Civil Engineering": ["BCLE210L"],
-	"Global Warming": ["BCLE214L"],
-	"Waste Management": ["BCLE215L"],
-	"Water Resource Management": ["BCLE216L"],
-	"Concrete Technology": ["BCLE301L", "BCLE301P"],
+	"Quantitative Skills Practice I": [
+	  "BSTS101P",
+	  "ISTS102P"
+	],
+	"Quantitative Skills Practice II": [
+	  "BSTS102P",
+	  "ISTS202P"
+	],
+	"Advanced Competitive Coding - II": [
+	  "BSTS302P"
+	],
+	"Advanced Competitive Coding -  II": [
+	  "ISTS302P"
+	],
+	"Quantitative Skills Practice": [
+	  "MSTS502P",
+	  "PSTS502P"
+	],
+	"Advanced Competitive Coding": [
+	  "MSTS601L",
+	  "PSTS601L"
+	],
+	"Introduction to Business Communication SS": [
+	  "STS1012"
+	],
+	"Aptitude and Reasoning Skills": [
+	  "STS2012"
+	],
+	"Arithmetic Problem Solving": [
+	  "STS2022"
+	],
+	"Enhancing Problem Solving Skills": [
+	  "STS3022"
+	],
+	"Preparation for Employment": [
+	  "STS4022"
+	],
+	"Quantitative Skills": [
+	  "USTS102P"
+	],
+	"Advanced Competitive Coding-II": [
+	  "USTS302P"
+	],
+	"Engineering Chemistry": [
+	  "BCHY101L",
+	  "BCHY101P",
+	  "ICHY101L",
+	  "ICHY101P"
+	],
+	"Environmental Sciences": [
+	  "BCHY102N"
+	],
+	"Calculus": [
+	  "BMAT101L"
+	],
+	"": [
+	  "BMAT101P Calculus Lab",
+	  "IEEE102P",
+	  "BCSE102P",
+	  "BCSE420P",
+	  "BCSE421L",
+	  "CSE1901",
+	  "ICSE102P",
+	  "MCSE605L Machine vision",
+	  "MGT1057",
+	  "MGT1058",
+	  "PMCA502P Java Programming Lab",
+	  "PMCA505L Data Communication and Networking",
+	  "PMCA507L Machine Learning",
+	  "PMCA507P Machine Learning Lab",
+	  "PMCA608L Deep Learning Techniques",
+	  "UCSC205P Web Development Lab",
+	  "UCSC312P Machine Learning Lab",
+	  "BEEE102P",
+	  "MELM505L Electric Motor Drives",
+	  "MELM505P Electric Motor Drives Lab",
+	  "MELM508P Electric Vehicle Lab",
+	  "MELM609L Societal impacts of Electric Vehicle",
+	  "MELM697J Design Project",
+	  "BECE402P",
+	  "MEDS608P",
+	  "MVLD505P ASIC Design Lab",
+	  "MVLD506P VLSI Testing and Testability Lab",
+	  "MVLD616L",
+	  "BMEE206P Machine Drawing Lab",
+	  "BMEE209L Materials Science and Engineering",
+	  "BMEE209P Materials Science and Engineering Lab",
+	  "BMEE302L Metal Casting and Welding",
+	  "BMEE302P Metal Casting and Welding Lab",
+	  "BMEE306L",
+	  "BMEE306P",
+	  "BMEE308P Microcontrollers and Interfacing Lab",
+	  "BMEE313E Non-destructive Testing",
+	  "BMEE402P Heat and Mass Transfer Lab",
+	  "BMEE417L",
+	  "BMHA202L Manufacturing Processes",
+	  "BMHA202P Manufacturing Processes Lab",
+	  "BMHA203P Sensors and Instrumentation Lab",
+	  "BMHA204L Microprocessors and Microcontrollers",
+	  "BMHA302P Industrial Automation Lab",
+	  "BMHA303P Industrial Robotics Lab",
+	  "BMHA311L Additive Manufacturing",
+	  "BMHA312L Control Systems",
+	  "BMHA401L Computer Integrated Manufacturing",
+	  "BMHA404L Biomechatronics",
+	  "BMHA408E Unmanned Aerial Vehicles",
+	  "MAUE605L Vehicle Aerodynamics",
+	  "MCDM506L Advanced Vibration Engineering",
+	  "MCDM608L Computational Fluid Dynamics",
+	  "MCDM608P Computational Fluid Dynamics Lab",
+	  "MCDM612L Advanced Manufacturing Technology",
+	  "MCDM699J Internship II/ Dissertation II",
+	  "MMAE503L Additive Manufacturing Technology",
+	  "MMHA506L Advanced Control Systems",
+	  "MMHA507L Industrial Process Automation",
+	  "MMHA507PIndustrial Process Automation Lab",
+	  "MMHA601L Machine Vision Systems",
+	  "MMHA611L Bio-Mechatronics",
+	  "MMHA699J Internship II/ Dissertation II",
+	  "BHUM101N Ethics and Values",
+	  "BHUM106L PRINCIPLES OF SOCIOLOGY",
+	  "BHUM107L SUSTAINABILITY AND SOCIETY",
+	  "BHUM108L URBAN COMMUNITY DEVELOPMENT",
+	  "BHUM109L SOCIAL WORK AND SUSTAINABILITY",
+	  "BHUM110E Cognitive Psychology",
+	  "BHUM201L Mass Communication",
+	  "BHUM202L Rural Development",
+	  "BHUM214L Political Science",
+	  "BHUM217L Contemporary India",
+	  "BHUM235E Psychology of Wellness",
+	  "UECH106L Microeconomics II",
+	  "UECH107L Macroeconomics II",
+	  "UECH108L Mathematics for Economics II",
+	  "UHUM102L Company Secretarial Practice",
+	  "BHUM103L Micro Economics",
+	  "BHUM104L Macro Economics",
+	  "BHUM105L PUBLIC POLICY AND ADMINISTRATION",
+	  "BHUM205L Development Economics",
+	  "BHUM209L Game Theory",
+	  "BHUM211L Behavioral Economics",
+	  "BHUM218L Financial Management",
+	  "BHUM219L Principles of Accounting",
+	  "BHUM220L Financial Markets and Institutions",
+	  "BHUM225L Personal Finance",
+	  "BMGT102L Human Resource Management",
+	  "BMGT103L Organizational Behavior",
+	  "BMGT106L Digital Marketing",
+	  "BMT1039",
+	  "UBBH106L Management Accounting",
+	  "UBBH107L Macro Economics",
+	  "UBBH108L Management and Organizations",
+	  "UCCA255L Management Accounting",
+	  "UCCA261L",
+	  "UCCH102L Macro Economics",
+	  "PMBA509L Human Resource Management",
+	  "PMBA511L Operations Management",
+	  "PMBA519L",
+	  "PMBA644L Operations Research",
+	  "TLAW204L",
+	  "LAW1106",
+	  "TLAW163L Micro Economics",
+	  "TLAW189L Managerial Economics",
+	  "TLAW502L Women and Law",
+	  "TLAW517L"
+	],
+	"Differential Equations and Transforms": [
+	  "BMAT102L",
+	  "IMAT102L"
+	],
+	"Complex Variables and Linear Algebra": [
+	  "BMAT201L"
+	],
+	"Probability and Statistics": [
+	  "BMAT202L",
+	  "BMAT202P",
+	  "IMAT202L",
+	  "IMAT202P",
+	  "UMAT102L"
+	],
+	"Engineering Physics": [
+	  "BPHY101L",
+	  "BPHY101P"
+	],
+	"Optimization Techniques": [
+	  "MAT3009"
+	],
+	"Environmental Science": [
+	  "UCHY101L"
+	],
+	"Environmental Studies": [
+	  "UCHY190L"
+	],
+	"Cyber Security": [
+	  "UCSC225L"
+	],
+	"Indian Constitution": [
+	  "USSC101L",
+	  "BSSC102N"
+	],
+	"Environmental Engineering": [
+	  "BCLE205L",
+	  "BCLE205P"
+	],
+	"Building Planning and Drawing": [
+	  "BCLE206E"
+	],
+	"Soil Mechanics": [
+	  "BCLE207P"
+	],
+	"Structural Analysis": [
+	  "BCLE208L"
+	],
+	"Engineering Geology": [
+	  "BCLE209L"
+	],
+	"Global Warming": [
+	  "BCLE214L"
+	],
+	"Waste Management": [
+	  "BCLE215L"
+	],
+	"Water Resource Management": [
+	  "BCLE216L"
+	],
+	"Concrete Technology": [
+	  "BCLE301L",
+	  "BCLE301P"
+	],
 	"Hydraulics and Hydraulic Machines": [
-		"BCLE302L",
-		"BCLE302P",
-		"ICLE302L",
-		"ICLE302P",
+	  "BCLE302L",
+	  "BCLE302P"
 	],
-	"Foundation Engineering": ["BCLE303L", "ICLE303L"],
-	"Design of Reinforced Concrete Structures": ["BCLE304L", "ICLE304L"],
-	"Reinforced Concrete Structures": ["BCLE304P", "ICLE304P"],
-	"Transportation Engineering": ["BCLE305L", "ICLE305L"],
-	"Design of Steel Structures": ["BCLE308L", "ICLE308L"],
-	"Steel Structures": ["BCLE308P", "ICLE308P"],
-	"Estimating and Costing": ["BCLE309L", "ICLE309L"],
-	"Building Information Modeling": ["BCLE317L"],
-	"Project-I": [
-		"BCLE497J",
-		"BEEE497J",
-		"BECE497J",
-		"BMEE497J",
-		"BMHA497J",
-		"BFST497J",
+	"Foundation Engineering": [
+	  "BCLE303L"
 	],
-	"Construction and Contract Management": ["ICLE317L"],
-	"Construction Planning and Scheduling": ["ICLE319L"],
-	"Construction Project Management": ["ICLE322L"],
-	"Computer Programming: Java": ["BCSE103E"],
+	"Design of Reinforced Concrete StructuresTH": [
+	  "BCLE304L"
+	],
+	"Reinforced Concrete Structures": [
+	  "BCLE304P"
+	],
+	"Water Resources Engineering": [
+	  "BCLE306L",
+	  "BCLE306P",
+	  "ICLE306L"
+	],
+	"Design of Steel Structures": [
+	  "BCLE308L",
+	  "ICLE308L"
+	],
+	"Steel Structures": [
+	  "BCLE308P",
+	  "ICLE308P"
+	],
+	"Estimating and Costing": [
+	  "BCLE309L",
+	  "ICLE309L"
+	],
+	"Industrial Waste Management": [
+	  "BCLE311L",
+	  "ICLE311L"
+	],
+	"Air and Noise Pollution Control": [
+	  "BCLE312L",
+	  "ICLE312L"
+	],
+	"Solid Waste Management": [
+	  "BCLE313L",
+	  "ICLE313L"
+	],
+	"Groundwater Engineering": [
+	  "BCLE315L"
+	],
+	"Building Information Modeling": [
+	  "BCLE317E"
+	],
+	"Summer Industrial Internship": [
+	  "BCLE399J",
+	  "ICLE399J"
+	],
+	"Project-II / Internship": [
+	  "BCLE498J",
+	  "BCSE498J",
+	  "BEEE498J",
+	  "BECE498J",
+	  "BMEE498J",
+	  "BMHA498J",
+	  "BFST498J"
+	],
+	"Construction Economics and Finance": [
+	  "ICLE320L"
+	],
+	"Construction Personnel Management": [
+	  "ICLE404L"
+	],
+	"Lean Construction": [
+	  "ICLE405L"
+	],
+	"Repair and Rehabilitation of Structures": [
+	  "ICLE414L"
+	],
+	"Smart Infrastructure": [
+	  "ICLE418L"
+	],
+	"Basic Electrical and Electronics EngineeringTH": [
+	  "IEEE102L",
+	  "BEEE102L"
+	],
+	"Finite Element Analysis": [
+	  "MSTE505L",
+	  "MSTE505P"
+	],
+	"Prestressed Concrete Structures": [
+	  "MSTE506L"
+	],
+	"Design of Bridges": [
+	  "MSTE602L"
+	],
+	"Advanced Concrete Materials and Technology": [
+	  "MSTE605L"
+	],
+	"Earthquake Resistant Design": [
+	  "MSTE607L"
+	],
+	"Analysis and Design of Tall Structures": [
+	  "MSTE608L"
+	],
+	"Internship II/ Dissertation II": [
+	  "MSTE699J",
+	  "MCSE699J",
+	  "PMCA699J",
+	  "MEDS699J",
+	  "MVLD699J"
+	],
+	"Computer Programming: Python": [
+	  "BCSE101E"
+	],
+	"Structured and Object-Oriented Programming": [
+	  "BCSE102L"
+	],
+	"Computer Programming: Java": [
+	  "BCSE103E"
+	],
 	"Data Structures and Algorithms": [
-		"BCSE202L",
-		"BCSE202P",
-		"ISWE102L",
-		"ISWE102P",
-		"BECE208E",
+	  "BCSE202L",
+	  "BCSE202P",
+	  "ISWE102L",
+	  "ISWE102P",
+	  "UCSC104L",
+	  "UCSC104P",
+	  "BECE208E"
 	],
-	"Design and Analysis of Algorithms": ["BCSE204L", "BCSE204P", "CSE3037"],
-	"Computer Architecture and Organization": ["BCSE205L"],
+	"Web Programming": [
+	  "BCSE203E"
+	],
+	"Design and Analysis of Algorithms": [
+	  "BCSE204L",
+	  "BCSE204P",
+	  "MCSE502L",
+	  "MCSE502P"
+	],
+	"Computer Architecture and Organization TH": [
+	  "BCSE205L",
+	  "ISWE301L"
+	],
+	"Foundations of Data Science": [
+	  "BCSE206L"
+	],
 	"Machine Learning": [
-		"BCSE209L",
-		"BCSE209P",
-		"CSE4036",
-		"SWE4012",
-		"BEEE410L",
+	  "BCSE209L",
+	  "BCSE209P",
+	  "SWE4012",
+	  "UCSC312L",
+	  "BEEE410L"
 	],
-	"Software Engineering": ["BCSE301L", "BCSE301P", "CSE3036"],
-	"Database Systems": ["BCSE302L", "BCSE302P", "ISWE103L", "ISWE103P"],
+	"Software Engineering": [
+	  "BCSE301L",
+	  "BCSE301P",
+	  "ISWE101L"
+	],
+	"Database Systems": [
+	  "BCSE302L",
+	  "BCSE302P",
+	  "ISWE103L",
+	  "ISWE103P"
+	],
 	"Operating Systems": [
-		"BCSE303L",
-		"BCSE303P",
-		"SWE3001",
-		"UCSC201L",
-		"UCSC201P",
+	  "BCSE303L",
+	  "BCSE303P",
+	  "SWE3001"
 	],
-	"Theory of Computation": ["BCSE304L"],
-	"Embedded Systems": ["BCSE305L"],
-	"Artificial Intelligence": ["BCSE306L", "SWE4010", "BEEE411L", "BMEE407L"],
-	"Compiler Design": ["BCSE307L", "BCSE307P"],
+	"Theory of Computation": [
+	  "BCSE304L",
+	  "ISWE203L"
+	],
+	"Embedded Systems": [
+	  "BCSE305L",
+	  "SWE2010"
+	],
+	"Artificial Intelligence": [
+	  "BCSE306L",
+	  "ISWE302L",
+	  "ISWE302P",
+	  "PMCA611L",
+	  "SWE4010",
+	  "BEEE411L",
+	  "BMEE407L"
+	],
+	"Compiler Design": [
+	  "BCSE307L",
+	  "BCSE307P"
+	],
 	"Computer Networks": [
-		"BCSE308L",
-		"BCSE308P",
-		"UCSC203L",
-		"UCSC203P",
-		"SWE2002",
+	  "BCSE308L",
+	  "BCSE308P",
+	  "MCSE505L",
+	  "MCSE505P"
 	],
-	"Cryptography and Network Security": ["BCSE309L", "BCSE309P"],
-	"Fundamentals of Fog and Edge Computing": ["BCSE313L"],
-	"Wearable Computing": ["BCSE315L"],
-	"Design of Smart Cities": ["BCSE316L"],
-	"Foundations of Blockchain Technology": ["BCSE324L"],
-	"Deep Learning": ["BCSE332L", "BCSE332P"],
-	"AWS Solutions Architect": ["BCSE355L"],
-	"Internet of Things": ["BCSE401L", "BECE351E"],
-	"Digital Image Processing": ["BCSE403L", "BECE316E", "SWE1010"],
-	"Internet and Web Programming": ["BCSE404L"],
-	"Computer vision": ["BCSE407L"],
-	"Natural Language Processing": ["BCSE409L", "SWE1017"],
-	"Cyber Security": ["BCSE410L"],
-	"High Performance Computing": ["BCSE414L"],
-	"Human Computer Interaction": ["BCSE415L"],
-	"Game Programming": ["BCSE416L", "BCSE416P", "SWE4011"],
-	"Machine vision": ["BCSE417L"],
-	"Machine Vision": ["BCSE417P", "BMHA308"],
-	"Explainable Artificial Intelligence": ["BCSE418L"],
-	"Speech and Language Processing": ["BCSE419L"],
-	"Speech and Language Processing lab": ["BCSE419P"],
-	"Sensors, Actuators and Signal Conditioning": ["BCSE420L", "BCSE420P"],
-	"Robotics: Kinematics, Dynamics and Motion Control": ["BCSE421L"],
-	"Robot Modeling and Simulation": ["BCSE422L", "BCSE422P"],
-	"Robot Programming": ["BCSE423L", "BCSE423P"],
-	"Machine Learning for Robotics": ["BCSE424L", "BCSE424P"],
-	"Robotic Perception": ["BCSE425L", "BCSE425P"],
-	"Robotic Process Automation": ["BCSE426L", "BCSE426P"],
-	"Cognitive Robotics": ["BCSE427L", "BCSE427P"],
-	"Autonomous Drones": ["BCSE428L", "BCSE428P"],
-	"Cyber Physical Systems Design": ["BCSE429L"],
-	"Cyber Physical System Design": ["BCSE429P"],
-	"Distributed Real Time Systems": ["BCSE430L", "BCSE430P"],
-	"Network Security and Cryptography Fundamentals": ["CSE1029"],
-	"Theory of Computation and Compiler Design": ["CSE3038"],
-	"Programming for Data Science": ["CSE3041"],
-	"NoSQL Databases": ["CSE3086"],
-	"Artificial Intelligence & Knowledge-Based Systems": ["CSE3088"],
-	"Information Visualization": ["CSE3121"],
-	"Foundations of Data Analytics": ["CSE3505"],
-	"Forensics analytics": ["CSE4074"],
-	"Image and Video Analytics": ["CSE4076"],
-	"Recommender Systems": ["CSE4077"],
-	"Computer Programming : Java": ["ICSE103E"],
-	"Digital Logic and Microprocessor": ["ISWE201L"],
-	"Requirements Engineering and Management": ["ISWE202L"],
-	"Introduction to Data Science and Business Analytics": ["MGT1057"],
-	"Operations research and Management": ["MGT1060"],
-	"Big data computing for Business Analytics": ["MGT1062"],
-	"Accounting Analytics": ["MGT3010"],
-	Econometrics: ["MGT3011"],
-	"Risk and Fraud Analytics": ["MGT3013"],
-	"Supply Chain Analytics": ["MGT3015"],
-	"Optimization Techniques": ["SWE1002"],
-	"Web Technologies": ["SWE1008"],
-	"Soft Computing": ["SWE1011"],
-	"E-Governance": ["SWE1012"],
-	"Technical Answers for Real World Problems (TARP)": ["SWE1901"],
-	"Android Programming": ["SWE2008"],
-	"Big Data Analytics": ["SWE2011"],
-	"Parallel Programming": ["SWE2017"],
-	"Object Oriented Analysis and Design": ["SWE2018"],
-	"Design Patterns": ["SWE2019"],
-	"Software Metrics": ["SWE2020"],
-	"Software Configuration Management": ["SWE2021"],
-	"Knowledge Management System": ["SWE2027"],
-	"Ruby Programming": ["SWE2034"],
-	"Big Data Technologies": ["SWE2035"],
-	"Advanced Software Testing": ["SWE3006"],
-	"System Programming": ["SWE4001"],
-	"Programming in Java": ["UCSC204L", "UCSC204P"],
-	nan: ["UCSC311L", "BFST204P"],
-	"Accounting for Engineers": ["MAT2008"],
-	"Semiconductor Devices and Circuits": ["BECS201L", "BECS201P"],
-	"Electrical Machines": ["BECS301L"],
-	"Electronic Materials": ["BEEE201L", "BEVD101L"],
-	"Electromagnetic Theory": ["BEEE202L"],
-	"Signals and Systems": ["BEEE204L", "BECE202L"],
-	"Electronic Devices and Circuits": ["BEEE205L", "BEEE205P"],
-	"Electrical Machine Design": ["BEEE210L"],
-	"Engineering Optimization": ["BEEE212L", "BMEE215L"],
-	"Embedded Systems Design": ["BEEE213L", "BECE403E"],
-	"Electrical Machines and Drives": ["BEEE214L", "BEEE214P"],
-	"Digital Signal Processing": ["BEEE302L", "BEEE302P"],
-	"Control Systems": ["BEEE303L", "BEEE303P"],
-	"Power Systems Engineering": ["BEEE304L"],
-	"Communication Systems": ["BEEE308L"],
+	"Cryptography and Network Security": [
+	  "BCSE309L",
+	  "BCSE309P",
+	  "BECE411L"
+	],
+	"Fundamentals of Fog and Edge ComputingTH": [
+	  "BCSE313L"
+	],
+	"Design of Smart Cities": [
+	  "BCSE316L"
+	],
+	"Foundations of Blockchain Technology": [
+	  "BCSE324L"
+	],
+	"Deep Learning": [
+	  "BCSE332L",
+	  "BCSE332P",
+	  "CSE4037",
+	  "MCSE603L",
+	  "MCSE603P"
+	],
+	"Information Security Analysis and Audit": [
+	  "BCSE353E"
+	],
+	"Information Security Management": [
+	  "BCSE354E"
+	],
+	"Internet of Things": [
+	  "BCSE401L",
+	  "CSE3066",
+	  "BECE351E"
+	],
+	"Digital Image Processing": [
+	  "BCSE403L"
+	],
+	"Cloud Computing": [
+	  "BCSE408L",
+	  "PMCA506L",
+	  "SWE4002"
+	],
+	"Natural Language Processing": [
+	  "BCSE409L",
+	  "SWE1017"
+	],
+	"Parallel Computing": [
+	  "BCSE412L"
+	],
+	"High Performance Computing": [
+	  "BCSE414L"
+	],
+	"Human Computer Interaction": [
+	  "BCSE415L",
+	  "SWE1018"
+	],
+	"Game Programming": [
+	  "BCSE416L",
+	  "BCSE416P",
+	  "SWE4011"
+	],
+	"Machine vision": [
+	  "BCSE417L"
+	],
+	"Machine Vision": [
+	  "BCSE417P"
+	],
+	"Explainable Artificial Intelligence": [
+	  "BCSE418L"
+	],
+	"Speech and Language Processing": [
+	  "BCSE419L"
+	],
+	"Speech and Language Processing lab": [
+	  "BCSE419P"
+	],
+	"Sensors, Actuators and Signal ConditioningTH": [
+	  "BCSE420L"
+	],
+	"Robot Modeling and Simulation": [
+	  "BCSE422L",
+	  "BCSE422P"
+	],
+	"Robot Programming": [
+	  "BCSE423L",
+	  "BCSE423P"
+	],
+	"Machine Learning for Robotics": [
+	  "BCSE424L",
+	  "BCSE424P"
+	],
+	"Robotic Perception": [
+	  "BCSE425L",
+	  "BCSE425P"
+	],
+	"Robotic Process Automation": [
+	  "BCSE426L"
+	],
+	"Cognitive Robotics": [
+	  "BCSE427L",
+	  "BCSE427P"
+	],
+	"Autonomous Drones": [
+	  "BCSE428L",
+	  "BCSE428P"
+	],
+	"Cyber Physical Systems Design": [
+	  "BCSE429L"
+	],
+	"Cyber Physical System Design": [
+	  "BCSE429P"
+	],
+	"Distributed Real Time Systems": [
+	  "BCSE430L",
+	  "BCSE430P"
+	],
+	"Basic Bioinformatics": [
+	  "BIT1029"
+	],
+	"Capstone Project": [
+	  "CSE1908",
+	  "SWE1904",
+	  "MMA3099"
+	],
+	"Computer Networks Essentials": [
+	  "CSE3039"
+	],
+	"Exploratory Data Analysis": [
+	  "CSE3040"
+	],
+	"Text & Web Mining": [
+	  "CSE3067"
+	],
+	"Sequential and Spatial data mining": [
+	  "CSE3068"
+	],
+	"Real-Time Analytics": [
+	  "CSE3069"
+	],
+	"Big Data Ecosystem": [
+	  "CSE3084"
+	],
+	"Predictive Analytics with Case Studies": [
+	  "CSE3085"
+	],
+	"Computer Vision": [
+	  "CSE3089"
+	],
+	"Cloud Ecosystem": [
+	  "CSE3091"
+	],
+	"Big Data Frameworks": [
+	  "CSE3120"
+	],
+	"Essentials of Data Analytics": [
+	  "CSE3506"
+	],
+	"Healthcare Analytics": [
+	  "CSE4068"
+	],
+	"Social Media Analytics": [
+	  "CSE4069"
+	],
+	"DevOps": [
+	  "CSE4079"
+	],
+	"Digital Logic and Computer Organization TH": [
+	  "IBSA101L"
+	],
+	"Structured and Object Oriented Programming": [
+	  "ICSE102L"
+	],
+	"Object Oriented and Analysis Design": [
+	  "ISWE207L"
+	],
+	"Object Oriented and Analysis Design Lab LO": [
+	  "ISWE207P"
+	],
+	"Software Architecture": [
+	  "ISWE304L"
+	],
+	"Big Data Frameworks and Technologies": [
+	  "MCSE614L"
+	],
+	"Big Data Frameworks and Technologies LabLO": [
+	  "MCSE614P"
+	],
+	"Data Analytics": [
+	  "MCSE615L"
+	],
+	"Social Network Analytics": [
+	  "MCSE618L",
+	  "MCSE618P"
+	],
+	"Analytics for Internet of Things": [
+	  "MCSE620L"
+	],
+	"Analytics  for Internet  of Things": [
+	  "MCSE620P"
+	],
+	"Human Resource Management": [
+	  "MGT1059",
+	  "TLAW284L"
+	],
+	"Marketing Management": [
+	  "MGT1061"
+	],
+	"Financial management": [
+	  "MGT1063"
+	],
+	"Customer Relationship Management": [
+	  "MGT3003"
+	],
+	"Digital and Social Media Marketing": [
+	  "MGT3004",
+	  "MGT1021"
+	],
+	"Marketing Analytics": [
+	  "MGT3005"
+	],
+	"HR Analytics": [
+	  "MGT3008"
+	],
+	"Behavioural Analytics": [
+	  "MGT3009"
+	],
+	"Lean Six Sigma Principles": [
+	  "MGT4003"
+	],
+	"Java Programming": [
+	  "PMCA502L"
+	],
+	"PMCA603L Mobile Application Design and Development": [
+	  ""
+	],
+	"PMCA603P Mobile Application Design and Development": [
+	  ""
+	],
+	"Study Oriented Project": [
+	  "PMCA696J"
+	],
+	"Soft Computing": [
+	  "SWE1011"
+	],
+	"Biometric Systems": [
+	  "SWE1015"
+	],
+	"Industrial Internship": [
+	  "SWE1902"
+	],
+	"Software Project Management": [
+	  "SWE2006"
+	],
+	"Android Programming": [
+	  "SWE2008"
+	],
+	"Data Mining Techniques": [
+	  "SWE2009"
+	],
+	"Object Oriented Analysis and Design": [
+	  "SWE2018"
+	],
+	"Software Metrics": [
+	  "SWE2020"
+	],
+	"Software Reuse": [
+	  "SWE2024"
+	],
+	"Knowledge Management System": [
+	  "SWE2027"
+	],
+	"Agile Development Process": [
+	  "SWE2029"
+	],
+	"Knowledge Engineering": [
+	  "SWE2032"
+	],
+	"Big Data Technologies": [
+	  "SWE2035"
+	],
+	"Information and System Security": [
+	  "SWE3002"
+	],
+	"Sensor Networks": [
+	  "SWE3003"
+	],
+	"Geographic Information Systems": [
+	  "SWE4004"
+	],
+	"Real Time Systems": [
+	  "SWE4006"
+	],
+	"Object Oriented Programming": [
+	  "UCSC105L",
+	  "UCSC105P"
+	],
+	"Database Management Systems": [
+	  "UCSC202L",
+	  "UCSC202P"
+	],
+	"Web Development": [
+	  "UCSC205L"
+	],
+	"Animation and VFX": [
+	  "UCSC226L"
+	],
+	"Image Processing": [
+	  "UCSC313L",
+	  "UCSC313P"
+	],
+	"Embedded C Programming": [
+	  "BECE320E"
+	],
+	"Digital Instrumentation": [
+	  "BECS302L"
+	],
+	"Circuit Theory": [
+	  "BEEE203L",
+	  "BECE203L"
+	],
+	"Digital Electronics": [
+	  "BEEE206L",
+	  "BEEE206P"
+	],
+	"Analog Electronics": [
+	  "BEEE208L",
+	  "BEEE208P"
+	],
+	"Electrical Machine Design": [
+	  "BEEE210L"
+	],
+	"VLSI Design": [
+	  "BEEE211E"
+	],
+	"Engineering Optimization": [
+	  "BEEE212L",
+	  "BMEE211L"
+	],
+	"Embedded Systems Design": [
+	  "BEEE213L",
+	  "BECE403E"
+	],
+	"DC Machines and Transformers": [
+	  "BEEE215L",
+	  "BEEE215P"
+	],
+	"Power Electronics": [
+	  "BEEE301L"
+	],
+	"Control Systems": [
+	  "BEEE303L",
+	  "BEEE303P",
+	  "BECE302L",
+	  "BMEE330L"
+	],
+	"Measurements and Instrumentation": [
+	  "BEEE305L"
+	],
+	"Measurements and Instrumentation Lab LO": [
+	  "BEEE305P"
+	],
+	"Power Systems Analysis": [
+	  "BEEE306L",
+	  "BEEE306P"
+	],
+	"Electric Drives": [
+	  "BEEE307L"
+	],
+	"Power Electronics and Drives": [
+	  "BEEE307P"
+	],
+	"Communication Systems": [
+	  "BEEE308L"
+	],
+	"Renewable Energy Systems": [
+	  "BEEE405L"
+	],
+	"Robotics and Control": [
+	  "BEEE409L"
+	],
+	"Sensors and Actuators": [
+	  "BEEE412L",
+	  "BEEE412P"
+	],
+	"Bio-Medical Instrumentation": [
+	  "BEIE301L"
+	],
+	"MELM503L Design of Automotive Power Converters TH": [
+	  ""
+	],
+	"MELM506L Automotive Electrical and Electronics Systems": [
+	  ""
+	],
+	"MELM603L Automotive Noise, Vibrations and Condition Monitoring": [
+	  ""
+	],
+	"MELM605L Artificial Intelligence and Machine Learning for Electric Mobility": [
+	  ""
+	],
+	"Digital Systems Design": [
+	  "BECE102L",
+	  "BECE102P"
+	],
+	"Electronic Materials and devices": [
+	  "BECE201L"
+	],
+	"Signals and Systems": [
+	  "BECE202L"
+	],
 	"Microprocessors and Microcontrollers": [
-		"BEEE309L",
-		"BEEE309P",
-		"BECE204L",
-		"BECE204P",
+	  "BECE204L"
 	],
-	"AC Machines": ["BEEE312L", "BEEE312P"],
-	"Power Systems Protection and Switchgear": ["BEEE401E"],
-	"Robotics and Control": ["BEEE409L"],
-	"Sensors and Actuators": ["BEEE412L", "BEEE412P"],
-	"Smart Grid": ["BEEE415L"],
-	"Electric Vehicles": ["BEEE416L"],
-	"Bio-Medical Instrumentation": ["BEIE301L"],
-	"Digital Systems Design": ["BECE102L", "BECE102P"],
-	"Analog and Digital Electronics": ["BECE103L", "BECE103P"],
-	"Electronic Materials and devices": ["BECE201L"],
-	"Engineering Electromagnetics": ["BECE205L"],
-	"Analog Circuits": ["BECE206L", "BECE206P"],
-	"Random Processes": ["BECE207L"],
-	"Structured and Object Oriented Programming": ["BECE209E"],
-	"VLSI System Design": ["BECE303L", "BECE303P"],
-	"Analog Communication Systems": ["BECE304L", "BECE304P"],
-	"Antenna and Microwave Engineering": ["BECE305L", "BECE305P"],
-	"Digital Communication Systems": ["BECE306L", "BECE306P"],
-	"Artificial Intelligence and Machine Learning": ["BECE309L"],
-	"Satellite Communications": ["BECE310L"],
-	"Radar Systems": ["BECE311L"],
-	"Robotics and Automation": ["BECE312L"],
-	"Information Theory and Coding": ["BECE313L"],
-	"IoT Domain Analyst": ["BECE352E"],
-	"AWS for Cloud Computing": ["BECE355L"],
-	"Communication for Cyber Physical Systems": ["BECE402L", "BECE402P"],
-	"FPGA Based System Design": ["BECE406E"],
-	"ASIC Design": ["BECE407E"],
-	"Sensors Technology": ["BECE409E"],
-	"Introduction to Engineering": ["BECM101"],
-	"Signal Processing": ["BECM301L", "BECM301P", "BEVD203L"],
-	"Augmented and Virtual Reality": ["BECM302E"],
-	"Project - I": ["BECM497J"],
-	"Physics of Semiconductor Devices": ["BEVD201L"],
-	"Electromagnetic Field Theory": ["BEVD202L"],
-	"IoT Fundamentals": ["ECE3501"],
-	"Software Construction and Maintenance": ["SWE2007"],
-	"Engineering Thermodynamics": ["BMEE203L"],
-	"Fluid Mechanics and Machines": ["BMEE204L", "BMEE204P"],
-	"Renewable Energy Systems": ["BMEE205E"],
-	"Machine Drawing": ["BMEE206P"],
-	"Industrial Engineering": ["BMEE208L"],
-	"Mechatronics and Measurement Systems": ["BMEE210L", "BMEE210P"],
-	"Automotive Vehicles": ["BMEE213E"],
-	"Design of Machine Elements": ["BMEE301L"],
-	"Metal Forming and Machining": ["BMEE304L", "BMEE304P"],
-	"Supply Chain Management": ["BMEE310L"],
-	"Composite Materials": ["BMEE321L"],
-	"Internal Combustion Engines": ["BMEE325L"],
-	"Power Plant Engineering": ["BMEE326L"],
-	"Vehicle Dynamics": ["BMEE327E"],
-	"Cloud Computing using Salesforce": ["BMEE355L"],
-	"Computer Integrated Manufacturing": ["BMEE401L", "BMEE401P"],
-	"Design of Transmission Systems": ["BMEE404L"],
-	"Computational Fluid Dynamics": ["BMEE409E"],
-	"Industrial Revolution 4.0": ["BMEE410L"],
-	"Society 5.0": ["BMEE411L"],
-	"Energy Storage and Management for Electric Vehicles": ["BMEE417L"],
-	"Materials for Electric and Hybrid Electric Vehicles": ["BMEE418L"],
-	"Solid and Fluid Mechanics": ["BMHA201"],
-	"Sensors and Instrumentation": ["BMHA203"],
-	"Fluid Power Systems": ["BMHA301"],
-	"Mechatronic Systems Design": ["BMHA304"],
-	"Driver Assistance Systems and Autonomous Vehicles": ["BMHA313"],
-	"Autonomous Mobile Robots": ["BMHA314"],
-	"Industrial Internet of Things and Smart Manufacturing": ["BMHA405"],
-	"Agriculture Automation": ["BMHA407"],
-	"Precision Agriculture": ["BMHA409"],
-	"Internship I/ Dissertation I": ["MCDM698", "MMHA698"],
-	"Spanish I": ["BESP101L"],
-	"French I": ["BFRE101L"],
-	"German I": ["BGER101L"],
-	"Micro Economics": ["BHUM103"],
-	"PUBLIC POLICY AND ADMINISTRATION": ["BHUM105"],
-	"PRINCIPLES OF SOCIOLOGY": ["BHUM106"],
-	"SUSTAINABILITY AND SOCIETY": ["BHUM107"],
-	"URBAN COMMUNITY DEVELOPMENT": ["BHUM108"],
-	"SOCIAL WORK AND SUSTAINABILITY": ["BHUM109"],
-	"Cognitive Psychology": ["BHUM110"],
-	"Introduction to Psychology": ["BHUM203"],
-	"Development Economics": ["BHUM205"],
-	"Game Theory": ["BHUM209"],
-	"Political Science": ["BHUM214"],
-	"Security Analysis and Portfolio Management": ["BHUM222", "PMBA615L"],
-	"Personal Finance": ["BHUM225"],
-	"Health Humanities in Biotechnological Era": ["BHUM230"],
-	"Japanese I": ["BJAP101L"],
-	"Basic Korean - Level 1": ["BKOR101L"],
-	"Principles of Management": ["BMGT101L"],
-	"Human Resource Management": ["BMGT102L", "BMT1008", "UCCA253L"],
-	"Organizational Behavior": ["BMGT103L"],
-	"Digital Marketing": ["BMGT106L", "PMBA603L"],
-	Entrepreneurship: ["BMGT108L"],
-	"Essence of Traditional Knowledge": ["BSSC101N"],
-	"Indian Constitution": ["BSSC102N"],
-	"Psychology in Everyday Life": ["HUM1022"],
-	"Mass Media and Society": ["HUM1043"],
-	"Foundation for Design": ["BFST101E"],
-	"Textile Fibres": ["BFST102L", "BFST102P"],
-	"Couture Techniques": ["BFST105L", "BFST105P"],
-	"Pattern Making and Garment Construction": ["BFST106L", "BFST106P"],
-	"Apparel Merchandising and Costing": ["BFST107L"],
-	"Fashion Merchandising and Marketing": ["BFST211L"],
-	"Fashion Communication": ["BFST212L"],
-	"Fabric Manufacturing": ["BFST301L", "BFST301P"],
-	"Digital Fashion and Apparel Design": ["BFST302P"],
-	"Fashion Design Portfolio": ["BFST405P"],
-	"Fashion Arts and Design": ["FSD1002"],
-	"Product Design, Development and Display": ["FSD1006"],
-	"Garment Components Construction": ["FSD2001"],
-	"Fabric Structure and Analysis": ["FSD2011"],
-	"Home Furnishing": ["FSD2014"],
-	"Draping techniques": ["FSD2015"],
-	"Psychology of fashion": ["FSD2020"],
-	"Fashion forecasting and trend analysis": ["FSD2021"],
-	"Fashion Photography and modelling": ["FSD2023"],
-	"Recycling and waste management": ["FSD2036"],
-	"Digital Fashion Illustration": ["FSD3001"],
-	"Mens wear and intimate fashion": ["FSD3002"],
-	"Computer Aided Designing": ["FSD3004"],
-	"Marketing Management": ["BMT1007", "TLAW283L"],
-	"Production and Operations Management": ["BMT1009"],
-	"Project Management": ["BMT1023", "PMBA643L"],
-	"Management and Organizational Behaviour": ["BMT1024"],
-	"Strategic management": ["BMT1035"],
-	"Sales Management": ["BMT2005"],
-	"Advertising Management": ["BMT2008"],
-	"Training and Development": ["BMT2011"],
-	"Introduction to Statistics II": ["BMT2022"],
-	"Financial Management": ["BMT3001", "UCCA252L"],
-	"Investment Analysis and Portfolio Management": ["BMT3003", "UCCA261L"],
-	"Strategic Business Reporting": ["BMT3006"],
-	"Entrepreneurship Development": ["MGT1030"],
-	"Research Methods in Management": ["MGT1033"],
-	"Global Brand Marketing Strategies": ["MGT1044"],
-	"Social Marketing": ["MGT1047"],
-	"Strategic Management": ["PMBA517L", "UCCA361L", "TLAW282L"],
-	"Innovation and Design Thinking": ["PMBA518L"],
-	"Services Marketing": ["PMBA606L"],
-	"Brand Management": ["PMBA608L"],
-	"International Marketing": ["PMBA612L"],
-	"Digital Banking Systems": ["PMBA617L"],
-	"FinTech-I": ["PMBA618L"],
-	"Global Financial Markets": ["PMBA619L"],
-	"Performance Management and Competency Mapping": ["PMBA629L"],
-	"Organisational Change and Development": ["PMBA630L"],
-	"Compensation Management": ["PMBA640L"],
-	"Logistics Management": ["PMBA648L"],
-	"Enterprise Resource Planning": ["PMBA652L"],
-	"Data Visualisation and Story telling": ["PMBA661L"],
-	"Business Intelligence": ["PMBA663L"],
-	"Stock Market Operations": ["UCCA175L"],
-	"Cost Accounting": ["UCCA251L"],
-	"Computer Applications in Business": ["UCCA256E"],
-	"Financial Markets and Institutions": ["UCCA259L"],
-	"E-Commerce": ["UCCA266L"],
-	"Organisational Behaviour": ["UCCA267L"],
-	"Artificial Intelligence for Business": ["UCCA268L"],
-	"Business Research Methods": ["UCCA351L"],
-	"Auditing and Corporate Governance": ["UCCA352L"],
-	"International Business": ["UCCA354L"],
-	"Emotional Intelligence": ["UCCA360L"],
-	"Advanced Organic Chemistry": ["CHY6012"],
-	"Analytical Quality Assurance for Process Industry": ["CHY6021"],
-	"General Organic and Inorganic Chemistry Practical I": ["CHY6022"],
-	"Advanced Inorganic Chemistry": ["CHY6024"],
-	"Advanced Physical Chemistry": ["CHY6036"],
-	"Analytical and Physical Chemistry Practical II": ["CHY6039"],
-	"Alternative dispute resolution": ["LAW1105"],
-	"Service Law": ["LAW4004"],
-	"Right to Education": ["LAW4008"],
-	"International Trade Law": ["LAW4020"],
-	"Farmers and Breeders Right": ["LAW4032"],
-	"Biodiversity Protection": ["LAW4033"],
-	"International Investment Law": ["LAW4038"],
-	"DATA PROTECTION LAW": ["LAW4068"],
-	"Gender, Caste and Law": ["LAW5004"],
-	"Discretionary Justiceand Rule of Law": ["LAW5009"],
-	"Rights of the Accused under National and International Legal System": [
-		"LAW5023",
+	"Microprocessors and Microcontrollers LabLO": [
+	  "BECE204P"
 	],
-	"Global Administrative Law": ["LAW5025"],
-	"Government Regulation of Industry": ["LAW5026"],
-	"Energy Law": ["LAW5041"],
-	"Administrative Law": ["LAW5104"],
-	"Legal and Constitutionl History": ["LAW6112"],
-	"Interpretation of Statutes": ["LAW6113"],
-	"Company Law": ["LAW7101"],
-	"Law of Crimes- I": ["TLAW202L"],
-	"Indian Legal System": ["TLAW448L"],
-	"Interpretation of Statues": ["TLAW450L"],
-	"Law of Taxation": ["LAW1104"],
-	"Drafting,pleading and conveyance": ["LAW1107"],
-	"Local Self Government": ["LAW4005"],
-	"Maritime Law": ["LAW4018"],
-	"Corporate Finance": ["LAW4045"],
-	Criminology: ["LAW4059"],
-	"White Collar Crimes": ["LAW4067"],
-	"Air and Space Law": ["LAW5011"],
-	"Trade in Intellectual Property": ["LAW5015"],
-	"Intellectual Property and Competition Law": ["LAW5016"],
-	"India and International Law": ["LAW5024"],
-	"Law of Mergers and Acquisitions": ["LAW5036"],
-	"Special Contracts": ["TLAW201L"],
-	"Political Thought: Indian and Western": ["TLAW261L"],
-	"Pubic Finance Theory and Practice": ["TLAW262L"],
-	"Law and Social Transformation": ["TLAW263L"],
-	"Operational Research": ["TLAW281L"],
-	"Constitutional Law II": ["TLAW301L"],
-	"Law of Evidence": ["TLAW302L"],
-	"Family Law-II": ["TLAW303L"],
-	"Code of Civil Procedure and Limitation": ["TLAW304L"],
-	"International Relations": ["TLAW312L"],
-	"Business Ethics and Human Rights": ["TLAW446L"],
-};
+	"Analog Circuits": [
+	  "BECE206L",
+	  "BECE206P"
+	],
+	"Random Processes": [
+	  "BECE207L"
+	],
+	"Digital Signal Processing": [
+	  "BECE301L",
+	  "BECE301P"
+	],
+	"VLSI System Design": [
+	  "BECE303L",
+	  "BECE303P"
+	],
+	"Analog Communication Systems": [
+	  "BECE304L",
+	  "BECE304P"
+	],
+	"Wireless and Mobile Communications": [
+	  "BECE307L",
+	  "BECE317L"
+	],
+	"Wireless and Mobile Communications LabLO": [
+	  "BECE307P",
+	  "BECE317P"
+	],
+	"Optical Fiber Communications": [
+	  "BECE308L",
+	  "BECE308P",
+	  "BECE318L",
+	  "BECE318P"
+	],
+	"IoT Domain Analyst": [
+	  "BECE352E",
+	  "ECE3502"
+	],
+	"Computer Communications and NetworksTH": [
+	  "BECE401L"
+	],
+	"Computer Communications and Networks": [
+	  "BECE401P"
+	],
+	"Communication for Cyber Physical SystemsTH": [
+	  "BECE402L"
+	],
+	"FPGA Based System Design": [
+	  "BECE406E"
+	],
+	"Microwave Integrated Circuits": [
+	  "BECE408L"
+	],
+	"Signal Processing": [
+	  "BECM301L",
+	  "BECM301P"
+	],
+	"Principles of Communication Systems": [
+	  "BECM304L"
+	],
+	"Project - II / Internship": [
+	  "BECM498J"
+	],
+	"Electronic Circuits": [
+	  "BEVD204L",
+	  "BEVD204P"
+	],
+	"Scripting Languages and Veri\ufb01cation": [
+	  "BEVD205L"
+	],
+	"Scripting Languages and Veri\ufb01cation Lab LO": [
+	  "BEVD205P"
+	],
+	"Semiconductor Device Modelling": [
+	  "BEVD206L",
+	  "BEVD206P"
+	],
+	"In Vehicle Networking": [
+	  "MEDS504L"
+	],
+	"Real Time Operating System": [
+	  "MEDS505L",
+	  "MEDS505P"
+	],
+	"MEDS606L Modern Automotive Electronics Systems TH": [
+	  ""
+	],
+	"Intelligent IoT System Design and Architecture": [
+	  "MEDS608L"
+	],
+	"Fault Tolerance and Dependable SystemsTH": [
+	  "MEDS609L"
+	],
+	"ASIC Design": [
+	  "MVLD505L"
+	],
+	"VLSI Testing and Testability": [
+	  "MVLD506L"
+	],
+	"Low Power IC Design": [
+	  "MVLD602L"
+	],
+	"VLSI Veri\ufb01cation Methodologies": [
+	  "MVLD603L"
+	],
+	"Engineering Mechanics": [
+	  "BMEE201L"
+	],
+	"Engineering Thermodynamics": [
+	  "BMEE203L"
+	],
+	"Kinematics and Dynamics of Machines": [
+	  "BMEE207L"
+	],
+	"Kinematics and Dynamics of Machines LabLO": [
+	  "BMEE207P"
+	],
+	"BMEE210L Mechatronics and Measurement SystemsTH": [
+	  ""
+	],
+	"BMEE210P Mechatronics and Measurement Systems": [
+	  ""
+	],
+	"Quality Control and Improvement": [
+	  "BMEE212L"
+	],
+	"Design of Machine Elements": [
+	  "BMEE301L"
+	],
+	"Thermal Engineering Systems": [
+	  "BMEE303L",
+	  "BMEE303P"
+	],
+	"Supply Chain Management": [
+	  "BMEE310L",
+	  "MGT1014",
+	  "UCCA363L"
+	],
+	"Turbomachines": [
+	  "BMEE324E"
+	],
+	"Vehicle Dynamics": [
+	  "BMEE327E"
+	],
+	"Hybrid and Electric Vehicles Technology": [
+	  "BMEE328E"
+	],
+	"Heat and Mass Transfer": [
+	  "BMEE402L"
+	],
+	"Design of Transmission Systems": [
+	  "BMEE404L"
+	],
+	"Vehicle Body and Aerodynamics EngineeringTH": [
+	  "BMEE414L"
+	],
+	"BMEE418L Materials for Electric and Hybrid Electric Vehicles": [
+	  ""
+	],
+	"Sensors and Instrumentation": [
+	  "BMHA203L"
+	],
+	"BMHA204P Microprocessors and Microcontrollers LabLO": [
+	  ""
+	],
+	"Industrial Automation": [
+	  "BMHA302L"
+	],
+	"Industrial Robotics": [
+	  "BMHA303L"
+	],
+	"BMHA313E Driver Assistance Systems and  Autonomous Vehicles": [
+	  ""
+	],
+	"BMHA401P Computer Integrated Manufacturing Lab LO": [
+	  ""
+	],
+	"MMAE503P Additive Manufacturing Technology": [
+	  ""
+	],
+	"MMHA612L Internet of Things and Smart ManufacturingTH": [
+	  ""
+	],
+	"Technical English Communication": [
+	  "BENG101L",
+	  "BENG101P",
+	  "TENG102L",
+	  "TENG102P",
+	  "UENG102L",
+	  "UENG102P"
+	],
+	"Technical Report Writing": [
+	  "BENG102P",
+	  "IENG102P"
+	],
+	"Spanish I": [
+	  "BESP101L",
+	  "TESP101L"
+	],
+	"French I": [
+	  "BFRE101L",
+	  "TFRE101L"
+	],
+	"German I": [
+	  "BGER101L",
+	  "TGER101L"
+	],
+	"Introduction to Psychology": [
+	  "BHUM203L"
+	],
+	"Industrial Psychology": [
+	  "BHUM204L"
+	],
+	"Indian Culture and Heritage": [
+	  "BHUM216L"
+	],
+	"BHUM230L Health Humanities in Biotechnological EraTH": [
+	  ""
+	],
+	"Introduction to Sustainable Aging": [
+	  "BHUM232L"
+	],
+	"Indian Psychology": [
+	  "BHUM234L"
+	],
+	"Japanese I": [
+	  "BJAP101L"
+	],
+	"Entrepreneurship": [
+	  "BMGT108L",
+	  "BMT3002"
+	],
+	"Essence of Traditional Knowledge": [
+	  "BSSC101N"
+	],
+	"Communicative English": [
+	  "ENG1012"
+	],
+	"Work Place Psychology": [
+	  "TAPS106L"
+	],
+	"Emotional Intelligence": [
+	  "TAPS108E",
+	  "UCCA360L"
+	],
+	"Research Methodology": [
+	  "UECH109L"
+	],
+	"French": [
+	  "UFRE102L"
+	],
+	"German": [
+	  "UGER101L"
+	],
+	"TAMIL": [
+	  "UTAM102L"
+	],
+	"Foundation for Design": [
+	  "BFST101E"
+	],
+	"Apparel Machineries": [
+	  "BFST103L"
+	],
+	"Fashion Studies": [
+	  "BFST104L"
+	],
+	"Couture Techniques": [
+	  "BFST105L",
+	  "BFST105P"
+	],
+	"Fashion Illustration": [
+	  "BFST201P"
+	],
+	"Yarn Manufacturing": [
+	  "BFST202L",
+	  "BFST202P"
+	],
+	"Kid\u2019s and Men\u2019s Wear": [
+	  "BFST203P"
+	],
+	"Fashion Merchandising and Marketing": [
+	  "BFST211L"
+	],
+	"Industrial Engineering in Apparel IndustryTH": [
+	  "BFST305L"
+	],
+	"Textile Processing and Finishing": [
+	  "BFST401L",
+	  "BFST401P"
+	],
+	"Fabric Structure and Design Analysis": [
+	  "BFST402L"
+	],
+	"Fabric Structure and Design Analysis Lab LO": [
+	  "BFST402P"
+	],
+	"Computer Aided Garment Design": [
+	  "BFST403P"
+	],
+	"Fashion Design Portfolio": [
+	  "BFST405P"
+	],
+	"Pattern making Fundamentals": [
+	  "FSD1004"
+	],
+	"Apparel Manufacturing": [
+	  "FSD1005"
+	],
+	"Advanced Fashion Illustration": [
+	  "FSD2002"
+	],
+	"Children's wear and Women's wear": [
+	  "FSD2003"
+	],
+	"Surface Ornamentation": [
+	  "FSD2005"
+	],
+	"Accessories Designing and Making": [
+	  "FSD2007"
+	],
+	"Fashion Concepts": [
+	  "FSD2009"
+	],
+	"Costume Designing": [
+	  "FSD2019"
+	],
+	"Fashion styling and make up": [
+	  "FSD2022"
+	],
+	"Fashion Marketing and Management": [
+	  "FSD2026"
+	],
+	"Computer Aided Designing": [
+	  "FSD3004"
+	],
+	"Textile and Apparel Testing": [
+	  "FSD3005"
+	],
+	"International Economics": [
+	  "BHUM206L"
+	],
+	"International Relations": [
+	  "BHUM215L"
+	],
+	"BHUM222L Security Analysis and Portfolio ManagementTH": [
+	  ""
+	],
+	"Food, Nutrition and Health": [
+	  "BIT1026"
+	],
+	"Cell Biology and Biochemistry": [
+	  "BIT1032"
+	],
+	"Business Analytics": [
+	  "BMGT107L"
+	],
+	"Research Methods for Management": [
+	  "BMT1010"
+	],
+	"Managing Personal Finance": [
+	  "BMT1014"
+	],
+	"Project Management": [
+	  "BMT1023"
+	],
+	"Introduction to Business Analytics": [
+	  "BMT1036"
+	],
+	"Organizational Change and Development TH": [
+	  "BMT2003"
+	],
+	"Information Systems Control and Audit": [
+	  "BMT2004"
+	],
+	"Services Marketing": [
+	  "BMT2006",
+	  "UCCA357L"
+	],
+	"Advertising Management": [
+	  "BMT2008"
+	],
+	"Financial Reporting": [
+	  "BMT2020"
+	],
+	"Real World Business Solutions": [
+	  "BMT2023"
+	],
+	"Negotiations and Decision Making": [
+	  "BMT2024"
+	],
+	"Computer Based Analysis": [
+	  "BMT2025"
+	],
+	"Managing the Family Business": [
+	  "BMT3004"
+	],
+	"Strategic Business Leader": [
+	  "BMT3007"
+	],
+	"Mathematics for Designers": [
+	  "MAT1002"
+	],
+	"Consumer Behaviour": [
+	  "MGT1018"
+	],
+	"Lean Start-up Management": [
+	  "MGT1022"
+	],
+	"International Business": [
+	  "MGT1031"
+	],
+	"Global Brand Marketing Strategies": [
+	  "MGT1044"
+	],
+	"Bottom of the Pyramid Operations": [
+	  "MGT1052"
+	],
+	"Principles of Marketing": [
+	  "UCCA157L"
+	],
+	"Accounting Software for Business": [
+	  "UCCA254L"
+	],
+	"Personal Finance and Planning": [
+	  "UCCA263L"
+	],
+	"Financial Technology": [
+	  "UCCA265L"
+	],
+	"E-Commerce": [
+	  "UCCA266L"
+	],
+	"Artificial Intelligence for Business": [
+	  "UCCA268L"
+	],
+	"Income Tax Law and Practice": [
+	  "UCCA353L"
+	],
+	"Digital Marketing": [
+	  "UCCA358L"
+	],
+	"Labour laws and Industrial Relations": [
+	  "UCCA359L"
+	],
+	"Operations Research Techniques": [
+	  "UCCA362L"
+	],
+	"Project": [
+	  "UCCA498J"
+	],
+	"Corporate Accounting": [
+	  "UCCH107L"
+	],
+	"Banking Theory and Practices": [
+	  "UCCH108L"
+	],
+	"Cost Accounting": [
+	  "UCCH202L"
+	],
+	"Group Theory and Molecular SpectroscopyTH": [
+	  "PCHY504L"
+	],
+	"Organic Synthesis & Methodologies": [
+	  "PCHY505L"
+	],
+	"Organometallics and Industrial ApplicationsTH": [
+	  "PCHY506L"
+	],
+	"Analytical Chemistry": [
+	  "PCHY601L"
+	],
+	"NMR,  EPR and Mass Spectrometry": [
+	  "PCHY631L"
+	],
+	"Solid State Physics": [
+	  "PPHY506L"
+	],
+	"Statistical Physics": [
+	  "PPHY507L"
+	],
+	"General Physics Lab-II": [
+	  "PPHY509P"
+	],
+	"Advanced Quantum Mechanics": [
+	  "PPHY601L"
+	],
+	"Advanced Mathematical Physics": [
+	  "PPHY602L"
+	],
+	"Lasers and Nonlinear Optics": [
+	  "PPHY605L"
+	],
+	"PMBA510L Macro Economics and Business Environment": [
+	  ""
+	],
+	"Business Research Methods": [
+	  "PMBA512L"
+	],
+	"Financial Management": [
+	  "PMBA513L"
+	],
+	"Entrepreneurship Development": [
+	  "PMBA514L"
+	],
+	"Sales and Distribution Management": [
+	  "PMBA602L"
+	],
+	"English for Lawyers": [
+	  "TLAW182L"
+	],
+	"Law of the Sea": [
+	  "LAW4019"
+	],
+	"IPR in Pharma Industry": [
+	  "LAW4035"
+	],
+	"Insolvency & Bankruptcy": [
+	  "LAW4044"
+	],
+	"Women and Criminal Law": [
+	  "LAW4062"
+	],
+	"Financial and Systemic Fraud": [
+	  "LAW4066"
+	],
+	"INTERNATIONAL TAXATION LAW": [
+	  "LAW4070"
+	],
+	"Capital Markets and Securities Law": [
+	  "LAW5034"
+	],
+	"Patent Drafting and Specification Writing TH": [
+	  "LAW5037"
+	],
+	"Law of Crimes- I": [
+	  "TLAW202L"
+	],
+	"Constitutional Law- I": [
+	  "TLAW203L"
+	],
+	"Public International Law": [
+	  "TLAW305L"
+	],
+	"Property Law": [
+	  "TLAW307L"
+	],
+	"Intellectual Property Law": [
+	  "TLAW311L"
+	],
+	"Criminal Justice and Human Rights": [
+	  "TLAW505L"
+	],
+	"Environmental Law": [
+	  "LAW1102"
+	],
+	"Dissertation": [
+	  "LAW1112"
+	],
+	"Moot Court and Internship": [
+	  "LAW1115"
+	],
+	"Comparative Constitutional Law": [
+	  "LAW4002"
+	],
+	"Right to information": [
+	  "LAW4006"
+	],
+	"Media Law": [
+	  "LAW4009"
+	],
+	"Citizenship & Emigration Law": [
+	  "LAW4010"
+	],
+	"International Humanitarian Law": [
+	  "LAW4014"
+	],
+	"International Refugee Law": [
+	  "LAW4021"
+	],
+	"Patenting Life Forms": [
+	  "LAW4031"
+	],
+	"Banking Law": [
+	  "LAW4037"
+	],
+	"Insurance Law": [
+	  "LAW4043"
+	],
+	"Corporate Governance": [
+	  "LAW4046"
+	],
+	"Competition Law": [
+	  "LAW4048"
+	],
+	"Equity and Trust": [
+	  "LAW4052"
+	],
+	"Penology and Victimology": [
+	  "LAW4060"
+	],
+	"Technology and Law": [
+	  "LAW4069"
+	],
+	"Law of Treaties": [
+	  "LAW5010"
+	],
+	"International Commercial Arbitration": [
+	  "LAW5035"
+	],
+	"Principles of Modern Government": [
+	  "TLAW162L"
+	],
+	"Financial Accounting": [
+	  "TLAW188L"
+	],
+	"Special Contracts": [
+	  "TLAW201L"
+	],
+	"Law of Crimes \u2013 II (Cr.P.C.)": [
+	  "TLAW205L"
+	],
+	"Labour and Industrial Law I": [
+	  "TLAW206L"
+	],
+	"Jurisprudence": [
+	  "TLAW207L"
+	],
+	"Public Administration": [
+	  "TLAW264L"
+	],
+	"Labour and Industrial Law II": [
+	  "TLAW306L"
+	],
+	"Sports Law": [
+	  "TLAW501L"
+	],
+	"Scientific Evidence in Criminal Trial": [
+	  "TLAW509L"
+	],
+	"Environment and Human Rights": [
+	  "TLAW512L"
+	],
+	"Cyber Law": [
+	  "TLAW523L"
+	]
+  };
